@@ -636,6 +636,92 @@ ul { margin: 0; padding: 0; list-style: none; }
   .approach-intro { position: static; }
 }
 
+/* ---- Referans kayan şeridi ---- */
+.ref-strip {
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+  padding: 26px 0 20px;
+}
+.ref-strip-label {
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+.ref-marquee {
+  position: relative;
+  overflow: hidden;
+  padding: 40px 0 30px;
+}
+.ref-zone {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 230px;
+  background: radial-gradient(
+    ellipse 62% 78% at center,
+    var(--brand-50),
+    transparent 72%
+  );
+  z-index: 0;
+  pointer-events: none;
+}
+.ref-track {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  will-change: transform;
+}
+.ref-item {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+.ref-logo {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 86px;
+  padding: 12px 18px;
+  border-radius: 16px;
+  background: transparent;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+    background 0.5s ease, box-shadow 0.5s ease;
+}
+.ref-logo img {
+  max-width: 100%;
+  max-height: 40px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: filter 0.5s ease, opacity 0.5s ease;
+}
+.ref-item.is-center .ref-logo {
+  transform: translateY(-14px) scale(1.16);
+  background: #fff;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+.ref-item.is-center .ref-logo img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+@media (max-width: 720px) {
+  .ref-zone { width: 150px; }
+  .ref-logo { height: 72px; }
+}
+
 /* training card */
 .training-card {
   position: relative;

@@ -4,7 +4,9 @@ import { site } from "@/lib/site";
 import Icon from "@/components/Icon";
 import CategoryCardWide from "@/components/CategoryCardWide";
 import ApproachList from "@/components/ApproachList";
+import ReferenceMarquee from "@/components/ReferenceMarquee";
 import CTA from "@/components/CTA";
+import { references } from "@/lib/references";
 
 const moduleCount = categories.reduce((n, c) => n + c.trainings.length, 0);
 
@@ -103,6 +105,14 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Referans şeridi */}
+      <section className="ref-strip">
+        <div className="container">
+          <p className="ref-strip-label">Bize güvenen kurumlar</p>
+        </div>
+        <ReferenceMarquee items={references} />
       </section>
 
       {/* Categories */}
