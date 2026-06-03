@@ -47,7 +47,8 @@ export default function HakkimdaPage() {
       <section className="section">
         <div className="container about-split">
           <div className="about-portrait">
-            <span className="ap-mono">AÖ</span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/ali-ozel-selfie.jpg" alt="Ali Özel bir eğitim sırasında" />
             <div className="ap-badge">
               <strong>{site.name}</strong>
               <span>Kurumsal Eğitmen &amp; Liderlik Danışmanı</span>

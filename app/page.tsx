@@ -4,6 +4,7 @@ import { site } from "@/lib/site";
 import Icon from "@/components/Icon";
 import CategoryCardWide from "@/components/CategoryCardWide";
 import ApproachList from "@/components/ApproachList";
+import ApproachWheel from "@/components/ApproachWheel";
 import ReferenceMarquee from "@/components/ReferenceMarquee";
 import CTA from "@/components/CTA";
 import TeklifButton from "@/components/TeklifButton";
@@ -134,6 +135,7 @@ export default function HomePage() {
 
       {/* Yaklaşım — dinamik numaralı liste (bordo) */}
       <section className="section approach-section">
+        <ApproachWheel />
         <div className="container approach-grid">
           <div className="approach-intro">
             <span className="eyebrow">Yaklaşımımız</span>
@@ -155,7 +157,8 @@ export default function HomePage() {
       <section className="section">
         <div className="container about-split">
           <div className="about-portrait">
-            <span className="ap-mono">AÖ</span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/ali-ozel-selfie.jpg" alt="Ali Özel bir eğitim sırasında" />
             <div className="ap-badge">
               <strong>{site.name}</strong>
               <span>Kurumsal Eğitmen &amp; Liderlik Danışmanı</span>
