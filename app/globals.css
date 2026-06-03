@@ -1231,6 +1231,19 @@ ul { margin: 0; padding: 0; list-style: none; }
   background: var(--brand-50); color: var(--brand); display: grid; place-items: center;
 }
 .empty-state .es-icon svg { width: 36px; height: 36px; }
+.es-soon {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--brand-50);
+  color: var(--brand-dark);
+  border: 1px solid var(--brand-100);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.82rem;
+  padding: 6px 14px;
+  border-radius: 999px;
+}
 
 /* ---------- Footer ---------- */
 .site-footer {

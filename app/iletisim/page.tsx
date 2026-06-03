@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Breadcrumb from "@/components/Breadcrumb";
 import ContactForm from "@/components/ContactForm";
 import Icon from "@/components/Icon";
 import { site } from "@/lib/site";
@@ -29,23 +28,11 @@ const items = [
 export default function IletisimPage() {
   return (
     <>
-      <section className="page-hero on-brand">
-        <Icon name="mail" className="hero-watermark" strokeWidth={0.6} />
-        <div className="container">
-          <Breadcrumb items={[{ label: "İletişim" }]} />
-          <h1>Kurumunuz için teklif alın</h1>
-          <p className="page-lead">
-            İhtiyacınızı paylaşın; size özel, uygulamaya dönük bir eğitim
-            programı tasarlayalım. En kısa sürede dönüş yapıyoruz.
-          </p>
-        </div>
-      </section>
-
       <section className="section">
         <div className="container contact-grid">
           <div>
-            <span className="eyebrow">Bize ulaşın</span>
-            <h2 className="section-title">Konuşmaya hazırız</h2>
+            <span className="eyebrow">İletişim</span>
+            <h1 className="section-title">Kurumunuz için teklif alın</h1>
             <p className="section-desc" style={{ marginBottom: 12 }}>
               İster telefon, ister e-posta; en rahat ettiğiniz kanaldan bize
               ulaşabilirsiniz.

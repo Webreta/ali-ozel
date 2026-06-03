@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Breadcrumb from "@/components/Breadcrumb";
 import Icon from "@/components/Icon";
 import CTA from "@/components/CTA";
 import { site } from "@/lib/site";
@@ -32,19 +31,6 @@ const principles = [
 export default function HakkimdaPage() {
   return (
     <>
-      <section className="page-hero on-brand">
-        <Icon name="target" className="hero-watermark" strokeWidth={0.6} />
-        <div className="container">
-          <Breadcrumb items={[{ label: "Hakkımda" }]} />
-          <h1>Üretimin diliyle konuşan bir eğitmen</h1>
-          <p className="page-lead">
-            Yıllarımı gerçek üretim sahalarında, gerçek ekiplerin içinde
-            geçirdim. Bugün bu deneyimi; mavi yakadan üst yönetime kadar her
-            seviyede lidere aktarıyorum.
-          </p>
-        </div>
-      </section>
-
       <section className="section">
         <div className="container about-split">
           <div className="about-portrait">
@@ -52,8 +38,8 @@ export default function HakkimdaPage() {
             <img src="/ali-ozel-selfie.jpg" alt="Ali Özel bir eğitim sırasında" />
           </div>
           <div>
-            <span className="eyebrow">Kim olduğum</span>
-            <h2 className="section-title">Slayt değil, davranış dönüştürürüm</h2>
+            <span className="eyebrow">Hakkımda</span>
+            <h1 className="section-title">Üretimin diliyle konuşan bir eğitmen</h1>
             <p className="lead">
               Birçok eğitim bilgi aktarır ve unutulur. Benim amacım; katılımcının
               eğitimden çıktığı an sahada farklı davranmaya başlamasıdır.

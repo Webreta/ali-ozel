@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import Breadcrumb from "@/components/Breadcrumb";
 import CTA from "@/components/CTA";
-import Icon from "@/components/Icon";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -40,20 +38,16 @@ const team = [
 export default function EkibimizPage() {
   return (
     <>
-      <section className="page-hero on-brand">
-        <Icon name="users" className="hero-watermark" strokeWidth={0.6} />
-        <div className="container">
-          <Breadcrumb items={[{ label: "Ekibimiz" }]} />
-          <h1>Arkasında güçlü bir ekip olan eğitim</h1>
-          <p className="page-lead">
-            İhtiyaç analizinden saha takibine kadar her aşamada yanınızda olan,
-            alanında deneyimli bir kadro.
-          </p>
-        </div>
-      </section>
-
       <section className="section">
         <div className="container">
+          <div className="section-head center">
+            <span className="eyebrow">Ekibimiz</span>
+            <h1 className="section-title">Arkasında güçlü bir ekip olan eğitim</h1>
+            <p className="section-desc">
+              İhtiyaç analizinden saha takibine kadar her aşamada yanınızda olan,
+              alanında deneyimli bir kadro.
+            </p>
+          </div>
           <div className="grid grid-4">
             {team.map((m) => (
               <div className="card team-card" key={m.name}>
