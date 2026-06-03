@@ -543,6 +543,78 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    slug: "genel-katalog-egitimleri",
+    name: "Genel Katalog Eğitimleri",
+    shortName: "Genel Katalog",
+    icon: "book",
+    tagline: "Her seviyeye uygun temel liderlik kataloğu",
+    summary:
+      "Tüm kademelerde işe yarayan, en çok talep gören temel liderlik ve yönetim eğitimlerinden oluşan genel katalog. Kurumunuzun ihtiyacına göre tekil modül ya da bütün bir program olarak planlanabilir.",
+    forWhom: [
+      "Her seviyeden yönetici ve takım lideri",
+      "Liderlik gelişimine yeni başlayan ekipler",
+      "Karma kademelerden oluşan gruplar",
+    ],
+    trainings: [
+      {
+        slug: "lider-iliski-yonetimi-iletisim",
+        title: "Liderin İlişki Yönetimi ve İletişim",
+        blurb:
+          "Güven inşa eden liderlik iletişimi, aktif dinleme ve paydaş ilişkileri.",
+      },
+      {
+        slug: "takim-calismasi-aidiyet",
+        title: "Takım Çalışması ve Aidiyet",
+        blurb: "Yüksek performanslı takımlar ve kalıcı aidiyet kültürü.",
+      },
+      {
+        slug: "lider-yonetici-temel-kurallar",
+        title: "Lider ve Yöneticinin Temel Kuralları",
+        blurb: "Etkili liderliğin değişmez ilkeleri ve günlük yönetim refleksleri.",
+      },
+      {
+        slug: "liderlik-stratejisi-clinton-sidle",
+        title: "Liderlik Stratejisi (Clinton Sidle Modeli)",
+        blurb: "Bütünsel liderlik modeliyle stratejik yön ve denge.",
+      },
+      {
+        slug: "karar-verme-kararlilik",
+        title: "Karar Verme ve Kararlılık",
+        blurb: "Belirsizlik altında hızlı, tutarlı ve sahiplenilen kararlar.",
+      },
+      {
+        slug: "zor-insanlari-yonetme",
+        title: "Zor İnsanları Yönetme",
+        blurb: "Dirençli ve zorlu profillerle yapıcı biçimde başa çıkma.",
+      },
+      {
+        slug: "ikna-gucu-psikolojisi",
+        title: "İkna Gücü ve Psikolojisi",
+        blurb: "Etki yaratmanın psikolojik temelleri ve etik ikna teknikleri.",
+      },
+      {
+        slug: "catisma-yonetimi-problem-cozme",
+        title: "Çatışma Yönetimi ve Problem Çözme",
+        blurb: "Çatışmayı fırsata çevirme ve kök neden odaklı problem çözme.",
+      },
+      {
+        slug: "performans-yonetimi-geribildirim",
+        title: "Performans Yönetimi ve Geri Bildirim",
+        blurb: "Gelişim odaklı geri bildirim ve etkili performans görüşmeleri.",
+      },
+      {
+        slug: "planlama-organizasyon-zaman-yonetimi",
+        title: "Planlama, Organize Olma ve Zaman Yönetimi",
+        blurb: "Önceliklendirme, delege etme ve derin çalışma zamanı.",
+      },
+      {
+        slug: "kocluk-mentorluk",
+        title: "Koçluk ve Mentorluk",
+        blurb: "GROW modeliyle ekipte kalıcı gelişim kültürü.",
+      },
+    ],
+  },
 ];
 
 export function getCategory(slug: string): Category | undefined {

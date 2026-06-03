@@ -2,7 +2,7 @@ import Link from "next/link";
 import { categories } from "@/lib/content";
 import { site } from "@/lib/site";
 import Icon from "@/components/Icon";
-import CategoryCard from "@/components/CategoryCard";
+import CategoryCardWide from "@/components/CategoryCardWide";
 import CTA from "@/components/CTA";
 
 const moduleCount = categories.reduce((n, c) => n + c.trainings.length, 0);
@@ -130,9 +130,9 @@ export default function HomePage() {
               ihtiyacına göre tasarlanmış {categories.length} ana eğitim alanı.
             </p>
           </div>
-          <div className="grid grid-3">
+          <div className="cat-grid-wide">
             {categories.map((cat) => (
-              <CategoryCard key={cat.slug} category={cat} />
+              <CategoryCardWide key={cat.slug} category={cat} />
             ))}
           </div>
         </div>

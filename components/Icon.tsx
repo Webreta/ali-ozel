@@ -49,6 +49,13 @@ const paths: Record<string, React.ReactNode> = {
       <rect x="9.5" y="9.5" width="5" height="5" rx="1" />
     </>
   ),
+  book: (
+    <>
+      <path d="M12 6.5C12 5 10.5 4 8.5 4S4 4.7 4 6v12c0-1.3 2-2 4.5-2s3.5 1 3.5 2.5" />
+      <path d="M12 6.5C12 5 13.5 4 15.5 4S20 4.7 20 6v12c0-1.3-2-2-4.5-2S12 17 12 18.5" />
+      <path d="M12 6.5v12" />
+    </>
+  ),
   // ui ikonları
   "arrow-right": <path d="M5 12h14M13 6l6 6-6 6" />,
   "arrow-up-right": <path d="M7 17 17 7M8 7h9v9" />,
