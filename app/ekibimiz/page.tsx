@@ -50,10 +50,13 @@ export default function EkibimizPage() {
           </div>
           <div className="grid grid-4">
             {team.map((m) => (
-              <div className="card team-card" key={m.name}>
+              <div className="team-card" key={m.name}>
+                <span className="team-bg" aria-hidden>
+                  {m.initials}
+                </span>
                 <div className="team-photo">{m.initials}</div>
                 <h3>{m.name}</h3>
-                <div className="role">{m.role}</div>
+                <span className="team-role">{m.role}</span>
                 <p>{m.bio}</p>
               </div>
             ))}
