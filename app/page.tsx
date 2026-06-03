@@ -1,0 +1,211 @@
+import Link from "next/link";
+import { categories } from "@/lib/content";
+import { site } from "@/lib/site";
+import Icon from "@/components/Icon";
+import CategoryCard from "@/components/CategoryCard";
+import CTA from "@/components/CTA";
+
+const moduleCount = categories.reduce((n, c) => n + c.trainings.length, 0);
+
+const values = [
+  {
+    icon: "target",
+    title: "Davranışsal ve Uygulamalı",
+    text: "Akademik teori değil; rol yapma, vaka çalışması ve sahadan örneklerle kalıcı davranış değişimi.",
+  },
+  {
+    icon: "layers",
+    title: "Eğit-Öğret-Yönet Metodolojisi",
+    text: "Üretim sahasına özgü üç aşamalı çerçeve: doğru davranışı öğret, uygulat ve sahada pekiştir.",
+  },
+  {
+    icon: "cog",
+    title: "Sektöre Özel Uyarlama",
+    text: "İhtiyaç analizinin ardından içerik; kurumunuzun diline, kültürüne ve gerçek vakalarına göre özelleştirilir.",
+  },
+  {
+    icon: "shield",
+    title: "Saha Deneyiminden Doğan İçerik",
+    text: "Mavi yakadan üst yönetime; gerçek üretim ortamlarında test edilmiş, işe yarayan içerikler.",
+  },
+];
+
+export default function HomePage() {
+  return (
+    <>
+      {/* Hero */}
+      <section className="hero">
+        <div className="container hero-grid">
+          <div className="hero-content">
+            <span className="hero-eyebrow">
+              <span className="dot">
+                <Icon name="sparkle" />
+              </span>
+              San Eğitim &amp; Danışmanlık
+            </span>
+            <h1 className="hero-title">
+              Sahadan üst yönetime{" "}
+              <span className="accent">liderlik</span> dönüşümü
+            </h1>
+            <p className="hero-lead">
+              Mavi yaka, gri yaka ve beyaz yaka liderler için davranışsal ve
+              uygulamalı kurumsal eğitim programları. Ekibinizin gerçek
+              potansiyelini sahada açığa çıkarıyoruz.
+            </p>
+            <div className="hero-actions">
+              <Link href="/egitimler" className="btn btn-primary btn-lg">
+                Eğitimleri Keşfet
+                <Icon name="arrow-right" />
+              </Link>
+              <Link href="/iletisim" className="btn btn-outline btn-lg">
+                Teklif Al
+              </Link>
+            </div>
+            <div className="hero-stats">
+              <div className="stat">
+                <div className="num">
+                  20<span>+</span>
+                </div>
+                <div className="label">yıl saha deneyimi</div>
+              </div>
+              <div className="stat">
+                <div className="num">
+                  {categories.length}
+                </div>
+                <div className="label">eğitim alanı</div>
+              </div>
+              <div className="stat">
+                <div className="num">
+                  {moduleCount}
+                  <span>+</span>
+                </div>
+                <div className="label">eğitim modülü</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="hero-visual">
+            <div className="hv-mark">“</div>
+            <p className="hv-quote">{site.tagline}</p>
+            <div className="hv-author">
+              <span className="av">AÖ</span>
+              <div>
+                <strong>{site.name}</strong>
+                <small>Eğitmen &amp; Danışman</small>
+              </div>
+            </div>
+            <div className="hv-tags">
+              <span>Liderlik</span>
+              <span>Üretim Sahası</span>
+              <span>Takım Yönetimi</span>
+              <span>Koçluk</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Trust strip */}
+      <div className="trust">
+        <div className="container trust-inner">
+          <span className="trust-label">Hizmet verdiğimiz alanlar</span>
+          <span className="trust-item">Üretim</span>
+          <span className="trust-item">Otomotiv</span>
+          <span className="trust-item">Lojistik</span>
+          <span className="trust-item">Turizm</span>
+          <span className="trust-item">Enerji</span>
+          <span className="trust-item">Perakende</span>
+        </div>
+      </div>
+
+      {/* Categories */}
+      <section className="section">
+        <div className="container">
+          <div className="section-head center">
+            <span className="eyebrow">Eğitim Alanlarımız</span>
+            <h2 className="section-title">
+              Her seviyeye, her sahaya özel programlar
+            </h2>
+            <p className="section-desc">
+              Üretim hattındaki formenden üst düzey yöneticiye kadar; kurumunuzun
+              ihtiyacına göre tasarlanmış {categories.length} ana eğitim alanı.
+            </p>
+          </div>
+          <div className="grid grid-3">
+            {categories.map((cat) => (
+              <CategoryCard key={cat.slug} category={cat} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Values / approach */}
+      <section className="section section-soft">
+        <div className="container">
+          <div className="section-head">
+            <span className="eyebrow">Yaklaşımımız</span>
+            <h2 className="section-title">Neden farklı çalışıyoruz?</h2>
+            <p className="section-desc">
+              Slayt anlatan değil; davranış dönüştüren eğitimler. Bizim için
+              başarı, eğitim biter bitmez sahada görünür hale gelen değişimdir.
+            </p>
+          </div>
+          <div className="grid grid-4">
+            {values.map((v) => (
+              <div className="card value-card" key={v.title}>
+                <span className="card-icon">
+                  <Icon name={v.icon} />
+                </span>
+                <h3>{v.title}</h3>
+                <p>{v.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* About teaser */}
+      <section className="section">
+        <div className="container about-split">
+          <div className="about-portrait">
+            <span className="ap-mono">AÖ</span>
+            <div className="ap-badge">
+              <strong>{site.name}</strong>
+              <span>Kurumsal Eğitmen &amp; Liderlik Danışmanı</span>
+            </div>
+          </div>
+          <div>
+            <span className="eyebrow">Hakkımda</span>
+            <h2 className="section-title">
+              Üretimin diliyle konuşan bir eğitmen
+            </h2>
+            <p className="lead">
+              Yıllarını üretim sahasında, gerçek ekiplerin içinde geçirdim. Bu
+              yüzden eğitimlerim ofis jargonundan değil; sahanın gerçeğinden,
+              vardiya dilinden ve insan ilişkilerinin özünden besleniyor.
+            </p>
+            <ul className="check-list" style={{ margin: "24px 0 30px" }}>
+              <li>
+                <Icon name="check-circle" />
+                Mavi yaka liderliğinde uzmanlaşmış, sahada test edilmiş içerikler
+              </li>
+              <li>
+                <Icon name="check-circle" />
+                Eğit-Öğret-Yönet metodolojisiyle kalıcı davranış değişimi
+              </li>
+              <li>
+                <Icon name="check-circle" />
+                Kuruma özel uyarlama ve eğitim sonrası saha takibi
+              </li>
+            </ul>
+            <Link href="/hakkimda" className="btn btn-outline">
+              Daha fazlasını oku
+              <Icon name="arrow-right" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <CTA />
+    </>
+  );
+}
