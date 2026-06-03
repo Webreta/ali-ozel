@@ -3,6 +3,7 @@ import { categories } from "@/lib/content";
 import { site } from "@/lib/site";
 import Icon from "@/components/Icon";
 import CategoryCardWide from "@/components/CategoryCardWide";
+import ApproachList from "@/components/ApproachList";
 import CTA from "@/components/CTA";
 
 const moduleCount = categories.reduce((n, c) => n + c.trainings.length, 0);
@@ -140,22 +141,7 @@ export default function HomePage() {
               <Icon name="arrow-right" />
             </Link>
           </div>
-          <div className="approach-list">
-            {values.map((v, i) => (
-              <div className="approach-item" key={v.title}>
-                <span className="approach-num">
-                  {String(i + 1).padStart(2, "0")}
-                </span>
-                <div className="approach-text">
-                  <h3>{v.title}</h3>
-                  <p>{v.text}</p>
-                </div>
-                <span className="approach-ic">
-                  <Icon name={v.icon} />
-                </span>
-              </div>
-            ))}
-          </div>
+          <ApproachList items={values} />
         </div>
       </section>
 
