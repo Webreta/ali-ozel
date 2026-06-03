@@ -5,7 +5,16 @@ import Breadcrumb from "@/components/Breadcrumb";
 import Icon from "@/components/Icon";
 import Faq from "@/components/Faq";
 import CTA from "@/components/CTA";
+import TeklifButton from "@/components/TeklifButton";
 import { categories, getTraining } from "@/lib/content";
+
+const FORMAT_ICONS: Record<string, string> = {
+  Süre: "clock",
+  Format: "layers",
+  Yöntem: "target",
+  Katılımcı: "users",
+};
+const formatIcon = (label: string) => FORMAT_ICONS[label] ?? "check-circle";
 
 type Params = { category: string; training: string };
 
@@ -76,9 +85,9 @@ export default async function TrainingPage({
                 className="cta-actions"
                 style={{ display: "flex", gap: 14, flexWrap: "wrap", justifyContent: "center" }}
               >
-                <Link href="/iletisim" className="btn btn-primary">
+                <TeklifButton className="btn btn-primary">
                   Bu Eğitim İçin Teklif Al <Icon name="arrow-right" />
-                </Link>
+                </TeklifButton>
                 <Link href={`/egitimler/${cat.slug}`} className="btn btn-outline">
                   Diğer Modüller
                 </Link>
@@ -117,9 +126,14 @@ export default async function TrainingPage({
                 </p>
               ))}
 
-              <div style={{ margin: "32px 0 8px" }}>
-                <span className="eyebrow">Kimler İçin?</span>
-                <p>{p.audience}</p>
+              <div className="aud-callout">
+                <span className="aud-callout-ic">
+                  <Icon name="users" />
+                </span>
+                <div>
+                  <span className="eyebrow">Kimler İçin?</span>
+                  <p>{p.audience}</p>
+                </div>
               </div>
 
               <div style={{ marginTop: 40 }}>
@@ -164,12 +178,19 @@ export default async function TrainingPage({
             <aside className="detail-aside">
               <div className="aside-card">
                 <h4>Eğitim Bilgileri</h4>
-                {p.format.map((f) => (
-                  <div className="format-row" key={f.label}>
-                    <span className="fr-label">{f.label}</span>
-                    <span className="fr-value">{f.value}</span>
-                  </div>
-                ))}
+                <ul className="info-list">
+                  {p.format.map((f) => (
+                    <li key={f.label}>
+                      <span className="info-ic">
+                        <Icon name={formatIcon(f.label)} />
+                      </span>
+                      <span className="info-txt">
+                        <small>{f.label}</small>
+                        <strong>{f.value}</strong>
+                      </span>
+                    </li>
+                  ))}
+                </ul>
               </div>
               <div className="aside-card dark">
                 <h4>Kurumunuza özel planlayalım</h4>
@@ -177,10 +198,10 @@ export default async function TrainingPage({
                   Bu eğitimi ekibinizin gerçek vakalarına göre uyarlayıp size
                   özel bir teklif hazırlayalım.
                 </p>
-                <a href="/iletisim" className="btn btn-primary">
+                <TeklifButton className="btn btn-primary">
                   Teklif Talep Et
                   <Icon name="arrow-right" />
-                </a>
+                </TeklifButton>
               </div>
             </aside>
           </div>

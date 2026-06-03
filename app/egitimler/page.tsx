@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
-import CategoryCard from "@/components/CategoryCard";
+import CategoryCardWide from "@/components/CategoryCardWide";
 import CTA from "@/components/CTA";
 import { categories } from "@/lib/content";
 
@@ -29,9 +29,9 @@ export default function EgitimlerPage() {
 
       <section className="section">
         <div className="container">
-          <div className="grid grid-3">
+          <div className="cat-grid-wide">
             {categories.map((cat) => (
-              <CategoryCard key={cat.slug} category={cat} />
+              <CategoryCardWide key={cat.slug} category={cat} />
             ))}
           </div>
         </div>

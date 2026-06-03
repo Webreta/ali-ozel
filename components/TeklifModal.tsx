@@ -1,0 +1,63 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import ContactForm from "./ContactForm";
+import Icon from "./Icon";
+
+export default function TeklifModal() {
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    const onOpen = () => setOpen(true);
+    window.addEventListener("open-teklif", onOpen);
+    return () => window.removeEventListener("open-teklif", onOpen);
+  }, []);
+
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("keydown", onKey);
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.body.style.overflow = "";
+    };
+  }, [open]);
+
+  if (!open) return null;
+
+  return (
+    <div className="modal-backdrop" onClick={() => setOpen(false)}>
+      <div
+        className="modal-card"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Teklif al"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <button
+          className="modal-close"
+          onClick={() => setOpen(false)}
+          aria-label="Kapat"
+        >
+          <Icon name="close" />
+        </button>
+        <div className="modal-head">
+          <span className="modal-badge">
+            <Icon name="sparkle" /> Ücretsiz ön görüşme
+          </span>
+          <h3>Kurumunuz için teklif alın</h3>
+          <p>
+            İhtiyacınızı paylaşın; size özel, uygulamaya dönük bir eğitim programı
+            tasarlayalım. 1 iş günü içinde dönüş yapıyoruz.
+          </p>
+        </div>
+        <div className="modal-body">
+          <ContactForm />
+        </div>
+      </div>
+    </div>
+  );
+}

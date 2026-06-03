@@ -1,3 +1,4 @@
+import { trainingPages } from "./trainingPages";
 // Tüm eğitim içeriği bu dosyada. Word kaynakları hizmetler/ klasöründe.
 // İlk kategorinin (Yönetim) ilk eğitiminin tam detay sayfası `page` ile dolu;
 // diğer eğitimler şimdilik kart olarak listeleniyor, onay sonrası detayları açılacak.
@@ -40,92 +41,6 @@ export type Category = {
   trainings: Training[];
 };
 
-const liderIliskiYonetimi: TrainingPage = {
-  seoTitle:
-    "Liderin İlişki Yönetimi ve İletişim Eğitimi | Kurumsal Liderlik Programı",
-  seoDescription:
-    "Yöneticiler için ilişki yönetimi ve iletişim eğitimi. Güven inşa eden liderlik iletişimi, aktif dinleme ve ekip içi iletişim becerilerini geliştirin.",
-  heroQuote:
-    "Bir liderin en güçlü aracı, söylediği değil; kurduğu bağlantıdır.",
-  intro: [
-    "Ekibinizle, yöneticilerinizle ve paydaşlarınızla kurduğunuz ilişkilerin kalitesi; motivasyonu, bağlılığı ve performansı doğrudan belirler.",
-    "Bu eğitim, yöneticilerin iletişim tarzlarını bilinçli biçimde şekillendirmelerine ve güvene dayalı ilişki ağları oluşturmalarına yardımcı olmak amacıyla tasarlanmıştır.",
-  ],
-  audience:
-    "Bu program; ekip yönetiminde iletişim zorluğu yaşayan, farklı kişilik tipleriyle çalışmak durumunda olan veya liderlik etkisini derinleştirmek isteyen orta ve üst düzey yöneticiler için tasarlanmıştır.",
-  sections: [
-    {
-      title: "Liderlik İletişiminin Temelleri",
-      intro:
-        "Liderlik iletişimi sıradan iletişimden farklıdır. Yöneticiler; mesaj iletmenin ötesinde anlam yaratmayı, bağlam kurmayı ve güven ortamı oluşturmayı öğrenir.",
-      bullets: [
-        "Liderlik iletişimi ile yöneticilik iletişimi arasındaki fark",
-        "Sözlü, sözsüz ve yazılı iletişimde liderlik izlenimi",
-        "Kurumsal iletişimde güven ve şeffaflık ilkesi",
-      ],
-    },
-    {
-      title: "Aktif Dinleme ve Empati",
-      intro:
-        "Etkili liderler konuşmaktan çok dinlemesini bilir. Aktif dinleme; çalışan bağlılığını artıran, çatışmaları önleyen ve güven inşa eden bir liderlik becerisidir.",
-      bullets: [
-        "Aktif dinleme teknikleri ve engelleri",
-        "Empatik iletişim: anlamak ile katılmak arasındaki fark",
-        "Sözsüz iletişim ipuçlarını okuma ve yönetme",
-      ],
-    },
-    {
-      title: "İlişki Yönetimi ve Etki Alanı",
-      intro:
-        "Güçlü liderler yalnızca ekipleriyle değil; iç paydaşlar, üst yönetim ve dış çevreyle de sağlıklı ilişkiler sürdürür. Kurumsal ilişki haritası oluşturma ve etkiyi yönetme ele alınır.",
-      bullets: [
-        "Kurumsal ilişki haritası ve paydaş analizi",
-        "Güven inşasının 3 temel bileşeni",
-        "Zor konuşmaları yapıcı biçimde yönetme",
-      ],
-    },
-    {
-      title: "Ekip İçi ve Grupla İletişim",
-      intro:
-        "Bireysel iletişim becerileri grup dinamiklerinde farklı bir boyut kazanır. Toplantı yönetimi, geri bildirim kültürü ve açık iletişim ortamı oluşturma ele alınır.",
-      bullets: [
-        "Etkili toplantı yönetimi ve katılım sağlama",
-        "Ekip içi açık iletişim kültürü nasıl oluşturulur",
-        "Zor mesajları net ve yapıcı biçimde iletme",
-      ],
-    },
-  ],
-  outcomes: [
-    "Liderlik etkisini iletişim üzerinden güçlendirir",
-    "Ekip içinde güven ve açıklık kültürü oluşturur",
-    "Farklı kişilik ve iletişim stilleriyle uyumlu çalışır",
-    "Zor konuşmaları yönetir, çatışmayı önler",
-    "Kurumsal paydaş ilişkilerini stratejik biçimde yönetir",
-  ],
-  format: [
-    { label: "Süre", value: "2 gün (12 saat) — tam gün veya 2 yarım gün" },
-    { label: "Format", value: "Şirket içi (in-house) veya açık grup eğitimi" },
-    {
-      label: "Yöntem",
-      value: "Rol yapma, video analizi, vaka çalışmaları ve grup tartışmaları",
-    },
-    { label: "Katılımcı", value: "8–20 kişi arası gruplar önerilir" },
-  ],
-  faq: [
-    {
-      q: "Bu eğitim teknik mi yoksa davranışsal mı?",
-      a: "Tamamen davranışsal ve deneyimsel bir eğitimdir. İçerik psikoloji ve iletişim bilimine dayanmakla birlikte uygulamaya odaklıdır.",
-    },
-    {
-      q: "Eğitim sektöre özel uyarlanabilir mi?",
-      a: "Evet. İhtiyaç analizi görüşmesinin ardından kurumunuzun sektörüne, kültürüne ve gerçek vakalarına göre içerik özelleştirilir.",
-    },
-    {
-      q: "Eğitim sonrası destek var mı?",
-      a: "Evet. Uygulama rehberi ve isteğe bağlı online takip seansı tüm programlara dahildir.",
-    },
-  ],
-};
 
 export const categories: Category[] = [
   {
@@ -219,7 +134,6 @@ export const categories: Category[] = [
         title: "Liderin İlişki Yönetimi ve İletişim",
         blurb:
           "Güven inşa eden liderlik iletişimi, aktif dinleme ve paydaş ilişkilerini yönetme.",
-        page: liderIliskiYonetimi,
       },
       {
         slug: "takim-calismasi-aidiyet",
@@ -630,4 +544,12 @@ export function getTraining(
   const training = category.trainings.find((t) => t.slug === trainingSlug);
   if (!training) return undefined;
   return { category, training };
+}
+
+// Detay sayfası içeriklerini haritadan eğitimlere bağla (kategori+slug eşleşmesi)
+for (const _cat of categories) {
+  for (const _t of _cat.trainings) {
+    const _p = trainingPages[`${_cat.slug}/${_t.slug}`];
+    if (_p) _t.page = _p;
+  }
 }

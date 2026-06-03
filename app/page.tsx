@@ -6,6 +6,7 @@ import CategoryCardWide from "@/components/CategoryCardWide";
 import ApproachList from "@/components/ApproachList";
 import ReferenceMarquee from "@/components/ReferenceMarquee";
 import CTA from "@/components/CTA";
+import TeklifButton from "@/components/TeklifButton";
 import { references } from "@/lib/references";
 
 const moduleCount = categories.reduce((n, c) => n + c.trainings.length, 0);
@@ -71,9 +72,9 @@ export default function HomePage() {
                 Eğitimleri Keşfet
                 <Icon name="arrow-right" />
               </Link>
-              <Link href="/iletisim" className="btn btn-outline btn-lg">
+              <TeklifButton className="btn btn-outline btn-lg">
                 Teklif Al
-              </Link>
+              </TeklifButton>
             </div>
             <div className="hero-stats">
               <div className="stat">

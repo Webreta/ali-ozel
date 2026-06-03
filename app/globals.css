@@ -1372,6 +1372,191 @@ ul { margin: 0; padding: 0; list-style: none; }
 .about-portrait .ap-badge strong { font-family: var(--font-display); display: block; font-size: 1.05rem; }
 .about-portrait .ap-badge span { font-size: 0.85rem; color: rgba(255,255,255,0.6); }
 
+/* ---------- Audience etiketleri & kart ---------- */
+.aud-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.aud-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: #fff;
+  border: 1px solid var(--line);
+  color: var(--ink-soft);
+  font-weight: 500;
+  font-size: 0.85rem;
+  padding: 6px 14px 6px 6px;
+  border-radius: 999px;
+  transition: border-color 0.18s ease, transform 0.18s ease;
+}
+.aud-chip:hover { border-color: var(--brand-100); transform: translateY(-1px); }
+.ac-dot {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+.ac-dot svg { width: 13px; height: 13px; }
+/* renkli minimal: ikon noktaları dönüşümlü tonlarda */
+.aud-chip:nth-child(4n + 1) .ac-dot { background: var(--brand); }
+.aud-chip:nth-child(4n + 2) .ac-dot { background: var(--brand-bright); }
+.aud-chip:nth-child(4n + 3) .ac-dot { background: #c0334a; }
+.aud-chip:nth-child(4n) .ac-dot { background: var(--brand-dark); }
+
+/* iç sayfa: "Kimler İçin?" vurgu kartı */
+.aud-callout {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  margin: 30px 0 8px;
+  padding: 22px 24px;
+  background: linear-gradient(135deg, var(--brand-50), #fff);
+  border: 1px solid var(--brand-100);
+  border-left: 4px solid var(--brand);
+  border-radius: var(--radius);
+}
+.aud-callout-ic {
+  flex: none;
+  width: 46px;
+  height: 46px;
+  border-radius: 13px;
+  display: grid;
+  place-items: center;
+  background: var(--brand);
+  color: #fff;
+}
+.aud-callout-ic svg { width: 23px; height: 23px; }
+.aud-callout .eyebrow { margin-bottom: 8px; }
+.aud-callout p { margin: 0; color: var(--ink-soft); }
+
+/* iç sayfa: Eğitim Bilgileri listesi */
+.info-list { display: flex; flex-direction: column; gap: 4px; }
+.info-list li {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+}
+.info-list li:first-child { border-top: none; padding-top: 0; }
+.info-ic {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 11px;
+  display: grid;
+  place-items: center;
+  background: var(--brand-50);
+  color: var(--brand);
+}
+.info-ic svg { width: 19px; height: 19px; }
+.info-txt { display: flex; flex-direction: column; min-width: 0; }
+.info-txt small {
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--muted);
+  font-weight: 600;
+}
+.info-txt strong {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.94rem;
+  color: var(--ink-soft);
+}
+
+/* ---------- Teklif modal ---------- */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(23, 18, 15, 0.55);
+  backdrop-filter: blur(6px);
+  animation: modal-fade 0.25s ease;
+  overflow-y: auto;
+}
+.modal-card {
+  position: relative;
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  animation: modal-pop 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.modal-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--brand-dark), var(--brand-bright), var(--brand-dark));
+}
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink-soft);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+  z-index: 1;
+}
+.modal-close:hover { background: var(--brand-50); color: var(--brand); border-color: var(--brand-100); }
+.modal-close svg { width: 19px; height: 19px; }
+.modal-head {
+  padding: 30px 32px 18px;
+  background: linear-gradient(160deg, var(--brand-50), #fff);
+}
+.modal-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: #fff;
+  border: 1px solid var(--brand-100);
+  color: var(--brand-dark);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.78rem;
+  padding: 6px 13px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+}
+.modal-badge svg { width: 14px; height: 14px; color: var(--brand); }
+.modal-head h3 { font-size: 1.5rem; margin-bottom: 8px; }
+.modal-head p { margin: 0; color: var(--muted); font-size: 0.96rem; }
+.modal-body { padding: 22px 32px 32px; }
+.modal-body .form-card {
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+@keyframes modal-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes modal-pop {
+  from { opacity: 0; transform: translateY(16px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+@media (max-width: 540px) {
+  .modal-head { padding: 26px 22px 16px; }
+  .modal-body { padding: 18px 22px 26px; }
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 960px) {
   .nav { display: none; }

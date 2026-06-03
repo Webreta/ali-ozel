@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import TrainingCard from "@/components/TrainingCard";
 import Icon from "@/components/Icon";
 import CTA from "@/components/CTA";
+import TeklifButton from "@/components/TeklifButton";
 import { categories, getCategory } from "@/lib/content";
 
 type Params = { category: string };
@@ -82,14 +83,16 @@ export default async function CategoryPage({
             <aside className="detail-aside">
               <div className="aside-card">
                 <h4>Bu eğitim kimler için?</h4>
-                <ul className="check-list">
+                <div className="aud-chips">
                   {cat.forWhom.map((w) => (
-                    <li key={w}>
-                      <Icon name="check-circle" />
+                    <span className="aud-chip" key={w}>
+                      <span className="ac-dot">
+                        <Icon name="check" />
+                      </span>
                       {w}
-                    </li>
+                    </span>
                   ))}
-                </ul>
+                </div>
               </div>
               <div className="aside-card dark">
                 <h4>Kuruma özel teklif</h4>
@@ -97,10 +100,10 @@ export default async function CategoryPage({
                   Bu alandaki modülleri ekibinize göre uyarlayalım. İhtiyaç
                   analiziyle başlayan bir teklif hazırlayalım.
                 </p>
-                <a href="/iletisim" className="btn btn-primary">
+                <TeklifButton className="btn btn-primary">
                   Teklif Al
                   <Icon name="arrow-right" />
-                </a>
+                </TeklifButton>
               </div>
             </aside>
           </div>

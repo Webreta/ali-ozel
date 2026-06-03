@@ -3,6 +3,7 @@ import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import TeklifModal from "@/components/TeklifModal";
 import { site } from "@/lib/site";
 
 const inter = Inter({
@@ -44,6 +45,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <TeklifModal />
       </body>
     </html>
   );

@@ -6,6 +6,7 @@ import Image from "next/image";
 import { mainNav } from "@/lib/site";
 import { categories } from "@/lib/content";
 import Icon from "./Icon";
+import TeklifButton from "./TeklifButton";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -61,9 +62,7 @@ export default function Header() {
         </nav>
 
         <div className="header-actions">
-          <Link href="/iletisim" className="btn btn-primary">
-            Teklif Al
-          </Link>
+          <TeklifButton className="btn btn-primary">Teklif Al</TeklifButton>
           <button
             className="menu-toggle"
             aria-label="Menüyü aç/kapat"
@@ -96,13 +95,7 @@ export default function Header() {
             </div>
           ))}
           <div className="mobile-cta">
-            <Link
-              href="/iletisim"
-              className="btn btn-primary"
-              onClick={() => setOpen(false)}
-            >
-              Teklif Al
-            </Link>
+            <TeklifButton className="btn btn-primary">Teklif Al</TeklifButton>
           </div>
         </div>
       </div>
