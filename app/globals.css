@@ -498,8 +498,17 @@ ul { margin: 0; padding: 0; list-style: none; }
   text-transform: uppercase;
   color: var(--brand);
   margin-bottom: 7px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.ccw-body h3 { font-size: 1.26rem; margin: 0 0 9px; }
+.ccw-body h3 {
+  font-size: 1.26rem;
+  margin: 0 0 9px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .ccw-desc {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -549,6 +558,58 @@ ul { margin: 0; padding: 0; list-style: none; }
 @media (max-width: 720px) {
   .cat-grid-wide { grid-template-columns: 1fr; }
   .cat-card-wide { padding: 24px; gap: 18px; }
+}
+
+/* ---- Yaklaşımımız (dinamik numaralı liste) ---- */
+.approach-grid {
+  display: grid;
+  grid-template-columns: 0.82fr 1.18fr;
+  gap: 56px;
+  align-items: start;
+}
+.approach-intro { position: sticky; top: 96px; }
+.approach-list { display: flex; flex-direction: column; gap: 6px; }
+.approach-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 22px 24px;
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  transition: background 0.22s ease, border-color 0.22s ease, transform 0.22s ease,
+    box-shadow 0.22s ease;
+}
+.approach-item:hover {
+  background: #fff;
+  border-color: var(--brand-100);
+  box-shadow: var(--shadow-sm);
+  transform: translateX(6px);
+}
+.approach-num {
+  flex: none;
+  min-width: 42px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.6rem;
+  line-height: 1.1;
+  color: var(--brand-100);
+  transition: color 0.22s ease;
+}
+.approach-item:hover .approach-num { color: var(--brand); }
+.approach-text { flex: 1; min-width: 0; }
+.approach-text h3 { font-size: 1.15rem; margin: 0 0 5px; }
+.approach-text p { margin: 0; color: var(--muted); font-size: 0.96rem; }
+.approach-ic {
+  flex: none;
+  margin-top: 2px;
+  color: var(--brand-100);
+  transition: color 0.22s ease, transform 0.22s ease;
+}
+.approach-ic svg { width: 24px; height: 24px; }
+.approach-item:hover .approach-ic { color: var(--brand); transform: scale(1.12); }
+@media (max-width: 960px) {
+  .approach-grid { grid-template-columns: 1fr; gap: 30px; }
+  .approach-intro { position: static; }
 }
 
 /* training card */

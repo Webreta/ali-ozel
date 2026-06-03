@@ -104,19 +104,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Trust strip */}
-      <div className="trust">
-        <div className="container trust-inner">
-          <span className="trust-label">Hizmet verdiğimiz alanlar</span>
-          <span className="trust-item">Üretim</span>
-          <span className="trust-item">Otomotiv</span>
-          <span className="trust-item">Lojistik</span>
-          <span className="trust-item">Turizm</span>
-          <span className="trust-item">Enerji</span>
-          <span className="trust-item">Perakende</span>
-        </div>
-      </div>
-
       {/* Categories */}
       <section className="section">
         <div className="container">
@@ -138,25 +125,34 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Values / approach */}
+      {/* Yaklaşım — dinamik numaralı liste */}
       <section className="section section-soft">
-        <div className="container">
-          <div className="section-head">
+        <div className="container approach-grid">
+          <div className="approach-intro">
             <span className="eyebrow">Yaklaşımımız</span>
             <h2 className="section-title">Neden farklı çalışıyoruz?</h2>
-            <p className="section-desc">
+            <p className="section-desc" style={{ marginBottom: 26 }}>
               Slayt anlatan değil; davranış dönüştüren eğitimler. Bizim için
               başarı, eğitim biter bitmez sahada görünür hale gelen değişimdir.
             </p>
+            <Link href="/hakkimda" className="btn btn-outline">
+              Yaklaşımı keşfet
+              <Icon name="arrow-right" />
+            </Link>
           </div>
-          <div className="grid grid-4">
-            {values.map((v) => (
-              <div className="card value-card" key={v.title}>
-                <span className="card-icon">
+          <div className="approach-list">
+            {values.map((v, i) => (
+              <div className="approach-item" key={v.title}>
+                <span className="approach-num">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <div className="approach-text">
+                  <h3>{v.title}</h3>
+                  <p>{v.text}</p>
+                </div>
+                <span className="approach-ic">
                   <Icon name={v.icon} />
                 </span>
-                <h3>{v.title}</h3>
-                <p>{v.text}</p>
               </div>
             ))}
           </div>
