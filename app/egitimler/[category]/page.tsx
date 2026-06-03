@@ -38,6 +38,7 @@ export default async function CategoryPage({
   return (
     <>
       <section className="page-hero on-brand">
+        <Icon name={cat.icon} className="hero-watermark" strokeWidth={0.6} />
         <div className="container">
           <Breadcrumb
             items={[
