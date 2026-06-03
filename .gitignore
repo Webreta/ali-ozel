@@ -34,3 +34,7 @@ yarn-error.log*
 
 # extracted docx working files (kaynak Word'ler hizmetler/ içinde duruyor)
 /_extracted
+
+# ham görsel/screenshot bırakma klasörleri (public/ içinde kullanılan kopyalar yeterli)
+/ali-ozel-ss
+/ali-ozel-foto

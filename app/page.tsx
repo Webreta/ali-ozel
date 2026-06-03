@@ -87,22 +87,16 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="hero-visual">
-            <div className="hv-mark">“</div>
-            <p className="hv-quote">{site.tagline}</p>
-            <div className="hv-author">
-              <span className="av">AÖ</span>
-              <div>
-                <strong>{site.name}</strong>
-                <small>Eğitmen &amp; Danışman</small>
-              </div>
-            </div>
-            <div className="hv-tags">
-              <span>Liderlik</span>
-              <span>Üretim Sahası</span>
-              <span>Takım Yönetimi</span>
-              <span>Koçluk</span>
-            </div>
+          <div className="hero-photo">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/ali-ozel.jpg"
+              alt="Ali Özel — kurumsal eğitmen ve danışman"
+            />
+            <span className="hero-photo-badge">
+              <strong>{site.name}</strong>
+              <small>Eğitmen &amp; Danışman</small>
+            </span>
           </div>
         </div>
       </section>
