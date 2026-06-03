@@ -131,8 +131,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Yaklaşım — dinamik numaralı liste */}
-      <section className="section section-soft">
+      {/* Yaklaşım — dinamik numaralı liste (bordo) */}
+      <section className="section approach-section">
         <div className="container approach-grid">
           <div className="approach-intro">
             <span className="eyebrow">Yaklaşımımız</span>
