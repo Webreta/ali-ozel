@@ -8,16 +8,33 @@ export default function Footer() {
   const year = 2026;
   return (
     <footer className="site-footer">
+      <span className="footer-glow" aria-hidden />
       <div className="container">
-        <div className="footer-grid">
+        {/* üst: marka + iletişim/sosyal */}
+        <div className="footer-head">
           <div className="footer-brand">
-            <Image
-              src="/logo.png"
-              alt="aliozel"
-              width={150}
-              height={56}
-            />
+            <Image src="/logo.png" alt="aliozel" width={150} height={56} />
             <p>{site.description}</p>
+          </div>
+          <div className="footer-reach">
+            <a className="footer-chip" href={site.contact.phoneHref}>
+              <span className="fc-ic">
+                <Icon name="phone" />
+              </span>
+              <span className="fc-txt">
+                <small>Telefon</small>
+                <strong>{site.contact.phone}</strong>
+              </span>
+            </a>
+            <a className="footer-chip" href={site.contact.emailHref}>
+              <span className="fc-ic">
+                <Icon name="mail" />
+              </span>
+              <span className="fc-txt">
+                <small>E-posta</small>
+                <strong>{site.contact.email}</strong>
+              </span>
+            </a>
             <div className="footer-social">
               <a href={site.social.instagram} target="_blank" rel="noreferrer" aria-label="Instagram">
                 <Icon name="instagram" />
@@ -27,17 +44,22 @@ export default function Footer() {
               </a>
             </div>
           </div>
+        </div>
 
-          <div className="footer-col">
+        <div className="footer-divider" />
+
+        {/* link kolonları */}
+        <div className="footer-nav">
+          <div className="footer-col footer-col-wide">
             <h5>Eğitimler</h5>
-            {categories.slice(0, 5).map((c) => (
-              <Link key={c.slug} href={`/egitimler/${c.slug}`}>
-                {c.shortName}
-              </Link>
-            ))}
-            <Link href="/egitimler">Tüm eğitimler</Link>
+            <div className="footer-links-grid">
+              {categories.map((c) => (
+                <Link key={c.slug} href={`/egitimler/${c.slug}`}>
+                  {c.shortName}
+                </Link>
+              ))}
+            </div>
           </div>
-
           <div className="footer-col">
             <h5>Kurumsal</h5>
             <Link href="/hakkimda">Hakkımda</Link>
@@ -46,21 +68,24 @@ export default function Footer() {
             <Link href="/blog">Blog</Link>
             <Link href="/galeri">Galeri</Link>
           </div>
-
           <div className="footer-col">
             <h5>İletişim</h5>
-            <a href={site.contact.phoneHref}>{site.contact.phone}</a>
-            <a href={site.contact.emailHref}>{site.contact.email}</a>
-            <span>{site.contact.location}</span>
-            <Link href="/iletisim">Teklif al →</Link>
+            <span className="footer-loc">
+              <Icon name="pin" />
+              {site.contact.location}
+            </span>
+            <Link href="/iletisim" className="footer-cta-link">
+              Teklif al
+              <Icon name="arrow-right" />
+            </Link>
           </div>
         </div>
 
         <div className="footer-bottom">
           <span>
-            © {year} {site.name} — San Eğitim & Danışmanlık. Tüm hakları saklıdır.
+            © {year} {site.name} — San Eğitim &amp; Danışmanlık
           </span>
-          <span>{site.tagline}</span>
+          <span className="footer-quote">“{site.tagline}”</span>
         </div>
       </div>
     </footer>
