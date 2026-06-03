@@ -5,13 +5,16 @@ import Icon from "./Icon";
 export default function ComingSoon({
   title,
   text,
+  icon = "sparkle",
 }: {
   title: string;
   text: string;
+  icon?: string;
 }) {
   return (
     <>
-      <section className="page-hero">
+      <section className="page-hero on-brand">
+        <Icon name={icon} className="hero-watermark" strokeWidth={0.6} />
         <div className="container">
           <Breadcrumb items={[{ label: title }]} />
           <h1>{title}</h1>

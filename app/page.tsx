@@ -159,10 +159,6 @@ export default function HomePage() {
           <div className="about-portrait">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/ali-ozel-selfie.jpg" alt="Ali Özel bir eğitim sırasında" />
-            <div className="ap-badge">
-              <strong>{site.name}</strong>
-              <span>Kurumsal Eğitmen &amp; Liderlik Danışmanı</span>
-            </div>
           </div>
           <div>
             <span className="eyebrow">Hakkımda</span>

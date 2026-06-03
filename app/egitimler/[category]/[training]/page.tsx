@@ -176,7 +176,7 @@ export default async function TrainingPage({
             </article>
 
             <aside className="detail-aside">
-              <div className="aside-card">
+              <div className="aside-card info-highlight">
                 <h4>Eğitim Bilgileri</h4>
                 <ul className="info-list">
                   {p.format.map((f) => (

@@ -29,7 +29,8 @@ const items = [
 export default function IletisimPage() {
   return (
     <>
-      <section className="page-hero">
+      <section className="page-hero on-brand">
+        <Icon name="mail" className="hero-watermark" strokeWidth={0.6} />
         <div className="container">
           <Breadcrumb items={[{ label: "İletişim" }]} />
           <h1>Kurumunuz için teklif alın</h1>

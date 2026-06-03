@@ -8,6 +8,7 @@ export default function ReferanslarPage() {
     <ComingSoon
       title="Referanslar"
       text="Birlikte çalıştığımız kurumlar ve katılımcı görüşleri çok yakında burada olacak."
+      icon="shield"
     />
   );
 }

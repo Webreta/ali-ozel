@@ -32,7 +32,8 @@ const principles = [
 export default function HakkimdaPage() {
   return (
     <>
-      <section className="page-hero">
+      <section className="page-hero on-brand">
+        <Icon name="target" className="hero-watermark" strokeWidth={0.6} />
         <div className="container">
           <Breadcrumb items={[{ label: "Hakkımda" }]} />
           <h1>Üretimin diliyle konuşan bir eğitmen</h1>
@@ -49,10 +50,6 @@ export default function HakkimdaPage() {
           <div className="about-portrait">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/ali-ozel-selfie.jpg" alt="Ali Özel bir eğitim sırasında" />
-            <div className="ap-badge">
-              <strong>{site.name}</strong>
-              <span>Kurumsal Eğitmen &amp; Liderlik Danışmanı</span>
-            </div>
           </div>
           <div>
             <span className="eyebrow">Kim olduğum</span>

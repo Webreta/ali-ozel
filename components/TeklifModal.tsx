@@ -31,7 +31,7 @@ export default function TeklifModal() {
   return (
     <div className="modal-backdrop" onClick={() => setOpen(false)}>
       <div
-        className="modal-card"
+        className="modal-card modal-split"
         role="dialog"
         aria-modal="true"
         aria-label="Teklif al"
@@ -44,18 +44,33 @@ export default function TeklifModal() {
         >
           <Icon name="close" />
         </button>
-        <div className="modal-head">
-          <span className="modal-badge">
-            <Icon name="sparkle" /> Ücretsiz ön görüşme
-          </span>
-          <h3>Kurumunuz için teklif alın</h3>
-          <p>
-            İhtiyacınızı paylaşın; size özel, uygulamaya dönük bir eğitim programı
-            tasarlayalım. 1 iş günü içinde dönüş yapıyoruz.
-          </p>
+
+        <div className="modal-main">
+          <div className="modal-head">
+            <span className="modal-badge">
+              <Icon name="sparkle" /> Ücretsiz ön görüşme
+            </span>
+            <h3>Kurumunuz için teklif alın</h3>
+            <p>
+              İhtiyacınızı paylaşın; size özel bir program tasarlayalım. 1 iş günü
+              içinde dönüş yapıyoruz.
+            </p>
+          </div>
+          <div className="modal-body">
+            <ContactForm />
+          </div>
         </div>
-        <div className="modal-body">
-          <ContactForm />
+
+        <div className="modal-photo">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/ali-ozel-form.jpg" alt="Ali Özel" />
+          <div className="modal-quote">
+            <p>
+              “Siz kendinize inanmazsanız, başkalarının size inanmasını
+              beklemeyin.”
+            </p>
+            <span>— Margaret Thatcher</span>
+          </div>
         </div>
       </div>
     </div>

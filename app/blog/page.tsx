@@ -8,6 +8,7 @@ export default function BlogPage() {
     <ComingSoon
       title="Blog Yazılarım"
       text="Liderlik, üretim sahası ve insan yönetimi üzerine yazılar çok yakında burada."
+      icon="book"
     />
   );
 }

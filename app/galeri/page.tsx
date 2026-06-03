@@ -8,6 +8,7 @@ export default function GaleriPage() {
     <ComingSoon
       title="Galeri"
       text="Eğitim ve etkinliklerden kareler bu bölümde paylaşılacak."
+      icon="layers"
     />
   );
 }
