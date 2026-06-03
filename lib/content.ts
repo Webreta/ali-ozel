@@ -272,7 +272,7 @@ export const categories: Category[] = [
     slug: "mavi-gri-yaka-lider-egitimleri",
     name: "Mavi Yaka ve Gri Yaka Lider Eğitimleri",
     shortName: "Mavi & Gri Yaka",
-    icon: "helmet",
+    icon: "wrench",
     tagline: "Üretim sahasının gerçek liderleri için Eğit-Öğret-Yönet",
     summary:
       "Formen, vardiya amiri, hat lideri ve üretim şefi kurumun operasyonel omurgasıdır. Bu program sahaya özgü Eğit-Öğret-Yönet metodolojisiyle, üretim ortamının diline ve temposuna uygun biçimde tasarlanmıştır.",
@@ -338,7 +338,7 @@ export const categories: Category[] = [
     slug: "satis-pazarlama-egitimleri",
     name: "Satış ve Pazarlama Eğitimleri",
     shortName: "Satış & Pazarlama",
-    icon: "trending",
+    icon: "megaphone",
     tagline: "Sürdürülebilir satış performansı için uygulamalı programlar",
     summary:
       "Satış; doğru insana doğru zamanda doğru değeri sunmaktır. Bu programlar satış profesyonellerinin hem teknik becerilerini hem de ilişki kurma kapasitelerini geliştirir ve müşteri değerini artırır.",

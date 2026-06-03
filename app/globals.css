@@ -457,29 +457,34 @@ ul { margin: 0; padding: 0; list-style: none; }
   display: flex;
   gap: 22px;
   align-items: flex-start;
-  background: #fff;
-  border: 1px solid var(--line);
+  background: linear-gradient(150deg, #fff 0%, var(--brand-50) 100%);
+  border: 1px solid var(--brand-100);
   border-radius: var(--radius-lg);
   padding: 30px;
   position: relative;
   overflow: hidden;
-  transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease;
+  transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease,
+    background 0.24s ease;
 }
-.cat-card-wide::after {
+.cat-card-wide::before {
   content: "";
   position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, rgba(140, 29, 44, 0) 60%, var(--brand-50) 100%);
-  opacity: 0;
-  transition: opacity 0.24s ease;
-  pointer-events: none;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(var(--brand-bright), var(--brand-dark));
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.26s ease;
 }
 .cat-card-wide:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow);
-  border-color: var(--brand-100);
+  border-color: var(--brand);
+  background: linear-gradient(150deg, var(--brand-50) 0%, #f4d9dd 100%);
 }
-.cat-card-wide:hover::after { opacity: 1; }
+.cat-card-wide:hover::before { transform: scaleY(1); }
 .ccw-icon {
   position: relative;
   z-index: 1;
@@ -523,7 +528,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   align-items: center;
   justify-content: space-between;
   padding-top: 16px;
-  border-top: 1px solid var(--line);
+  border-top: 1px solid var(--brand-100);
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 0.9rem;

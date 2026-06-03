@@ -56,6 +56,16 @@ const paths: Record<string, React.ReactNode> = {
       <path d="M12 6.5v12" />
     </>
   ),
+  megaphone: (
+    <>
+      <path d="m3 11 15-4.5v11L3 13v-2Z" />
+      <path d="M18 6.5a3 3 0 0 1 0 6" />
+      <path d="M7 13v3.5a1.5 1.5 0 0 0 3 0V13" />
+    </>
+  ),
+  wrench: (
+    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76Z" />
+  ),
   // ui ikonları
   "arrow-right": <path d="M5 12h14M13 6l6 6-6 6" />,
   "arrow-up-right": <path d="M7 17 17 7M8 7h9v9" />,
