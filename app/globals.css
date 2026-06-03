@@ -655,71 +655,46 @@ ul { margin: 0; padding: 0; list-style: none; }
 .ref-marquee {
   position: relative;
   overflow: hidden;
-  padding: 40px 0 30px;
-}
-.ref-zone {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 230px;
-  background: radial-gradient(
-    ellipse 62% 78% at center,
-    var(--brand-50),
-    transparent 72%
+  padding: 24px 0;
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    #000 7%,
+    #000 93%,
+    transparent
   );
-  z-index: 0;
-  pointer-events: none;
+  mask: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
 }
 .ref-track {
-  position: relative;
-  z-index: 1;
   display: flex;
   align-items: center;
-  will-change: transform;
+  width: max-content;
+  animation: ref-scroll 42s linear infinite;
 }
-.ref-item {
-  flex: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 4px;
+.ref-marquee:hover .ref-track {
+  animation-play-state: paused;
 }
 .ref-logo {
+  flex: none;
   display: grid;
   place-items: center;
-  width: 100%;
-  height: 86px;
-  padding: 12px 18px;
-  border-radius: 16px;
-  background: transparent;
-  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1),
-    background 0.5s ease, box-shadow 0.5s ease;
+  height: 56px;
+  padding: 0 40px;
 }
 .ref-logo img {
-  max-width: 100%;
-  max-height: 40px;
+  max-height: 46px;
   width: auto;
   height: auto;
   object-fit: contain;
-  filter: grayscale(100%);
-  opacity: 0.5;
-  transition: filter 0.5s ease, opacity 0.5s ease;
 }
-.ref-item.is-center .ref-logo {
-  transform: translateY(-14px) scale(1.16);
-  background: #fff;
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-}
-.ref-item.is-center .ref-logo img {
-  filter: grayscale(0%);
-  opacity: 1;
+@keyframes ref-scroll {
+  to {
+    transform: translateX(-50%);
+  }
 }
 @media (max-width: 720px) {
-  .ref-zone { width: 150px; }
-  .ref-logo { height: 72px; }
+  .ref-logo { padding: 0 26px; height: 46px; }
+  .ref-logo img { max-height: 36px; }
 }
 
 /* training card */
