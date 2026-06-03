@@ -284,9 +284,10 @@ ul { margin: 0; padding: 0; list-style: none; }
 .hero {
   position: relative;
   overflow: hidden;
+  color: #fff;
   background:
-    radial-gradient(120% 120% at 85% -10%, var(--brand-50) 0%, rgba(251, 238, 240, 0) 45%),
-    linear-gradient(180deg, #fff 0%, var(--bg-soft) 100%);
+    radial-gradient(85% 120% at 10% 6%, rgba(190, 40, 60, 0.5) 0%, transparent 55%),
+    linear-gradient(118deg, #5a0f18 0%, var(--brand-dark) 48%, #7d1724 100%);
   padding: 70px 0 84px;
 }
 .hero-grid {
@@ -383,16 +384,18 @@ ul { margin: 0; padding: 0; list-style: none; }
   top: 0;
   right: 0;
   bottom: 0;
-  width: 50%;
+  width: 53%;
   z-index: 0;
 }
 .hero-photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 64% 22%;
-  -webkit-mask-image: linear-gradient(to left, #000 56%, transparent 100%);
-  mask-image: linear-gradient(to left, #000 56%, transparent 100%);
+  object-position: 62% 16%;
+  transform: scale(1.16);
+  transform-origin: 72% 38%;
+  -webkit-mask-image: linear-gradient(to left, #000 60%, transparent 100%);
+  mask-image: linear-gradient(to left, #000 60%, transparent 100%);
 }
 .hero-photo-badge {
   position: absolute;
@@ -432,6 +435,33 @@ ul { margin: 0; padding: 0; list-style: none; }
 @media (max-width: 720px) {
   .hero-photo { height: 280px; }
   .hero-photo-badge { right: 14px; bottom: 14px; }
+}
+
+/* hero metin & butonlar — bordo zemine uyum (beyaz) */
+.hero-eyebrow {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.22);
+  color: #fff;
+  box-shadow: none;
+}
+.hero-eyebrow .dot { background: #fff; color: var(--brand); }
+.hero-title { color: #fff; }
+.hero-title .accent { color: var(--brand-100); }
+.hero-lead { color: rgba(255, 255, 255, 0.85); }
+.hero .stat .num { color: #fff; }
+.hero .stat .num span { color: var(--brand-100); }
+.hero .stat .label { color: rgba(255, 255, 255, 0.68); }
+.hero .btn-primary {
+  background: #fff;
+  color: var(--brand-dark);
+  box-shadow: 0 14px 28px -14px rgba(0, 0, 0, 0.55);
+}
+.hero .btn-primary:hover { background: var(--brand-50); color: var(--brand-dark); }
+.hero .btn-outline { color: #fff; border-color: rgba(255, 255, 255, 0.45); }
+.hero .btn-outline:hover {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
 }
 
 /* logo strip */
