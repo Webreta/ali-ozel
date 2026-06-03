@@ -553,32 +553,64 @@ ul { margin: 0; padding: 0; list-style: none; }
   position: relative;
   overflow: hidden;
   isolation: isolate;
+  /* tüm bordo header'lar aynı yükseklikte, içerik dikeyde ortalı */
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background:
     radial-gradient(120% 140% at 85% -20%, rgba(173, 34, 54, 0.55) 0%, rgba(173, 34, 54, 0) 55%),
     linear-gradient(150deg, var(--brand-dark) 0%, var(--brand) 65%, #a3243a 100%);
   border-bottom: none;
   color: #fff;
 }
-.page-hero.on-brand > .container { position: relative; z-index: 1; }
+.page-hero.on-brand > .container { position: relative; z-index: 1; width: 100%; }
+/* başlık tek satır */
+.page-hero.on-brand h1 {
+  font-size: clamp(1.6rem, 3.4vw, 2.65rem);
+  white-space: nowrap;
+  margin-bottom: 14px;
+}
+/* açıklama en fazla 3 satır */
+.page-hero.on-brand .page-lead {
+  max-width: 680px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 
 /* kategoriyi çağrıştıran soluk çizgisel watermark */
 .hero-watermark {
   position: absolute;
   top: 50%;
-  right: -54px;
-  transform: translateY(-50%) rotate(-8deg);
-  width: 440px;
-  height: 440px;
+  right: 7%;
+  transform: translateY(-50%) rotate(-6deg);
+  width: 300px;
+  height: 300px;
   color: rgba(255, 255, 255, 0.09);
   pointer-events: none;
   z-index: 0;
 }
 @media (max-width: 720px) {
+  /* mobilde başlık alt satıra kayabilir, header yüksekliği serbest */
+  .page-hero.on-brand {
+    min-height: 0;
+    display: block;
+    padding: 40px 0 44px;
+  }
+  .page-hero.on-brand h1 {
+    white-space: normal;
+    font-size: clamp(1.55rem, 7vw, 2.1rem);
+  }
   .hero-watermark {
-    width: 300px;
-    height: 300px;
-    right: -90px;
-    top: 18%;
+    width: 200px;
+    height: 200px;
+    right: -30px;
+    top: 16%;
+    transform: rotate(-6deg);
     color: rgba(255, 255, 255, 0.07);
   }
 }
