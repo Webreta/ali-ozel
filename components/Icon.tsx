@@ -63,6 +63,14 @@ const paths: Record<string, React.ReactNode> = {
       <path d="M7 13v3.5a1.5 1.5 0 0 0 3 0V13" />
     </>
   ),
+  chart: (
+    <>
+      <path d="M4 18h16" />
+      <rect x="5.5" y="14" width="3" height="4" rx="0.6" />
+      <rect x="10.5" y="11" width="3" height="7" rx="0.6" />
+      <rect x="15.5" y="7" width="3" height="11" rx="0.6" />
+    </>
+  ),
   wrench: (
     <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76Z" />
   ),

@@ -338,7 +338,7 @@ export const categories: Category[] = [
     slug: "satis-pazarlama-egitimleri",
     name: "Satış ve Pazarlama Eğitimleri",
     shortName: "Satış & Pazarlama",
-    icon: "megaphone",
+    icon: "chart",
     tagline: "Sürdürülebilir satış performansı için uygulamalı programlar",
     summary:
       "Satış; doğru insana doğru zamanda doğru değeri sunmaktır. Bu programlar satış profesyonellerinin hem teknik becerilerini hem de ilişki kurma kapasitelerini geliştirir ve müşteri değerini artırır.",
