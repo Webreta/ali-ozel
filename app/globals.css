@@ -613,27 +613,39 @@ ul { margin: 0; padding: 0; list-style: none; }
   font-size: 0.96rem;
   margin-bottom: 0;
 }
-/* tam genişlik bordo alt bar (etiket + buton) */
+/* alt satır: varsayılan sadece divider; hover'da bordo soldan sağa akar */
 .ccw-foot {
+  position: relative;
   margin-top: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding: 14px 22px 14px 28px;
-  background: var(--brand);
-  color: #fff;
+  padding: 15px 22px 15px 28px;
+  border-top: 1px solid var(--brand-100);
+  overflow: hidden;
   font-family: var(--font-display);
   font-weight: 600;
-  transition: background 0.24s ease;
 }
-.cat-card-wide:hover .ccw-foot { background: var(--brand-dark); }
+.ccw-foot::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--brand);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 0;
+}
+.cat-card-wide:hover .ccw-foot::before { transform: scaleX(1); }
+.ccw-foot .count,
+.ccw-foot .ccw-arrow { position: relative; z-index: 1; }
 .ccw-foot .count {
   display: inline-flex;
   align-items: center;
-  background: rgba(255, 255, 255, 0.16);
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  color: #fff;
+  background: #fff;
+  border: 1px solid var(--brand-100);
+  color: var(--brand-dark);
   font-weight: 600;
   font-size: 0.76rem;
   letter-spacing: 0.01em;
@@ -644,21 +656,25 @@ ul { margin: 0; padding: 0; list-style: none; }
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: #fff;
+  color: var(--brand);
   font-size: 0.9rem;
   padding: 8px 16px;
-  border: 1.5px solid rgba(255, 255, 255, 0.55);
+  border: 1.5px solid var(--brand);
   border-radius: 999px;
   background: transparent;
-  transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 .ccw-arrow svg { width: 16px; height: 16px; transition: transform 0.2s ease; }
-.ccw-arrow:hover { background: #fff; color: var(--brand); border-color: #fff; }
-.ccw-arrow:hover svg { transform: translateX(3px); }
+.cat-card-wide:hover .ccw-arrow {
+  background: #fff;
+  color: var(--brand);
+  border-color: #fff;
+}
+.cat-card-wide:hover .ccw-arrow svg { transform: translateX(3px); }
 @media (max-width: 720px) {
   .cat-grid-wide { grid-template-columns: 1fr; }
   .ccw-top { padding: 22px 22px 18px; gap: 16px; }
-  .ccw-foot { padding: 13px 18px 13px 22px; }
+  .ccw-foot { padding: 14px 18px 14px 22px; }
 }
 
 /* ---- Yaklaşımımız (dinamik numaralı liste) ---- */
@@ -780,11 +796,11 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* arkadaki dönen çark — her döngüde 30° döner */
 .approach-wheel {
   position: absolute;
-  width: 520px;
-  height: 520px;
+  width: 360px;
+  height: 360px;
   top: 50%;
-  right: -70px;
-  margin-top: -260px;
+  right: -90px;
+  margin-top: -180px;
   z-index: 0;
   pointer-events: none;
   transition: transform 0.9s cubic-bezier(0.34, 1.2, 0.64, 1);
@@ -800,7 +816,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .approach-wheel .aw-center { fill: rgba(255, 255, 255, 0.14); stroke: none; }
 .approach-list > .approach-item { z-index: 2; }
 @media (max-width: 960px) {
-  .approach-wheel { width: 360px; height: 360px; right: -120px; margin-top: -180px; opacity: 0.7; }
+  .approach-wheel { width: 280px; height: 280px; right: -120px; margin-top: -140px; opacity: 0.7; }
 }
 
 /* ---- Referans kayan şeridi ---- */
