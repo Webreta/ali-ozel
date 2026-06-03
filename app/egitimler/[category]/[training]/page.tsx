@@ -50,7 +50,7 @@ export default async function TrainingPage({
   if (!t.page) {
     return (
       <>
-        <section className="page-hero">
+        <section className="page-hero on-brand">
           <div className="container">
             <Breadcrumb items={crumbs} />
             <span className="badge">
@@ -94,7 +94,7 @@ export default async function TrainingPage({
 
   return (
     <>
-      <section className="page-hero">
+      <section className="page-hero on-brand">
         <div className="container">
           <Breadcrumb items={crumbs} />
           <span className="badge">

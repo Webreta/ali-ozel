@@ -4,18 +4,19 @@ import Icon from "./Icon";
 
 export default function TrainingCard({
   training,
-  index,
+  icon,
   categorySlug,
 }: {
   training: Training;
-  index: number;
+  icon: string;
   categorySlug: string;
 }) {
-  const num = String(index + 1).padStart(2, "0");
   const href = `/egitimler/${categorySlug}/${training.slug}`;
   const body = (
     <>
-      <span className="tc-num">{num}</span>
+      <span className="tc-icon">
+        <Icon name={icon} />
+      </span>
       <div className="tc-body">
         <h4>{training.title}</h4>
         <p>{training.blurb}</p>

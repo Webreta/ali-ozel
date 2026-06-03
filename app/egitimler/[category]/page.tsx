@@ -37,7 +37,7 @@ export default async function CategoryPage({
 
   return (
     <>
-      <section className="page-hero">
+      <section className="page-hero on-brand">
         <div className="container">
           <Breadcrumb
             items={[
@@ -67,11 +67,11 @@ export default async function CategoryPage({
                 </p>
               </div>
               <div className="grid" style={{ gap: 16 }}>
-                {cat.trainings.map((t, i) => (
+                {cat.trainings.map((t) => (
                   <TrainingCard
                     key={t.slug}
                     training={t}
-                    index={i}
+                    icon={cat.icon}
                     categorySlug={cat.slug}
                   />
                 ))}
