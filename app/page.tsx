@@ -38,6 +38,17 @@ export default function HomePage() {
     <>
       {/* Hero */}
       <section className="hero">
+        <div className="hero-photo">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/ali-ozel.jpg"
+            alt="Ali Özel — kurumsal eğitmen ve danışman"
+          />
+          <span className="hero-photo-badge">
+            <strong>{site.name}</strong>
+            <small>Eğitmen &amp; Danışman</small>
+          </span>
+        </div>
         <div className="container hero-grid">
           <div className="hero-content">
             <span className="hero-eyebrow">
@@ -87,17 +98,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="hero-photo">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/ali-ozel.jpg"
-              alt="Ali Özel — kurumsal eğitmen ve danışman"
-            />
-            <span className="hero-photo-badge">
-              <strong>{site.name}</strong>
-              <small>Eğitmen &amp; Danışman</small>
-            </span>
-          </div>
+          <div className="hero-spacer" aria-hidden />
         </div>
       </section>
 
