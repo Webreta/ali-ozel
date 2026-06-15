@@ -3,7 +3,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import Icon from "@/components/Icon";
-import Faq from "@/components/Faq";
 import CTA from "@/components/CTA";
 import TeklifButton from "@/components/TeklifButton";
 import { categories, getTraining } from "@/lib/content";
@@ -103,29 +102,45 @@ export default async function TrainingPage({
 
   return (
     <>
-      <section className="page-hero on-brand">
+      <section className="page-hero on-brand training-hero">
         <div className="container">
           <Breadcrumb items={crumbs} />
-          <span className="badge">
-            <Icon name={cat.icon} style={{ width: 16, height: 16 }} />
-            {cat.shortName}
-          </span>
-          <h1>{t.title}</h1>
-          <p className="page-lead">{p.intro[0]}</p>
+          <div className="training-hero-grid">
+            <div className="training-hero-main">
+              <span className="badge">
+                <Icon name={cat.icon} style={{ width: 16, height: 16 }} />
+                {cat.shortName}
+              </span>
+              <h1>{t.title}</h1>
+              <p className="hero-quote">{p.heroQuote}</p>
+              <p className="page-lead">{p.intro.join(" ")}</p>
+            </div>
+            <aside className="training-hero-info">
+              <div className="aside-card info-highlight">
+                <h4>Eğitim Bilgileri</h4>
+                <ul className="info-list">
+                  {p.format.map((f) => (
+                    <li key={f.label}>
+                      <span className="info-ic">
+                        <Icon name={formatIcon(f.label)} />
+                      </span>
+                      <span className="info-txt">
+                        <small>{f.label}</small>
+                        <strong>{f.value}</strong>
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </aside>
+          </div>
         </div>
       </section>
 
-      <section className="section">
+      <section className="section training-body">
         <div className="container">
           <div className="detail-grid">
             <article>
-              <p className="detail-quote">{p.heroQuote}</p>
-              {p.intro.slice(1).map((para, i) => (
-                <p className="lead" key={i}>
-                  {para}
-                </p>
-              ))}
-
               <div className="aud-callout">
                 <span className="aud-callout-ic">
                   <Icon name="users" />
@@ -137,8 +152,10 @@ export default async function TrainingPage({
               </div>
 
               <div style={{ marginTop: 40 }}>
-                <span className="eyebrow">Eğitim İçeriği</span>
-                <h2 className="section-title" style={{ marginBottom: 22 }}>
+                <h2
+                  className="section-title modules-title"
+                  style={{ marginBottom: 22 }}
+                >
                   Program modülleri
                 </h2>
                 {p.sections.map((s, i) => (
@@ -176,23 +193,12 @@ export default async function TrainingPage({
             </article>
 
             <aside className="detail-aside">
-              <div className="aside-card info-highlight">
-                <h4>Eğitim Bilgileri</h4>
-                <ul className="info-list">
-                  {p.format.map((f) => (
-                    <li key={f.label}>
-                      <span className="info-ic">
-                        <Icon name={formatIcon(f.label)} />
-                      </span>
-                      <span className="info-txt">
-                        <small>{f.label}</small>
-                        <strong>{f.value}</strong>
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="aside-card dark">
+              <div className="aside-card dark teklif-card">
+                <div className="teklif-banner">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/ali-ozel-form.jpg" alt="Ali Özel" />
+                  <span className="teklif-tag">San Eğitim Danışmanlık</span>
+                </div>
                 <h4>Kurumunuza özel planlayalım</h4>
                 <p>
                   Bu eğitimi ekibinizin gerçek vakalarına göre uyarlayıp size
@@ -205,16 +211,6 @@ export default async function TrainingPage({
               </div>
             </aside>
           </div>
-        </div>
-      </section>
-
-      <section className="section section-soft">
-        <div className="container">
-          <div className="section-head">
-            <span className="eyebrow">Sıkça Sorulan Sorular</span>
-            <h2 className="section-title">Aklınızdaki sorular</h2>
-          </div>
-          <Faq items={p.faq} />
         </div>
       </section>
 

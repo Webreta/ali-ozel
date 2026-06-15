@@ -126,7 +126,7 @@ export const categories: Category[] = [
     forWhom: [
       "Orta ve üst düzey yöneticiler",
       "Departman ve takım liderleri",
-      "Yöneticiliğe hazırlanan yüksek potansiyelli çalışanlar",
+      "Yüksek potansiyelli çalışanlar",
     ],
     trainings: [
       {

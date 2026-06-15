@@ -4,39 +4,26 @@ import Icon from "./Icon";
 
 export default function TrainingCard({
   training,
-  icon,
+  number,
   categorySlug,
 }: {
   training: Training;
-  icon: string;
+  number: number;
   categorySlug: string;
 }) {
-  const href = `/egitimler/${categorySlug}/${training.slug}`;
-  const body = (
-    <>
-      <span className="tc-icon">
-        <Icon name={icon} />
-      </span>
+  const href = training.page
+    ? `/egitimler/${categorySlug}/${training.slug}`
+    : "#";
+  return (
+    <Link href={href} className="training-card">
+      <span className="tc-icon tc-num">{number}</span>
       <div className="tc-body">
         <h4>{training.title}</h4>
         <p>{training.blurb}</p>
-        {training.page ? (
-          <span className="tc-cta">
-            Detayları gör <Icon name="arrow-right" />
-          </span>
-        ) : (
-          <span className="tc-soon">Detaylı sayfa yakında</span>
-        )}
+        <span className="tc-cta">
+          Detayları gör <Icon name="arrow-right" />
+        </span>
       </div>
-    </>
+    </Link>
   );
-
-  if (training.page) {
-    return (
-      <Link href={href} className="training-card">
-        {body}
-      </Link>
-    );
-  }
-  return <div className="training-card">{body}</div>;
 }

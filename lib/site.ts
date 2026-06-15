@@ -26,10 +26,10 @@ export type NavItem = {
 
 export const mainNav: NavItem[] = [
   { label: "Ana Sayfa", href: "/" },
-  { label: "Hakkımda", href: "/hakkimda" },
   { label: "Eğitimler", href: "/egitimler" }, // children doldurulur (content.ts)
   { label: "Ekibimiz", href: "/ekibimiz" },
   { label: "Referanslar", href: "/referanslar" },
+  { label: "Hakkımda", href: "/hakkimda" },
   { label: "Blog", href: "/blog" },
   { label: "Galeri", href: "/galeri" },
   { label: "İletişim", href: "/iletisim" },

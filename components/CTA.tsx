@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Icon from "./Icon";
-import TeklifButton from "./TeklifButton";
 
 export default function CTA({
   title = "Kurumunuz için özel program planlayalım",
@@ -10,18 +9,15 @@ export default function CTA({
   text?: string;
 }) {
   return (
-    <section className="section">
+    <section className="section cta-section">
       <div className="container">
         <div className="cta">
           <h2>{title}</h2>
           <p>{text}</p>
           <div className="cta-actions">
-            <TeklifButton className="btn btn-primary btn-lg">
-              Teklif Talep Et
+            <Link href="/egitimler" className="btn btn-lg cta-btn">
+              Diğer eğitimleri incele
               <Icon name="arrow-right" />
-            </TeklifButton>
-            <Link href="/egitimler" className="btn btn-light btn-lg">
-              Eğitimleri İncele
             </Link>
           </div>
         </div>

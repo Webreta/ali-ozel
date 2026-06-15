@@ -1,18 +1,45 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { mainNav } from "@/lib/site";
 import { categories } from "@/lib/content";
 import Icon from "./Icon";
-import TeklifButton from "./TeklifButton";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  // koyu üstlü sayfalar: anasayfa + eğitim kategori/detay (bordo hero)
+  const darkHero =
+    pathname.startsWith("/egitimler/") ||
+    pathname === "/ekibimiz" ||
+    pathname === "/referanslar" ||
+    pathname === "/hakkimda" ||
+    pathname === "/iletisim" ||
+    pathname === "/blog" ||
+    pathname === "/galeri" ||
+    pathname.startsWith("/egitim-notlari");
+  const transparent = darkHero && !scrolled && !open;
+  // anasayfa: bordo zeminli (opak) header
+  const brandHeader = pathname === "/";
 
   return (
-    <header className="site-header">
+    <header
+      className={`site-header${transparent ? " transparent" : ""}${
+        brandHeader ? " header-brand" : ""
+      }`}
+    >
       <div className="container header-inner">
         <Link href="/" className="brand" aria-label="aliozel ana sayfa">
           <Image
@@ -62,7 +89,10 @@ export default function Header() {
         </nav>
 
         <div className="header-actions">
-          <TeklifButton className="btn btn-primary">Teklif Al</TeklifButton>
+          <Link href="/egitim-notlari" className="btn btn-primary">
+            <Icon name="book" />
+            Eğitim Notları
+          </Link>
           <button
             className="menu-toggle"
             aria-label="Menüyü aç/kapat"
@@ -95,7 +125,13 @@ export default function Header() {
             </div>
           ))}
           <div className="mobile-cta">
-            <TeklifButton className="btn btn-primary">Teklif Al</TeklifButton>
+            <Link
+              href="/egitim-notlari"
+              className="btn btn-primary"
+              onClick={() => setOpen(false)}
+            >
+              Eğitim Notları
+            </Link>
           </div>
         </div>
       </div>

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Breadcrumb from "@/components/Breadcrumb";
 import Icon from "@/components/Icon";
 import CTA from "@/components/CTA";
-import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Hakkımda",
@@ -28,9 +28,49 @@ const principles = [
   },
 ];
 
+const expertise = [
+  "Mavi & gri yaka liderliği",
+  "Vardiya ve saha yönetimi",
+  "Yönetici gelişim programları",
+  "Etkili iletişim & geri bildirim",
+  "Çatışma ve zor insan yönetimi",
+  "Takım çalışması & aidiyet",
+  "Koçluk & mentorluk",
+  "Eğit-Öğret-Yönet metodolojisi",
+];
+
 export default function HakkimdaPage() {
   return (
     <>
+      <section className="page-hero on-brand">
+        <div className="container">
+          <Breadcrumb items={[{ label: "Hakkımda" }]} />
+          <span className="badge">
+            <Icon name="users" style={{ width: 16, height: 16 }} />
+            Hakkımda
+          </span>
+          <h1>Üretimin diliyle konuşan bir eğitmen</h1>
+          <p className="page-lead">
+            Birçok eğitim bilgi aktarır ve unutulur. Benim amacım; katılımcının
+            eğitimden çıktığı an sahada farklı davranmaya başlamasıdır.
+          </p>
+          <div className="team-hero-stats">
+            <div>
+              <strong>20+ yıl</strong>
+              <span>Saha deneyimi</span>
+            </div>
+            <div>
+              <strong>Binlerce</strong>
+              <span>Eğitilen profesyonel</span>
+            </div>
+            <div>
+              <strong>8+</strong>
+              <span>Eğitim alanı</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="section">
         <div className="container about-split">
           <div className="about-portrait">
@@ -38,11 +78,12 @@ export default function HakkimdaPage() {
             <img src="/ali-ozel-selfie.jpg" alt="Ali Özel bir eğitim sırasında" />
           </div>
           <div>
-            <span className="eyebrow">Hakkımda</span>
-            <h1 className="section-title">Üretimin diliyle konuşan bir eğitmen</h1>
+            <span className="eyebrow">Hikâyem</span>
+            <h2 className="section-title">Sahadan doğan bir yöntem</h2>
             <p className="lead">
-              Birçok eğitim bilgi aktarır ve unutulur. Benim amacım; katılımcının
-              eğitimden çıktığı an sahada farklı davranmaya başlamasıdır.
+              Yıllarımı üretim sahasında, gerçek ekiplerin içinde geçirdim. Bu
+              yüzden eğitimlerim ofis jargonundan değil; sahanın gerçeğinden,
+              vardiya dilinden ve insan ilişkilerinin özünden besleniyor.
             </p>
             <p>
               Mavi yaka ve gri yaka liderliğinde uzmanlaştım. Formenden vardiya
@@ -55,7 +96,11 @@ export default function HakkimdaPage() {
               yönetim kavramlarını sahanın gerçeğiyle buluşturarak ölçülebilir ve
               kalıcı sonuçlar üretir.
             </p>
-            <Link href="/iletisim" className="btn btn-primary" style={{ marginTop: 10 }}>
+            <Link
+              href="/iletisim"
+              className="btn btn-primary"
+              style={{ marginTop: 10 }}
+            >
               Birlikte çalışalım
               <Icon name="arrow-right" />
             </Link>
@@ -64,6 +109,23 @@ export default function HakkimdaPage() {
       </section>
 
       <section className="section section-soft">
+        <div className="container">
+          <div className="section-head center">
+            <span className="eyebrow">Uzmanlık Alanlarım</span>
+            <h2 className="section-title">Sahada çalıştığım başlıklar</h2>
+          </div>
+          <ul className="about-expertise">
+            {expertise.map((e) => (
+              <li key={e}>
+                <Icon name="check" />
+                {e}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
         <div className="container">
           <div className="section-head center">
             <span className="eyebrow">Çalışma İlkelerim</span>

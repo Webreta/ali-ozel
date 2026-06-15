@@ -38,8 +38,8 @@ export default async function CategoryPage({
 
   return (
     <>
-      <section className="page-hero on-brand">
-        <Icon name={cat.icon} className="hero-watermark" strokeWidth={0.6} />
+      <section className="page-hero on-brand hero-extended">
+        <Icon name={cat.icon} className="hero-watermark" strokeWidth={1} />
         <div className="container">
           <Breadcrumb
             items={[
@@ -53,27 +53,29 @@ export default async function CategoryPage({
           </span>
           <h1>{cat.name}</h1>
           <p className="page-lead">{cat.summary}</p>
+          <div className="hero-count">
+            <span className="hc-circle">{cat.trainings.length}</span>
+            <div className="hc-info">
+              <strong>program</strong>
+              <span>
+                Tüm programlar kurumunuzun ihtiyacına göre tek tek ya da bütün
+                bir program olarak uyarlanabilir.
+              </span>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section className="section">
+      <section className="section detail-section">
         <div className="container">
           <div className="detail-grid">
             <div>
-              <div className="section-head" style={{ marginBottom: 28 }}>
-                <span className="eyebrow">Eğitim Modülleri</span>
-                <h2 className="section-title">{cat.trainings.length} modül</h2>
-                <p className="section-desc">
-                  Tüm modüller kurumunuzun ihtiyacına göre tek tek ya da bütün
-                  bir program olarak uyarlanabilir.
-                </p>
-              </div>
               <div className="grid" style={{ gap: 16 }}>
-                {cat.trainings.map((t) => (
+                {cat.trainings.map((t, i) => (
                   <TrainingCard
                     key={t.slug}
                     training={t}
-                    icon={cat.icon}
+                    number={i + 1}
                     categorySlug={cat.slug}
                   />
                 ))}
@@ -81,20 +83,12 @@ export default async function CategoryPage({
             </div>
 
             <aside className="detail-aside">
-              <div className="aside-card">
-                <h4>Bu eğitim kimler için?</h4>
-                <div className="aud-chips">
-                  {cat.forWhom.map((w) => (
-                    <span className="aud-chip" key={w}>
-                      <span className="ac-dot">
-                        <Icon name="check" />
-                      </span>
-                      {w}
-                    </span>
-                  ))}
+              <div className="aside-card dark teklif-card">
+                <div className="teklif-banner">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/ali-ozel-form.jpg" alt="Ali Özel" />
+                  <span className="teklif-tag">San Eğitim Danışmanlık</span>
                 </div>
-              </div>
-              <div className="aside-card dark">
                 <h4>Kuruma özel teklif</h4>
                 <p>
                   Bu alandaki modülleri ekibinize göre uyarlayalım. İhtiyaç
@@ -104,6 +98,19 @@ export default async function CategoryPage({
                   Teklif Al
                   <Icon name="arrow-right" />
                 </TeklifButton>
+              </div>
+              <div className="aside-card aud-card">
+                <h4>Bu programlar kimler için?</h4>
+                <div className="aud-chips">
+                  {cat.forWhom.map((w) => (
+                    <span className="aud-chip" key={w}>
+                      <span className="ac-dot">
+                        <Icon name="check" />
+                      </span>
+                      <span className="ac-label">{w}</span>
+                    </span>
+                  ))}
+                </div>
               </div>
             </aside>
           </div>

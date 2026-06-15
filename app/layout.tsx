@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+import { Inter, Plus_Jakarta_Sans, Dancing_Script } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -15,6 +15,12 @@ const inter = Inter({
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin", "latin-ext"],
   variable: "--font-jakarta",
+  display: "swap",
+});
+
+const dancing = Dancing_Script({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-hand",
   display: "swap",
 });
 
@@ -40,7 +46,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="tr" className={`${inter.variable} ${jakarta.variable}`}>
+    <html
+      lang="tr"
+      className={`${inter.variable} ${jakarta.variable} ${dancing.variable}`}
+    >
       <body>
         <Header />
         <main>{children}</main>

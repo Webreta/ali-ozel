@@ -66,13 +66,13 @@ export const trainingPages: Record<string, TrainingPage> = {
       "Kurumsal paydaş ilişkilerini stratejik biçimde yönetir",
     ],
     format: [
-      { label: "Süre", value: "2 gün (12 saat) — tam gün veya 2 yarım gün" },
-      { label: "Format", value: "Şirket içi (in-house) veya açık grup eğitimi" },
+      { label: "Süre", value: "2 gün (12 saat)" },
+      { label: "Format", value: "Şirket içi veya açık grup" },
       {
         label: "Yöntem",
-        value: "Rol yapma, video analizi, vaka çalışmaları ve grup tartışmaları",
+        value: "Rol yapma ve vaka çalışmaları",
       },
-      { label: "Katılımcı", value: "8–20 kişi arası gruplar önerilir" },
+      { label: "Katılımcı", value: "8–20 kişi" },
     ],
     faq: [
       {
@@ -95,7 +95,7 @@ export const trainingPages: Record<string, TrainingPage> = {
     seoDescription:
       "Kurumsal aidiyet ve takım çalışması eğitimi. Yüksek performanslı ekipler inşa edin, çalışan bağlılığını artırın. Şirket içi eğitim teklifi alın.",
     heroQuote:
-      "Yüksek performanslı ekipler tesadüfen oluşmaz; bilinçli bir liderlik anlayışının ürünüdür.",
+      "Yüksek performanslı ekipler tesadüfen değil; bilinçli liderlikle kurulur.",
     intro: [
       "Ortak bir amaç etrafında birleşen, birbirine güvenen ve kurumuna ait hisseden takımlar; bilinçli bir liderlik anlayışının ürünüdür.",
       "Bu eğitim; yöneticilere, ekiplerinde gerçek bir aidiyet kültürü oluşturmanın ve sürdürmenin pratik yollarını gösterir.",
@@ -153,13 +153,13 @@ export const trainingPages: Record<string, TrainingPage> = {
     ],
     format: [
       { label: "Süre", value: "1-2 gün (6-12 saat)" },
-      { label: "Format", value: "Şirket içi (in-house) veya açık grup eğitimi" },
+      { label: "Format", value: "Şirket içi veya açık grup" },
       {
         label: "Yöntem",
         value:
-          "Grup aktiviteleri, simülasyonlar, vaka çalışmaları, bireysel refleksiyon egzersizleri",
+          "Simülasyon ve grup çalışmaları",
       },
-      { label: "Katılımcı", value: "8–20 kişi arası gruplar önerilir" },
+      { label: "Katılımcı", value: "8–20 kişi" },
     ],
     faq: [
       {
@@ -178,7 +178,7 @@ export const trainingPages: Record<string, TrainingPage> = {
     seoDescription:
       "Yöneticilikten liderliğe geçiş eğitimi. Lider yönetici olmanın temel kuralları, liderlik kimliği ve otorite yönetimi. Kurumsal eğitim programı için teklif alın.",
     heroQuote:
-      "“Yönetici” ile “lider” arasındaki fark, bir unvan meselesi değil, bir duruş meselesidir.",
+      "Yönetici ile lider arasındaki fark; bir unvan değil, bir duruş meselesidir.",
     intro: [
       "Yöneticiler pozisyon gücüyle hareket ederken, liderler etki güçleriyle öne çıkar.",
       "Bu eğitim; yöneticilik rolünü liderlik perspektifiyle yeniden çerçeveler ve katılımcılara uygulanabilir, güçlü bir liderlik altyapısı sunar.",
@@ -245,14 +245,14 @@ export const trainingPages: Record<string, TrainingPage> = {
       "Kişisel liderlik gelişim planıyla eğitimden çıkar",
     ],
     format: [
-      { label: "Süre", value: "1–2 gün; program derinliğine göre ayarlanabilir" },
-      { label: "Format", value: "Şirket içi (in-house) veya açık grup eğitimi" },
+      { label: "Süre", value: "1–2 gün (esnek)" },
+      { label: "Format", value: "Şirket içi veya açık grup" },
       {
         label: "Yöntem",
         value:
-          "Öz değerlendirme araçları, rol yapma egzersizleri, vaka çalışmaları, bireysel gelişim planı hazırlama",
+          "Öz değerlendirme ve rol yapma",
       },
-      { label: "Katılımcı", value: "8–20 kişi arası gruplar önerilir" },
+      { label: "Katılımcı", value: "8–20 kişi" },
     ],
     faq: [
       {
@@ -271,7 +271,7 @@ export const trainingPages: Record<string, TrainingPage> = {
     seoDescription:
       "Clinton Sidle liderlik modeline dayalı kurumsal eğitim. Liderlik yönelimini keşfedin, kişisel profilinizi netleştirin ve stratejik liderlik anlayışı geliştirin. Teklif alın.",
     heroQuote:
-      "Liderlik, tek bir doğru tarzın uygulanması değil; kendi doğal yöneliminizi bilerek duruma göre hareket etme becerisidir.",
+      "Liderlik, tek bir doğru tarz değil; duruma göre hareket etme becerisidir.",
     intro: [
       "Clinton Sidle'ın dünyaca tanınan liderlik modeli, bu bilinçli liderliğin temelini oluşturur.",
       "Bu eğitimde katılımcılar, kendi liderlik profillerini keşfeder; güçlü yanlarını stratejik avantaja, gelişime açık alanlarını ise fırsata dönüştürür.",
@@ -329,14 +329,14 @@ export const trainingPages: Record<string, TrainingPage> = {
       "Durumlara göre liderlik tarzı esnekliği geliştirir",
     ],
     format: [
-      { label: "Süre", value: "1-2 gün (6-12 saat) — yoğun atölye formatında" },
-      { label: "Format", value: "Şirket içi (in-house) veya açık grup eğitimi" },
+      { label: "Süre", value: "1-2 gün (6-12 saat)" },
+      { label: "Format", value: "Şirket içi veya açık grup" },
       {
         label: "Yöntem",
         value:
-          "Clinton Sidle profil envanteri, grup tartışmaları, vaka analizleri, bireysel refleksiyon",
+          "Profil envanteri ve vaka analizi",
       },
-      { label: "Katılımcı", value: "8–14 kişi arası gruplar önerilir" },
+      { label: "Katılımcı", value: "8–14 kişi" },
     ],
     faq: [
       {
@@ -355,7 +355,7 @@ export const trainingPages: Record<string, TrainingPage> = {
     seoDescription:
       "Yöneticiler için karar verme ve kararlılık eğitimi. Belirsizlik altında doğru karar alma, bilişsel önyargıları yönetme ve stratejik kararlılık. Kurumsal eğitim teklifi alın.",
     heroQuote:
-      "Belirsizlik altında doğru karar vermek, liderliğin en kritik ve en zorlu sınavıdır.",
+      "Belirsizlik altında doğru karar vermek, liderliğin en zorlu sınavıdır.",
     intro: [
       "Yanlış kararlar kurumu geri götürür; kararsızlık ise fırsat kaybettirir.",
       "Bu eğitim; yöneticilere, karar alma süreçlerini yapılandıran, bilişsel tuzaklardan koruyan ve baskı altında bile kararlı kalmayı mümkün kılan pratik araçlar sunar.",
@@ -414,11 +414,11 @@ export const trainingPages: Record<string, TrainingPage> = {
     ],
     format: [
       { label: "Süre", value: "2 gün (12 saat)" },
-      { label: "Format", value: "Şirket içi (in-house) veya açık grup eğitimi" },
+      { label: "Format", value: "Şirket içi veya açık grup" },
       {
         label: "Yöntem",
         value:
-          "Vaka simülasyonları, karar egzersizleri, grup tartışmaları, bireysel refleksiyon",
+          "Karar egzersizleri ve simülasyon",
       },
       { label: "Katılımcı", value: "8–20 kişi" },
     ],
@@ -438,7 +438,7 @@ export const trainingPages: Record<string, TrainingPage> = {
     seoDescription:
       "Zor karakterleri yönetme ve zorlayıcı kişiliklerle başa çıkma eğitimi. Ekip dinamiklerini koruyun, sınır koyun ve üretken ilişkiler kurun. Kurumsal eğitim teklifi alın.",
     heroQuote:
-      "Tek bir zorlayıcı birey, tüm ekip enerjisini tüketebilir; sorun bireyi değil, davranışı yönetmektir.",
+      "Tek bir zorlu kişi ekibi yorar; mesele bireyi değil, davranışı yönetmektir.",
     intro: [
       "Her ekipte zorlayıcı kişilikler vardır: her şeyi bilen, sürekli muhalif olan, pasif agresif davranan ya da performansından bağımsız biçimde ekip enerjisini tüketen bireyler.",
       "Bu eğitim; yöneticilere, bu kişilikleri tanıma, onlarla üretken ilişkiler kurma ve ekip dinamiklerini sağlıklı biçimde koruma becerisi kazandırır.",
@@ -499,11 +499,11 @@ export const trainingPages: Record<string, TrainingPage> = {
     ],
     format: [
       { label: "Süre", value: "2 gün (12 saat)" },
-      { label: "Format", value: "Şirket içi (in-house) veya açık grup eğitimi" },
+      { label: "Format", value: "Şirket içi veya açık grup" },
       {
         label: "Yöntem",
         value:
-          "Rol yapma egzersizleri, vaka senaryoları, grup tartışmaları, bireysel uygulama planı",
+          "Rol yapma ve vaka senaryoları",
       },
       { label: "Katılımcı", value: "8–18 kişi" },
     ],
@@ -524,7 +524,7 @@ export const trainingPages: Record<string, TrainingPage> = {
     seoDescription:
       "Liderler için ikna eğitimi ve ikna psikolojisi programı. Cialdini ilkeleri, paydaş ikna teknikleri ve müzakere becerileri. Kurumsal eğitim teklifi alın.",
     heroQuote:
-      "İkna, baskı değildir; ortak zemin inşa etmektir.",
+      "Gerçek ikna baskı değildir; ortak bir zemin inşa etmektir.",
     intro: [
       "En etkili liderler, emirle değil; anlam yaratarak, güven kazanarak ve doğru çerçeve kurarak insanları harekete geçirir.",
       "Bu eğitim; yöneticilere, psikoloji bilimiyle desteklenmiş ikna tekniklerini ve kurumsal etki alanını genişletmenin stratejik yollarını sunar.",
@@ -586,11 +586,11 @@ export const trainingPages: Record<string, TrainingPage> = {
     ],
     format: [
       { label: "Süre", value: "2 gün (12 saat)" },
-      { label: "Format", value: "Şirket içi (in-house) veya açık grup eğitimi" },
+      { label: "Format", value: "Şirket içi veya açık grup" },
       {
         label: "Yöntem",
         value:
-          "Simülasyonlar, ikna egzersizleri, video analizleri, vaka çalışmaları",
+          "İkna egzersizleri ve simülasyon",
       },
       { label: "Katılımcı", value: "8–16 kişi" },
     ],
@@ -611,7 +611,7 @@ export const trainingPages: Record<string, TrainingPage> = {
     seoDescription:
       "Kurumsal çatışma yönetimi ve problem çözme eğitimi. Ekip içi çatışmaları yapıcı biçimde yönetin, arabuluculuk becerisi kazanın. Şirket içi eğitim teklifi alın.",
     heroQuote:
-      "Sorun, çatışmanın varlığı değil; yönetilmemesidir.",
+      "Sorun, çatışmanın varlığı değil; yönetilmemiş olmasıdır.",
     intro: [
       "Çatışma, kaçınılması gereken bir tehlike değil; doğru yönetildiğinde ekipleri güçlendiren ve yeniliği besleyen bir dinamiktir.",
       "Bu eğitim; yöneticilere, ekip içi ve kurumlar arası çatışmaları erkenden tanıma, yapıcı biçimde müdahale etme ve sistematik problem çözme araçlarını kullanma becerisi kazandırır.",
@@ -669,12 +669,12 @@ export const trainingPages: Record<string, TrainingPage> = {
       "Problemi kök nedeninden çözen sistematik araçlar kullanır",
     ],
     format: [
-      { label: "Süre", value: "1–2 gün; derinliğe göre ayarlanabilir" },
-      { label: "Format", value: "Şirket içi (in-house) veya açık grup eğitimi" },
+      { label: "Süre", value: "1–2 gün (esnek)" },
+      { label: "Format", value: "Şirket içi veya açık grup" },
       {
         label: "Yöntem",
         value:
-          "Rol yapma egzersizleri, canlı çatışma simülasyonları, vaka analizleri, problem çözme atölyeleri",
+          "Çatışma simülasyonları ve atölye",
       },
       { label: "Katılımcı", value: "8–20 kişi" },
     ],
@@ -695,7 +695,7 @@ export const trainingPages: Record<string, TrainingPage> = {
     seoDescription:
       "Yöneticiler için performans yönetimi ve etkili geribildirim eğitimi. OKR, performans görüşmesi teknikleri ve sürekli geribildirim kültürü. Kurumsal eğitim teklifi alın.",
     heroQuote:
-      "Gerçek performans kültürü; sürekli geri bildirim, net beklentiler ve gelişimi destekleyen bir liderlik anlayışıyla şekillenir.",
+      "Performans kültürü; sürekli geri bildirim ve net beklentilerle şekillenir.",
     intro: [
       "Performans yönetimi; yılda bir doldurulan değerlendirme formlarından çok daha fazlasıdır.",
       "Bu eğitim; yöneticilere, bireyin ve ekibin potansiyelini ortaya çıkaran, motivasyonu artıran ve kurumsal sonuçlara katkıda bulunan bir performans yönetimi anlayışı kazandırır.",
@@ -755,11 +755,11 @@ export const trainingPages: Record<string, TrainingPage> = {
     ],
     format: [
       { label: "Süre", value: "2 gün (12 saat)" },
-      { label: "Format", value: "Şirket içi (in-house) veya açık grup eğitimi" },
+      { label: "Format", value: "Şirket içi veya açık grup" },
       {
         label: "Yöntem",
         value:
-          "Geribildirim rol yapma egzersizleri, OKR atölye çalışması, vaka analizleri, görüşme simülasyonları",
+          "Geribildirim ve OKR atölyesi",
       },
       { label: "Katılımcı", value: "8–20 kişi" },
     ],
@@ -780,7 +780,7 @@ export const trainingPages: Record<string, TrainingPage> = {
     seoDescription:
       "Yöneticiler için planlama, organize olma ve zaman yönetimi eğitimi. Önceliklendirme, delege etme ve verimlilik araçları. Kurumsal eğitim teklifi alın.",
     heroQuote:
-      "Bir yöneticinin zamanını nasıl kullandığı; ekibinin enerjisini, kurumun odağını ve sonuçların kalitesini doğrudan belirler.",
+      "Bir yöneticinin zamanı yönetişi; ekibinin enerjisini ve odağını belirler.",
     intro: [
       "Yöneticiler için zaman, en kıt ve en kritik kaynaktır.",
       "Bu eğitim; yöneticilere, operasyonel yoğunluk içinde stratejik önceliklere odaklanmayı, iş yükünü etkili biçimde organize etmeyi ve zamanı gerçek değer yaratan işlere ayırmayı öğretir.",
@@ -848,11 +848,11 @@ export const trainingPages: Record<string, TrainingPage> = {
     ],
     format: [
       { label: "Süre", value: "2 gün (12 saat)" },
-      { label: "Format", value: "Şirket içi (in-house) veya açık grup eğitimi" },
+      { label: "Format", value: "Şirket içi veya açık grup" },
       {
         label: "Yöntem",
         value:
-          "Bireysel zaman analizi egzersizi, planlama atölyesi, grup tartışmaları, kişisel uygulama planı",
+          "Zaman analizi ve planlama",
       },
       { label: "Katılımcı", value: "8–20 kişi" },
     ],
@@ -943,18 +943,18 @@ export const trainingPages: Record<string, TrainingPage> = {
     format: [
       {
         label: "Süre",
-        value: "2 gün; derinliğe ve uygulama yoğunluğuna göre ayarlanabilir",
+        value: "2 gün (esnek)",
       },
-      { label: "Format", value: "Şirket içi (in-house) veya açık grup eğitimi" },
+      { label: "Format", value: "Şirket içi veya açık grup" },
       {
         label: "Yöntem",
         value:
-          "GROW modeli uygulamaları, ikili koçluk egzersizleri, mentorluk simülasyonları, vaka çalışmaları",
+          "GROW modeli ve koçluk egzersizleri",
       },
       {
         label: "Katılımcı",
         value:
-          "8–16 kişi (uygulama yoğunluğu nedeniyle daha küçük gruplar tercih edilir)",
+          "8–16 kişi",
       },
     ],
     faq: [

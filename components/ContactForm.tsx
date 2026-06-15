@@ -52,9 +52,6 @@ export default function ContactForm() {
         Teklif Talebi Gönder
         <Icon name="arrow-right" />
       </button>
-      <p className="form-note">
-        Bilgileriniz yalnızca size dönüş yapmak için kullanılır.
-      </p>
     </form>
   );
 }

@@ -46,10 +46,7 @@ export default function HomePage() {
             src="/ali-ozel.jpg"
             alt="Ali Özel — kurumsal eğitmen ve danışman"
           />
-          <span className="hero-photo-badge">
-            <strong>{site.name}</strong>
-            <small>Eğitmen &amp; Danışman</small>
-          </span>
+          <span className="hero-photo-badge">{site.name}</span>
         </div>
         <div className="container hero-grid">
           <div className="hero-content">
@@ -113,7 +110,7 @@ export default function HomePage() {
       </section>
 
       {/* Categories */}
-      <section className="section">
+      <section className="section cat-section">
         <div className="container">
           <div className="section-head center">
             <span className="eyebrow">Eğitim Alanlarımız</span>

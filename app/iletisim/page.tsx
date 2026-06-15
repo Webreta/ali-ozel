@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Breadcrumb from "@/components/Breadcrumb";
 import ContactForm from "@/components/ContactForm";
 import Icon from "@/components/Icon";
 import { site } from "@/lib/site";
@@ -28,16 +29,29 @@ const items = [
 export default function IletisimPage() {
   return (
     <>
+      <section className="page-hero on-brand">
+        <div className="container">
+          <Breadcrumb items={[{ label: "İletişim" }]} />
+          <span className="badge">
+            <Icon name="mail" style={{ width: 16, height: 16 }} />
+            İletişim
+          </span>
+          <h1>Kurumunuz için teklif alın</h1>
+          <p className="page-lead">
+            İster telefon, ister e-posta; en rahat ettiğiniz kanaldan bize
+            ulaşın. Size en uygun programı birlikte planlayalım.
+          </p>
+        </div>
+      </section>
+
       <section className="section">
         <div className="container contact-grid">
           <div>
-            <span className="eyebrow">İletişim</span>
-            <h1 className="section-title">Kurumunuz için teklif alın</h1>
-            <p className="section-desc" style={{ marginBottom: 12 }}>
-              İster telefon, ister e-posta; en rahat ettiğiniz kanaldan bize
-              ulaşabilirsiniz.
-            </p>
-            <div style={{ marginTop: 20 }}>
+            <span className="eyebrow">İletişim Kanalları</span>
+            <h2 className="section-title" style={{ marginBottom: 20 }}>
+              Bize ulaşın
+            </h2>
+            <div>
               {items.map((it) => {
                 const content = (
                   <>
