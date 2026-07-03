@@ -1,0 +1,762 @@
+{
+  "birlikte-yuruyelim": {
+    "seoTitle": "Birlikte Yürüyelim | Ortak Sorumluluk Takım Aktivitesi",
+    "seoDescription": "Birlikte Yürüyelim ekip aktivitesi: ekip görünmez bir iple bağlıymış gibi koordineli yürür. Ortak sorumluluk ve uyumu yaşayarak öğrenin. Teklif alın.",
+    "heroQuote": "Tek bir adım, tüm zinciri etkiler; hedefe önden koşanlar değil, birlikte ilerleyenler ulaşır.",
+    "intro": [
+      "Bu aktivitede ekip üyeleri, ayakları görünmez bir iple bağlıymış gibi birlikte yürümeye çalışır. Bireysel hız veya istek değil, grubun koordinasyonu belirleyicidir; bir kişinin uyumsuz adımı tüm grubu duraksatır.",
+      "Görünürde basit olan bu deneyim, son derece derin bir mesaj taşır: İşin ritmi ancak herkesi kapsadığında sürdürülebilir olur. Soyut bir kavram olan ortak sorumluluk, burada somut bir beden deneyimine dönüşür.",
+      "Aktivitenin ana mesajı; işin ortak sorumluluğu ve uyumsuzluğun bedelidir. Kısa süresi sayesinde programların açılışında güçlü bir ısınma ve güven inşası deneyimi olarak da kullanılır."
+    ],
+    "audience": "Departmanlar arası koordinasyon sorunları yaşayan ekipler, ortak tempo tutmakta zorlanan gruplar ve ekip uyumunu deneyimsel bir başlangıçla güçlendirmek isteyen her seviyeden kurumsal takımlar için idealdir.",
+    "sections": [
+      {
+        "title": "Aktivite Nasıl Oynanır?",
+        "intro": "Ekip yan yana bir dizi oluşturur; her katılımcı yanındakiyle adım uyumu sağlayarak yürür. Grup, sanki ayakları birbirine bağlıymış gibi aynı anda aynı adımı atmak zorundadır.",
+        "bullets": [
+          "Ekip, koordineli yürüyüş rotasını birlikte tamamlamaya çalışır",
+          "Tek bir kişinin uyumsuz adımı tüm grubu duraksatır veya düşürür",
+          "Grup, kendi ritim ve iletişim dilini bulmak zorundadır",
+          "Farklı zorluk seviyeleri: düz rota, engelli rota, senkronize dönüşler"
+        ]
+      },
+      {
+        "title": "Ortak Sorumluluk Deneyimi",
+        "intro": "Aktivite boyunca katılımcılar, birinin hızlanması ya da yavaşlamasının tüm grubu nasıl etkilediğini fiziksel olarak hisseder. Ortak sorumluluk kavramı, anlatılan bir ilke olmaktan çıkıp yaşanan bir gerçeğe dönüşür.",
+        "bullets": [
+          "Bireysel temponun grup dinamiğine etkisini bizzat hissetme",
+          "\"Ben daha hızlı yürüyebilirdim\" düşüncesinin grup hızına etkisini fark etme",
+          "Bireysel performansın grup uyumuna göre ikincil kalması gerektiğini deneyimleme"
+        ]
+      },
+      {
+        "title": "İletişim ve Koordinasyon",
+        "intro": "Grup, ilerleyebilmek için kendine özgü bir iletişim dili geliştirmek zorundadır. Kim yönlendiriyor, kim takip ediyor? Bu dinamikler saha gözlemiyle kendiliğinden ortaya çıkar.",
+        "bullets": [
+          "Grubun kendi ritmini ve komut dilini bulması",
+          "Liderlik ve takipçilik rollerinin doğal ortamda belirmesi",
+          "Uyumsuzluk anlarında toparlanma ve yeniden senkronizasyon"
+        ]
+      },
+      {
+        "title": "Debriefing: Deneyimi İş Hayatına Bağlama",
+        "intro": "Aktivite sonrasında facilitatör rehberliğinde yürütülen yansıtma aşamasında yaşanan deneyim, gerçek iş hayatındaki karşılıklarıyla ilişkilendirilir.",
+        "bullets": [
+          "Grubu yönlendiren kim oldu, bu rol nasıl ortaya çıktı?",
+          "Uyumsuzluk yaşandığında neler hissedildi?",
+          "Ritmi bulmak ne kadar sürdü, süreçte ne değişti?",
+          "Birinin farklı tempo tutması gerçek ekibi nasıl etkiliyor?"
+        ]
+      },
+      {
+        "title": "Kurumsal Bağlantı",
+        "intro": "Bu aktivite, ekiplerin gündelik iş yaşamındaki senkronizasyon sorunlarını güvenli bir zeminde tartışmaya açar.",
+        "bullets": [
+          "Departmanlar arası koordinasyon sorunlarını görünür kılma",
+          "Hızlı koşanlar ile yavaş hızlananlar arasındaki gerilimi ele alma",
+          "Proje süreçlerindeki senkronizasyon kopukluklarını tartışma zemini oluşturma"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Ortak sorumluluk bilincini somut bir beden deneyimiyle içselleştirir",
+      "Bireysel temponun ekip performansına etkisini fark eder",
+      "Ekip içinde ortak ritim ve iletişim dili geliştirir",
+      "Uyumsuzluğun bedelini güvenli bir ortamda deneyimler",
+      "Liderlik ve takipçilik rollerinin doğal dinamiklerini gözlemler",
+      "Departmanlar arası senkronizasyon sorunlarına içgörü kazanır",
+      "Deneyimi debriefing ile gerçek iş süreçlerine bağlar"
+    ],
+    "format": [
+      { "label": "Süre", "value": "15–30 dakika (debriefing dahil)" },
+      { "label": "Format", "value": "Indoor / Outdoor (düz zemin yeterli)" },
+      { "label": "Yöntem", "value": "Deneyimsel öğrenme: brifing, uygulama, debriefing" },
+      { "label": "Katılımcı", "value": "10–60 kişi (büyük gruplar alt gruplara bölünür)" }
+    ],
+    "faq": [
+      {
+        "q": "Hareket kısıtlılığı olan katılımcılar için uyarlanabilir mi?",
+        "a": "Evet. Aktivite, farklı hareket kapasitelerine göre hız ve mesafe uyarlamasıyla erişilebilir hale getirilebilir."
+      },
+      {
+        "q": "Bu aktivite bağımsız mı kullanılır, yoksa program içinde mi?",
+        "a": "Her ikisi de mümkündür. Kısa süresi nedeniyle genellikle program içinde ısınma veya güven inşası aktivitesi olarak konumlandırılır."
+      },
+      {
+        "q": "Özel bir mekân veya malzeme gerekiyor mu?",
+        "a": "Hayır. Herhangi bir malzeme gerektirmez; indoor veya outdoor fark etmeksizin düz bir zemin yeterlidir."
+      },
+      {
+        "q": "Özel bir kıyafet gerekli mi?",
+        "a": "Rahat hareket etmeye uygun günlük kıyafet ve düz tabanlı ayakkabı yeterlidir; özel spor ekipmanı gerekmez."
+      }
+    ]
+  },
+  "pipetlerle-buyulu-dokunus": {
+    "seoTitle": "Pipetlerle Büyülü Dokunuş | Yaratıcılık Takım Aktivitesi",
+    "seoDescription": "Pipet ve bantla en sağlam köprü veya kuleyi inşa etme yarışı. Kısıtlı kaynakla yaratıcılık, işbirliği ve hızlı karar alma deneyimi. Kurumsal teklif alın.",
+    "heroQuote": "Büyük şeyleri büyük bütçeyle yapmak kolaydır; az kaynakla yapmak gerçek yaratıcılık ve gerçek işbirliği gerektirir.",
+    "intro": [
+      "Bu aktivitede ekipler, yalnızca pipet ve banttan oluşan kısıtlı malzemeyle en sağlam, en estetik ve en büyük köprü ya da kuleyi inşa etmeye çalışır. Zaman baskısı altında fikirler çatışır, roller ortaya çıkar ve işbirliğinin gücü somut biçimde sınanır.",
+      "Kısıtlama yaratıcılığı kısmaz, aksine tetikler. Sınırlı kaynakla çalışmak; ekibin önceliklendirme becerisini, yapıcı fikir çatışmasını ve pragmatik çözüm üretme kapasitesini gün yüzüne çıkarır.",
+      "Aktivitenin ana mesajı; kısıtlı kaynakla verimli çalışma ve işbirliği mantığıdır. Yarışma formatında ya da ekibin kendi rekorunu kırmaya odaklandığı bir formatta uygulanabilir."
+    ],
+    "audience": "Proje yönetimi ve inovasyon süreçlerini güçlendirmek isteyen ekipler, kaynak kısıtı altında çalışan departmanlar ve yaratıcı işbirliğini eğlenceli bir yarışma atmosferinde deneyimlemek isteyen tüm kurumsal takımlar için uygundur.",
+    "sections": [
+      {
+        "title": "Aktivite Nasıl Oynanır?",
+        "intro": "Her ekip eşit malzemeyle yarışa başlar; hedef, belirlenen sürede en yüksek, en dayanıklı ve en estetik yapıyı ortaya çıkarmaktır.",
+        "bullets": [
+          "Her ekibe eşit miktarda pipet, bant ve opsiyonel olarak makas verilir",
+          "Belirlenen sürede (genellikle 20–30 dakika) yapı inşa edilir",
+          "Değerlendirme kriterleri: yükseklik, dayanıklılık ve estetik",
+          "Tamamlanan yapılar karşılaştırılır ve debriefing aşamasına geçilir",
+          "Yarışma veya kendi rekorunu kırma formatında uygulanabilir"
+        ]
+      },
+      {
+        "title": "Kısıtlı Kaynaklarla Yaratıcılık",
+        "intro": "Sınırlı malzeme, ekibi olağan çözümlerin dışına çıkmaya zorlar. Önceliklendirme, yapıcı fikir çatışması ve pragmatik çözüm üretme becerileri doğal biçimde devreye girer.",
+        "bullets": [
+          "Kısıtlamanın yaratıcılığı tetiklediğini bizzat deneyimleme",
+          "Kaynakları önceliklendirme ve akıllıca paylaştırma",
+          "Fikir bolluğundan uygulanabilir çözüme geçiş"
+        ]
+      },
+      {
+        "title": "İşbirliği ve Rol Dağılımı",
+        "intro": "Kim tasarlıyor, kim inşa ediyor, kim kalite kontrol yapıyor? Ekip üyeleri doğal biçimde işbölümü yapar; liderlik ve takipçilik rolleri görünür hale gelir.",
+        "bullets": [
+          "Doğal işbölümünün ve rollerin ortaya çıkışı",
+          "Liderlik ve takipçilik dinamiklerinin gözlemlenmesi",
+          "Farklı güçlü yönlerin ortak hedefte birleşmesi"
+        ]
+      },
+      {
+        "title": "Zaman Baskısı ve Karar Alma Hızı",
+        "intro": "Zaman baskısı altında tartışmak yerine karar vermek gerekir. Aktivite, çok fazla fikrin eyleme geçişi nasıl geciktirdiğini ve uzlaşı kültürünün verimliliğe etkisini somutlaştırır.",
+        "bullets": [
+          "Baskı altında hızlı ve ortak karar alma pratiği",
+          "Fikir tartışması ile eyleme geçiş arasındaki dengeyi kurma",
+          "Uzlaşı kültürünün ekip verimliliğine etkisini fark etme"
+        ]
+      },
+      {
+        "title": "Debriefing ve Kurumsal Bağlantı",
+        "intro": "Yansıtma aşamasında ekipler; fikir üretme süreçlerini, kaynak paylaşımını ve zaman baskısının kararlara etkisini iş hayatındaki karşılıklarıyla birlikte değerlendirir.",
+        "bullets": [
+          "Fikir üretme süreci nasıl yönetildi, kim ne önerdi?",
+          "Zaman baskısı kararları nasıl etkiledi, neyi farklı yapardınız?",
+          "Proje yönetimi ve kaynak kısıtı altında verimlilik tartışması",
+          "Prototipleme kültürü ve departmanlar arası hızlı işbirliği bağlantısı"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Kısıtlı kaynakla verimli çalışma mantığını deneyimleyerek kavrar",
+      "Yaratıcılığın kısıtlamayla nasıl tetiklendiğini keşfeder",
+      "Doğal işbölümü ve rol dağılımı dinamiklerini gözlemler",
+      "Zaman baskısı altında hızlı ve ortak karar alma becerisi geliştirir",
+      "Fikir çatışmasını yapıcı işbirliğine dönüştürür",
+      "Önceliklendirme ve pragmatik çözüm üretme kapasitesini güçlendirir",
+      "Deneyimi proje yönetimi ve inovasyon süreçlerine bağlar"
+    ],
+    "format": [
+      { "label": "Süre", "value": "45–60 dakika (debriefing dahil)" },
+      { "label": "Format", "value": "Indoor (masa başı aktivitesi); online versiyonu mevcut" },
+      { "label": "Yöntem", "value": "Deneyimsel öğrenme: brifing, uygulama, debriefing" },
+      { "label": "Katılımcı", "value": "8–100 kişi (her takım 4–6 kişi)" }
+    ],
+    "faq": [
+      {
+        "q": "Mühendislik bilgisi gerektiriyor mu?",
+        "a": "Hayır. Fizik veya mühendislik bilgisi olmadan da oynanabilir. Aktivite teknik değil; işbirliği ve yaratıcılık odaklıdır."
+      },
+      {
+        "q": "Uzaktan ekipler için online versiyonu var mı?",
+        "a": "Evet. Aynı malzeme seti kargo ile katılımcılara gönderilerek sanal ortamda da uygulanabilir."
+      },
+      {
+        "q": "Kaç kişilik gruplar için uygundur?",
+        "a": "8 ile 100 kişi arasında uygulanabilir. Katılımcılar 4–6 kişilik takımlara bölünür; büyük gruplarda takım sayısı artırılır."
+      },
+      {
+        "q": "Hangi mekânda düzenlenir?",
+        "a": "Masa başı bir aktivite olduğu için kapalı alan tercih edilir; toplantı salonu veya kurumunuzun kapalı alanları yeterlidir."
+      }
+    ]
+  },
+  "kilit-taslari-hayatta-kalma": {
+    "seoTitle": "Kilit Taşları: Hayatta Kalma | Kurumsal Değer Aktivitesi",
+    "seoDescription": "Timsahlı nehir metaforuyla ekip, yalnızca şirket değer taşlarına basarak karşıya geçer. Kurumsal değerleri yaşayarak içselleştirin. Teklif alın.",
+    "heroQuote": "Kurumsal değerler duvardaki posterler değil; baskı altında verilen kararların özüdür.",
+    "intro": [
+      "Bu aktivitede katılımcılar, timsahlı nehir metaforunu şirket değerleri üzerinden deneyimler. Herkes, karşıya geçmek için yalnızca şirket değerlerine dayanan taşları kullanabilir; değerlerden uzaklaşan adım nehre düşürür.",
+      "Soyut bir kavram olan kurumsal değerler, bu kurguda somut ve unutulmaz bir deneyime dönüşür. Katılımcılar değerleri bir liste olarak değil, gerçek bir karar ağırlığıyla yaşar.",
+      "Aktivitenin ana mesajı; ortak değerlerle ortak hedefe ulaşmaktır. Kurumunuzun gerçek değer ifadeleriyle özelleştirilebilen bu deneyim, değerleri poster olmaktan çıkarıp davranışa taşır."
+    ],
+    "audience": "Kurumsal değerlerini deneyimsel biçimde pekiştirmek isteyen yöneticiler, değer entegrasyonu sürecindeki kurumlar ve zor anlarda bile değerlere bağlı bir karar kültürü inşa etmek isteyen her kademeden ekipler için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Aktivite Nasıl Oynanır?",
+        "intro": "Zemine bir nehir simgesi oluşturulur ve ekip, yalnızca şirket değerlerinin yazılı olduğu taşlara basarak karşı kıyıya geçmeye çalışır.",
+        "bullets": [
+          "Katılımcılara şirket değerlerinin yazılı olduğu taş veya platform seti verilir",
+          "Tüm ekip yalnızca bu taşlara basarak karşı kıyıya geçmek zorundadır",
+          "Her adımda katılımcı, bastığı değeri neden seçtiğini kısaca açıklar",
+          "Değere uymayan bir kararla atılan adım o kişiyi nehre düşürür; ekip yeniden başlar",
+          "Tüm ekibin geçmesiyle aktivite tamamlanır"
+        ]
+      },
+      {
+        "title": "Kurumsal Değerleri İçselleştirme",
+        "intro": "Katılımcılar, şirket değerlerini gerçek bir karar ağırlığıyla deneyimler. Hangi değerin ne anlama geldiği, somut bir seçim anında tartışılır.",
+        "bullets": [
+          "Değerleri listeden çıkarıp karar anına taşıma",
+          "Her adımda değer seçimini gerekçelendirme pratiği",
+          "Değerlerin gündelik kararlardaki gerçek ağırlığını fark etme"
+        ]
+      },
+      {
+        "title": "Ortak Değer Diliyle İletişim",
+        "intro": "Ekip üyeleri aynı değeri farklı biçimlerde yorumlayabilir. Bu aktivite, değerlerin ortak anlamda nasıl kullanılacağını netleştirme fırsatı sunar.",
+        "bullets": [
+          "Aynı değerin farklı yorumlarını görünür kılma",
+          "Değerler üzerinde ortak bir dil ve anlam oluşturma",
+          "Ekip içinde değer temelli iletişimi güçlendirme"
+        ]
+      },
+      {
+        "title": "Kriz Altında Değere Bağlılık",
+        "intro": "Baskı ve zaman kısıtı altında değerlerden sapma eğilimi artar. Aktivite bu gerçeği güvenli bir ortamda deneyimletir ve zor anlarda bile değerlere bağlı kalınabileceği inancını güçlendirir.",
+        "bullets": [
+          "Baskı altında değer temelli karar alma pratiği",
+          "Değerden sapmanın bedelini güvenli ortamda görme",
+          "\"Zor anlarda bile değerlerimize bağlı kalabiliriz\" inancını pekiştirme"
+        ]
+      },
+      {
+        "title": "Kurumunuza Özel Uyarlama",
+        "intro": "Bu aktivite, kurumunuzun gerçek değerleri ve zorluklarıyla birebir örtüşecek biçimde tasarlanır.",
+        "bullets": [
+          "Taşlar, kurumunuzun gerçek değer ifadeleriyle hazırlanır",
+          "Senaryo, sektörünüze ve kurumunuzun gerçek zorluklarına göre tasarlanır",
+          "Zorluk seviyesi, yönetim kademesi veya deneyim düzeyine göre ayarlanır"
+        ]
+      },
+      {
+        "title": "Debriefing: Değerleri Tartışmaya Açma",
+        "intro": "Yansıtma aşamasında ekip, değerlerle kurduğu ilişkiyi açık yüreklilikle masaya yatırır.",
+        "bullets": [
+          "Hangi değeri kullanmak en kolay, hangisi en zor geldi?",
+          "Ekibin tümü değerleri aynı biçimde mi yorumladı?",
+          "Değerler gerçekten karar almayı yönlendiriyor mu?",
+          "Bu deneyimden kurumsal değerlerimize dair ne öğrendik?"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Kurumsal değerleri soyut kavramdan somut deneyime taşır",
+      "Değer temelli karar alma refleksini güçlendirir",
+      "Değerlerin ortak yorumunu ve ortak dilini netleştirir",
+      "Baskı altında değerlere bağlı kalma inancını pekiştirir",
+      "Değerlerden sapmanın bedelini güvenli ortamda deneyimler",
+      "Ekip içinde değerler üzerine açık bir tartışma zemini oluşturur",
+      "Kurum değerlerinin gündelik davranışa dönüşmesini destekler"
+    ],
+    "format": [
+      { "label": "Süre", "value": "45–75 dakika (debriefing dahil)" },
+      { "label": "Format", "value": "Indoor / Outdoor (yeterli zemin alanı gerekli)" },
+      { "label": "Yöntem", "value": "Deneyimsel öğrenme: brifing, uygulama, debriefing" },
+      { "label": "Katılımcı", "value": "10–50 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Kurumsal değerlerimiz henüz netleşmedi. Bu aktiviteden yararlanabilir miyiz?",
+        "a": "Evet. Bu aktivite, hem mevcut değerleri pekiştirmek hem de henüz içselleştirilmemiş değerleri tartışmaya açmak için kullanılabilir."
+      },
+      {
+        "q": "Değer taşlarını biz mi hazırlayacağız?",
+        "a": "Hayır. İhtiyaç analizi görüşmesinin ardından kurumunuzun değerlerine özel materyaller tarafımızca hazırlanır."
+      },
+      {
+        "q": "Hangi mekânda uygulanabilir?",
+        "a": "Indoor veya outdoor uygulanabilir; ekibin taşlar üzerinde ilerleyebileceği yeterli zemin alanı olması yeterlidir."
+      },
+      {
+        "q": "Kaç kişiyle oynanabilir?",
+        "a": "10 ile 50 kişi arasındaki gruplar için uygundur; grup büyüklüğüne göre kurgu ve zorluk seviyesi uyarlanır."
+      }
+    ]
+  },
+  "ip-cambazi": {
+    "seoTitle": "İp Cambazı Takım Aktivitesi | Baskı Altında İşbirliği",
+    "seoDescription": "İp Cambazı aktivitesinde takımlar topları renkli iplerle hedefe taşır. Baskı altında koordinasyon, odak ve sessiz iletişim deneyimi. Kurumsal teklif alın.",
+    "heroQuote": "Baskı altında koordinasyon; ofiste de üretimde de en kolay bozulan şeydir.",
+    "intro": [
+      "Bu aktivitede iki takım, topları yere düşürmeden renkli iplerin üzerinde hedef bölgeye taşımaya çalışır. Top yalnızca ipler aracılığıyla taşınabilir; elle dokunmak yasaktır.",
+      "Görünürde çok basit olan bu görev; koordinasyon, odak ve iletişim aynı anda sınanınca şaşırtıcı biçimde zorlaşır. Başarı, bireysel beceriden değil, senkronize hareket eden bir ekipten geçer.",
+      "Aktivitenin ana mesajı; baskı altında işbirliği ve odaktır. Grup, ip üzerinden sessiz bir iletişim dili geliştirir ve dikkat dağıtıcılara rağmen odaklanmayı öğrenir."
+    ],
+    "audience": "Yoğun tempo ve zaman baskısı altında çalışan ekipler, koordinasyon gerektiren süreçleri yürüten takımlar ve baskı anlarında odak ile işbirliğini korumayı deneyimsel biçimde geliştirmek isteyen tüm kurumsal gruplar için uygundur.",
+    "sections": [
+      {
+        "title": "Aktivite Nasıl Oynanır?",
+        "intro": "Her ekip, uçlarından tuttuğu iplerle bir topu dengede tutarak belirlenen rotada hedefe taşımaya çalışır. Basit görünen görev, baskı eklendikçe zorlaşır.",
+        "bullets": [
+          "Her ekip uçlarından ip tutarak bir top veya nesneyi dengede taşır",
+          "Top yalnızca ipler aracılığıyla taşınabilir; elle dokunulamaz",
+          "Rota; engeller, dönüşler veya aktarım noktaları içerebilir",
+          "Top yere düştüğünde başlangıç noktasına dönülür",
+          "İlk hedefe ulaşan takım kazanır; zorluk seviyeleri artırılabilir"
+        ]
+      },
+      {
+        "title": "Baskı Altında Senkronizasyon",
+        "intro": "Zaman baskısı arttıkça bireyler kendi hızıyla hareket etme eğilimi gösterir. Bu aktivite, baskı altında koordinasyonu koruma becerisini doğrudan test eder ve güçlendirir.",
+        "bullets": [
+          "Baskı anında bireysel hız dürtüsünü fark etme",
+          "Ekip temposuna uyum sağlayarak dengeyi koruma",
+          "Hata sonrası (top düştüğünde) toparlanma ve yeniden odaklanma"
+        ]
+      },
+      {
+        "title": "Sessiz İletişim",
+        "intro": "Grup, ip aracılığıyla sessiz bir iletişim dili geliştirir. Kim yönlendiriyor, kim uyum sağlıyor? Bu dinamikler gözle görülür biçimde sahneye çıkar.",
+        "bullets": [
+          "Sözsüz sinyallerle ekip koordinasyonu kurma",
+          "Yönlendiren ve uyum sağlayan rollerin doğal dağılımı",
+          "İletişim netliğinin sonuca doğrudan etkisini gözlemleme"
+        ]
+      },
+      {
+        "title": "Odak Yönetimi",
+        "intro": "Diğer takım, gürültü ve zaman baskısı gibi dış faktörler konsantrasyonu bozar. Aktivite, dikkat dağıtıcılara rağmen odaklanma kapasitesini güçlendirir.",
+        "bullets": [
+          "Dikkat dağıtıcı faktörleri tanıma ve yönetme",
+          "Rekabet ortamında konsantrasyonu koruma",
+          "Ortak hedefe kilitlenme pratiği"
+        ]
+      },
+      {
+        "title": "Debriefing: Deneyimi İş Hayatına Bağlama",
+        "intro": "Yansıtma aşamasında ekip; iletişim biçimini, baskının etkilerini ve odak kırılmalarını gerçek iş yaşamındaki karşılıklarıyla değerlendirir.",
+        "bullets": [
+          "İletişim nasıl kuruldu, kimin sesi öne çıktı?",
+          "Zaman baskısı senkronizasyonu nasıl etkiledi?",
+          "Top düştüğünde ekip nasıl tepki verdi?",
+          "İş hayatında hangi durumlarda benzer baskı hissediliyor?"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Baskı altında koordinasyonu koruma becerisini güçlendirir",
+      "Sözsüz ve sessiz iletişim dinamiklerini deneyimler",
+      "Dikkat dağıtıcılara rağmen odaklanma kapasitesini geliştirir",
+      "Bireysel hız dürtüsü ile ekip temposu arasındaki dengeyi kurar",
+      "Hata sonrası toparlanma ve yeniden başlama refleksini pekiştirir",
+      "Yönlendirme ve uyum sağlama rollerine dair farkındalık kazanır",
+      "Deneyimi iş hayatındaki baskı anlarına bağlayarak içgörü üretir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "30–60 dakika (debriefing dahil)" },
+      { "label": "Format", "value": "Indoor / Outdoor (5x5 metre temiz alan yeterli)" },
+      { "label": "Yöntem", "value": "Deneyimsel öğrenme: brifing, uygulama, debriefing" },
+      { "label": "Katılımcı", "value": "8–40 kişi (takım başına 4–8 kişi)" }
+    ],
+    "faq": [
+      {
+        "q": "Yoğun rekabetçi bir atmosfer yaratıyor mu?",
+        "a": "Aktivitenin tonu facilitatör tarafından ayarlanır. Rekabetçi veya sadece kişisel rekor odaklı bir format seçilebilir; hangi dinamiğin daha verimli öğrenmeye yol açacağı ihtiyaç analizine göre belirlenir."
+      },
+      {
+        "q": "Ne kadar alan gerekiyor?",
+        "a": "5x5 metrelik temiz bir alan yeterlidir; indoor veya outdoor fark etmeksizin uygulanabilir."
+      },
+      {
+        "q": "Fiziksel kondisyon gerektiriyor mu?",
+        "a": "Hayır. Aktivite yoğun fiziksel efor gerektirmez; her yaş ve fiziksel durumdan katılımcıya uygun biçimde uygulanabilir."
+      },
+      {
+        "q": "Kaç kişilik gruplar için uygundur?",
+        "a": "8 ile 40 kişi arasında uygundur; katılımcılar takım başına 4–8 kişilik gruplara ayrılır."
+      }
+    ]
+  },
+  "petrol-boru-hatti": {
+    "seoTitle": "Petrol Boru Hattı | Koordinasyon Takım Aktivitesi",
+    "seoDescription": "S dizilimindeki ekip, topları sürekli yer değiştirerek kovaya ulaştırır. Koordinasyon, ritim ve eşit sorumluluğu yaşayarak öğrenin. Kurumsal teklif alın.",
+    "heroQuote": "Bir zincirde her halka eşit güçte olmazsa, en zayıf halka tüm sistemi belirler.",
+    "intro": [
+      "Bu aktivitede S şeklinde dizilen ekip, topları kovaya ulaştırmak için sürekli yer değiştirir. Her kişi bir boru parçası rolündedir ve hat, dinamik biçimde akmak zorundadır.",
+      "Sistemin işlemesi için herkesin eşit motivasyonu ve ritmik koordinasyonu zorunludur. Tek bir kişinin yavaşlaması ya da heyecanını kaybetmesi tüm hattı etkiler; katkının eşitsizleşmesi anında görünür hale gelir.",
+      "Aktivitenin ana mesajı; koordinasyon ve eşit sorumluluktur. Bu deneyimde öne çıkan bir \"yıldız\" yoktur; başarı, herkesin eşit enerji ve konsantrasyonla akan sistemin kendisidir."
+    ],
+    "audience": "Uzun soluklu projelerde tempo yönetimi arayan ekipler, katkı dengesizliği yaşayan gruplar ve eşit sorumluluk ile sürdürülebilir ritim kültürünü deneyimsel biçimde pekiştirmek isteyen her ölçekteki kurumsal takımlar için uygundur.",
+    "sections": [
+      {
+        "title": "Aktivite Nasıl Oynanır?",
+        "intro": "Ekip S veya U şeklinde dizilir ve toplar, zincirin başından sonuna iletilerek kova hedefine ulaştırılır. Hattın akışı hiç durmamalıdır.",
+        "bullets": [
+          "Ekip S veya U şeklinde sıraya dizilir; her kişi bir boru parçası rolündedir",
+          "Toplar zincirin başından sonuna iletilir ve kovaya ulaştırılır",
+          "Top iletilirken kişiler sürekli yer değiştirir; hat dinamik biçimde akar",
+          "Farklı büyüklükte toplar zorluğu ve koordinasyon gereksinimini artırır",
+          "Belirli sürede kovaya ulaştırılan top sayısı skoru oluşturur"
+        ]
+      },
+      {
+        "title": "Her Bireyden Eşit Katkı",
+        "intro": "Bu aktivitede öne çıkan yıldız yoktur. Sistemin akması, herkesin eşit enerji ve konsantrasyonla hareket etmesini gerektirir; katkının eşitsizleşmesi anında görünür hale gelir.",
+        "bullets": [
+          "Eşit sorumluluğun sistem üzerindeki belirleyici rolünü deneyimleme",
+          "Katkı dengesizliğinin anında görünür olması",
+          "\"En zayıf halka\" dinamiğini güvenli ortamda gözlemleme"
+        ]
+      },
+      {
+        "title": "Ritim ve Sürdürülebilir Hız",
+        "intro": "Aktivitenin erken bölümünde yüksek enerji, sürdürülemez bir hız yaratabilir. Ekip, sürdürülebilir bir ritim bulmayı öğrenmek zorundadır; bu, uzun soluklu projelerdeki tempo yönetimini simüle eder.",
+        "bullets": [
+          "Başlangıç coşkusu ile sürdürülebilir tempo arasındaki farkı görme",
+          "Ekipçe ortak bir ritim bulma ve koruma",
+          "Uzun soluklu projelerdeki tempo yönetimini simülasyonla yaşama"
+        ]
+      },
+      {
+        "title": "Anlık Motivasyon Yönetimi",
+        "intro": "\"Yoruldum, biraz yavaşlayayım\" düşüncesinin tüm sistemi nasıl etkilediği gözle görülür biçimde deneyimlenir. Anlık motivasyon düşüşünün toplu etkisi, güçlü bir empati ve sorumluluk dersi verir.",
+        "bullets": [
+          "Bireysel motivasyon düşüşünün toplu etkisini fark etme",
+          "Ekip arkadaşının yavaşlamasına yapıcı tepki geliştirme",
+          "Empati ve sorumluluk bilincini birlikte güçlendirme"
+        ]
+      },
+      {
+        "title": "Debriefing: Deneyimi İş Hayatına Bağlama",
+        "intro": "Yansıtma aşamasında ekip; ritmi kimin belirlediğini, motivasyon dalgalanmalarını ve daha iyi sonuç için nelerin değişebileceğini iş süreçleriyle ilişkilendirir.",
+        "bullets": [
+          "Ritim nasıl bulundu, kim belirledi?",
+          "Bir kişinin yavaşlaması fark edildiğinde nasıl tepki verildi?",
+          "Motivasyon süreç içinde nasıl değişti?",
+          "Uzun soluklu projelerde bu dinamikler ne ölçüde örtüşüyor?"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Eşit sorumluluk ve eşit katkı bilincini deneyimleyerek içselleştirir",
+      "Sürdürülebilir ritim ve tempo yönetimi becerisi geliştirir",
+      "Bireysel motivasyon düşüşünün toplu etkisini fark eder",
+      "Koordinasyon ve akış halinde çalışma pratiği kazanır",
+      "Ekip arkadaşlarına karşı empati ve destek refleksini güçlendirir",
+      "Uzun soluklu projelerdeki tempo dinamiklerine içgörü kazanır",
+      "Katkı dengesini ekipçe yönetme kültürünü pekiştirir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "30–45 dakika (debriefing dahil)" },
+      { "label": "Format", "value": "Indoor / Outdoor (geniş açık alan veya koridor)" },
+      { "label": "Yöntem", "value": "Deneyimsel öğrenme: brifing, uygulama, debriefing" },
+      { "label": "Katılımcı", "value": "8–60 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Büyük gruplar için nasıl uyarlanır?",
+        "a": "Büyük gruplarda birden fazla paralel hat oluşturulur ve hatlar arası skor karşılaştırması yapılır. Bu yaklaşım aktiviteye rekabetçi bir boyut da katar."
+      },
+      {
+        "q": "Hangi mekânda uygulanabilir?",
+        "a": "Indoor veya outdoor uygulanabilir; geniş açık alan ya da koridor yeterlidir."
+      },
+      {
+        "q": "Fiziksel kondisyon gerektiriyor mu?",
+        "a": "Yoğun kondisyon gerektirmez; sürekli yer değiştirme içerdiği için rahat kıyafet ve ayakkabı önerilir. Aktivite, katılımcıların fiziksel durumuna göre uyarlanabilir."
+      },
+      {
+        "q": "Hangi malzemeler kullanılır?",
+        "a": "Plastik borular veya oluklu kanal parçaları, farklı boyutta toplar ve kova ya da hedef sepeti kullanılır; tüm malzemeler tarafımızca sağlanır."
+      }
+    ]
+  },
+  "kule-yapma": {
+    "seoTitle": "Kule Yapma Takım Aktivitesi | İletişim ve Ortak Vizyon",
+    "seoDescription": "Ekip, özel aparatla renkli tuğlaları dengede üst üste yerleştirir. İletişim, koordinasyon ve ortak vizyonu deneyimleyin. Kurumsal team building teklifi alın.",
+    "heroQuote": "Bir kule, her katılımcının katkısıyla yükselir.",
+    "intro": [
+      "Bu aktivitede ekip, özel bir aparat ile renkli tuğlaları dengede üst üste yerleştirmeye çalışır. İletişim ve koordinasyon, yapının yükselmesiyle birlikte sınanır; kule düştüğünde baştan başlanır.",
+      "Aktivite; hem fiziksel bir dikkat ve ustalık hem de ekip içi iletişim kalitesini test eder. Kimse kulenin tüm yönünü göremez; tüm ekip, ortak bir vizyon etrafında birbirini tamamlayan katkılarla çalışmak zorundadır.",
+      "Aktivitenin ana mesajı; bağlılık, iletişim ve ortak vizyondur. 20 kişiye kadar aynı anda aktif katılım sağlanabilen geniş kapsamlı bir ekip deneyimidir."
+    ],
+    "audience": "İletişim netliğini ve karar süreçlerini güçlendirmek isteyen ekipler, ortak hedef ve vizyon etrafında hizalanmak isteyen gruplar ve farklı bakış açılarını tek bir sonuçta birleştirmeyi deneyimlemek isteyen 20 kişiye kadar tüm kurumsal takımlar için uygundur.",
+    "sections": [
+      {
+        "title": "Aktivite Nasıl Oynanır?",
+        "intro": "Ekip, aparatı birlikte tutarak renkli tuğlaları sırayla üst üste yerleştirir. Yapı yükseldikçe hem denge hem iletişim zorlaşır.",
+        "bullets": [
+          "Ekip aparatı birlikte tutarak tuğlaları sırayla üst üste yerleştirir",
+          "Her tuğla yerleştirme, grup koordinasyonu ve iletişim gerektirir",
+          "Kule düştüğünde baştan başlanır; tamamlanan kat sayısı skoru oluşturur",
+          "Sıralı yerleştirme kuralı (belirli renk sırası) ek zorluk katabilir",
+          "20 kişiye kadar aynı anda aktif katılım sağlanabilir"
+        ]
+      },
+      {
+        "title": "Baskı Altında Net İletişim",
+        "intro": "Herkes kuleyi farklı bir açıdan görür. Tuğlayı doğru yere yerleştirmek için ekip üyelerinin birbirini net biçimde yönlendirmesi gerekir; belirsiz iletişim kulenin devrilmesine neden olur.",
+        "bullets": [
+          "Net yönlendirme ile belirsiz iletişim arasındaki farkı görme",
+          "Farklı açılardan gelen bilgiyi tek bir harekette birleştirme",
+          "Yükselen risk altında iletişim kalitesini koruma"
+        ]
+      },
+      {
+        "title": "Ortak Vizyonu Koruma",
+        "intro": "\"Kuleyi ne kadar yüksek yapacağız?\" sorusunun yanıtı tüm ekipte aynı olmalıdır. Vizyon farklılaştığında risk iştahı da farklılaşır ve kararlar çatışır.",
+        "bullets": [
+          "Ortak hedef üzerinde uzlaşma pratiği",
+          "Vizyon farklılığının karar çatışmasına dönüşmesini gözlemleme",
+          "Risk iştahını ekipçe dengeleme"
+        ]
+      },
+      {
+        "title": "Birbirini Tamamlayan Katkılar",
+        "intro": "Kimse kulenin tüm yönünü göremez. Bu aktivite, farklı bakış açılarının bir araya gelmesinin ne kadar kritik olduğunu doğrudan deneyimletir.",
+        "bullets": [
+          "Her katılımcının benzersiz görüş açısının değerini fark etme",
+          "Katkıların birbirini tamamlamasıyla ortak sonuç üretme",
+          "Bağlılık ve birlikte başarma duygusunu pekiştirme"
+        ]
+      },
+      {
+        "title": "Debriefing: Deneyimi İş Hayatına Bağlama",
+        "intro": "Yansıtma aşamasında ekip; karar süreçlerini, iletişim biçimini ve devrilme anlarındaki tepkilerini iş yaşamındaki süreçlerle ilişkilendirir.",
+        "bullets": [
+          "Kararları kim verdi, bu süreç nasıl işledi?",
+          "Kule devrildiğinde ekip nasıl tepki verdi?",
+          "\"Ne kadar yüksek?\" sorusunda uzlaşıldı mı?",
+          "İş hayatındaki hangi süreçlerde bu dinamik yaşanıyor?"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Baskı altında net ve yönlendirici iletişim becerisi geliştirir",
+      "Ortak vizyon etrafında hizalanma pratiği kazanır",
+      "Farklı bakış açılarını tek bir sonuçta birleştirmeyi deneyimler",
+      "Risk iştahını ekipçe dengeleme ve uzlaşma kültürünü güçlendirir",
+      "Başarısızlık (devrilme) sonrası toparlanma refleksini pekiştirir",
+      "Ekip içi bağlılık ve birlikte başarma duygusunu artırır",
+      "Karar alma süreçlerine dair somut içgörüler üretir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "30–60 dakika (debriefing dahil)" },
+      { "label": "Format", "value": "Indoor (düz masa veya zemin gerekli)" },
+      { "label": "Yöntem", "value": "Deneyimsel öğrenme: brifing, uygulama, debriefing" },
+      { "label": "Katılımcı", "value": "8–20 kişi (büyük gruplar paralel takımlara bölünür)" }
+    ],
+    "faq": [
+      {
+        "q": "Aparat kurulumu ne kadar sürer?",
+        "a": "Deneyimli facilitatör tarafından 10 dakika içinde kurulur. Kurulum sürecinde katılımcılar ısınma faaliyetiyle meşgul tutulabilir."
+      },
+      {
+        "q": "Bu aktivite daha büyük gruplar için uyarlanabilir mi?",
+        "a": "20 kişiyi aşan gruplarda paralel takımlar oluşturularak aynı anda birden fazla kule yapılabilir. Bu, aktiviteye rekabetçi bir boyut da katar."
+      },
+      {
+        "q": "Hangi mekân gerekiyor?",
+        "a": "Kapalı alanda, düz bir masa veya zemin üzerinde uygulanır; toplantı salonu veya kurumunuzun kapalı alanları yeterlidir."
+      },
+      {
+        "q": "Fiziksel güç gerektiriyor mu?",
+        "a": "Hayır. Aktivite kas gücünden çok dikkat, denge ve iletişim gerektirir; her yaş ve fiziksel durumdan katılımcıya uygundur."
+      }
+    ]
+  },
+  "kalas-ile-takim-olabilme": {
+    "seoTitle": "Kalas ile Takım Olabilme | Rekabet ve Dayanışma Aktivitesi",
+    "seoDescription": "4 kişilik ekipler kalaslar üzerinde bayrak yarışı parkurunu tamamlar; bitiren ekip diğerlerini motive eder. Rekabet ve dayanışma dengesi. Teklif alın.",
+    "heroQuote": "Rekabet; ekipleri ya ayırır ya da güçlendirir.",
+    "intro": [
+      "Bu aktivitede 4 kişilik alt ekipler, ayakları kalaslara sabitlenmiş biçimde bayrak yarışı parkurunu tamamlamaya çalışır. Dört kişi her adımda senkronize hareket etmek zorundadır.",
+      "Aktivitenin en güçlü mekanizması bitiş çizgisinden sonra başlar: Her turu bitiren takım, henüz tamamlamamış ekipleri sözlü ve fiziksel olarak destekler. Bireysel başarı ekip başarısına dönüşür; rekabetçi atmosfer dayanışmaya evrilir.",
+      "Aktivitenin ana mesajı; rekabet ve takım dayanışması dengesidir. Deneyim, kurumda \"kazananların kaybedenleri aşağıladığı\" değil, \"güçlülerin diğerlerini güçlendirdiği\" bir kültürü simüle eder."
+    ],
+    "audience": "Rekabet ile dayanışma dengesini kurmak isteyen satış ve saha ekipleri, alt grup dinamiklerini görünür kılmak isteyen büyük takımlar ve destekleyici bir başarı kültürünü deneyimsel biçimde inşa etmek isteyen tüm kurumsal gruplar için uygundur.",
+    "sections": [
+      {
+        "title": "Aktivite Nasıl Oynanır?",
+        "intro": "Her 4 kişilik alt ekip, bir çift kalas üzerinde koordineli yürüyerek parkuru tamamlar. Yarış, tüm alt ekipler bitirdiğinde sona erer.",
+        "bullets": [
+          "Her 4 kişilik alt ekibe bir çift kalas verilir; ayaklar kalasa bağlıdır",
+          "Ekip, koordineli biçimde yürüyerek parkuru tamamlar",
+          "Turu bitiren ekip, henüz tamamlamamış ekipleri sözlü ve fiziksel olarak destekler",
+          "Tüm alt ekipler tamamladığında aktivite sona erer",
+          "Dar parkur, dönüşler veya engeller eklenerek zorluk artırılabilir"
+        ]
+      },
+      {
+        "title": "İçsel Ekip Koordinasyonu",
+        "intro": "Dört kişi her adımda senkronize hareket etmek zorundadır. Kim liderlik ediyor, kim uyum sağlıyor? Bu küçük dinamikler, kalabalık grup ortamında çok daha net biçimde gözlemlenir.",
+        "bullets": [
+          "Adım adım senkronize hareket pratiği",
+          "Alt ekip içinde doğal liderlik ve uyum rollerinin belirmesi",
+          "Ortak ritim ve komut dili geliştirme"
+        ]
+      },
+      {
+        "title": "Rekabeti Dayanışmaya Dönüştürme",
+        "intro": "Tamamlayan ekibin diğerlerini destekleme sorumluluğu üstlenmesi, rekabetçi atmosferi dayanışmaya çevirir. Bu mekanizma, güçlülerin diğerlerini güçlendirdiği bir kültürü simüle eder.",
+        "bullets": [
+          "Bireysel başarının ekip başarısına dönüşmesini deneyimleme",
+          "Bitiren ekibin motive edici rol üstlenmesi",
+          "Dayanışmanın rekabetten daha güçlü bir enerji kaynağı olduğunu görme"
+        ]
+      },
+      {
+        "title": "Alt Ekip Dinamiklerini Büyütme",
+        "intro": "Büyük ekiplerde alt grupların dinamikleri çoğu zaman görünmez kalır. Bu aktivite, küçük ekip koordinasyonunu büyük grubun gözünde netleştirir.",
+        "bullets": [
+          "Küçük grup dinamiklerini büyük grup önünde görünür kılma",
+          "Alt ekipler arası etkileşim ve destek kültürünü gözlemleme",
+          "Grup içi rollerin ve seslerin dağılımını fark etme"
+        ]
+      },
+      {
+        "title": "Debriefing: Deneyimi İş Hayatına Bağlama",
+        "intro": "Yansıtma aşamasında ekip; alt grup dinamiklerini, destekleme deneyimini ve rekabet-dayanışma dengesini kurumsal yaşamdaki karşılıklarıyla değerlendirir.",
+        "bullets": [
+          "Alt ekipte kimin sesine kulak verildi?",
+          "Diğer ekipleri desteklemek nasıl hissettirdi?",
+          "Rekabetçi mi, dayanışmacı mı bir atmosfer yaşandı?",
+          "Kurumda bu dinamiğin karşılığı nedir?"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Rekabet ile dayanışma arasındaki dengeyi deneyimleyerek kavrar",
+      "Küçük ekip içinde senkronize hareket ve koordinasyon becerisi geliştirir",
+      "Bireysel başarıyı ekip başarısına dönüştürme kültürünü içselleştirir",
+      "Tamamlayanın destekleyici rol üstlendiği bir başarı anlayışı kazanır",
+      "Alt grup dinamiklerine dair farkındalık geliştirir",
+      "Motivasyonun bulaşıcı gücünü bizzat deneyimler",
+      "Destekleyici ekip kültürünü kurumsal yaşama taşıyacak içgörüler üretir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "40–60 dakika (debriefing dahil)" },
+      { "label": "Format", "value": "Outdoor tercih edilir; indoor versiyonu mümkündür" },
+      { "label": "Yöntem", "value": "Deneyimsel öğrenme: brifing, uygulama, debriefing" },
+      { "label": "Katılımcı", "value": "8–80 kişi (4 kişilik alt ekipler)" }
+    ],
+    "faq": [
+      {
+        "q": "Fiziksel engeli olan katılımcılar için uyarlanabilir mi?",
+        "a": "Evet. Kalas aktivitesi hareket kapasitesine göre uyarlanabilir. Farklı yetkinlikteki katılımcılar; destekleyici veya gözlemci-koç rollerinde aktif biçimde dahil edilebilir."
+      },
+      {
+        "q": "Kaç tur oynandığında verim en yüksek oluyor?",
+        "a": "Genellikle 2–3 tur; öğrenme eğrisinin tamamlanmasını ve motivasyonun zirvede tutulmasını sağlar. Fazla tur fiziksel yorgunluğa yol açabilir."
+      },
+      {
+        "q": "Hangi mekânda düzenlenir?",
+        "a": "Outdoor tercih edilir; yeterli uzunlukta düz bir alan gereklidir. İhtiyaç halinde indoor versiyonu da uygulanabilir."
+      },
+      {
+        "q": "Nasıl bir kıyafet önerilir?",
+        "a": "Rahat hareket etmeye uygun kıyafet ve kapalı, düz tabanlı spor ayakkabı önerilir; outdoor uygulamalarda hava koşullarına uygun giyim yeterlidir."
+      }
+    ]
+  },
+  "gokkusaginda-yuruyebilme": {
+    "seoTitle": "Gökkuşağında Yürüyebilme | Senkron ve İletişim Aktivitesi",
+    "seoDescription": "Gökkuşağı halkası içindeki takımlar koordineli hareketle hedefe ulaşır. Senkronizasyon, net iletişim ve çeşitlilik içinde uyum deneyimi. Teklif alın.",
+    "heroQuote": "Ekibin uyumu, bireysel güzelliklerden değil; birlikte yaratılan ahenkten doğar.",
+    "intro": [
+      "Bu aktivitede gökkuşağı halkası içindeki takımlar, koordineli ve doğru iletişim kullanarak hedefe ulaşmaya çalışır. Hareket; birlikte, senkronize ve uyumlu biçimde gerçekleşmek zorundadır.",
+      "Tek bir kişinin ritmi bozması, renklerin dağılmasına neden olur. Hareket kararları grup tarafından birlikte verilir; tek kişi yönetemez. Bu da ekibi ortak karar almanın ve net iletişimin merkezine yerleştirir.",
+      "Aktivitenin ana mesajı; koordinasyon, iletişim ve senkronize harekettir. Gökkuşağı metaforu, farklılıkların bir arada yarattığı güzelliği simgeler; farklı kişilikler, hızlar ve bakış açıları uyum içinde çalışmayı öğrenir."
+    ],
+    "audience": "Farklı departman veya kökenlerden oluşan çeşitli ekipler, ortak karar alma pratiğini güçlendirmek isteyen gruplar ve senkronize hareket ile net iletişimi deneyimsel biçimde geliştirmek isteyen tüm kurumsal takımlar için idealdir.",
+    "sections": [
+      {
+        "title": "Aktivite Nasıl Oynanır?",
+        "intro": "Her takım, birbirine bağlı renkli halkalar içinde konumlanır ve halkalar bozulmadan belirlenen rotayı koordineli biçimde tamamlamaya çalışır.",
+        "bullets": [
+          "Her takım birbirine bağlı renkli halkalar içinde konumlanır",
+          "Ekip, halkalar bozulmadan koordineli biçimde rotayı tamamlar",
+          "Hareket kararları grup tarafından birlikte verilir; tek kişi yönetemez",
+          "Farklı takımlar paralel çalışabilir; skor veya süre karşılaştırılır",
+          "Gelişmiş versiyon: takımlar birbirlerinin halkasını kesen güzergâhlardan geçer"
+        ]
+      },
+      {
+        "title": "Senkronize Karar Alma",
+        "intro": "Halkalar içinde hareket, ortak bir karar olmadan gerçekleşemez. Kim öneriyor, kim kabul ediyor, kim veto ediyor? Bu dinamikler aktivite boyunca netleşir.",
+        "bullets": [
+          "Ortak karar olmadan hareket edilemeyen bir kurgu deneyimleme",
+          "Öneri, kabul ve veto dinamiklerini görünür kılma",
+          "Grupça karar alma hızını ve kalitesini geliştirme"
+        ]
+      },
+      {
+        "title": "İletişim Kalitesi ve Netliği",
+        "intro": "\"Sola dön\" ile \"biraz sola dön\" arasındaki fark, aktivitede anında görülür. Net iletişim ile belirsiz iletişimin sonuca etkisi deneyimsel biçimde öğrenilir.",
+        "bullets": [
+          "Net komut ile belirsiz komutun sonuç farkını anında görme",
+          "İletişim netliğinin ekip performansına doğrudan etkisini deneyimleme",
+          "Ortak bir yönlendirme dili geliştirme"
+        ]
+      },
+      {
+        "title": "Çeşitlilik İçinde Uyum",
+        "intro": "Gökkuşağı metaforu, farklılıkların bir arada yarattığı güzelliği simgeler. Aktivite; farklı kişiliklerin, hızların ve bakış açılarının uyum içinde çalışmasını somutlaştırır.",
+        "bullets": [
+          "Farklılıkları uyumun kaynağı olarak deneyimleme",
+          "Farklı hız ve tarzları ortak ritimde buluşturma",
+          "Çeşitli ekiplerde birlikte çalışma kültürünü pekiştirme"
+        ]
+      },
+      {
+        "title": "Debriefing: Deneyimi İş Hayatına Bağlama",
+        "intro": "Yansıtma aşamasında ekip; koordinasyon rollerini, iletişim kırılmalarını ve gökkuşağı metaforunun kendi ekiplerindeki karşılığını değerlendirir.",
+        "bullets": [
+          "Koordinasyonu kim sağladı, roller nasıl dağıldı?",
+          "İletişimin net olmadığı anlar nasıl fark edildi?",
+          "Gökkuşağı metaforu ekibi nasıl tanımlıyor?",
+          "Bu deneyimden çalışma şekline taşınacak tek şey ne olurdu?"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Senkronize hareket ve grup koordinasyonu becerisi geliştirir",
+      "Ortak karar alma dinamiklerini deneyimleyerek kavrar",
+      "Net iletişim ile belirsiz iletişimin sonuç farkını içselleştirir",
+      "Farklılık içinde uyum kültürünü somut biçimde yaşar",
+      "Ekip içinde ortak bir yönlendirme dili oluşturur",
+      "Ritim bozulmalarına karşı toparlanma refleksi kazanır",
+      "Çeşitli ekiplerde birlikte çalışma motivasyonunu güçlendirir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "30–40 dakika (debriefing dahil)" },
+      { "label": "Format", "value": "Indoor / Outdoor (yeterli hareket alanı gerekli)" },
+      { "label": "Yöntem", "value": "Deneyimsel öğrenme: brifing, uygulama, debriefing" },
+      { "label": "Katılımcı", "value": "8–48 kişi (takım başına 6–12 kişi)" }
+    ],
+    "faq": [
+      {
+        "q": "Bu aktivite hangi mesajı en iyi taşır?",
+        "a": "Özellikle çeşitli departman veya kökenlerden oluşan ekipler için, farklılık içinde uyum ve koordinasyon mesajını taşımada son derece güçlüdür."
+      },
+      {
+        "q": "Kapalı alanda mekân sınırlaması var mı?",
+        "a": "Takım başına en az 4x4 metrelik açık alan yeterlidir. Büyük gruplar için mekân ihtiyacı artar; program tasarımından önce mekân analizi yapılır."
+      },
+      {
+        "q": "Kaç kişilik gruplar için uygundur?",
+        "a": "8 ile 48 kişi arasında uygundur; takımlar 6–12 kişilik gruplar halinde oluşturulur ve paralel çalışabilir."
+      },
+      {
+        "q": "Fiziksel kondisyon gerektiriyor mu?",
+        "a": "Hayır. Aktivite yoğun fiziksel efor gerektirmez; rahat kıyafetle her yaş ve fiziksel durumdan katılımcı rahatlıkla yer alabilir."
+      }
+    ]
+  }
+}

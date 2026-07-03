@@ -1,0 +1,828 @@
+{
+  "uretimde-iliski-yonetimi-verimlilik": {
+    "seoTitle": "Üretimde İlişki Yönetimi ve Verimlilik | Mühendis Eğitimi",
+    "seoDescription": "Mühendis liderler için üretimde ilişki yönetimi ve verimlilik eğitimi. Mühendis-operatör iletişimi, güven inşası ve teknik kararları sahaya taşıma.",
+    "heroQuote": "En iyi teknik çözüm bile, sahada anlaşılmadığında değer üretemez.",
+    "intro": [
+      "Mühendislerin geliştirdiği en iyi teknik çözüm; sahaya doğru aktarılamadığında, anlaşılmadığında veya benimsenmediğinde değer üretemez. Teknik mükemmellik; sağlıklı insan ilişkileriyle hayata geçer.",
+      "Bu eğitim; mühendis liderlere hem kendi teknik ekipleriyle hem de saha operatörleri ve üretim liderleriyle güven temelli ilişki kurmanın ve bu ilişkiyi üretim verimliliğine dönüştürmenin somut yollarını gösterir.",
+      "Program boyunca mühendis-operatör köprüsünü kurma, teknik dili saha diline çevirme ve çok paydaşlı üretim ortamında ilişkileri stratejik biçimde yönetme; gerçek saha senaryoları üzerinden çalışılır."
+    ],
+    "audience": "Üretim sahasıyla düzenli iletişim kuran üretim ve proje mühendisleri, teknik kararlarını sahaya taşımakta güçlük çeken mühendisler ve mühendislik-üretim köprüsünü güçlendirmek isteyen departman yöneticileri için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Mühendis-Saha İlişkisinin Dinamikleri",
+        "intro": "Mühendis ile saha çalışanları arasındaki ilişki; farklı öncelikler ve zaman zaman karşılıklı önyargılar üzerine kuruludur. Bu bölümde bu dinamikler açık biçimde ele alınır.",
+        "bullets": [
+          "Mühendis ile operatör arasındaki bakış açısı farkı: Neden çatışır?",
+          "Saha personelinin gözünden mühendis: Beklentiler ve hayal kırıklıkları",
+          "Teknik dili saha diline çevirme: Anlaşılır olmak",
+          "Sahadaki gayri resmi otorite yapısını anlama"
+        ]
+      },
+      {
+        "title": "Güven İnşası ve Teknik Otorite",
+        "intro": "Mühendis; teknik bilgisiyle otorite kazanır. Ancak güven; yalnızca teknik bilgiden değil, tutarlılıktan ve sahada görünür olmaktan doğar.",
+        "bullets": [
+          "Teknik uzmanlık ile güven arasındaki fark",
+          "Sahada görünür olmak: Masa başından çıkmanın önemi",
+          "Söz vermek ve tutmak: Küçük taahhütlerin büyük etkisi",
+          "Hata durumunda şeffaf iletişim: Güveni koruma"
+        ]
+      },
+      {
+        "title": "Teknik Kararları Sahaya Taşıma",
+        "intro": "Mühendislik kararları; çoğu zaman sahada direnç veya yanlış uygulama ile karşılaşır. Bu bölümde teknik kararları sahaya doğru aktarmanın adımları ele alınır.",
+        "bullets": [
+          "Direktifi açıklama: Neden yapıldığını paylaşmak",
+          "Operatörü teknik karar sürecine dahil etme",
+          "Talimatın doğru anlaşılıp anlaşılmadığını doğrulama",
+          "Direnç ve şüpheyi yapıcı biçimde karşılama"
+        ]
+      },
+      {
+        "title": "Çok Paydaşlı Üretim Ortamında İlişki Yönetimi",
+        "intro": "Mühendis lider; üretim, kalite, bakım, lojistik ve İK gibi farklı departmanlarla da ilişki yönetmek zorundadır. Bu bölümde iç paydaş ilişkilerinin stratejik yönetimi ele alınır.",
+        "bullets": [
+          "İç paydaş haritası oluşturma",
+          "Departmanlar arası işbirliği: Rekabet değil koordinasyon",
+          "Çatışan öncelikleri mühendislik perspektifinden yönetme"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Mühendis-saha ilişkisinin dinamiklerini anlar ve köprü kurar",
+      "Teknik dili saha diline çevirerek anlaşılır iletişim sağlar",
+      "Güven temelli otorite inşa eder",
+      "Teknik kararları sahaya doğru ve sahiplenilerek taşır",
+      "Çok paydaşlı üretim ortamında ilişkileri stratejik yönetir",
+      "Sahada görünür ve ulaşılabilir bir mühendis lider profili oluşturur",
+      "Departmanlar arası çatışan öncelikleri koordinasyona dönüştürür"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Saha iletişimi simülasyonları, rol yapma, paydaş haritası atölyesi" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim yalnızca üretim mühendisleri için mi?",
+        "a": "Hayır. Proje, kalite, bakım ve Ar-Ge mühendisleri de saha ve paydaş ilişkisi yönettiği ölçüde bu eğitimden yüksek değer elde eder."
+      },
+      {
+        "q": "Saha ziyareti eğitime dahil edilebilir mi?",
+        "a": "Evet. Şirket içi eğitimlerde saha gözlem turu ve mühendis-operatör etkileşimi analizi programa dahil edilebilir."
+      },
+      {
+        "q": "Eğitim sektörümüze özel uyarlanabilir mi?",
+        "a": "Evet. İhtiyaç analizi görüşmesinin ardından içerik; kurumunuzun üretim süreçlerine, saha kültürüne ve gerçek vakalarına göre özelleştirilir."
+      }
+    ]
+  },
+  "ekip-calismasi-aidiyet-yaratma": {
+    "seoTitle": "Ekip Çalışması ve Takımda Aidiyet Yaratma Eğitimi",
+    "seoDescription": "Mühendis liderler için ekip çalışması ve aidiyet eğitimi. Çok disiplinli ekip yönetimi, ekip gelişim aşamaları ve aidiyet kültürü oluşturma yolları.",
+    "heroQuote": "Bireysel mükemmellik, otomatik olarak ekip başarısına dönüşmez.",
+    "intro": [
+      "Mühendislik ekipleri; yüksek bireysel teknik yetkinlikle bir araya gelir. Ancak bireysel mükemmellik; otomatik olarak ekip başarısına dönüşmez. Ortak amaç, güven ve aidiyet duygusu olmadan çalışan mühendislik ekipleri; potansiyelinin çok altında performans gösterir.",
+      "Bu eğitim; mühendis liderlere, teknik ekiplerinde aidiyet kültürü oluşturmanın, ekip dinamiklerini yönetmenin ve çok disiplinli ekipleri ortak hedefe odaklamanın somut yollarını öğretir."
+    ],
+    "audience": "Mühendislik ekiplerini koordine eden teknik liderler ve proje yöneticileri, çok disiplinli takımlar yöneten mühendis yöneticiler ve ekip uyumunu artırmak isteyen mühendis liderler için uygundur.",
+    "sections": [
+      {
+        "title": "Mühendislik Ekibinin Kendine Özgü Dinamikleri",
+        "intro": "Mühendislik ekiplerinin yüksek özerklik isteği ve zaman zaman düşük işbirliği refleksi bu bölümde dürüstçe ele alınır.",
+        "bullets": [
+          "Mühendislerin ekip çalışmasına bakışı: Bağımsızlık ile işbirliği gerilimi",
+          "Uzmanlık sınırları ve ekip içi bilgi paylaşımı",
+          "Teknik tartışmadan yapıcı ekip diyaloğuna geçiş"
+        ]
+      },
+      {
+        "title": "Ekip Gelişim Aşamaları",
+        "intro": "Tuckman'ın ekip gelişim modeli; mühendislik ekibine özgü örneklerle ele alınır ve her aşamada liderin rolü somutlaştırılır.",
+        "bullets": [
+          "Oluşum, çatışma, uyum ve performans aşamalarını tanıma",
+          "Her aşamada mühendis liderin rolü",
+          "Çatışma aşamasında ekibi ileriye taşıma"
+        ]
+      },
+      {
+        "title": "Aidiyet Kültürü Oluşturma",
+        "intro": "Mühendislik ekiplerinde aidiyet; teknik başarının paylaşılmasıyla ve katkının görünür kılınmasıyla oluşur.",
+        "bullets": [
+          "Aidiyet kültürünü besleyen lider davranışları",
+          "Teknik katkıyı görünür kılma ve tanıma ritüelleri",
+          "Uzaktan ve hibrit çalışan mühendislik ekiplerinde aidiyet"
+        ]
+      },
+      {
+        "title": "Çok Disiplinli Ekip Yönetimi",
+        "intro": "Makine, elektrik, yazılım, endüstri ve kalite mühendisleri aynı projede çalıştığında disiplinler arası köprü kurmak kritik hale gelir.",
+        "bullets": [
+          "Disiplin farklılıklarından kaynaklanan iletişim sorunları",
+          "Ortak teknik dil ve çerçeve oluşturma",
+          "Çok disiplinli kararları sahiplendirme stratejileri"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Mühendislik ekibinin kendine özgü dinamiklerini okur",
+      "Ekip gelişim aşamalarını yönetir ve ilerletir",
+      "Teknik ekipte aidiyet ve güven kültürü inşa eder",
+      "Çok disiplinli ekiplerde ortak dil ve işbirliği oluşturur",
+      "Ekip başarısını görünür kılar ve kutlar",
+      "Teknik tartışmaları yapıcı ekip diyaloğuna dönüştürür",
+      "Uzaktan ve hibrit ekiplerde bağlılığı canlı tutar"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Ekip dinamiği simülasyonları, aidiyet atölyesi, vaka analizleri" },
+      { "label": "Katılımcı", "value": "6–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Ekip liderliğine yeni geçen mühendisler için uygun mu?",
+        "a": "Özellikle uygun. Teknik uzmanlıktan ekip liderliğine geçiş bu eğitimin temel eksenlerinden birini oluşturur."
+      },
+      {
+        "q": "Proje ekipleri için mi, sabit ekipler için mi?",
+        "a": "Her ikisi için uygundur. İçerik; hem uzun süreli ekipler hem de proje bazlı takımlar için uyarlanabilir."
+      },
+      {
+        "q": "Ekibin tamamı eğitime birlikte katılabilir mi?",
+        "a": "Evet. Şirket içi formatta liderle birlikte ekibin katıldığı ortak atölye kurgusu; aidiyet çalışmalarının etkisini artırır."
+      }
+    ]
+  },
+  "insan-yonetimi-egit-ogret-yonet": {
+    "seoTitle": "Üretimde İnsan Yönetimi: Eğit-Öğret-Yönet Eğitimi",
+    "seoDescription": "Mühendis liderler için Eğit-Öğret-Yönet metodolojisiyle üretimde insan yönetimi eğitimi. Saha koçluğu, çalışan geliştirme ve durumsal liderlik becerileri.",
+    "heroQuote": "Süreci optimize etmek yetmez; çözümü hayata geçirecek insanı da yetiştirmek gerekir.",
+    "intro": [
+      "Mühendisler; teknik süreçleri optimize etmeyi iyi bilir. Ancak insanı geliştirmek; farklı bir anlayış ve araç seti gerektirir. Mühendis lider, hem teknik çözüm üretmeli hem de bu çözümleri hayata geçirecek insanları yetiştirebilmelidir.",
+      "Bu eğitim; mühendis liderlere, üretim ortamında çalışanı geliştirmenin sistematik yöntemi olan Eğit-Öğret-Yönet metodolojisini ve insan yönetiminin temel becerilerini kazandırır.",
+      "Üç aşamalı bu çerçevede: Eğit aşamasında lider doğru davranışı gösterir ve açıklar. Öğret aşamasında çalışanın bizzat uygulamasına eşlik eder ve geribildirim verir. Yönet aşamasında ise öğrenilen davranışın tutarlı uygulanmasını izler ve pekiştirir."
+    ],
+    "audience": "Üretim ortamında ekip yöneten, çalışan yetiştirme ve geliştirme sorumluluğu taşıyan üretim ve proses mühendisleri, vardiya ve saha liderleri ile insan geliştirme becerilerini sistematikleştirmek isteyen mühendislik yöneticileri için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "İnsan Geliştirme Sorumluluğu",
+        "intro": "Teknik uzmanlık; liderin tek sorumluluğu değildir. Bu bölümde mühendis liderin insan geliştirme sorumluluğu ve üretim çıktılarıyla ilişkisi ele alınır.",
+        "bullets": [
+          "Teknik lider ile insan geliştirici lider arasındaki denge",
+          "Çalışanı geliştirmemenin bireysel, ekip ve kurumsal maliyeti",
+          "Mühendis liderin geliştirme kapasitesi"
+        ]
+      },
+      {
+        "title": "Eğit Aşaması: Göstererek Öğretme",
+        "intro": "Teknik bilgiyi aktarmanın en etkili yolu; anlatmak değil, göstermektir.",
+        "bullets": [
+          "Göster-Anlat-Uygulat: Teknik öğretimin temel döngüsü",
+          "Teknik prosedürü adım adım ve anlaşılır biçimde aktarma",
+          "Farklı öğrenme hızlarına uyum: Sabır ve esneklik"
+        ]
+      },
+      {
+        "title": "Öğret Aşaması: Uygulamaya Eşlik Etme",
+        "intro": "Çalışanın bizzat uygulaması; öğrenmenin en kritik aşamasıdır. Liderin gözlem ve geribildirim kalitesi bu aşamanın başarısını belirler.",
+        "bullets": [
+          "Uygulamayı gözlemleme: Neye bakmalı, nasıl değerlendirmeli",
+          "Anlık ve yapıcı teknik geribildirim verme",
+          "Hatayı cezalandırmadan düzeltme: Öğrenme iklimi"
+        ]
+      },
+      {
+        "title": "Yönet Aşaması: Pekiştirme ve Standartlaştırma",
+        "intro": "Öğrenilen davranışın kalıcı hale gelmesi; tutarlı takip ve pekiştirme gerektirir.",
+        "bullets": [
+          "Davranışın tutarlı uygulanmasını izleme",
+          "Doğru uygulamayı anında tanıma ve pekiştirme",
+          "Öğrenilen beceriyi standart prosedüre dönüştürme"
+        ]
+      },
+      {
+        "title": "Farklı Yetkinlik Düzeylerinde Yönetim",
+        "intro": "Mühendis lider; aynı anda farklı yetkinlik düzeylerinde çalışanları yönetir. Tek tip liderlik tarzı bu çeşitlilikte işe yaramaz.",
+        "bullets": [
+          "Durumsal liderlik: Yetkinlik ve motivasyona göre tarz değiştirme",
+          "Yeni çalışanı yetiştirme: İlk 90 gün planı",
+          "Deneyimli çalışanı geliştirme: Bağlılık ve ileri düzey görevler"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Eğit-Öğret-Yönet döngüsünü üretim ortamında etkin uygular",
+      "Teknik bilgiyi çalışana göstererek ve eşlik ederek aktarır",
+      "Anlık ve yapıcı teknik geribildirim verir",
+      "Öğrenilen davranışı pekiştirir ve standart hale getirir",
+      "Farklı yetkinlik düzeyindeki çalışanlara uygun liderlik tarzı uygular",
+      "Yeni çalışanın ilk 90 gününü planlı biçimde yönetir",
+      "Ekibinde cezalandırmayan, öğrenmeyi destekleyen bir iklim oluşturur"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat); saha koçluğu uygulamasıyla genişletilebilir" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Demonstrasyon egzersizleri, eğit-öğret rol yapma, saha gözlem atölyesi" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Lean ve Kaizen süreçlerimizle entegre edilebilir mi?",
+        "a": "Evet. Metodoloji; Lean üretim ve sürekli iyileştirme kültürüyle yüksek uyumluluk gösterir."
+      },
+      {
+        "q": "TWI ile farkı nedir?",
+        "a": "Eğit-Öğret-Yönet; TWI'nin temel anlayışını içermekle birlikte insan yönetimi, liderlik davranışları ve motivasyon boyutlarını da kapsar; daha geniş kapsamlı bir çerçevedir."
+      },
+      {
+        "q": "Eğitim sonrası saha uygulaması yapılıyor mu?",
+        "a": "Evet. İsteğe bağlı saha koçluğu modülüyle katılımcıların Eğit-Öğret-Yönet döngüsünü kendi ekiplerinde uygulaması gözlemlenir ve geribildirim verilir."
+      }
+    ]
+  },
+  "kusak-farkliliklari-uretimde-yonetim": {
+    "seoTitle": "Kuşak Farklılıkları ve Üretimde Doğru Yönetim Eğitimi",
+    "seoDescription": "Mühendis liderler için kuşak farklılıkları eğitimi. X, Y ve Z kuşağı mühendis yönetimi, kuşağa göre motivasyon ve çift yönlü mentorluk uygulamaları.",
+    "heroQuote": "Aynı ekipte üç kuşak var; tek tip yönetim tarzı üçüne birden işlemez.",
+    "intro": [
+      "Mühendislik ekipleri; bugün 20'li yaşlardaki Z kuşağı mühendislerden 50'li yaşlardaki deneyimli X kuşağı uzmanlarına kadar geniş bir yelpazeyi barındırır. Her kuşağın kariyer beklentisi, otorite algısı ve motivasyonu belirgin biçimde farklıdır.",
+      "Bu eğitim; mühendis liderlere kuşak profillerini tanımayı, her kuşağa uygun motivasyon ve iletişim stratejileri geliştirmeyi ve kuşaklar arası bilgi transferini sistematik biçimde yönetmeyi öğretir.",
+      "Kuşak farklılıkları doğru yönetildiğinde bir çatışma kaynağı olmaktan çıkar; deneyim ile yeni bakış açısının birbirini beslediği güçlü bir ekip dinamiğine dönüşür."
+    ],
+    "audience": "Farklı kuşaklardan mühendis ve teknik çalışanları bir arada yöneten teknik liderler, genç mühendislerin motivasyonunda ve elde tutulmasında güçlük yaşayan yöneticiler ve kuşaklar arası bilgi transferini güvence altına almak isteyen mühendislik müdürleri için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Mühendislik Ortamında Kuşak Profilleri",
+        "intro": "Her kuşak; işe, otoriteye ve kariyere farklı bir pencereden bakar. Bu bölümde kuşak profilleri mühendislik ortamına özgü örneklerle ele alınır.",
+        "bullets": [
+          "X Kuşağı mühendis: Uzman kimlik, hiyerarşiye saygı, istikrar beklentisi",
+          "Y Kuşağı mühendis: Anlam arayışı, geri bildirim isteği, kariyer ivmesi",
+          "Z Kuşağı mühendis: Hız, özgünlük, teknoloji entegrasyonu ve otorite şüphesi"
+        ]
+      },
+      {
+        "title": "Z Kuşağı Mühendisini Yönetmenin Zorlukları",
+        "intro": "Z kuşağı; mühendislik ekiplerine yüksek dijital yetkinlik ve taze bakış açısı getirirken, geleneksel yönetim reflekslerini de zorlar.",
+        "bullets": [
+          "Neden'i açıklama: Z kuşağı kör itaate değil, anlamaya inanır",
+          "Hızlı geribildirim kültürü: Yıllık değerlendirme yerine anlık iletişim",
+          "Anlam ve katkı: Teknik görevin büyük resme bağlanması"
+        ]
+      },
+      {
+        "title": "Kuşağa Göre Motivasyon ve İletişim",
+        "intro": "Etkili mühendis lider; iletişim ve motivasyon yaklaşımını karşısındaki kuşağın beklentilerine göre bilinçli biçimde uyarlar.",
+        "bullets": [
+          "X Kuşağına: Uzmanlığı tanıyan, özerklik veren yaklaşım",
+          "Y Kuşağına: Kariyer gelişimini destekleyen, anlam odaklı iletişim",
+          "Z Kuşağına: Kısa, net, dijital kanallarla desteklenen ve şeffaf iletişim"
+        ]
+      },
+      {
+        "title": "Kuşaklar Arası Bilgi Transferi",
+        "intro": "Deneyimli mühendislerin birikimi ile genç kuşağın dijital yetkinliği; yapılandırılmış bir transfer modeli olmadan kurum içinde buluşamaz.",
+        "bullets": [
+          "Deneyimli mühendisten gence: Teknik mentorluk yapısı",
+          "Gençten deneyimliye: Dijital yetkinlik ve yeni yöntem transferi",
+          "Çift yönlü mentorluk (reverse mentoring) uygulaması"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Kuşak profillerini tanır ve farklılıkları bireysel düzeyde anlar",
+      "Her kuşağa uygun motivasyon ve iletişim stratejisi uygular",
+      "Z kuşağı mühendislerle etkili ve saygılı ilişki kurar",
+      "Kuşaklar arası bilgi transferini sistematik biçimde yönetir",
+      "Çok kuşaklı mühendislik ekibinde uyum ve işbirliği oluşturur",
+      "Çift yönlü mentorluk uygulamasını ekibinde hayata geçirir",
+      "Kuşak kaynaklı çatışmaları büyümeden fark eder ve yönetir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Kuşak profil analizleri, etkileşim simülasyonları, vaka senaryoları" },
+      { "label": "Katılımcı", "value": "6–16 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Yalnızca Z kuşağı odaklı içerik mümkün mü?",
+        "a": "Evet. Bu versiyon genellikle deneyimli mühendis yöneticilerden oluşan gruplar için tercih edilmektedir."
+      },
+      {
+        "q": "Farklı kuşaklardan katılımcılar aynı eğitime alınabilir mi?",
+        "a": "Evet, hatta önerilir. Karma kuşak grupları; kuşak etkileşim simülasyonlarında karşılıklı anlayışı doğrudan deneyimleme fırsatı sunar."
+      },
+      {
+        "q": "Eğitim kurumumuzun kuşak dağılımına göre uyarlanabilir mi?",
+        "a": "Evet. İhtiyaç analizinde ekibinizin kuşak dağılımı ve yaşanan somut yönetim güçlükleri değerlendirilir; içerik ve vakalar buna göre şekillendirilir."
+      }
+    ]
+  },
+  "problem-cozme-catisma-yonetimi": {
+    "seoTitle": "Problem Çözme ve Çatışma Yönetimi | Mühendis Eğitimi",
+    "seoDescription": "Mühendis liderler için problem çözme ve çatışma yönetimi eğitimi. İnsan kaynaklı kök neden analizi, ekip içi çatışma ve paydaş direnci yönetimi.",
+    "heroQuote": "Teknik problemin formülü vardır; insan probleminin ise dinamiği.",
+    "intro": [
+      "Mühendisler; teknik problemleri yapılandırılmış yöntemlerle çözmeye alışkındır. İnsan kaynaklı problemler ve ekip içi çatışmalar ise farklı bir yaklaşım gerektiren, zaman zaman çok daha maliyetli sorunlardır.",
+      "Bu eğitim; mühendis liderlere teknik problem çözme disiplinini insan boyutuna doğru genişletmeyi öğretir: kök neden analizini davranışa uygulamak, ekip içi çatışmalara yapıcı müdahale etmek ve paydaş direncinin arkasındaki gerçek kaygıyı keşfetmek.",
+      "Program; gerçek mühendislik vakaları ve çatışma senaryoları üzerinden ilerler; katılımcılar kendi sahalarından getirdikleri sorunlar üzerinde çalışır."
+    ],
+    "audience": "Ekip içi çatışmaları ve insan kaynaklı performans sorunlarını yönetmek durumunda olan mühendis liderler, departmanlar arası dirençle karşılaşan proje yöneticileri ve problem çözme yetkinliğini insan boyutuyla tamamlamak isteyen teknik yöneticiler için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Teknik Problemden İnsan Problemine: Farkı Anlamak",
+        "intro": "Teknik çerçeveyi insan sorunlarına olduğu gibi uygulamak; mühendis liderin en yaygın tuzağıdır. Bu bölümde iki problem türü arasındaki temel fark ele alınır.",
+        "bullets": [
+          "Teknik problem ile insan problemi arasındaki temel fark",
+          "Teknik çerçeveyi insan sorunlarına uygulamanın tuzakları",
+          "Mühendis lider için duygu ve algı okuryazarlığı"
+        ]
+      },
+      {
+        "title": "Kök Neden Analizi: İnsan Boyutu",
+        "intro": "Mühendislerin iyi bildiği kök neden araçları; doğru uyarlandığında insan kaynaklı sorunlarda da güçlü sonuç verir.",
+        "bullets": [
+          "5 Neden analizi: Teknik süreçten insan davranışına uygulama",
+          "Performans sorununun kök nedeni: Yetkinlik mi, motivasyon mu, sistem mi?",
+          "İnsan kaynaklı hataları azaltan yapısal çözümler"
+        ]
+      },
+      {
+        "title": "Ekip İçi Çatışma Yönetimi",
+        "intro": "Mühendislik ekiplerinde teknik tartışma değerlidir; kişiselleşen çatışma ise ekibin en büyük enerji kaybıdır.",
+        "bullets": [
+          "Mühendislik ekibinde yaygın çatışma kaynakları",
+          "Teknik tartışmayı kişisel çatışmaya dönüşmeden durdurmak",
+          "Arabuluculuk rolü: Tarafsız, yapıcı, çözüm odaklı"
+        ]
+      },
+      {
+        "title": "Paydaşlar Arası Çatışma ve Direnç Yönetimi",
+        "intro": "Departmanlar arası çatışma ve paydaş direnci; çoğu zaman açıkça dile getirilmeyen kaygılardan beslenir.",
+        "bullets": [
+          "Departmanlar arası çatışmanın anatomisi",
+          "Direncin arkasındaki gerçek kaygıyı keşfetme",
+          "Ortak zemin oluşturma: Teknik ve organizasyonel çıkarları hizalama"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Teknik ve insan kaynaklı problemleri farklı yöntemlerle çözer",
+      "Kök neden analizini insan boyutuna da uygular",
+      "Ekip içi çatışmalara yapıcı müdahale yapar",
+      "Teknik tartışmaları kişisel çatışmaya dönüşmeden yönetir",
+      "Paydaş direncini anlayarak ortak çözüm üretir",
+      "Performans sorunlarının kaynağını yetkinlik, motivasyon ve sistem boyutlarıyla ayrıştırır",
+      "Departmanlar arası çatışmalarda ortak zemin oluşturur"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Kök neden analizi atölyeleri, çatışma rol yapma, vaka analizleri" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Lean veya Six Sigma ile entegre edilebilir mi?",
+        "a": "Evet. Kök neden analizi araçları; Lean ve Six Sigma metodolojileriyle uyumludur."
+      },
+      {
+        "q": "Kendi yaşadığımız çatışma vakaları eğitimde çalışılabilir mi?",
+        "a": "Evet. Şirket içi programlarda katılımcıların kendi sahalarından getirdiği gerçek vakalar; gizlilik ilkeleri çerçevesinde atölye çalışmalarına dahil edilir."
+      },
+      {
+        "q": "Bu eğitim teknik mi yoksa davranışsal mı?",
+        "a": "Davranışsal ağırlıklıdır; ancak mühendislerin alışkın olduğu yapılandırılmış problem çözme araçlarını insan boyutuna taşıyarak köprü kurar."
+      }
+    ]
+  },
+  "is-planlama-organizasyon-zaman": {
+    "seoTitle": "İş Planlama, Organizasyon ve Zaman Yönetimi Eğitimi",
+    "seoDescription": "Mühendis liderler için iş planlama ve zaman yönetimi eğitimi. Teknik-liderlik zaman dengesi, önceliklendirme, delege etme ve derin çalışma odağı.",
+    "heroQuote": "Her sorunu kendisi çözen mühendis, ekibini yönetecek zamanı asla bulamaz.",
+    "intro": [
+      "Mühendis lider; hem teknik üretim sorumluluğunu hem de insanı yönetme ve koordine etme sorumluluğunu aynı anda taşır. Bu iki sorumluluk arasında denge kurmak; etkili planlama ve zaman yönetimi olmadan mümkün değildir.",
+      "Bu eğitim; mühendis liderlere zaman tuzaklarını fark etmeyi, önceliklendirme araçlarıyla stratejik odak oluşturmayı, ekibini ve projesini etkin planlamayı ve teknik görevi güvenle delege etmeyi öğretir.",
+      "Katılımcılar; kendi ajanda ve iş yükleri üzerinde çalışarak eğitimden somut bir zaman ve planlama düzeniyle ayrılır."
+    ],
+    "audience": "Teknik işler ile yönetim görevleri arasında sıkışan mühendis liderler, ekip ve proje planlamasını sistematikleştirmek isteyen proje yöneticileri ve delege etmekte zorlanan teknik uzmanlar için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Mühendis Liderin Zaman Tuzakları",
+        "intro": "Mühendis liderin zamanını tüketen tuzaklar çoğu zaman görünmezdir; ilk adım bunları fark etmektir.",
+        "bullets": [
+          "Teknik kurtarıcı tuzağı: Her sorunu kendisi çözen mühendis",
+          "Liderlik zamanı ile teknik zaman dengesini kurma",
+          "Toplantı ve acil taleplerin zamanı nasıl tükettiği"
+        ]
+      },
+      {
+        "title": "Önceliklendirme ve Stratejik Odak",
+        "intro": "Her şey acil göründüğünde hiçbir şey öncelikli değildir. Bu bölümde önceliklendirme araçları mühendislik ortamına uyarlanır.",
+        "bullets": [
+          "Eisenhower matrisi: Mühendislik ortamına uyarlama",
+          "Teknik proje ve liderlik görevlerini önceliklendirme",
+          "Haftalık öncelik belirleme ritüeli"
+        ]
+      },
+      {
+        "title": "Proje ve Ekip Planlaması",
+        "intro": "Etkili planlama; ekip kapasitesini görünür kılmak ve proje takvimini sahanın gerçek hızıyla hizalamakla başlar.",
+        "bullets": [
+          "Ekip kapasitesini görünür kılma: Kim ne kapasitede?",
+          "Görev dağılımı ve bağımlılık yönetimi",
+          "Proje takvimi ile gerçek saha hızını hizalama"
+        ]
+      },
+      {
+        "title": "Delege Etme: Teknik Kontrolü Bırakmak",
+        "intro": "Delege etmenin önündeki en büyük engel teknik değil, psikolojiktir: kontrolü bırakma güçlüğü.",
+        "bullets": [
+          "Delege etme engeli: Mühendis psikolojisinde kontrol ihtiyacı",
+          "Neyi delege etmeli, neyi kendisi yapmalı?",
+          "Teknik görevi devretme ve izleme: Güven ile takip dengesi"
+        ]
+      },
+      {
+        "title": "Derin Çalışma ve Odak Yönetimi",
+        "intro": "Mühendis liderin en değerli kaynağı kesintisiz düşünme zamanıdır; bu zaman bilinçli olarak korunmalıdır.",
+        "bullets": [
+          "Derin iş (deep work) bloklarını takvimde koruma",
+          "Anlık mesaj ve e-posta baskısını yönetme",
+          "Mühendis lider için enerji yönetimi ve sürdürülebilirlik"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Teknik ve liderlik görevleri arasında bilinçli zaman dengesi kurar",
+      "Önceliklendirme araçlarıyla stratejik odak oluşturur",
+      "Ekibini ve projesini etkin biçimde planlar",
+      "Teknik görevi güvenle delege eder ve izler",
+      "Derin çalışma alanları oluşturarak verimliliğini korur",
+      "Kendi zaman tuzaklarını fark eder ve önlem alır",
+      "Haftalık öncelik belirleme ritüelini kalıcı alışkanlığa dönüştürür"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Zaman analizi egzersizi, önceliklendirme atölyesi, planlama simülasyonu" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Agile veya Scrum kullanan ekipler için uyarlanabilir mi?",
+        "a": "Evet. İçerik; Agile sprint yapısı ve Scrum toplantılarını kapsayacak biçimde uyarlanabilir."
+      },
+      {
+        "q": "Eğitimde kendi iş yükümüz üzerinde mi çalışıyoruz?",
+        "a": "Evet. Zaman analizi egzersizi ve önceliklendirme atölyesi; katılımcıların kendi gerçek ajandaları ve görev listeleri üzerinden yürütülür."
+      },
+      {
+        "q": "Eğitim sonrası uygulama takibi var mı?",
+        "a": "Evet. Uygulama rehberi ve isteğe bağlı online takip seansı ile edinilen planlama alışkanlıklarının kalıcılığı desteklenir."
+      }
+    ]
+  },
+  "etkileme-ikna-teknikleri": {
+    "seoTitle": "Üretimde Etkileme ve İkna Teknikleri | Mühendis Eğitimi",
+    "seoDescription": "Mühendis liderler için etkileme ve ikna teknikleri eğitimi. Teknik kararları üst yönetime sunma, sahaya kabul ettirme ve paydaş ikna stratejileri.",
+    "heroQuote": "Doğru teknik karar, yanlış biçimde sunulduğunda reddedilir.",
+    "intro": [
+      "Mühendisler; veriyle, mantıkla ve teknik kanıtla ikna etmeye alışkındır. Ancak kurumsal karar süreçleri; yalnızca verinin değil, güvenin, ilişkinin ve duygusal çerçevelemenin de etkili olduğu ortamlardır.",
+      "Bu eğitim; mühendis liderlere teknik kararlarını üst yönetime, sahaya ve paydaşlara kabul ettirmenin yollarını gösterir: yönetim diline çeviri, saha ikna dili ve çok boyutlu paydaş stratejisi.",
+      "Katılımcılar; kendi gerçek proje tekliflerini eğitim boyunca sunum formatına dönüştürerek simülasyon sunumlar yapar ve geribildirim alır."
+    ],
+    "audience": "Teknik kararlarını üst yönetime kabul ettirmekte zorlanan mühendisler, yatırım teklifi ve proje sunumu yapan teknik liderler ile sahada ve departmanlar arasında etki alanını genişletmek isteyen mühendis yöneticiler için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Mühendis İletişiminin Güçlü ve Zayıf Yönleri",
+        "intro": "Teknik doğruluk ile ikna gücü aynı şey değildir. Bu bölümde mühendis iletişiminin ikna açısından güçlü ve zayıf yönleri ele alınır.",
+        "bullets": [
+          "Teknik iletişimin ikna gücünü azaltan 4 yaygın hata",
+          "Veriden önce güven: Neden rakamlar yetmez?",
+          "Dinleyici odaklı iletişim: Teknikten sonuca geçiş"
+        ]
+      },
+      {
+        "title": "Üst Yönetime Teknik Karar Sunma",
+        "intro": "Yönetim; teknik detayı değil, iş sonucunu dinler. Bu bölümde teknik kararı yönetim diline çevirmenin yapısı çalışılır.",
+        "bullets": [
+          "Yönetim sunumunda yapı: Sorun-Çözüm-Etki-Talep",
+          "ROI dili: Teknik yatırımı finansal sonuca bağlama",
+          "Riske odaklanma: Yapılmazsa ne olur sorusunun gücü",
+          "Yönetim toplantısında itirazı yönetme"
+        ]
+      },
+      {
+        "title": "Sahaya Teknik Direktif Kabul Ettirme",
+        "intro": "Sahanın ikna dili; yönetimden farklıdır. Kabul; talimatla değil, katılım ve güvenilirlikle kazanılır.",
+        "bullets": [
+          "Teknik bilgiyi saha diline çevirme: Onlara ne kazandırır?",
+          "Sahayı karara dahil etme: Sorma ve dinleme",
+          "Güvenilirlik inşa etme: Teknik yetkinlik sahada nasıl görünür"
+        ]
+      },
+      {
+        "title": "Paydaş İkna ve Departmanlar Arası Etki",
+        "intro": "Kurumsal etki; toplantı masasından önce kurulur. Bu bölümde paydaş çıkarlarını haritalama ve ittifak oluşturma ele alınır.",
+        "bullets": [
+          "Paydaş çıkarlarını haritalama: Kim ne istiyor?",
+          "Ortak dil kurma: Her paydaşın öncelikleriyle konuşma",
+          "İttifak oluşturma: Güçlü paydaşı önceden kazanma"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Teknik kararı yönetim diline çevirerek üst yönetime sunar",
+      "Sahaya teknik direktifi benimsettiren ikna iletişimi kullanır",
+      "Paydaş çıkarlarına hitap eden çok boyutlu ikna stratejisi geliştirir",
+      "Teknik sunumda veri ile duygu dengesini kurar",
+      "Direnç ve itirazlara ikna becerisiyle yanıt verir",
+      "Teknik yatırım tekliflerini ROI diliyle güçlendirir",
+      "Kritik kararlarda önceden ittifak kurarak kabul olasılığını artırır"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Sunum simülasyonları, ikna rol yapma, video analizi, gerçek vakalar" },
+      { "label": "Katılımcı", "value": "6–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Yatırım tekliflerini hazırlama konusunda pratik yapılıyor mu?",
+        "a": "Evet. Katılımcılar kendi gerçek proje tekliflerini eğitim formatına dönüştürerek simülasyon sunum yapar ve geribildirim alır."
+      },
+      {
+        "q": "Sunum becerisi eğitiminden farkı nedir?",
+        "a": "Bu eğitim sunum tekniğinin ötesine geçer; ikna stratejisini, paydaş analizini ve teknik kararın kurumsal karar süreçlerinde nasıl kabul gördüğünü bütünsel olarak ele alır."
+      },
+      {
+        "q": "Eğitim sektörümüze özel uyarlanabilir mi?",
+        "a": "Evet. İhtiyaç analizinin ardından vaka çalışmaları ve simülasyonlar; kurumunuzun gerçek proje ve karar süreçlerine göre özelleştirilir."
+      }
+    ]
+  },
+  "zor-durumlar-insanlarla-basa-cikma": {
+    "seoTitle": "Zor Durumlar ve İnsanlarla Başa Çıkma | Mühendis Eğitimi",
+    "seoDescription": "Mühendis liderler için zor durumlar ve zor insanlarla başa çıkma eğitimi. Dirençli çalışan yönetimi, baskı altında liderlik ve zorlu paydaş stratejileri.",
+    "heroQuote": "Zor insanlar bir istisna değil; mühendis liderin yönetmesi gereken gerçekliktir.",
+    "intro": [
+      "Mühendis liderler; teknik problemleri sabırla ve sistematik biçimde çözer. Ancak zorlayıcı insanlar ve baskılı durumlar; farklı bir sabır, farklı bir strateji ve farklı bir iletişim anlayışı gerektirir.",
+      "Bu eğitim; mühendis liderlere mühendislik ortamındaki zor insan profillerini tanımayı, davranış odaklı yapıcı müdahale yapmayı ve baskı altında hem kendi duygusal dengesini hem de ekibini yönetmeyi öğretir.",
+      "Program; gerçek mühendislik vakalarına dayalı zor durum simülasyonları ve rol yapma egzersizleriyle ilerler; katılımcılar zor konuşmaları güvenli bir ortamda deneyimler."
+    ],
+    "audience": "Dirençli çalışanlar, zorlu paydaşlar veya yüksek baskılı proje koşullarıyla karşılaşan mühendis liderler, teknik ekiplerinde zorlayıcı kişilik profilleri yöneten teknik yöneticiler ve zor konuşmalardan kaçınma eğilimini aşmak isteyen mühendisler için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Mühendislik Ortamındaki Zor İnsan Profilleri",
+        "intro": "Zorlayıcı davranışları yönetmenin ilk adımı; profilleri doğru tanımak ve her birinin arkasındaki dinamiği anlamaktır.",
+        "bullets": [
+          "Her şeyi bilen kıdemli mühendis: Deneyim ile tahakküm arasındaki ince çizgi",
+          "Teknik karara direnen üretim veya kalite yöneticisi",
+          "Sürekli değişen talep sunan üst yönetici",
+          "Kuralları kendi yorumuyla uygulayan deneyimsiz mühendis",
+          "Performansı yüksek ama ekibi yıpratan teknik uzman"
+        ]
+      },
+      {
+        "title": "Zor Çalışanla Yapıcı Müdahale",
+        "intro": "Etkili müdahale; kişiyi değil davranışı hedef alır ve mühendislerin güçlü olduğu veri-gözlem diliyle yapılandırılır.",
+        "bullets": [
+          "Davranışa odaklanma: Kişiyi değil, etkiyi ele alma",
+          "Mühendis diliyle zor konuşma: Veri, gözlem, beklenti",
+          "Savunmacı tepkiyi yönetme: Tartışmaya girmeden ilerlemek",
+          "Sınır koyma ve taahhüt alma"
+        ]
+      },
+      {
+        "title": "Baskı Altında Liderlik",
+        "intro": "Stres; mühendis liderde kontrol etme, izole olma ve aşırı tekniğe kaçma reflekslerini tetikler. Bu refleksleri tanımak, yönetmenin ilk adımıdır.",
+        "bullets": [
+          "Stres altında mühendis lider refleksleri: Kontrol etme, izole olma, aşırı teknik olma",
+          "Kriz anında ekiple iletişim: Şeffaflık ve güven verme",
+          "Kendi stres tepkisini yönetme: Sakin liderlik"
+        ]
+      },
+      {
+        "title": "Zorlu Paydaşlarla Stratejik Başa Çıkma",
+        "intro": "Zorlu paydaş davranışının arkasında çoğu zaman çıkar, kaygı veya güç motivasyonu yatar; strateji bu motivasyonu anlamakla başlar.",
+        "bullets": [
+          "Zorlu paydaşı anlama: Çıkar, kaygı ve güç motivasyonu",
+          "Proaktif paydaş yönetimi: Sorunu büyümeden çözme",
+          "Güç dengesizliğinde mühendis lider için stratejik yaklaşım"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Mühendislik ortamındaki zor insan profillerini tanır",
+      "Davranış odaklı, yapıcı müdahale becerisini geliştirir",
+      "Baskı altında duygusal dengesini korur ve ekibini yönetir",
+      "Zorlu paydaşlarla stratejik ve etkili iletişim kurar",
+      "Zor konuşmaları mühendis güveniyle yürütür",
+      "Savunmacı tepkileri tartışmaya girmeden yönetir",
+      "Sınır koyar ve net taahhüt alarak süreci takip eder"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Zor durum simülasyonları, rol yapma, mühendislik vakası analizleri" },
+      { "label": "Katılımcı", "value": "6–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim yalnızca ekip içi zor insanlar için mi?",
+        "a": "Hayır. Hem ekip içi zor çalışanları hem de zorlu paydaşlar ve yöneticilerle başa çıkma stratejilerini kapsar."
+      },
+      {
+        "q": "Rol yapma egzersizleri zorunlu mu?",
+        "a": "Simülasyonlar eğitimin temel öğrenme aracıdır; ancak katılım kademeli kurgulanır ve kimse hazır olmadığı bir senaryoya zorlanmaz."
+      },
+      {
+        "q": "Kendi yaşadığımız zor durumlar eğitimde ele alınabilir mi?",
+        "a": "Evet. Şirket içi programlarda katılımcıların gerçek vakaları; isimsizleştirilerek simülasyon senaryolarına dönüştürülür."
+      }
+    ]
+  },
+  "performans-yonetimi-etkin-geribildirim": {
+    "seoTitle": "Performans Yönetimi ve Etkin Geri Bildirim Eğitimi",
+    "seoDescription": "Mühendis liderler için performans yönetimi ve geri bildirim eğitimi. OKR ile mühendislik hedefleri, SBI modeli ve performans görüşmesi teknikleri.",
+    "heroQuote": "İnsan performansı, KPI tablosunun ötesinde yönetilir.",
+    "intro": [
+      "Mühendisler; sayısal hedefleri ve süreç performansını ölçmeye alışkındır. Ancak insan performansını yönetmek; KPI tablolarının çok ötesinde, bireysel motivasyonu anlamayı, gelişimi desteklemeyi ve yapıcı geribildirim vermeyi gerektirir.",
+      "Bu eğitim; mühendis liderlere mühendislik ekibi için çok boyutlu performans çerçevesi kurmayı, sürekli geribildirim kültürü inşa etmeyi ve performans görüşmelerini etkili biçimde yürütmeyi öğretir.",
+      "OKR tasarım atölyesi, geribildirim rol yapma egzersizleri ve performans görüşmesi simülasyonlarıyla katılımcılar; öğrendiklerini eğitim içinde doğrudan uygular."
+    ],
+    "audience": "Ekibinin performansını yönetme ve değerlendirme sorumluluğu taşıyan mühendis liderler, geribildirim vermekten kaçınan veya zorlanan teknik yöneticiler ve OKR gibi hedef çerçevelerini mühendislik ekibine uyarlamak isteyen yöneticiler için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Mühendislik Ortamında Performans Yönetimi",
+        "intro": "Mühendislik ekibinde performans; yalnızca teknik çıktıyla değil, davranış ve işbirliği boyutuyla birlikte yönetilmelidir.",
+        "bullets": [
+          "Teknik performans ile davranışsal performansı birlikte yönetme",
+          "Mühendislik ekibi için OKR ve KPI çerçevesi",
+          "Bireysel hedefleri proje ve departman hedefleriyle hizalama"
+        ]
+      },
+      {
+        "title": "Sürekli Geribildirim Kültürü",
+        "intro": "Yılda bir yapılan değerlendirme; performansı yönetmek için çok geç kalır. Etkili ekiplerde geribildirim sürekli akar.",
+        "bullets": [
+          "Sprint retrospektifi ve mühendislik check-in kültürü",
+          "Teknik çalışma sonrası geribildirim ritüeli",
+          "Geribildirim vermekten kaçınan mühendis lider: Neden ve nasıl aşılır?"
+        ]
+      },
+      {
+        "title": "Davranış Odaklı Geribildirim Modelleri",
+        "intro": "İyi geribildirim; kişiliği değil davranışı ve etkisini konuşur. SBI modeli bu yapıyı mühendislik vakalarıyla somutlaştırır.",
+        "bullets": [
+          "SBI modeli: Durum-Davranış-Etki mühendislik vakalarına uygulama",
+          "Teknik hatayı öğrenme fırsatı olarak çerçeveleme",
+          "Olumlu geribildirim: Mühendis lider neden takdiri atlar?"
+        ]
+      },
+      {
+        "title": "Performans Görüşmesi Teknikleri",
+        "intro": "Performans görüşmesi; iyi hazırlanıldığında bir değerlendirme ritüelinden gelişim konuşmasına dönüşür.",
+        "bullets": [
+          "Mühendis lider için performans görüşmesi hazırlığı",
+          "Teknik çalışanla bireysel gelişim planı oluşturma",
+          "Düşük performansı veriyle ve saygıyla ele alma",
+          "Görüşme sonrası taahhüt ve takip döngüsü"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Mühendislik ekibi için OKR ve çok boyutlu performans çerçevesi oluşturur",
+      "Anlık ve düzenli geribildirim kültürü inşa eder",
+      "Davranış odaklı, motive edici geribildirim verir",
+      "Performans görüşmesini etkili ve güvenle yürütür",
+      "Düşük performansı yapıcı biçimde ve doğrudan ele alır",
+      "Olumlu geribildirimi ve takdiri bilinçli biçimde kullanır",
+      "Görüşme sonrası taahhüt ve takip döngüsünü işletir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "OKR tasarım atölyesi, geribildirim rol yapma, görüşme simülasyonu" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "360 derece değerlendirme sistemleriyle entegre edilebilir mi?",
+        "a": "Evet. İçerik kurumunuzdaki mevcut performans değerlendirme sistemiyle uyumlu biçimde uyarlanabilir."
+      },
+      {
+        "q": "OKR'yi sıfırdan uygulamak isteyen ekipler için uygun mu?",
+        "a": "Evet. OKR modülü; hem mevcut sistemi güçlendirmek hem de sıfırdan başlamak isteyen ekipler için düzenlenebilir."
+      },
+      {
+        "q": "İK ekibi de eğitime katılabilir mi?",
+        "a": "Evet. Performans sistemini tasarlayan İK profesyonellerinin katılımı; eğitim çıktılarının kurumsal sisteme aktarılmasını kolaylaştırır."
+      }
+    ]
+  },
+  "kocluk-mentorluk-danismanlik": {
+    "seoTitle": "Koçluk, Mentorluk ve Danışmanlık Eğitimi | Mühendisler",
+    "seoDescription": "Mühendis liderler için koçluk, mentorluk ve danışmanlık eğitimi. GROW modeli, teknik mentorluk ilişkisi ve mühendislik kariyer koçluğu becerileri.",
+    "heroQuote": "Koçluk; cevap vermek değil, doğru soruyu sormaktır.",
+    "intro": [
+      "Mühendis liderler; teknik bilgilerini aktarmak için güçlü bir içgüdüye sahiptir. Ancak bilgi aktarmak ile gelişimi desteklemek; birbirinden farklı becerilerdir.",
+      "Koçluk; cevap vermek değil, doğru soruyu sormaktır. Mentorluk; deneyimi paylaşmak ama kararı karşıya bırakmaktır. Danışmanlık ise uzmanlık ile rehberliği birleştirmektir. Mühendis lider; bu üç rolü bilinçli kullanarak ekibinde kalıcı bir gelişim kültürü oluşturabilir.",
+      "Bu eğitim; GROW modeliyle yapılandırılmış koçluk konuşmaları, teknik mentorluk ilişkisi kurma ve mühendislik kariyer gelişimine rehberlik etme becerilerini uygulamalı olarak kazandırır."
+    ],
+    "audience": "Ekibindeki mühendislerin gelişimini desteklemek isteyen teknik liderler, kurumsal mentorluk programlarında görev alan veya alacak deneyimli mühendisler ve genç mühendislerin kariyer gelişimine rehberlik eden mühendislik yöneticileri için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Koçluk, Mentorluk ve Danışmanlık: Üç Rolün Farkı",
+        "intro": "Üç rol birbirine karıştırıldığında gelişim etkisi kaybolur. Bu bölümde her rolün sınırları ve doğru kullanım anı netleştirilir.",
+        "bullets": [
+          "Koçluk: Soruyla yönlendirme, çözümü karşıya bırakma",
+          "Mentorluk: Kendi deneyimini paylaşarak yol gösterme",
+          "Danışmanlık: Teknik uzmanlığı doğrudan aktarma",
+          "Mühendis için en doğal rol: Neden hep danışmanlık?"
+        ]
+      },
+      {
+        "title": "GROW Modeli ile Mühendislik Koçluğu",
+        "intro": "GROW; mühendislerin yapılandırılmış düşünce tarzına doğal biçimde uyan, dört adımlı bir koçluk çerçevesidir.",
+        "bullets": [
+          "Goal: Teknik veya kariyer hedefini netleştirme",
+          "Reality: Mevcut durumu tarafsız ve veri odaklı değerlendirme",
+          "Options: Mühendis için seçenekleri birlikte keşfetme",
+          "Will: Taahhüt ve aksiyon planı"
+        ]
+      },
+      {
+        "title": "Teknik Mentorluk İlişkisi",
+        "intro": "Teknik mentorluk; teknik eğitimden farklıdır: amaç bilgi aktarmak değil, mentinin kendi çözümünü bulmasına alan açmaktır.",
+        "bullets": [
+          "Teknik mentorluk ile teknik eğitim arasındaki fark",
+          "Mentinin kendi çözümünü bulmasına alan açma",
+          "Mentorluk görüşmesini yapılandırma: Sıklık, gündem, takip",
+          "Teknik mentorluk ilişkisini sona erdirme: Bağımsızlığa taşıma"
+        ]
+      },
+      {
+        "title": "Mühendislik Kariyer Gelişimine Koçluk",
+        "intro": "Her mühendisin önünde iki yol vardır: uzmanlık yolu ve yönetim yolu. Doğru rehberlik; doğru soruyu sormakla başlar.",
+        "bullets": [
+          "Uzman yolu ile yönetim yolu: Her mühendise doğru soruyu sormak",
+          "Kariyer görüşmesi yapısı: Hedef, güçlü yön, gelişim alanı",
+          "Yüksek potansiyelli genç mühendisleri tanıma ve geliştirme"
+        ]
+      },
+      {
+        "title": "Teknik Danışmanlık: Uzmanlığı Aktarma Sanatı",
+        "intro": "Uzmanlığı paylaşmanın ustalığı; bağımlılık yaratmadan çözüm yolunu göstermektir.",
+        "bullets": [
+          "Çözümü vermek yerine çözüm yolunu gösterme",
+          "\"Ne yapmalıyım?\" sorusuna koçluk yaklaşımıyla yanıt verme",
+          "Bağımlılık yaratmadan uzmanlık paylaşma"
+        ]
+      },
+      {
+        "title": "Kurumsal Koçluk ve Mentorluk Kültürü",
+        "intro": "Bireysel beceriler; kurumsal bir yapıyla desteklendiğinde kalıcı gelişim kültürüne dönüşür.",
+        "bullets": [
+          "Mühendislik ekibinde koçluk kültürü: Liderden rol model olmak",
+          "Çift yönlü mentorluk: Gençten teknik lidere dijital aktarım",
+          "Teknik mentorluk programı tasarlama ve sürdürme"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Koçluk, mentorluk ve danışmanlık rollerini bilinçli biçimde kullanır",
+      "GROW modeli ile yapılandırılmış koçluk konuşmaları yürütür",
+      "Teknik mentorluk ilişkisini etkili ve geliştirici biçimde yönetir",
+      "Mühendislik kariyer gelişimine doğru sorularla rehberlik eder",
+      "Ekibinde kalıcı bir gelişim ve öğrenme kültürü oluşturur",
+      "Uzmanlığını bağımlılık yaratmadan paylaşır",
+      "Kurumsal mentorluk programına uygulayıcı olarak katkı verir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1–2 gün; derinliğe göre ayarlanabilir" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "GROW uygulamaları, mentorluk simülasyonları, kariyer koçluğu rol yapma" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim ICF koçluk sertifikası veriyor mu?",
+        "a": "Hayır. Mühendis liderlere liderlik aracı olarak koçluk becerileri kazandırır; profesyonel ICF sertifikası vermez."
+      },
+      {
+        "q": "Mühendislik mentorluk programımızı bu eğitimle başlatabilir miyiz?",
+        "a": "Evet. Bu eğitim; kurumsal mentorluk programının hem tasarım hem de uygulayıcı geliştirme aşamasına zemin hazırlar."
+      },
+      {
+        "q": "Koçluk deneyimi olmayan mühendisler için uygun mu?",
+        "a": "Evet. Program sıfırdan başlar; üç rolün farkını netleştirdikten sonra GROW modelini adım adım uygulamalı olarak kazandırır."
+      }
+    ]
+  }
+}

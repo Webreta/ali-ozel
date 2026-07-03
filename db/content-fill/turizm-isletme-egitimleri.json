@@ -1,0 +1,435 @@
+{
+  "sistemli-otel-egitimi": {
+    "seoTitle": "Sistemli Otel Eğitimi | Bütünleşik Otel Süreç Yönetimi",
+    "seoDescription": "Otel müdürleri ve departman yöneticileri için sistemli otel eğitimi. Bütünleşik süreç yönetimi, enerji-kaynak-insan yönetimi ve sürdürülebilir işletme modeli.",
+    "heroQuote": "Gerçek yönetim gücü; departmanları ayrı ayrı değil, birbirini besleyen tek bir sistem olarak görmekten geçer.",
+    "intro": [
+      "Bir oteli yönetmek; yalnızca departmanları ayrı ayrı iyi çalıştırmak değildir. Gerçek yönetim gücü; bu departmanların birbirini nasıl beslediğini, hangi kararın nerede zinciri kırdığını ve tüm sistemin ortak bir çıktıya doğru nasıl yönlendirildiğini görmekten geçer.",
+      "Bu eğitim; otel müdürlerine ve departman yöneticilerine, işletmelerini birbirine bağlı süreçler bütünü olarak ele alma yetkinliği kazandırır. Sürdürülebilir bir işletme modeli çerçevesinde enerji, kaynak ve insan yönetimini sistematik biçimde kurgulamaları sağlanır."
+    ],
+    "audience": "Bu program; otel müdürleri, departman yöneticileri ve genel müdür yardımcıları için tasarlanmıştır; içerik işletmenizin büyüklüğüne ve karmaşıklık düzeyine göre uyarlanır.",
+    "sections": [
+      {
+        "title": "Oteli Bir Sistem Olarak Görmek",
+        "intro": "Otel operasyonu; birbirinden bağımsız departmanlar topluluğu değil, birbirini etkileyen ve besleyen karmaşık bir sistemdir. Bu bölümde sistem düşüncesinin otel yönetimine uygulanması ele alınır.",
+        "bullets": [
+          "Departmanlar arası bağımlılık haritası: Ön büro, F&B, temizlik, teknik servis, satış ve İK arasındaki akışlar",
+          "Bir departmandaki aksama nerede kırılma yaratır?",
+          "Sistem haritası çizimi: Kendi otelinizin akış şemasını oluşturma atölyesi",
+          "Çıktı kalitesini belirleyen kritik bağlantı noktaları"
+        ]
+      },
+      {
+        "title": "Enerji ve Kaynak Yönetimini Sistematik Kurgulamak",
+        "intro": "Enerji ve kaynak yönetimi; yalnızca maliyet kontrolü değil, sürdürülebilir bir işletmenin yapısal bileşenidir. Bu bölümde sistemik kaynak optimizasyonu ele alınır.",
+        "bullets": [
+          "Enerji tüketim örüntülerini okuma ve müdahale noktalarını belirleme",
+          "Doluluk oranı ile kaynak kullanımı arasındaki ilişkiyi yönetme",
+          "Su, enerji ve malzeme israfını sistem düzeyinde azaltma",
+          "Sürdürülebilirlik hedeflerini operasyonel rutine entegre etme"
+        ]
+      },
+      {
+        "title": "İnsan Yönetimini Sistemin Bir Parçası Olarak Ele Almak",
+        "intro": "İnsan kaynağı; en değişken ve en kritik sistem bileşenidir. Bu bölümde kadro planlaması, yetkinlik dağılımı ve eğitim sistemini sürdürülebilir bir çerçevede kurma ele alınır.",
+        "bullets": [
+          "Sezonluk kadro dalgalanmasını sistem düzeyinde yönetme",
+          "Yetkinlik haritası: Hangi pozisyonda hangi beceri zorunludur?",
+          "Personel devir hızını azaltan sistem tasarımı",
+          "İşe alımdan ayrılışa: İnsan yönetimi yaşam döngüsü"
+        ]
+      },
+      {
+        "title": "Sürdürülebilir İşletme Modeli Çerçevesi",
+        "intro": "Sezon açılıp kapanır; misafir profili değişir; piyasa dalgalanır. Ama sistem; her koşulda çalışmak zorundadır. Bu bölümde değişken koşullara dirençli bir işletme modeli tasarımı ele alınır.",
+        "bullets": [
+          "Operasyonel kırılganlıkları tespit etme ve azaltma",
+          "Senaryo planlaması: Doluluk düşse ne olur? Fiyat baskısı gelse ne olur?",
+          "Sistemik performans göstergeleri: Departman KPI'larını bütünleşik tabloya bağlama",
+          "Sistem haritasını yönetim aracına dönüştürme"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Oteli birbirine bağlı süreçler bütünü olarak analiz eder ve yönetir",
+      "Enerji, kaynak ve insan yönetimini sistematik biçimde kurgular",
+      "Kendi işletmesinin sistem haritasını çizer ve kritik bağlantı noktalarını belirler",
+      "Sürdürülebilir ve değişkenlere karşı dirençli bir işletme modeli tasarlar",
+      "Departmanlar arası uyumsuzlukların kök nedenini sistem düzeyinde tespit eder",
+      "Departman KPI'larını bütünleşik bir performans tablosuna bağlar",
+      "Senaryo planlamasıyla değişken piyasa koşullarına hazırlıklı olur"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1–2 gün (işletme büyüklüğüne göre)" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Vaka analizi ve sistem haritası atölyesi" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim yalnızca büyük oteller için mi?",
+        "a": "Hayır. Sistem düşüncesi; butik bir otelden resort tesise kadar her ölçekte uygulanabilir. İçerik; işletmenizin büyüklüğüne ve karmaşıklık düzeyine göre uyarlanır."
+      },
+      {
+        "q": "Eğitim sırasında kendi otelimizin verileriyle mi çalışılıyor?",
+        "a": "Evet. Şirket içi eğitimlerde atölye çalışmaları; işletmenizin gerçek süreç akışları, departman yapısı ve performans verileri üzerinden yürütülür."
+      },
+      {
+        "q": "Sistem haritası çıktısı eğitimde tamamlanıyor mu?",
+        "a": "Evet. Katılımcılar; eğitim sonunda kendi işletmelerine ait bir sistem haritası taslağıyla ayrılır. Bu taslak; eğitim sonrası uygulama için doğrudan kullanılabilir."
+      },
+      {
+        "q": "Eğitim sezonda da verilebilir mi?",
+        "a": "Evet. Program; sezon yoğunluğunu göz önünde bulundurarak vardiya veya kısmi katılım formatlarında planlanabilir. Sezon öncesi ve kapalı dönem için özel takvimler de oluşturulabilir."
+      }
+    ]
+  },
+  "kurum-kulturu-temsil-egitimi": {
+    "seoTitle": "Kurum Kültürü ve Temsil Eğitimi | Otel Kimliği Programı",
+    "seoDescription": "Otel ve konaklama işletmeleri için kurum kültürü ve temsil eğitimi. Otel kimliğini içselleştirme, marka tutarlılığı ve misafir temas noktası yönetimi.",
+    "heroQuote": "Markanızı vaatleriniz değil; çalışanlarınızın her temas noktasındaki gerçek davranışları anlatır.",
+    "intro": [
+      "Misafir; otelinize girdiği andan itibaren marka hakkında bir kanı oluşturmaya başlar. Bu kanıyı şekillendiren; vaatleriniz değil, çalışanlarınızın her temas noktasındaki gerçek davranışlarıdır.",
+      "Bu eğitim; katılımcıların otel kimliğini ve kurumsal kültürü içselleştirmelerini sağlar. Her temas noktasında misafiri ve markayı temsil eden, farkında ve tutarlı bir davranış örüntüsü geliştirmelerini destekler."
+    ],
+    "audience": "Bu program; tüm departman yöneticileri ve ekip liderleri ile ön büro ve misafir ilişkileri ekipleri için tasarlanmıştır; içerik katılımcı profiline göre uyarlanır.",
+    "sections": [
+      {
+        "title": "Kurum Kültürü: Tanım, Kaynak ve Aktarım",
+        "intro": "Kültür; yazılı değil, yaşanılandır. Bu bölümde konaklama işletmesinin kültürünün nasıl oluştuğu, nasıl aktarıldığı ve nasıl korunduğu ele alınır.",
+        "bullets": [
+          "Otel kültürünü oluşturan üç kaynak: Tarih, değerler ve liderlik davranışı",
+          "Kültürü aktaran mekanizmalar: Oryantasyon, ritüeller, hikâyeler",
+          "Kültür ile performans arasındaki doğrudan ilişki",
+          "\"Burada işler böyle yürür\" söyleminin kültür üzerindeki etkisi"
+        ]
+      },
+      {
+        "title": "Otel Kimliğini İçselleştirme",
+        "intro": "Misafir; markanın vaatlerini çalışanın davranışından okur. Bu bölümde kimlik haritası atölyesiyle katılımcılar; otelin kimliğini, ayırt edici özelliklerini ve bu kimliği günlük davranışa taşıma yollarını keşfeder.",
+        "bullets": [
+          "Otel kimlik haritası atölyesi: Biz kimiz, ne vaad ediyoruz?",
+          "Marka sesini davranışa dönüştürme: Lüks, samimi, fonksiyonel veya özgün tonları taşıma",
+          "Her departmanın marka kimliğine katkısı",
+          "\"Marka elçisi\" ne demek? Unvan değil, davranış"
+        ]
+      },
+      {
+        "title": "Temas Noktası Yönetimi",
+        "intro": "Misafir yolculuğundaki her an; marka değerini artırma veya zedeleme fırsatıdır. Bu bölümde kritik temas noktaları belirlenir ve her birinde tutarlı temsilin nasıl sağlanacağı ele alınır.",
+        "bullets": [
+          "Misafir yolculuğu haritası: Rezervasyondan ayrılışa kadar her temas",
+          "Sıfır anı: İlk temas ve ilk izlenimin gücü",
+          "Kriz temas anları: Şikayet ve problem anında marka tutarlılığı",
+          "Dijital temas noktaları: E-posta, sosyal medya, değerlendirme yanıtları"
+        ]
+      },
+      {
+        "title": "Tutarlı Temsil ve Rol Yapma Uygulamaları",
+        "intro": "Temsil; söylemekle değil, yaşamakla öğrenilir. Bu bölümde rol yapma egzersizleri ve örnek olay incelemeleri; gerçek misafir etkileşimlerine hazırlık zemini oluşturur.",
+        "bullets": [
+          "Zor misafir senaryoları: Yüksek beklenti, hayal kırıklığı, özel talep",
+          "Rol yapma: İdeal temsil davranışını pratikte sergileme",
+          "Gerçek otel vakası analizi: Ne iyi yapıldı, ne farklı olabilirdi?",
+          "Kültürel çeşitlilik: Farklı misafir profillerine uyum sağlama"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Otel kimliğini ve kurumsal kültürü derinlemesine kavrar ve içselleştirir",
+      "Her temas noktasında markayı tutarlı biçimde temsil eder",
+      "Misafir yolculuğunun kritik anlarını tanır ve doğru müdahaleyi uygular",
+      "Zor misafir durumlarını marka değerini koruyarak yönetir",
+      "Departmanlar arası kültür tutarlılığını güçlendirir",
+      "Marka sesini günlük davranışa dönüştürür",
+      "Dijital temas noktalarında da tutarlı marka temsili sağlar"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 gün (8 saat); 2 güne uzatılabilir" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Rol yapma ve kimlik haritası atölyesi" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim yalnızca ön büro için mi?",
+        "a": "Hayır. Kültür ve temsil; her departmanı kapsar. Mutfak çalışanından güvenlik görevlisine, spa terapistinden teknik servis elemanına kadar tüm ekip markanın bir parçasıdır. İçerik; katılımcı profiline göre uyarlanır."
+      },
+      {
+        "q": "Otelimizin kurumsal kimliği henüz netleşmedi. Bu eğitim yardımcı olur mu?",
+        "a": "Evet. Kimlik haritası atölyesi; hem mevcut kimliği netleştirmek hem de henüz tanımlanmamış değerleri ortaya çıkarmak için kullanılabilir."
+      },
+      {
+        "q": "Bu eğitim çalışan bağlılığına katkı sağlıyor mu?",
+        "a": "Evet. Araştırmalar; kurumsal kimliği ve amacı güçlü biçimde hisseden çalışanların hem misafir memnuniyetine hem de elde tutma oranlarına daha fazla katkı sağladığını göstermektedir."
+      }
+    ]
+  },
+  "rekabet-stratejileri-pazar-konumlanmasi": {
+    "seoTitle": "Otel Rekabet Stratejileri ve Pazar Konumlanması Eğitimi",
+    "seoDescription": "Otel genel müdürleri ve satış direktörleri için rekabet stratejisi eğitimi. Porter modeli, pazar konumlanması, gelir yönetimi ve sürdürülebilir büyüme.",
+    "heroQuote": "Fiyatı değiştirmek strateji değildir; strateji, kime hangi değerle ulaşacağınıza dair tutarlı kararlar bütünüdür.",
+    "intro": [
+      "Bir otelin fiyatını, konumunu veya yıldız sayısını değiştirmek; strateji değildir. Strateji; hangi müşteriye, hangi değer önerisiyle, hangi kanaldan, hangi fiyatla ulaşacağınıza dair bilinçli ve tutarlı kararlar bütünüdür.",
+      "Bu eğitim; genel müdürlere, satış ve pazarlama direktörlerine ve gelir yöneticilerine, otellerini küresel ve yerel rekabet ortamında doğru konumlandırma yetkinliği kazandırır. Sürdürülebilir büyüme odaklı strateji geliştirme ve uygulama becerisi edinilir."
+    ],
+    "audience": "Bu program; genel müdürler, satış ve pazarlama direktörleri ile gelir yöneticileri için tasarlanmıştır; butik otellerden zincir gruplara kadar her ölçekte uygulanabilir.",
+    "sections": [
+      {
+        "title": "Konaklama Sektöründe Rekabet Ortamını Okumak",
+        "intro": "Rakibi yalnızca başka bir otel olarak görmek; strateji körleşmesine yol açar. Bu bölümde sektörün gerçek rekabet yapısı ve değişen dinamikler ele alınır.",
+        "bullets": [
+          "Porter'ın Beş Güç Modeli'nin otel sektörüne uygulaması",
+          "Doğrudan rakip, ikame ürün ve yeni girenler: Gerçek tehditler nerede?",
+          "OTA'lar, dijital platformlar ve doğrudan satış: Kanal rekabetinin anatomisi",
+          "Yerel ve küresel rekabet farkı: Bölgesel pazarda konumlanma"
+        ]
+      },
+      {
+        "title": "Pazar Segmentasyonu ve Hedef Müşteri Tanımı",
+        "intro": "Herkese hitap etmek; kimseye hitap etmemek demektir. Bu bölümde otelinizdeki misafir segmentleri analiz edilir ve her segment için değer önerisi netleştirilir.",
+        "bullets": [
+          "Misafir segmentasyon modelleri: Demografik, psikografik, davranışsal",
+          "Yüksek değerli segment tespiti ve odak stratejisi",
+          "Mevcut müşteri profili ile ideal müşteri profili arasındaki açık",
+          "Segmente özgü değer önerisi geliştirme atölyesi"
+        ]
+      },
+      {
+        "title": "Rekabet Konumlanması ve Farklılaşma Stratejisi",
+        "intro": "Fiyat rekabeti; sürdürülemez ve değer yıkıcıdır. Bu bölümde rakipten anlamlı biçimde farklılaşmanın ve bu farklılaşmayı pazar iletişimine taşımanın yolları ele alınır.",
+        "bullets": [
+          "Mavi okyanus düşüncesi: Farklılaşma ile maliyet optimizasyonunu birleştirmek",
+          "Otelin benzersiz değer önerisini (UVP) belirleme",
+          "Konum-kalite-fiyat üçgenini bilinçli yönetme",
+          "Misafir deneyimini rekabet avantajına dönüştürme"
+        ]
+      },
+      {
+        "title": "Gelir Yönetimi ve Sürdürülebilir Büyüme Stratejisi",
+        "intro": "Doluluk değil, karlılık hedefleyen bir gelir yönetimi stratejisi; uzun vadeli sürdürülebilirliğin temelidir. Bu bölümde revenue management stratejisi ve büyüme modeli tasarımı ele alınır.",
+        "bullets": [
+          "RevPAR, TRevPAR ve GOPPAR: Doğru performans metriğini seçmek",
+          "Dinamik fiyatlandırma stratejisi: Ne zaman nasıl fiyatlanmalı?",
+          "Kanal yönetimi: Kârlı ve sürdürülebilir kanal karması",
+          "Uzun vadeli büyüme stratejisi simülasyonu: Grubunuzun senaryosunu test etme"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Sektörün rekabet yapısını Porter modeli çerçevesinde analiz eder",
+      "Oteli için net ve savunulabilir bir pazar konumlanması tanımlar",
+      "Farklılaşma stratejisini misafir deneyimine ve fiyat politikasına entegre eder",
+      "Gelir yönetimini doluluk odaklı değil, karlılık odaklı kurar",
+      "Sürdürülebilir büyüme odaklı bir strateji belgesi taslağı oluşturur",
+      "Yüksek değerli misafir segmentlerini tespit eder ve odak stratejisi geliştirir",
+      "Kanal karmasını kârlılık ve sürdürülebilirlik odaklı yönetir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1–2 gün; strateji atölyesiyle genişletilebilir" },
+      { "label": "Format", "value": "Şirket içi, açık grup veya çalıştay" },
+      { "label": "Yöntem", "value": "Strateji atölyeleri ve grup simülasyonu" },
+      { "label": "Katılımcı", "value": "6–16 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim küçük butik oteller için de uygun mu?",
+        "a": "Evet. Strateji; büyük ölçekli değil, bilinçli kararlar almakla ilgilidir. Butik oteller için bu eğitim; özellikle nişte güçlü konumlanma ve fiyat baskısına karşı savunulabilir strateji açısından kritik değer taşır."
+      },
+      {
+        "q": "Porter modeli güncel rekabet ortamında hâlâ geçerli mi?",
+        "a": "Evet. OTA'lar ve dijital platformlar; Porter modelinin bileşenleri içinde değerlendirilir. Eğitimde model; dijital rekabet ortamına güncellenmiş biçimde uygulanır."
+      },
+      {
+        "q": "Eğitim sonunda somut bir strateji çıktısı elde edilebilir mi?",
+        "a": "Evet. Katılımcılar; kendi işletmeleri için rekabet analizi özeti ve pazar konumlanma taslağı oluşturarak eğitimden ayrılır."
+      },
+      {
+        "q": "Zincir otel grupları için merkezi program mümkün mü?",
+        "a": "Evet. Birden fazla mülkü kapsayan, grup düzeyinde standartlaştırılmış bir program tasarlanabilir. Her mülkün farklı ihtiyaçları ortak çerçeve içinde ele alınır."
+      }
+    ]
+  },
+  "surec-rol-netligi-raci": {
+    "seoTitle": "Otel Yönetiminde Süreç ve Rol Netliği (RACI) Eğitimi",
+    "seoDescription": "Otel operasyonları için RACI matrisi ve süreç haritalama eğitimi. Sorumluluk muğlaklığını giderin; hesap verebilirlik ve operasyonel verimlilik kazanın.",
+    "heroQuote": "\"Kim yapacak?\" sorusu yanıtsız kaldığında; ya herkes yapıyor gibi görünür ya da kimse yapmaz.",
+    "intro": [
+      "Otel operasyonlarındaki en yaygın verimsizlik kaynağı; çakışan sorumluluklar, belirsiz yetkiler ve net olmayan iş sınırlarıdır. \"Kim yapacak?\" sorusu yanıtsız kaldığında; ya herkes yapıyor gibi görünür ya da kimse yapmaz.",
+      "Bu eğitim; katılımcıların otel operasyonlarındaki sorumluluk muğlaklığını gidermesini ve RACI matrisi ile süreç haritalama araçlarını kullanarak netlik, hesap verebilirlik ve verimlilik ortamı oluşturabilmesini sağlar."
+    ],
+    "audience": "Bu program; departman yöneticileri, insan kaynakları yöneticileri ve operasyon direktörleri için tasarlanmıştır; departmanlar arası koordinasyon sorunu yaşayan tüm konaklama işletmelerine uygundur.",
+    "sections": [
+      {
+        "title": "RACI Nedir?",
+        "intro": "RACI; Responsible (Sorumlu), Accountable (Hesap Veren), Consulted (Danışılan) ve Informed (Bilgilendirilen) kelimelerinin kısaltmasıdır. Her süreç veya karar için bu dört rolün net biçimde tanımlandığı bir sorumluluk matrisidir; otel operasyonlarında departmanlar arası belirsizliği gidermek için son derece güçlü bir araçtır.",
+        "bullets": [
+          "R (Responsible — Sorumlu): İşi fiilen yapan kim?",
+          "A (Accountable — Hesap Veren): Sonuçtan kim hesap verir?",
+          "C (Consulted — Danışılan): Karar öncesinde kim görüşülmeli?",
+          "I (Informed — Bilgilendirilen): Kim bilgilendirilmeli ama kararı etkilemez?"
+        ]
+      },
+      {
+        "title": "Otel Operasyonlarında Sorumluluk Muğlaklığının Anatomisi",
+        "intro": "Sorumluluk muğlaklığı; çoğu zaman kasıtlı değil, sistemin tasarımından kaynaklanır. Bu bölümde otel operasyonlarındaki tipik muğlaklık noktaları gerçek örneklerle ele alınır.",
+        "bullets": [
+          "Çakışan sorumluluklar: Ön büro ile kat hizmetleri, F&B ile mutfak arasındaki gri alanlar",
+          "\"Herkesin işi kimsenin işidir\" sendromu ve operasyonel maliyeti",
+          "Sorumluluk boşluğu: Misafir şikâyetlerinin düştüğü alanlar",
+          "Departmanlar arası koordinasyon kopukluğunun kök nedeni"
+        ]
+      },
+      {
+        "title": "RACI Matrisi: Kavram ve Otel Uygulaması",
+        "intro": "RACI; yalnızca bir tablo değil, organizasyonel netliğin çerçevesidir. Bu bölümde RACI bileşenleri otel operasyonuna özgü örneklerle derinlemesine ele alınır.",
+        "bullets": [
+          "Dört rolün otel süreçlerindeki karşılıkları: Kim yapar, kim hesap verir?",
+          "Süreç ve karar bazında rol atama ilkeleri",
+          "RACI uygulama tuzakları: A ve R'nin aynı kişide toplanması, aşırı C kullanımı"
+        ]
+      },
+      {
+        "title": "Süreç Haritalama Atölyesi",
+        "intro": "RACI; bir sürecin haritası olmadan uygulanamaz. Bu bölümde katılımcılar; kendi otellerinin kritik operasyonel süreçlerini adım adım haritalandırır.",
+        "bullets": [
+          "Süreç seçimi: Hangi süreçler öncelikli olarak haritaya alınmalı?",
+          "Süreç adımlarını tanımlama: Giriş, aktivite, çıktı ve kontrol noktaları",
+          "Karar noktalarını ve sapma senaryolarını belirleme",
+          "Swimlane diyagramı: Departmanlar arası süreci görselleştirme"
+        ]
+      },
+      {
+        "title": "RACI Matrisi Oluşturma ve Uygulama",
+        "intro": "Bu bölümde katılımcılar; haritaladıkları süreçler için gerçek RACI matrislerini oluşturur. Rol sınırı simülasyonlarıyla belirsiz senaryolar gerçek zamanlı olarak tartışılır.",
+        "bullets": [
+          "Kritik otel süreçleri için RACI matrisi hazırlama atölyesi",
+          "Rol sınırı simülasyonu: \"Bu durumda kim karar verir?\" senaryoları",
+          "RACI'yi departman toplantısına taşıma: Nasıl paylaşılır, nasıl kabul ettirilir?",
+          "RACI güncellemesi: Organizasyonel değişimlere paralel güncelleme döngüsü"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Otel operasyonlarındaki sorumluluk muğlaklığının kaynaklarını tanımlar",
+      "RACI matrisini doğru biçimde oluşturur ve uygular",
+      "Kritik operasyonel süreçleri haritalandırır",
+      "Departmanlar arası rol çakışmalarını giderir",
+      "Hesap verebilirlik ve netlik kültürünü kurumsal düzeyde oluşturur",
+      "Swimlane diyagramıyla departmanlar arası süreçleri görselleştirir",
+      "RACI matrisini organizasyonel değişimlere paralel biçimde günceller"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1–2 gün; uygulama atölyesiyle uzatılabilir" },
+      { "label": "Format", "value": "Şirket içi veya çalıştay (workshop)" },
+      { "label": "Yöntem", "value": "RACI atölyesi ve süreç haritalama" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "RACI uygulaması zaman alıcı değil mi?",
+        "a": "İlk kurulum zaman gerektirse de RACI'nin önlediği koordinasyon hataları, tekrar eden sürtüşmeler ve misafir şikâyetleri hesaplandığında; yatırım geri dönüşü son derece hızlıdır."
+      },
+      {
+        "q": "Hangi otel süreçleri önce RACI'ye alınmalı?",
+        "a": "Misafir şikâyetlerine en çok konu olan süreçler, departmanlar arası el değiştirme noktaları ve yüksek maliyetli hatalar; öncelikli başlangıç noktalarıdır."
+      },
+      {
+        "q": "RACI çıktısı eğitim sırasında oluşturuluyor mu?",
+        "a": "Evet. Katılımcılar; belirlenen 2–3 kritik süreç için taslak RACI matrisi ve süreç haritasıyla eğitimden ayrılır."
+      }
+    ]
+  },
+  "surekli-egitim-sistemi-kurmak": {
+    "seoTitle": "Sürekli Eğitim Sistemi Kurmak | Otelde Kurumsal Öğrenme",
+    "seoDescription": "Otel ve konaklama işletmelerinde sürekli eğitim sistemi kurma programı. Ad hoc eğitimden sistematik kurumsal öğrenmeye geçiş ve ölçülebilir gelişim modeli.",
+    "heroQuote": "Ad hoc eğitim anlık bilgi aktarabilir; davranışı ancak sistematik öğrenme değiştirir.",
+    "intro": [
+      "Otel eğitimleri; çoğu işletmede bir kriz sonrasında, müfettiş ziyaretinden önce veya sezon açılışında tekrarlanan bir ritüele dönüşmüştür. Bu yaklaşım; anlık bilgi aktarabilir ama davranış değiştiremez.",
+      "Bu eğitim; katılımcıların kendi işletmelerinde ad hoc eğitim anlayışından çıkarak sistematik, sürdürülebilir ve ölçülebilir bir kurumsal öğrenme sistemi tasarlayıp hayata geçirebilmesini sağlar."
+    ],
+    "audience": "Bu program; insan kaynakları yöneticileri, eğitim koordinatörleri, genel müdürler ve departman şefleri için tasarlanmıştır; sistemin sahiplenilmesi için İK ve operasyon tarafının birlikte katılımı önerilir.",
+    "sections": [
+      {
+        "title": "Ad Hoc Eğitimden Sistematik Öğrenmeye",
+        "intro": "Ad hoc eğitim; sorunu geçici olarak kaplar ama çözmez. Bu bölümde sistematik kurumsal öğrenmenin ne anlama geldiği ve neden fark yarattığı ele alınır.",
+        "bullets": [
+          "Ad hoc eğitimin gerçek maliyeti: Tekrar, kayıp bilgi ve tutarsız performans",
+          "Öğrenen organizasyon nedir? Konaklama sektöründen başarılı örnekler",
+          "Eğitim yatırımının geri dönüşünü ölçmek: Kirkpatrick modeli",
+          "Sistematik öğrenmenin çalışan bağlılığı ve müşteri memnuniyetine etkisi"
+        ]
+      },
+      {
+        "title": "Eğitim İhtiyaç Analizi (EİA)",
+        "intro": "Doğru eğitimi tasarlamadan önce doğru ihtiyacı tespit etmek gerekir. Bu bölümde katılımcılar; kendi işletmeleri için yapılandırılmış bir eğitim ihtiyaç analizi uygular.",
+        "bullets": [
+          "Performans boşluğunu tespit etme: Beklenen ile gerçekleşen arasındaki fark",
+          "EİA araçları: Gözlem, anket, yetkinlik değerlendirme, yönetici görüşmesi",
+          "Eğitim ile eğitim dışı çözüm arasındaki fark: Hangi sorun eğitimle çözülür?",
+          "Otel için öncelikli eğitim alanlarını belirleme atölyesi"
+        ]
+      },
+      {
+        "title": "Kurumsal Öğrenme Sistemi Tasarımı",
+        "intro": "Sürdürülebilir bir öğrenme sistemi; programlar listesi değil, yapı ve süreçler bütünüdür. Bu bölümde katılımcılar; işletmeleri için öğrenme sistemi mimarisi oluşturur.",
+        "bullets": [
+          "Öğrenme yolları (learning pathways): Pozisyona göre gelişim haritası",
+          "Oryantasyon sistemi: İlk 90 gün çerçevesi",
+          "Tekrarlayan eğitim takvimi: Yıllık öğrenme takvimi nasıl kurulur?",
+          "İç eğitmen sistemi: Departman içinde bilgi aktarım mekanizması",
+          "Dijital ve yüz yüze öğrenme karma modeli"
+        ]
+      },
+      {
+        "title": "Akran Öğrenmesi ve Bilgi Paylaşım Kültürü",
+        "intro": "En değerli bilgi; çoğu zaman kurumun içindedir ve paylaşılmayı bekler. Bu bölümde otel operasyonunda akran öğrenmesini yapılandırma ve bilgi paylaşım kültürü oluşturma ele alınır.",
+        "bullets": [
+          "Akran öğrenmesi simülasyonu: Deneyimli çalışandan yeniye bilgi aktarımı",
+          "Saha koçluğu kültürü: Yöneticinin günlük öğreticilik rolü",
+          "Bilgi havuzu: Vaka arşivi, hata günlükleri ve başarı hikâyeleri",
+          "Ödüllendirme: Bilgi paylaşımı nasıl teşvik edilir?"
+        ]
+      },
+      {
+        "title": "Eğitim Sisteminin Ölçümü ve Sürdürülmesi",
+        "intro": "Ölçülemeyen şey geliştirilemez. Bu bölümde öğrenme sisteminin etkinliğini izleme, raporlama ve güncelleme döngüsü ele alınır.",
+        "bullets": [
+          "Eğitim etkinliği ölçüm göstergeleri: Tepki, öğrenme, davranış, sonuç",
+          "Eğitim tamamlama oranlarının ötesi: Gerçek etki nasıl ölçülür?",
+          "Yıllık eğitim sistemi gözden geçirme döngüsü",
+          "Bütçe planlaması: Eğitim yatırımını savunulabilir kılmak"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Kendi işletmesi için yapılandırılmış bir eğitim ihtiyaç analizi uygular",
+      "Sistematik ve sürdürülebilir kurumsal öğrenme mimarisi tasarlar",
+      "Pozisyona göre öğrenme yolları ve yıllık eğitim takvimi oluşturur",
+      "İç eğitmen ve akran öğrenmesi mekanizmaları kurar",
+      "Eğitim sisteminin etkinliğini ölçer ve güncelleme döngüsü oluşturur",
+      "Kirkpatrick modeliyle eğitim yatırımının geri dönüşünü değerlendirir",
+      "Bilgi paylaşımını teşvik eden ödüllendirme mekanizmaları tasarlar"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1–2 gün; tasarım atölyesiyle uzatılabilir" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Sistem tasarımı atölyesi ve EİA uygulaması" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Küçük bir otel için bu kadar kapsamlı bir sistem gerekli mi?",
+        "a": "Sistem; büyüklükle değil, bilinçlilikle ilgilidir. 30 odalı bir butik otel de sistematik bir oryantasyon, tekrarlayan güvenlik eğitimi ve misafir iletişimi gelişim planı kurabilir. Ölçek küçüldükçe araçlar sadeleşir, ancak mantık değişmez."
+      },
+      {
+        "q": "İç eğitmen sistemi nasıl kurulur?",
+        "a": "Eğitimde iç eğitmen seçim kriterleri, eğitmen yetiştirme çerçevesi ve iç eğitimin kalitesini izleme mekanizması ele alınır. Katılımcılar; kendi iç eğitmen programı taslağıyla ayrılır."
+      },
+      {
+        "q": "Bu eğitimi departman şefleri de almalı mı, yoksa yalnızca İK mı?",
+        "a": "Öğrenme sisteminin sahiplenilmesi için ideal katılım karması; İK yöneticisi, en az iki departman şefi ve genel müdür ya da yardımcısıdır. Sistem; yalnızca İK departmanına bırakıldığında çoğu zaman yalnızca kâğıtta kalır."
+      }
+    ]
+  }
+}

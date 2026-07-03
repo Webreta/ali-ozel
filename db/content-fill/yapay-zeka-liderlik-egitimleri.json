@@ -1,0 +1,719 @@
+{
+  "dijital-ayna-kisisel-farkindalik": {
+    "seoTitle": "Dijital Ayna: YZ ile Kişisel Farkındalık Eğitimi",
+    "seoDescription": "Yapay zekâ destekli kişisel farkındalık eğitimi. YZ araçlarıyla liderlik profili analizi, körleşme noktalarını keşfetme ve otantik liderlik. Teklif alın.",
+    "heroQuote": "Yapay zekâ size yeni bir kimlik vermez; taşıdığınız kimliği hiç görmediğiniz kadar net gösterir.",
+    "intro": [
+      "Kendini tanımak; liderliğin en köklü temelidir. Yapay zekâ araçları bu yolculuğa yeni bir boyut katıyor: davranışlarımızı, iletişim tarzımızı ve karar örüntülerimizi yansıtan bir dijital ayna sunuyor.",
+      "Bu eğitimde katılımcılar; YZ destekli değerlendirme araçları aracılığıyla kendi güçlü yönlerini, körleşme noktalarını ve liderlik tarzlarını keşfeder. Teknoloji burada bir ölçüm aracı değil; farkındalık hızlandırıcısı olarak kullanılır.",
+      "Eğitimin sonunda her katılımcı; algoritmanın sunduğu içgörüyü kendi değerleri ve kimliğiyle harmanlayan, eyleme dönüşebilir bir kişisel gelişim planıyla ayrılır."
+    ],
+    "audience": "Liderlik gelişim programlarına katılan üst ve orta düzey yöneticiler, kendi liderlik tarzını derinlemesine anlamak isteyen profesyoneller, koçluk veya mentorluk sürecindeki bireyler ve kurumsal yetenek geliştirme programlarının katılımcıları için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Yapay Zekâ Neden İyi Bir Ayna Tutabilir?",
+        "intro": "YZ araçları; davranışsal örüntüleri, yazılı iletişim tarzını ve karar süreçlerindeki eğilimleri insandan daha nesnel biçimde analiz edebilir. Bu bölümde YZ'nin öz değerlendirme sürecindeki potansiyeli ve sınırları dürüstçe ele alınır.",
+        "bullets": [
+          "YZ analizi ile insan algısı arasındaki fark: Hangi kör noktaları görür?",
+          "Dijital iz analizi: İletişim tarzımız bizi nasıl tanımlıyor?",
+          "YZ nesnel midir? Algoritmik önyargının farkındalık araçlarına etkisi"
+        ]
+      },
+      {
+        "title": "YZ Destekli Liderlik Profili Keşfi",
+        "intro": "Katılımcılar; YZ araçlarıyla desteklenmiş liderlik envanterlerini uygular ve sonuçlarını bilinçli biçimde yorumlar. Amaç; bir profil etiketi değil, eyleme dönüşebilir içgörü kazanmaktır.",
+        "bullets": [
+          "YZ destekli liderlik tarzı analizi: Güçlü yönler ve gelişim alanları",
+          "İletişim dili analizi: Söylediklerimizin ötesindeki örüntüler",
+          "Karar alma örüntülerini görünür kılma"
+        ]
+      },
+      {
+        "title": "Körleşme Noktaları ve Farkındalık Boşlukları",
+        "intro": "Her lider; kendi bakış açısının ötesini göremediği noktalar taşır. Bu bölümde YZ araçlarının bu boşlukları nasıl aydınlatabileceği ve elde edilen içgörülerin gelişim sürecine nasıl entegre edileceği ele alınır.",
+        "bullets": [
+          "Körleşme noktası nedir ve neden oluşur?",
+          "YZ geri bildirimi ile 360 derece geri bildirim arasındaki fark",
+          "İçgörüyü eyleme dönüştürme: Farkındalık planı oluşturma"
+        ]
+      },
+      {
+        "title": "Yapay Zekâ Çağında Otantik Liderlik",
+        "intro": "Algoritmalar tavsiye üretir; ancak kimlik, değerler ve özgünlük her zaman insana ait olacaktır. Bu bölümde YZ desteğiyle daha güçlü bir otantik liderlik anlayışı geliştirme ele alınır.",
+        "bullets": [
+          "Otantik liderlik: YZ çağında anlam ve değer temelli kimlik",
+          "Dijital araçlarla güçlendirilen ama onlara bağımlı olmayan liderlik",
+          "Kişisel liderlik manifestosu: Eğitimden çıkarken oluşturulan bireysel taahhüt"
+        ]
+      }
+    ],
+    "outcomes": [
+      "YZ araçlarını kişisel farkındalık için bilinçli biçimde kullanır",
+      "Kendi liderlik profilini ve körleşme noktalarını netleştirir",
+      "YZ geri bildirimini eleştirel ve yapıcı biçimde yorumlar",
+      "Algoritmik önyargının öz değerlendirme araçlarına etkisini tanır",
+      "Otantik liderlik kimliğini dijital çağa taşır",
+      "Kişisel liderlik manifestosunu oluşturur",
+      "Bireysel gelişim planını YZ içgörüleriyle güçlendirir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 gün (8 saat) veya 2 yarım gün" },
+      { "label": "Format", "value": "Şirket içi, açık grup veya online canlı" },
+      { "label": "Yöntem", "value": "YZ uygulama atölyeleri, profil analizi, bireysel refleksiyon" },
+      { "label": "Katılımcı", "value": "8–25 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Hangi YZ araçları kullanılıyor?",
+        "a": "Eğitimde kullanılan araçlar; kurumunuzun tercihlerine ve erişim durumuna göre belirlenir. Platform bağımsız bir yaklaşım benimsenmektedir."
+      },
+      {
+        "q": "Kişisel veriler güvende mi?",
+        "a": "Evet. Eğitimde kullanılan tüm değerlendirme araçları gizlilik ilkesiyle yönetilir; bireysel sonuçlar yalnızca katılımcıyla paylaşılır."
+      },
+      {
+        "q": "Teknik yapay zekâ bilgisi gerekiyor mu?",
+        "a": "Hayır. Program; teknik arka plan gerekmeksizin her düzeydeki profesyonele hitap eder. Araç tanıtımı değil, farkındalık ve liderlik gelişimi ön plandadır."
+      }
+    ]
+  },
+  "gelecegin-operatoru-yz-verimlilik": {
+    "seoTitle": "Geleceğin Operatörü: YZ Destekli Verimlilik Eğitimi",
+    "seoDescription": "İş dünyasında yapay zekâ destekli verimlilik eğitimi. Günlük iş akışında YZ araçları, prompt mühendisliği ve kişisel entegrasyon planı. Teklif alın.",
+    "heroQuote": "Fark, aracı bilende değil; onu her gün işine doğru biçimde dokuyanda ortaya çıkar.",
+    "intro": [
+      "Yapay zekâ araçlarını kullanan bir çalışan; kullanmayan rakibine kıyasla saatler değil, katlar farkıyla daha verimli çalışabilir. Ancak bu avantaj; araçları yalnızca bilen değil, doğru biçimde kullanan bireylere aittir.",
+      "Bu eğitim; katılımcıların kendi iş süreçlerinde YZ araçlarını keşfetmesini, denemesini ve somut verimlilik kazanımları elde etmesini sağlar. Teorik değil; uygulamalı ve bireysel iş gerçeklerine dayalı bir yaklaşım benimsenir.",
+      "Katılımcılar bilgisayar başında, kendi gerçek görevleri üzerinde çalışır ve eğitimden kişisel bir YZ iş akışı planıyla ayrılır."
+    ],
+    "audience": "YZ araçlarını günlük iş süreçlerine entegre etmek isteyen her düzeydeki ofis ve bilgi çalışanı, dijital dönüşümü başlatmak veya hızlandırmak isteyen ekip liderleri ve yöneticiler ile bireysel YZ kullanım olgunluğunu artırmak isteyen profesyoneller için uygundur.",
+    "sections": [
+      {
+        "title": "Yapay Zekâ Araçlarını Anlamak: Neyi Yapabilir, Neyi Yapamaz?",
+        "intro": "YZ araçlarından beklentileri doğru ayarlamak; hem hayal kırıklığını hem de aşırı güveni önler. Bu bölümde temel YZ yetenekleri ve sınırları somut örneklerle ele alınır.",
+        "bullets": [
+          "Üretken YZ (Generative AI) nedir ve ne işe yarar?",
+          "YZ'nin güçlü olduğu ve zayıf kaldığı alanlar",
+          "Hangi YZ aracı ne için kullanılır: ChatGPT, Copilot, Gemini karşılaştırması"
+        ]
+      },
+      {
+        "title": "Prompt Mühendisliği: YZ'den Daha Fazlasını Almak",
+        "intro": "YZ araçlarından alınan çıktının kalitesi; büyük ölçüde sorulan sorunun kalitesine bağlıdır. Bu bölümde etkili prompt yazma teknikleri ve iş süreçlerine uyarlanması ele alınır.",
+        "bullets": [
+          "Etkili prompt yapısı: Bağlam, görev, format, ton",
+          "Zincirleme prompt: Karmaşık görevleri adımlara bölme",
+          "Sektöre ve role özgü prompt şablonları oluşturma",
+          "YZ çıktısını doğrulama ve iyileştirme döngüsü"
+        ]
+      },
+      {
+        "title": "İş Akışına YZ Entegrasyonu",
+        "intro": "YZ araçlarını bir kez denemek ile iş akışına entegre etmek farklıdır. Bu bölümde katılımcılar; kendi rollerine ve günlük görevlerine özel YZ entegrasyon haritası çıkarır.",
+        "bullets": [
+          "Tekrarlayan görevleri tespit etme: Otomasyona hazır süreçler",
+          "Yazma, özetleme, analiz ve araştırma süreçlerinde YZ",
+          "Toplantı öncesi ve sonrası YZ kullanımı: Hazırlık ve not üretimi",
+          "Kişisel YZ iş akışı tasarımı: Her katılımcı kendi planını oluşturur"
+        ]
+      },
+      {
+        "title": "Verimliliği Ölçme ve Sürdürme",
+        "intro": "YZ kullanımının gerçek verimlilik etkisini ölçmek; hem motivasyonu artırır hem de kurumsal yatırım gerekçesi sağlar. Bu bölümde verimlilik takibi ve alışkanlık oluşturma ele alınır.",
+        "bullets": [
+          "YZ kullanım günlüğü: Ne kazandım, ne kaybettim?",
+          "Bireysel verimlilik metriklerini takip etme",
+          "YZ alışkanlıklarını kalıcı kılma: 30 günlük uygulama planı"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Temel YZ araçlarını iş süreçlerinde etkin biçimde kullanır",
+      "Etkili prompt yazma becerisini geliştirir",
+      "YZ çıktısını doğrulama ve iyileştirme döngüsünü uygular",
+      "Kendi iş akışına özgü YZ entegrasyon planı oluşturur",
+      "Tekrarlayan ve zaman alıcı görevleri YZ ile hızlandırır",
+      "Bireysel verimlilik etkisini ölçer ve takip eder",
+      "YZ kullanımını sürdürülebilir bir alışkanlığa dönüştürür"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 gün (8 saat) — bilgisayar başında, uygulamalı" },
+      { "label": "Format", "value": "Şirket içi, açık grup veya online canlı" },
+      { "label": "Yöntem", "value": "Canlı YZ denemeleri, iş akışı atölyesi, prompt egzersizleri" },
+      { "label": "Katılımcı", "value": "8–25 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Katılımcıların kendi cihazlarını getirmesi gerekiyor mu?",
+        "a": "Evet. Eğitim; uygulamalı ve bireysel cihaz üzerinden yürütülür. Dizüstü bilgisayar veya tablet yeterlidir."
+      },
+      {
+        "q": "Hangi YZ araçlarına erişim gerekiyor?",
+        "a": "Eğitimde ücretsiz erişilebilen araçlar öncelikli olarak kullanılır. Kurumunuzun lisanslı araçları varsa bunlarla da çalışılabilir."
+      },
+      {
+        "q": "Teknik bilgi düzeyi ne olmalı?",
+        "a": "Herhangi bir teknik ön koşul yoktur. Temel bilgisayar kullanımı yeterlidir; içerik her düzeydeki bilgi çalışanına hitap edecek biçimde tasarlanmıştır."
+      }
+    ]
+  },
+  "algoritmik-liderlik-karar-verme": {
+    "seoTitle": "Algoritmik Liderlik: YZ ile Karar Verme Eğitimi",
+    "seoDescription": "Yöneticiler için YZ destekli karar verme eğitimi. YZ çıktısını eleştirel okuma, algoritmik önyargı yönetimi ve kurumsal karar çerçevesi. Teklif alın.",
+    "heroQuote": "Algoritma içgörü sunar; kararın sorumluluğu ise her zaman liderin omzundadır.",
+    "intro": [
+      "YZ; veri toplar, örüntü bulur ve öneri üretir. Ancak bir örgütün geleceğine yön verecek kararı almak; hâlâ insana ait bir sorumluluktur. Lider, algoritmanın sunduğu içgörüyü kullanabilmeli ama ona teslim olmamalıdır.",
+      "Bu eğitim; yöneticilere YZ destekli karar verme süreçlerini tasarlamayı, YZ çıktılarını eleştirel biçimde yorumlamayı ve algoritmik önyargıların kör noktalarına karşı bilinçli kalmayı öğretir.",
+      "Karar simülasyonları ve vaka çalışmalarıyla ilerleyen program; katılımcıların kuruma özgü bir YZ karar yetkisi çerçevesi tasarlamasıyla tamamlanır."
+    ],
+    "audience": "Karar alma süreçlerinde YZ araçlarından yararlanmak isteyen üst ve orta düzey yöneticiler, veri odaklı liderlik anlayışını derinleştirmek isteyen departman liderleri ve YZ önerilerine dayalı kararların sorumluluğunu taşıyan tüm karar vericiler için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Karar Vermenin Yeni Manzarası",
+        "intro": "YZ araçları; yöneticinin masasına her zamankinden fazla veri ve öneri koyuyor. Bu bolluğu yönetmek; yeni bir liderlik becerisi gerektiriyor.",
+        "bullets": [
+          "YZ öncesi ve sonrası karar verme: Ne değişti?",
+          "Veri bolluğunun yarattığı yeni karar patolojileri: Analiz felci ve aşırı güven",
+          "İnsan sezgisi ile YZ analizi: Ne zaman hangisi öne çıkar?"
+        ]
+      },
+      {
+        "title": "YZ Çıktısını Eleştirel Okuma",
+        "intro": "YZ çıktısı her zaman doğru değildir. Bu bölümde yöneticiler; YZ önerilerini sorgulama, doğrulama ve geliştirme becerisi kazanır.",
+        "bullets": [
+          "Halüsinasyon (hallucination) nedir ve nasıl fark edilir?",
+          "YZ çıktısını doğrulama kontrol listesi",
+          "Güvenilir YZ kaynağı ile güvenilmez arasındaki farkı okuma"
+        ]
+      },
+      {
+        "title": "Algoritmik Önyargı Farkındalığı",
+        "intro": "Algoritmalar; eğitildikleri verinin önyargılarını miras alır. Bu bölümde yöneticiler; algoritmik önyargıların kurumsal kararlara nasıl sızdığını ve bunu nasıl yöneteceklerini öğrenir.",
+        "bullets": [
+          "Algoritmik önyargı nedir? Gerçek iş dünyası örnekleri",
+          "Önyargıyı tespit etme: Hangi soruları sormalıyım?",
+          "Çeşitlilik ve adalet lensinden YZ kararlarını değerlendirme"
+        ]
+      },
+      {
+        "title": "Karar Çerçevesi Tasarlama",
+        "intro": "Hangi kararları YZ'ye bırakmalı, hangilerinde YZ yalnızca girdi sağlamalı, hangilerini tamamen insan almalı? Bu bölümde kuruma özgü karar çerçevesi tasarımı ele alınır.",
+        "bullets": [
+          "Karar tipolojisi: Rutin, yarı yapılandırılmış, stratejik",
+          "YZ yetki matrisi: Kim ne kararı YZ'ye danışabilir?",
+          "Hesap verebilirlik: YZ tavsiyesine dayalı kararın sorumluluğu kime aittir?"
+        ]
+      }
+    ],
+    "outcomes": [
+      "YZ destekli karar alma süreçlerini tasarlar ve yönetir",
+      "YZ çıktısını eleştirel ve sorgulayıcı biçimde okur",
+      "Halüsinasyon ve hatalı çıktıları fark eder, doğrulama listesi uygular",
+      "Algoritmik önyargıların kurumsal kararlar üzerindeki etkisini yönetir",
+      "İnsan sezgisi ile veri analizini bilinçli biçimde dengeler",
+      "Kurumuna özgü YZ karar yetkisi çerçevesi oluşturur",
+      "YZ destekli kararlarda hesap verebilirlik zincirini netleştirir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 gün (8 saat)" },
+      { "label": "Format", "value": "Şirket içi, açık grup veya online canlı" },
+      { "label": "Yöntem", "value": "YZ karar simülasyonları, vaka çalışmaları, tasarım atölyesi" },
+      { "label": "Katılımcı", "value": "8–25 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim veri bilimi veya teknik YZ içeriği içeriyor mu?",
+        "a": "Hayır. Eğitim; tamamen liderlik ve yönetim perspektiflidir. Teknik veri bilimi bilgisi gerekmez."
+      },
+      {
+        "q": "Hangi sektörlere uygun?",
+        "a": "Finans, üretim, sağlık, perakende, lojistik ve kamu dahil tüm sektörlere uyarlanabilir. Vaka örnekleri kurumunuzun sektörüne göre seçilir."
+      },
+      {
+        "q": "Eğitim belirli bir YZ platformuna mı bağlı?",
+        "a": "Hayır. İçerik; ChatGPT, Copilot, Gemini veya kurumunuzun kullandığı herhangi bir YZ aracıyla çalışacak biçimde platform bağımsız tasarlanmıştır."
+      }
+    ]
+  },
+  "vicdanin-kodu-yz-etik-anayasasi": {
+    "seoTitle": "Vicdanın Kodu: Kurumsal YZ Etik Anayasası Çalıştayı",
+    "seoDescription": "Kurumsal yapay zekâ etik anayasası çalıştayı. YZ etik ilkeleri, yasaklı kullanım alanları ve paydaş mutabakatıyla somut taslak belge. Teklif alın.",
+    "heroQuote": "Yapay zekânın sınırlarını piyasa değil; kurumun kendi vicdanı çizmelidir.",
+    "intro": [
+      "Yapay zekâyı hangi amaçlarla kullanacağız? Hangi sınırları asla geçmeyeceğiz? Bir YZ hatası yaşandığında hesap verebilirlik kime aittir? Bu soruların yanıtlarını piyasa değil, kurumun kendisi vermelidir.",
+      "Bu çalıştay; üst yönetim, hukuk, İK, dijital dönüşüm ve operasyon ekiplerini bir araya getirerek kuruma özgü bir Yapay Zekâ Etik Anayasası taslağı oluşturmayı hedefler. Bir eğitim değil; ortak bir üretim sürecidir.",
+      "Çalıştayın sonunda ortaya çıkan; ilkeler, yasaklı kullanım alanları ve ihlal prosedürlerini içeren, hukuki incelemeye ve üst yönetim onayına hazır somut bir taslak belgedir."
+    ],
+    "audience": "YZ stratejisi oluşturan üst yönetim, YZ kullanımını politikaya bağlamak isteyen hukuk ve uyum ekipleri, YZ etiğini kuruma yerleştirmek isteyen İK ve organizasyonel gelişim profesyonelleri ile YZ projelerinde karar alıcı konumundaki tüm yöneticiler için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Neden Bir YZ Etik Anayasasına İhtiyaç Var?",
+        "intro": "Regülasyon sınırları belirler; değerler ise yönü gösterir. Bu açılış bölümünde kurumsal YZ etiğinin neden bir zorunluluk olduğu ve geç kalmanın riskleri ele alınır.",
+        "bullets": [
+          "AB Yapay Zekâ Yasası ve küresel regülasyon trendleri",
+          "YZ etiği ihlallerinden kurumsal riskler: Ün, hukuki ve finansal boyut",
+          "Değer temelli YZ: Teknik uyumluluktan kültürel bütünleşmeye"
+        ]
+      },
+      {
+        "title": "Etik Çerçeve Bileşenleri",
+        "intro": "Kapsamlı bir YZ etik anayasası; birden fazla boyutu kapsamalıdır. Bu bölümde uluslararası YZ etik çerçeveleri incelenir ve kuruma uygun bileşenler belirlenir.",
+        "bullets": [
+          "Şeffaflık ve açıklanabilirlik: YZ kararlarını anlayabilmek",
+          "Adalet ve önyargısızlık: Kapsayıcı YZ tasarımı",
+          "Gizlilik ve veri güvenliği: Kullanıcı haklarının korunması",
+          "Hesap verebilirlik: YZ hatalarında sorumluluk zinciri",
+          "İnsan denetimi: Hangi kararlarda insan mutlaka yer almalı?"
+        ]
+      },
+      {
+        "title": "Kurumsal YZ Etik Anayasası Taslağı Oluşturma",
+        "intro": "Çalıştayın çıktısı; somut bir taslak belgedir. Katılımcılar; grup çalışmasıyla kuruma özgü ilkeleri, yasaklı kullanım alanlarını ve etik ihlal prosedürlerini birlikte tasarlar.",
+        "bullets": [
+          "Kurumun YZ değerlerini ve ilkelerini belirleme",
+          "Yasaklı ve kısıtlı kullanım alanlarını tanımlama",
+          "İhlal raporlama ve yanıt mekanizması tasarlama",
+          "Anayasanın kuruma yayılması: İletişim ve eğitim planı"
+        ]
+      },
+      {
+        "title": "Paydaş Mutabakatı ve Onay Süreci",
+        "intro": "Bir anayasanın değeri; içeriğinden değil, sahiplenilmesinden gelir. Bu bölümde paydaş katılımını sağlama ve anayasayı kuruma yaymak için eylem planı oluşturma ele alınır.",
+        "bullets": [
+          "Kritik paydaşları sürece dahil etme stratejisi",
+          "Üst yönetim onayı için sunum hazırlama",
+          "Anayasayı yaşayan bir belge olarak yönetme: Güncelleme döngüsü"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Kuruma özgü Yapay Zekâ Etik Anayasası taslağını oluşturur",
+      "Yasaklı ve kısıtlı YZ kullanım alanları listesini tanımlar",
+      "Hesap verebilirlik ve ihlal prosedürü çerçevesini kurar",
+      "AB Yapay Zekâ Yasası ve küresel regülasyon trendlerini kavrar",
+      "Şeffaflık, adalet, gizlilik ve insan denetimi ilkelerini kuruma uyarlar",
+      "Anayasayı kuruma yayma eylem planını hazırlar",
+      "Etik çerçeveyi yaşayan bir belge olarak yönetme yaklaşımı geliştirir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 tam gün veya 2 yarım gün" },
+      { "label": "Format", "value": "Şirket içi, açık grup veya online canlı çalıştay" },
+      { "label": "Yöntem", "value": "Breakout grup çalışmaları, pleno uzlaşma, taslak belge üretimi" },
+      { "label": "Katılımcı", "value": "8–25 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Çalıştay sonunda hemen uygulamaya alınabilecek bir belge çıkıyor mu?",
+        "a": "Evet. Çalıştay; hukuki inceleme ve üst yönetim onayından geçirilmeye hazır somut bir taslak belgeyle sonuçlanır."
+      },
+      {
+        "q": "Hukuk departmanımızın da katılması gerekiyor mu?",
+        "a": "Kesinlikle önerilir. Hukuki boyutun dahil edilmesi; anayasanın kurumsal politikalar ve mevzuatla uyumunu güçlendirir."
+      },
+      {
+        "q": "Bu bir eğitim mi yoksa çalıştay mı?",
+        "a": "Ortak üretim odaklı bir çalıştaydır. Kısa çerçeve sunumlarının ardından ekipler; grup çalışmasıyla kurumlarına özgü etik anayasa taslağını bizzat üretir."
+      }
+    ]
+  },
+  "hibrid-isbirligi-insan-makine": {
+    "seoTitle": "Hibrid İşbirliği: İnsan-Makine Ekip Yönetimi Eğitimi",
+    "seoDescription": "İnsan ve yapay zekânın birlikte çalıştığı ekipleri yönetme eğitimi. Görev dağılımı, YZ çıktı kalitesi ve karma ekip kültürü. Kurumsal teklif alın.",
+    "heroQuote": "Ekipler artık yalnızca insanlardan oluşmuyor; liderlik ise her zamankinden daha insani olmak zorunda.",
+    "intro": [
+      "YZ ajanları, otomasyon sistemleri ve akıllı asistanlar; iş akışının içine yerleşiyor. Bu yeni gerçekte liderlik etmek; hem insanı hem teknolojiyi doğru konumlandırmayı gerektiriyor.",
+      "Bu eğitim; yöneticilere insan-makine karma ekiplerde görev dağılımını optimize etmeyi, ekip kültürünü korumayı ve YZ çıktılarının kalitesini yönetmeyi öğretir.",
+      "Görev dağılımı atölyeleri ve karma ekip simülasyonlarıyla katılımcılar; kendi ekiplerine uyarlayabilecekleri somut bir işbölümü ve kalite yönetimi yaklaşımı geliştirir."
+    ],
+    "audience": "İnsan-makine karma ekipleri yöneten veya buna hazırlanan orta ve üst düzey yöneticiler, YZ araçlarını ekip iş akışına entegre eden ekip liderleri ile otomasyon sürecinde çalışan motivasyonunu ve ekip kültürünü korumak isteyen İK profesyonelleri için uygundur.",
+    "sections": [
+      {
+        "title": "İnsan-Makine Ekibinin Yeni Anatomisi",
+        "intro": "Karma ekip; yalnızca araç eklemek değildir. Bu bölümde insan-makine işbirliğinin doğası, fırsatları ve riskleri ele alınır.",
+        "bullets": [
+          "Hangi görevler YZ'ye, hangileri insana ait olmalı?",
+          "İşbölümü matrisi: Otomasyon seviyesine göre görev sınıflandırma",
+          "YZ'nin ekip dinamiklerine etkisi: Rollerin yeniden tanımlanması"
+        ]
+      },
+      {
+        "title": "YZ Çıktı Kalite Yönetimi",
+        "intro": "YZ'nin ürettiği çıktıyı kontrol etmeden geçirmek; kalite risklerini artırır. Bu bölümde yöneticiler; ekiplerinin YZ çıktılarını nasıl denetleyeceğini ve kalite güvencesini nasıl sağlayacağını öğrenir.",
+        "bullets": [
+          "YZ çıktı doğrulama protokolü oluşturma",
+          "Hata türleri: Halüsinasyon, önyargı ve bağlam kaybı",
+          "Kalite kapısı: İnsan denetiminin süreçteki yeri"
+        ]
+      },
+      {
+        "title": "Karma Ekipte İnsan Motivasyonu ve Anlam",
+        "intro": "Çalışanlar; YZ'nin bazı görevleri üstlenmesiyle anlam ve güvence kaygısı yaşayabilir. Bu bölümde karma ekipte insan motivasyonunu koruma ve anlam yaratma ele alınır.",
+        "bullets": [
+          "Otomasyon kaygısını yönetme: İş güvencesi konuşması",
+          "YZ'nin üstlendiği görevlerin ötesinde insan değerini görünür kılma",
+          "Yeniden beceri kazanımı (reskilling): Ekibi geleceğe taşıma"
+        ]
+      },
+      {
+        "title": "Karma Ekip Kültürü ve Güven",
+        "intro": "Ekip kültürü; insan üyeleri arasında oluşur. Ancak YZ araçlarının güvenilirliği ve şeffaflığı da kültürü etkiler. Bu bölümde karma ekipte sağlıklı kültür oluşturma ele alınır.",
+        "bullets": [
+          "YZ'ye ne kadar güvenmeli? Şüphe ile güvensizlik arasındaki denge",
+          "Şeffaf YZ kullanımı: Ekiple açık iletişim",
+          "Karma ekipte işbirliği ritüelleri oluşturma"
+        ]
+      }
+    ],
+    "outcomes": [
+      "İnsan-YZ görev dağılımını optimize eder",
+      "Otomasyon seviyesine göre işbölümü matrisi oluşturur",
+      "YZ çıktılarının kalitesini ekip düzeyinde yönetir",
+      "Halüsinasyon, önyargı ve bağlam kaybı hatalarına karşı kalite kapısı kurar",
+      "Otomasyon kaygısını yapıcı biçimde yönetir",
+      "Karma ekipte güven ve anlam kültürü oluşturur",
+      "Ekibini yeniden beceri kazanımıyla YZ çağına hazırlar"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 gün (8 saat)" },
+      { "label": "Format", "value": "Şirket içi, açık grup veya online canlı" },
+      { "label": "Yöntem", "value": "Görev dağılımı atölyesi, karma ekip simülasyonları, vaka analizi" },
+      { "label": "Katılımcı", "value": "8–25 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Ekibimizde henüz YZ araçları kullanılmıyor. Bu eğitim bize uygun mu?",
+        "a": "Evet. Eğitim; hem halihazırda YZ kullanan hem de buna hazırlanan ekipler için uygundur. Hazırlık aşamasındaki ekipler için eğitim özellikle değerlidir."
+      },
+      {
+        "q": "Teknik YZ bilgisi gerekiyor mu?",
+        "a": "Hayır. Eğitim; yönetim ve liderlik perspektiflidir. Amaç; YZ sistemlerini kurmak değil, insan-makine işbirliğini doğru yönetmektir."
+      },
+      {
+        "q": "Eğitim sektörümüze uyarlanabilir mi?",
+        "a": "Evet. Görev dağılımı örnekleri ve simülasyonlar; kurumunuzun sektörüne, iş süreçlerine ve YZ olgunluk düzeyine göre özelleştirilir."
+      }
+    ]
+  },
+  "sessiz-devrim-mavi-yakali-dijital": {
+    "seoTitle": "Sessiz Devrim: Mavi Yaka Dijital Okuryazarlık Eğitimi",
+    "seoDescription": "Mavi yaka ve saha çalışanları için dijital okuryazarlık eğitimi. Sahada YZ araçlarını anlama, değişime uyum ve dijital güvenlik farkındalığı. Teklif alın.",
+    "heroQuote": "YZ'yi anlamak için mühendis olmak gerekmez; merak etmek ve uyum sağlamak yeterlidir.",
+    "intro": [
+      "Yapay zekâ; yalnızca ofislere değil, üretim hatlarına, depolara ve lojistik merkezlerine de giriyor. Sensörler, akıllı kameralar, tahmin sistemleri ve otomasyon araçları; saha çalışanlarının her gün etkileşime girdiği gerçekler haline geliyor.",
+      "Bu eğitim; saha ve mavi yaka çalışanlara dijital dönüşümü tehdit değil, araç olarak görmeyi öğretir. Görsel anlatım ve saha simülasyonlarıyla ilerleyen program; teknolojiyi korkutucu bir soyutluktan çıkarıp günlük işin anlaşılır bir parçası haline getirir.",
+      "Katılımcılar; 'YZ benim işimi elimden alır mı?' sorusuna dürüst yanıtlar alır ve dijital dönüşümde izleyici değil, aktif katılımcı olmaya hazırlanır."
+    ],
+    "audience": "Üretim, lojistik, bakım ve kalite hatlarında çalışan saha ekipleri, dijital dönüşüm sürecinde çalışan endişelerini yönetmek isteyen formen ve vardiya amirleri ile YZ araçlarıyla yeni tanışan tüm mavi yaka profesyoneller için uygundur.",
+    "sections": [
+      {
+        "title": "Yapay Zekâ Sahaya Geliyor: Ne, Neden, Nasıl?",
+        "intro": "Saha çalışanı; karşısındaki teknolojiyi anladığında korkudan çok merak duyar. Bu bölümde sahada karşılaşılan YZ sistemleri sade ve anlaşılır biçimde ele alınır.",
+        "bullets": [
+          "Üretim sahasındaki YZ uygulamaları: Gerçek örnekler",
+          "YZ benim işimi elimden alır mı? Dürüst ve gerçekçi yanıtlar",
+          "YZ'nin yapamayacağı şeyler: İnsan becerisinin değeri"
+        ]
+      },
+      {
+        "title": "Dijital Araçlarla Tanışma",
+        "intro": "Saha çalışanının giderek daha sık kullandığı dijital araçlar; doğru yaklaşımla kolayca öğrenilebilir. Bu bölümde günlük iş süreçlerinde karşılaşılan dijital araçlar pratik biçimde ele alınır.",
+        "bullets": [
+          "Tablet, ekran ve sensör arayüzleri: Saha dijital araçlarını kullanma",
+          "QR kod, barkod ve RFID: Üretimde veri takibini anlama",
+          "Hata raporlama ve kalite gözlem uygulamaları"
+        ]
+      },
+      {
+        "title": "Değişime Uyum: Yeni Beceriler, Yeni Fırsatlar",
+        "intro": "Dijital dönüşüm; bazı görevleri değiştirir, bazılarını ortadan kaldırır ve yenilerini yaratır. Bu bölümde saha çalışanı için değişime uyum ve yeni beceri kazanımı ele alınır.",
+        "bullets": [
+          "Değişime direnç: Nereden geliyor ve nasıl aşılır?",
+          "Dijital beceri kazanımı: Küçük adımlarla büyük dönüşüm",
+          "Yeni teknolojinin yarattığı yeni saha rolleri"
+        ]
+      },
+      {
+        "title": "Dijital Güvenlik ve Veri Farkındalığı",
+        "intro": "Saha çalışanı; dijital araçlarla çalışırken bazı temel güvenlik ve veri gizliliği kurallarını bilmek zorundadır. Bu bölümde temel dijital güvenlik basit ve anlaşılır biçimde ele alınır.",
+        "bullets": [
+          "Şifremi kimseyle paylaşmamalıyım: Temel dijital güvenlik kuralları",
+          "Kişisel veri nedir, kurumsal veri nedir?",
+          "Sahte mesaj ve phishing: Temel farkındalık"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Sahada karşılaştığı YZ ve dijital araçları anlayarak kullanır",
+      "Değişime karşı direncini azaltır ve uyum motivasyonu geliştirir",
+      "Tablet, sensör, QR kod ve raporlama uygulamalarını güvenle kullanır",
+      "Temel dijital güvenlik ve veri gizliliği farkındalığı edinir",
+      "YZ'yi tehdit değil, iş arkadaşı olarak konumlandırır",
+      "Yeni teknolojinin yarattığı saha rollerini ve fırsatları tanır",
+      "Dijital dönüşümde aktif bir katılımcı olmaya hazırlanır"
+    ],
+    "format": [
+      { "label": "Süre", "value": "Yarım gün veya 1 tam gün; vardiya uyumlu" },
+      { "label": "Format", "value": "Şirket içi, açık grup veya online canlı" },
+      { "label": "Yöntem", "value": "Görsel anlatım, saha simülasyonları, dijital araç denemeleri" },
+      { "label": "Katılımcı", "value": "8–25 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Okuma-yazma düzeyi sınırlı çalışanlar için uygun mu?",
+        "a": "Evet. Eğitim; görsel ağırlıklı, sözel anlatıma dayalı ve metin yükü minimal bir formatla sunulur."
+      },
+      {
+        "q": "Bu eğitim teknik YZ eğitimi mi?",
+        "a": "Hayır. Saha çalışanına YZ sistemini programlamayı değil; anlamayı, kabul etmeyi ve temel düzeyde kullanmayı öğretir."
+      },
+      {
+        "q": "Vardiya düzenine uyarlanabilir mi?",
+        "a": "Evet. Program; yarım gün formatında vardiya saatlerine uyumlu olarak planlanabilir ve farklı vardiya grupları için tekrarlanabilir."
+      }
+    ]
+  },
+  "duygusal-zeka-vs-yapay-zeka": {
+    "seoTitle": "Duygusal Zekâ vs Yapay Zekâ: Çatışma Yönetimi Eğitimi",
+    "seoDescription": "Çatışma yönetiminde duygusal zekâ ve yapay zekâ eğitimi. YZ destekli çatışma analizi, insan faktörünü koruma ve hibrid çözüm modeli. Teklif alın.",
+    "heroQuote": "YZ çatışmayı analiz edebilir; ama güveni onarmak, hiçbir zaman bir algoritmanın işi olmayacak.",
+    "intro": [
+      "YZ; çatışma örüntülerini analiz edebilir, tarafsız veri sunabilir ve müzakere seçenekleri önerebilir. Ancak öfkeyi sakinleştirmek, güveni onarmak ve ilişkiyi yeniden inşa etmek; hiçbir zaman bir algoritmanın yapabileceği şeyler olmayacak.",
+      "Bu eğitim; yöneticilere çatışma yönetiminde YZ'nin gerçek potansiyelini ve kesin sınırlarını kavratır; duygusal zekânın ne zaman ve neden öne çıkması gerektiğini gösterir.",
+      "Simülasyonlar, YZ araç demoları ve rol yapma egzersizleriyle katılımcılar; teknolojinin hızını insan sıcaklığıyla birleştiren hibrid bir çatışma yönetimi yaklaşımı geliştirir."
+    ],
+    "audience": "Ekip içi çatışmaları yöneten orta ve üst düzey yöneticiler, çatışma yönetiminde YZ araçlarının rolünü ve sınırlarını kavramak isteyen liderler ile duygusal zekâ becerilerini dijital çağın gereklilikleriyle harmanlamak isteyen İK profesyonelleri için uygundur.",
+    "sections": [
+      {
+        "title": "Duygusal Zekâ ile Yapay Zekânın Tamamlayıcılığı",
+        "intro": "YZ ve duygusal zekâ; rakip değil, birbirini tamamlayan iki kapasite olarak ele alındığında güçlü bir yönetim zemini oluşur.",
+        "bullets": [
+          "Duygusal zekânın 5 bileşeni: YZ neyi simüle eder, neyi edemez?",
+          "YZ'nin çatışma yönetiminde sağlayabileceği gerçek katkılar",
+          "İnsan duygusunun çatışmadaki vazgeçilmez rolü"
+        ]
+      },
+      {
+        "title": "YZ Destekli Çatışma Analizi",
+        "intro": "YZ araçları; ekip içi iletişim örüntülerini, gerilim sinyallerini ve tarihsel çatışma verilerini analiz ederek yöneticiye erken uyarı sağlayabilir. Bu bölümde bu potansiyelin pratikte nasıl kullanıldığı ele alınır.",
+        "bullets": [
+          "Erken uyarı sistemleri: YZ ile çatışmayı önceden okumak",
+          "İletişim analizi araçları: Ton, frekans ve içerik ipuçları",
+          "YZ analizinin doğruluğunu sorgulamak: Veri yeterli mi?"
+        ]
+      },
+      {
+        "title": "Çatışma Çözümünde İnsan Faktörünü Koruma",
+        "intro": "Çatışmanın en kritik anlarında; insan varlığı, sıcaklığı ve empatisi, hiçbir YZ aracının yerini alamaz. Bu bölümde teknoloji ile insanın çatışma sürecindeki farklı rolleri ele alınır.",
+        "bullets": [
+          "Güveni yeniden inşa etmek: Bir algoritma özür dileyemez",
+          "Arabuluculukta beden dili ve duygusal temas: Yalnızca insana ait",
+          "YZ çıktısını çatışma sürecine ne zaman dahil etmeli?"
+        ]
+      },
+      {
+        "title": "Hibrid Çatışma Yönetimi Modeli",
+        "intro": "YZ ve insan kapasitelerini birlikte kullanan bir çatışma yönetimi modeli; hem hızı hem de derinliği artırır. Bu bölümde pratik hibrid model tasarımı ele alınır.",
+        "bullets": [
+          "Çatışma evrelerine göre YZ ve insan rolü haritası",
+          "YZ analizini gerçek görüşmeye hazırlık aracı olarak kullanma",
+          "Hibrid modeli kurumda standartlaştırma"
+        ]
+      }
+    ],
+    "outcomes": [
+      "YZ ile duygusal zekânın tamamlayıcılığını kavrar ve uygular",
+      "YZ araçlarını çatışma erken uyarısı için kullanır",
+      "YZ analizinin doğruluğunu ve veri yeterliliğini sorgular",
+      "Çatışmanın kritik anlarında insan faktörünü öne çıkarır",
+      "YZ analizini gerçek görüşmeye hazırlık aracı olarak konumlandırır",
+      "Hibrid çatışma yönetimi yaklaşımı geliştirir",
+      "YZ'nin çatışma yönetimindeki gerçek sınırlarını kabul eder"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 gün (8 saat)" },
+      { "label": "Format", "value": "Şirket içi, açık grup veya online canlı" },
+      { "label": "Yöntem", "value": "Çatışma simülasyonları, YZ araç demoları, rol yapma egzersizleri" },
+      { "label": "Katılımcı", "value": "8–25 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim çatışma yönetimi mi, yoksa YZ eğitimi mi?",
+        "a": "Her ikisinin kesişimidir. Temel eksen; çatışma yönetimidir. YZ araçları; bu süreci güçlendiren ve sınırları netleştiren bir lens olarak kullanılır."
+      },
+      {
+        "q": "Teknik YZ bilgisi gerekiyor mu?",
+        "a": "Hayır. YZ araçları demo düzeyinde tanıtılır; eğitimin odağı liderlik, duygusal zekâ ve çatışma yönetimi becerileridir."
+      },
+      {
+        "q": "Eğitim sektöre özel uyarlanabilir mi?",
+        "a": "Evet. Çatışma vakaları ve simülasyonlar; kurumunuzun sektörüne, kültürüne ve gerçek ekip dinamiklerine göre özelleştirilir."
+      }
+    ]
+  },
+  "yarin-cok-gec-degisim-yonetimi": {
+    "seoTitle": "Yarın Çok Geç: YZ Odaklı Değişim Yönetimi Eğitimi",
+    "seoDescription": "Yapay zekâ odaklı değişim yönetimi eğitimi. YZ dönüşüm direncini aşma, adaptasyon liderliği ve kurumsal dönüşüm yol haritası. Kurumsal teklif alın.",
+    "heroQuote": "YZ dönüşümü teknik hazırlıktan önce insan direncinde sınanır; ve o sınav bugün başlıyor.",
+    "intro": [
+      "Yapay zekâ; kurumlar için en büyük ve en hızlı değişim dalgasını oluşturuyor. Ancak teknolojik dönüşüm; çoğu zaman teknik hazırlıktan önce insan direncinden ve kültürel ataletten sekteye uğrar.",
+      "Bu eğitim; yöneticilere YZ kaynaklı dönüşümü kurumsal ölçekte yönetmeyi, direnci azaltmayı, adaptasyon hızını artırmayı ve ekibini bu dönüşümde güvenle yönlendirmeyi öğretir.",
+      "Değişim simülasyonları ve yol haritası tasarım çalışmalarıyla katılımcılar; teknoloji satın almanın ötesine geçen, insanla birlikte tasarlanmış bir dönüşüm yaklaşımı geliştirir."
+    ],
+    "audience": "YZ dönüşümünü planlayan veya yürüten üst ve orta düzey yöneticiler, değişim direnciyle karşılaşan dönüşüm ve dijitalleşme ekipleri ile çalışan adaptasyonunu hızlandırmak isteyen İK ve organizasyonel gelişim profesyonelleri için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "YZ Dönüşümünün Benzersiz Dinamikleri",
+        "intro": "YZ kaynaklı değişim; geçmiş teknolojik dönüşümlerden farklı özellikler taşır: hız, belirsizlik ve işlerin yeniden tanımlanması. Bu bölümde bu özgün dinamikler ele alınır.",
+        "bullets": [
+          "Neden YZ dönüşümü farklı? Tarihsel karşılaştırma",
+          "Hız paradoksu: Değişimin adaptasyon kapasitesini aşması",
+          "Belirsizlikle yaşama: Yöneticinin ve ekibin psikolojisi"
+        ]
+      },
+      {
+        "title": "Değişim Direncini Anlamak ve Yönetmek",
+        "intro": "Çalışanların YZ dönüşümüne gösterdiği direnç; çoğunlukla kötü niyet değil, güvensizlik, bilgisizlik veya kontrol kaybı korkusundan kaynaklanır. Bu bölümde direnç dinamikleri ve müdahale stratejileri ele alınır.",
+        "bullets": [
+          "YZ direncinin 5 temel kaynağı: İş kaybı, anlam kaybı, kontrol kaybı, güvensizlik, soyutluk",
+          "Kotter'ın 8 adımlı değişim modelinin YZ dönüşümüne uygulanması",
+          "Erken benimseyenleri (early adopters) değişim elçisine dönüştürme"
+        ]
+      },
+      {
+        "title": "Adaptasyon Liderliği",
+        "intro": "YZ dönüşümünde lider; yol gösterici, güven veren ve anlam yaratandır. Bu bölümde adaptasyon liderliğinin temel davranışları ve iletişim stratejileri ele alınır.",
+        "bullets": [
+          "Belirsizlikte güven vermek: 'Neyi bilmiyorum' diyebilmek",
+          "Değişim iletişimi: Neyi, kime, ne zaman, nasıl anlatmalı?",
+          "Psikolojik güvenlik ve deneysel öğrenme ortamı oluşturma"
+        ]
+      },
+      {
+        "title": "Kurumsal YZ Dönüşüm Yol Haritası",
+        "intro": "Başarılı YZ dönüşümleri; teknoloji satın almaktan değil, insanla birlikte tasarlamaktan geçer. Bu bölümde kuruma özgü dönüşüm yol haritası oluşturma ele alınır.",
+        "bullets": [
+          "YZ olgunluk değerlendirmesi: Neredeyiz, nereye gitmek istiyoruz?",
+          "Pilot-yaygınlaştırma-kültüre alma dönüşüm döngüsü",
+          "Başarı ölçütleri: Teknik metrik ile insan metriği dengesi"
+        ]
+      }
+    ],
+    "outcomes": [
+      "YZ dönüşümünün kendine özgü dinamiklerini ve risklerini kavrar",
+      "Değişim direncinin 5 temel kaynağını tanır ve müdahale stratejisi uygular",
+      "Kotter'ın değişim modelini YZ dönüşümüne uyarlar",
+      "Erken benimseyenleri değişim elçisine dönüştürür",
+      "Adaptasyon liderliğinin temel davranışlarını sergiler",
+      "Ekibini YZ belirsizliğinde güvenle yönlendirir",
+      "Kurumuna özgü YZ dönüşüm yol haritası oluşturur"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1–2 gün; derinliğe göre ayarlanabilir" },
+      { "label": "Format", "value": "Şirket içi, açık grup veya online canlı" },
+      { "label": "Yöntem", "value": "Değişim simülasyonları, direnç analizi atölyesi, yol haritası tasarımı" },
+      { "label": "Katılımcı", "value": "8–25 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim genel değişim yönetimi eğitiminden nasıl ayrışıyor?",
+        "a": "YZ'ye özgü dinamikler; örneğin iş tanımlarının köklü değişimi ve dönüşümün hızı, genel değişim yönetimi eğitimlerinde ele alınmaz. Bu eğitim; YZ dönüşümünün kendine özgü insan boyutuna odaklanır."
+      },
+      {
+        "q": "Dönüşüm başlamadan önce mi, başladıktan sonra mı alınmalı?",
+        "a": "İdeal zamanlama; dönüşüm planlaması başlarken almaktır. Ancak dönüşümün ortasında alınması da değerlidir; gecikmiş direnç ve motivasyon sorunlarını çözmek için kritik bir müdahale aracıdır."
+      },
+      {
+        "q": "Teknik YZ bilgisi gerekiyor mu?",
+        "a": "Hayır. Eğitimin odağı; değişim yönetimi, liderlik ve insan psikolojisidir. Teknik arka plan gerekmez."
+      }
+    ]
+  },
+  "veri-ile-hikaye-anlaticiligi": {
+    "seoTitle": "Veri ile Hikâye Anlatıcılığı | Data Storytelling Eğitimi",
+    "seoDescription": "Veri hikâyeleştirme ve data storytelling eğitimi. YZ analiz çıktılarını ikna edici sunuma dönüştürme ve karar vericileri harekete geçirme. Teklif alın.",
+    "heroQuote": "Karar vericiler grafik değil, anlam satın alır; veri ancak anlatıldığında değere dönüşür.",
+    "intro": [
+      "Veri; yalnızca rakamlardan ibaret değildir. Arkasında bir gerçek, bir sorun veya bir fırsat yatar. Ama bu hikâye; anlatılmadığı sürece değer üretmez. Excel tablosu doldurmak ile karar vericileri harekete geçirmek arasındaki fark; tam da burada yatar.",
+      "Bu eğitim; yöneticilere ve profesyonellere, ham veriyi ve YZ analiz çıktılarını ikna edici, anlaşılır ve eyleme yönlendirici bir hikâyeye dönüştürmeyi öğretir.",
+      "Tasarım atölyeleri, görselleştirme egzersizleri ve sunum simülasyonlarıyla katılımcılar; raporlarını vizyona dönüştüren pratik bir anlatı yapısı kazanır."
+    ],
+    "audience": "Veriyi üst yönetime veya paydaşlara sunan orta ve üst düzey yöneticiler, raporlama ve analiz sorumluluğu taşıyan profesyoneller, YZ araçlarının ürettiği içgörüleri kuruma aktarmak isteyen liderler ve ikna edici sunum becerisini geliştirmek isteyen herkes için uygundur.",
+    "sections": [
+      {
+        "title": "Neden Veri Tek Başına Yetmez?",
+        "intro": "Karar vericiler; grafikler değil, anlamlar satın alır. Bu bölümde verinin neden yalnız başına ikna edemediği ve hikâyenin bu boşluğu nasıl kapattığı ele alınır.",
+        "bullets": [
+          "Veri ile karar arasındaki duygusal boşluk",
+          "Seyirci analizi: Kim dinliyor, ne istiyor, nasıl karar veriyor?",
+          "YZ raporu ile insan hikâyesi: İkisinin tamamlayıcılığı"
+        ]
+      },
+      {
+        "title": "Veri Hikâyesinin Anatomisi",
+        "intro": "Her güçlü veri hikâyesi; belirli bir yapıyı takip eder. Bu bölümde bu yapı; gerçek vaka örnekleriyle birlikte ele alınır.",
+        "bullets": [
+          "Problem-içgörü-eylem: Temel hikâye yayı",
+          "Tek büyük mesaj: Her sunumun söyleyeceği bir şeyi olmalı",
+          "Veriyi bağlama oturtma: Rakamın arkasındaki insan gerçeği",
+          "Anlatı gerilimi: Dinleyiciyi sonuca doğru çekme"
+        ]
+      },
+      {
+        "title": "YZ Analiz Çıktılarını Hikâyeye Dönüştürme",
+        "intro": "YZ araçları; karmaşık veri setlerinden içgörüler üretir. Ancak bu içgörüleri anlaşılır ve ikna edici biçimde sunmak; insan becerisine kalıyor. Bu bölümde YZ çıktısından etkileyici sunuma geçiş ele alınır.",
+        "bullets": [
+          "YZ çıktısını doğrulama ve yorumlama: Önce anla, sonra anlat",
+          "Otomatik raporu insan diline çevirme",
+          "YZ önerilerini paydaşa satmak: Güven ve netlik"
+        ]
+      },
+      {
+        "title": "Görsel Hikâye Anlatımı",
+        "intro": "Doğru görselleştirme; bir fikri saniyeler içinde aktarır. Yanlış görselleştirme ise karmaşa yaratır. Bu bölümde etkili veri görselleştirme ilkeleri ele alınır.",
+        "bullets": [
+          "Hangi grafik ne zaman: Doğru görsel türünü seçme",
+          "Veri görselleştirmede dikkat dağıtıcıları temizleme: Less is more",
+          "Renk, boyut ve hiyerarşiyle mesaj güçlendirme"
+        ]
+      },
+      {
+        "title": "Sunumdan Eyleme: Karar Vericileri Harekete Geçirme",
+        "intro": "Sunum; dinlenmekle bitmez. Amacı; harekete geçirmektir. Bu bölümde ikna edici veri sunumlarının yapısı ve karar vericilere yönelik iletişim stratejisi ele alınır.",
+        "bullets": [
+          "Sonuçla başla: Executive summary mantığı",
+          "Beklenen itirazları önceden hazırlamak",
+          "Net eylem talebi: Sunumun kapanışı ne istediğini söylemeli"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Ham veriyi ve YZ çıktısını anlamlı bir hikâyeye dönüştürür",
+      "Problem-içgörü-eylem hikâye yayını sunumlarına uygular",
+      "Seyircisini tanıyarak iletişimini kişiselleştirir",
+      "Etkili veri görselleştirmesi tasarlar",
+      "Otomatik YZ raporlarını insan diline çevirir",
+      "Karar vericileri harekete geçiren sunum yapısını kullanır",
+      "YZ analiz çıktılarını güvenle ve ikna edici biçimde sunar"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 gün (8 saat)" },
+      { "label": "Format", "value": "Şirket içi, açık grup veya online canlı" },
+      { "label": "Yöntem", "value": "Hikâye tasarım atölyesi, görselleştirme egzersizleri, sunum simülasyonu" },
+      { "label": "Katılımcı", "value": "8–25 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Excel veya Power BI bilgisi gerekiyor mu?",
+        "a": "Hayır. Eğitim; araç bağımsızdır. Hikâyeleştirme ilkeleri ve yapısı öğretilir; belirli bir yazılım eğitimi verilmez."
+      },
+      {
+        "q": "Bu eğitim sunum becerileri eğitimi midir?",
+        "a": "Kısmen. Sunum becerileri ele alınır, ancak eğitimin asıl odağı; veriyi anlamlandırma, hikâyeye dönüştürme ve karar vericilere ikna edici biçimde iletmedir. Sunum sahnesi değil, sunum içeriği ön plandadır."
+      },
+      {
+        "q": "Katılımcılar kendi verileriyle çalışabilir mi?",
+        "a": "Evet. Atölye bölümlerinde katılımcıların kendi rapor ve veri setleri üzerinde çalışması özellikle teşvik edilir; içerik kurumunuzun gerçek vakalarına uyarlanabilir."
+      }
+    ]
+  }
+}

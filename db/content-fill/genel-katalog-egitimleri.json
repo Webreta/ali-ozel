@@ -1,0 +1,907 @@
+{
+  "lider-iliski-yonetimi-iletisim": {
+    "seoTitle": "Liderin İlişki Yönetimi ve İletişim | Kurumsal Eğitim",
+    "seoDescription": "İlişki yönetimi ve iletişim eğitimi: güven inşa eden iletişim, aktif dinleme, empati ve zor konuşmalar. Her seviyeden ekip ve kurum için uygulamalı program.",
+    "heroQuote": "İletişimin gücü söylenen sözde değil; karşınızdaki insanla kurduğunuz bağda gizlidir.",
+    "intro": [
+      "İş hayatındaki başarının görünmeyen altyapısı, ilişkilerin kalitesidir. Ekip arkadaşlarınızla, yöneticilerinizle ve paydaşlarınızla kurduğunuz bağın niteliği; motivasyonu, iş birliğini ve sonuçları doğrudan etkiler.",
+      "Bu eğitim, katılımcıların iletişim tarzlarını bilinçli biçimde şekillendirmelerine ve güvene dayalı ilişki ağları kurmalarına yardımcı olmak için tasarlanmıştır. Slayt anlatımı değil; davranış değiştiren, uygulamalı bir gelişim deneyimi sunar.",
+      "İçerik psikoloji ve iletişim bilimine dayanır; ancak odak her zaman sahadadır: gerçek konuşmalar, gerçek ilişkiler ve gerçek iş sonuçları."
+    ],
+    "audience": "İletişim becerisini güçlendirmek isteyen her seviyeden profesyonel; ekip içinde ilişki yönetimi sorumluluğu taşıyanlar, farklı kişilik tipleriyle çalışanlar ve etki alanını derinleştirmek isteyen ekip liderleri ile yöneticiler.",
+    "sections": [
+      {
+        "title": "Etkili İletişimin Temelleri",
+        "intro": "Liderlik iletişimi sıradan bilgi alışverişinden farklıdır. Katılımcılar; mesaj iletmenin ötesinde anlam yaratmayı, bağlam kurmayı ve güven ortamı oluşturmayı öğrenir.",
+        "bullets": [
+          "Liderlik iletişimi ile günlük iletişim arasındaki fark",
+          "Sözlü, sözsüz ve yazılı iletişimde bıraktığınız izlenim",
+          "Kurumsal iletişimde güven ve şeffaflık ilkesi"
+        ]
+      },
+      {
+        "title": "Aktif Dinleme ve Empati",
+        "intro": "Etkili iletişimciler konuşmaktan çok dinlemesini bilir. Aktif dinleme; bağlılığı artıran, çatışmaları önleyen ve güven inşa eden temel bir beceridir.",
+        "bullets": [
+          "Aktif dinleme teknikleri ve dinlemenin önündeki engeller",
+          "Empatik iletişim: anlamak ile katılmak arasındaki fark",
+          "Sözsüz iletişim ipuçlarını okuma ve yönetme"
+        ]
+      },
+      {
+        "title": "İlişki Yönetimi ve Etki Alanı",
+        "intro": "Sağlıklı ilişkiler yalnızca yakın çalışma arkadaşlarıyla sınırlı kalmaz; iç paydaşlar, yönetim ve dış çevreyle de sürdürülür. Bu bölümde ilişki haritası oluşturma ve etkiyi bilinçli yönetme ele alınır.",
+        "bullets": [
+          "Kurumsal ilişki haritası ve paydaş analizi",
+          "Güven inşasının 3 temel bileşeni",
+          "Zor konuşmaları yapıcı biçimde yönetme"
+        ]
+      },
+      {
+        "title": "Ekip İçi ve Grupla İletişim",
+        "intro": "Bireysel iletişim becerileri grup dinamiklerinde farklı bir boyut kazanır. Toplantı yönetimi, geri bildirim kültürü ve açık iletişim ortamı oluşturma bu bölümün odağıdır.",
+        "bullets": [
+          "Etkili toplantı yönetimi ve katılım sağlama",
+          "Ekip içinde açık iletişim kültürü oluşturma",
+          "Zor mesajları net ve yapıcı biçimde iletme"
+        ]
+      }
+    ],
+    "outcomes": [
+      "İletişim tarzını bilinçli biçimde şekillendirir ve etkisini güçlendirir",
+      "Çevresinde güven ve açıklık kültürü oluşturur",
+      "Aktif dinleme ve empatiyi günlük iletişim alışkanlığına dönüştürür",
+      "Farklı kişilik ve iletişim stilleriyle uyumlu çalışır",
+      "Zor konuşmaları yönetir, çatışma büyümeden önler",
+      "Kurumsal paydaş ilişkilerini stratejik biçimde yönetir",
+      "Toplantılarda ve grup ortamlarında etkili katılım sağlar"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 gün (8 saat) — tam gün veya 2 yarım gün" },
+      { "label": "Format", "value": "Şirket içi (in-house) veya açık grup" },
+      { "label": "Yöntem", "value": "Rol yapma, video analizi, vaka çalışmaları, grup tartışmaları" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim yalnızca yöneticiler için mi?",
+        "a": "Hayır. İçerik, iletişim ve ilişki yönetimi becerisine ihtiyaç duyan her seviyeden katılımcıya hitap eder; yönetici gruplarına özel derinleştirilmiş versiyonu da mevcuttur."
+      },
+      {
+        "q": "Eğitim teknik mi yoksa davranışsal mı?",
+        "a": "Tamamen davranışsal ve deneyimsel bir eğitimdir. İçerik psikoloji ve iletişim bilimine dayanmakla birlikte uygulamaya odaklıdır."
+      },
+      {
+        "q": "Eğitim sektöre özel uyarlanabilir mi?",
+        "a": "Evet. İhtiyaç analizi görüşmesinin ardından kurumunuzun sektörüne, kültürüne ve gerçek vakalarına göre içerik özelleştirilir."
+      },
+      {
+        "q": "Eğitim sonrası destek var mı?",
+        "a": "Evet. Uygulama rehberi ve isteğe bağlı online takip seansı tüm programlara dahildir."
+      }
+    ]
+  },
+  "takim-calismasi-aidiyet": {
+    "seoTitle": "Takım Çalışması ve Aidiyet Eğitimi | Kurumsal Eğitim",
+    "seoDescription": "Takım çalışması ve aidiyet eğitimi: psikolojik güvenlik, ortak amaç, güven ve iş birliği. Ekipler ve liderler için uygulamalı kurumsal gelişim programı.",
+    "heroQuote": "Güçlü takımlar tesadüfen oluşmaz; bilinçli bir kültürün ürünüdür.",
+    "intro": [
+      "Ortak bir amaç etrafında birleşen, birbirine güvenen ve kurumuna ait hisseden takımlar; kendiliğinden ortaya çıkmaz. Aidiyet, bilinçli biçimde inşa edilen bir kültürün sonucudur.",
+      "Bu eğitim; hem ekip üyelerine hem de ekip liderlerine, gerçek bir aidiyet ve iş birliği kültürü oluşturmanın ve sürdürmenin pratik yollarını gösterir.",
+      "Program; teorik anlatımdan çok grup aktiviteleri, simülasyonlar ve gerçek ekip senaryoları üzerine kuruludur. Amaç bilgi aktarmak değil; ekipte kalıcı davranış değişimi başlatmaktır."
+    ],
+    "audience": "Ekip uyumunu ve motivasyonunu güçlendirmek isteyen tüm ekipler; yeni kurulan ya da yeniden yapılanan takımlar, çalışan bağlılığını artırmak isteyen birimler, ekip liderleri ve İK profesyonelleri.",
+    "sections": [
+      {
+        "title": "Yüksek Performanslı Ekibin Anatomisi",
+        "intro": "Araştırmalar, yüksek performanslı ekiplerin belirli ortak özellikleri paylaştığını gösterir. Bu bölümde Google'ın Project Aristotle bulguları ve Tuckman'ın ekip gelişim modeli ele alınır.",
+        "bullets": [
+          "Yüksek performanslı ekibin 5 temel özelliği",
+          "Psikolojik güvenlik ve performans ilişkisi",
+          "Ekip olgunluk aşamaları: oluşum, çatışma, uyum, performans"
+        ]
+      },
+      {
+        "title": "Aidiyet Kültürü Oluşturma",
+        "intro": "Aidiyet; çalışanların kendilerini değerli, görünür ve dahil hissettikleri bir ortamın ürünüdür. Bu bölüm, aidiyet kültürünü inşa etmenin somut adımlarını sunar.",
+        "bullets": [
+          "Aidiyet ile bağlılık arasındaki fark",
+          "Çeşitlilik içinde dahil edici ekip kültürü",
+          "Takım içi tanınma ve değer görme ritüelleri"
+        ]
+      },
+      {
+        "title": "Ortak Amaç ve Hedef Belirleme",
+        "intro": "Ekip üyeleri, bütünün parçası olduklarını hissettiklerinde daha yüksek performans gösterir. Bu bölümde ortak anlam yaratma ve hedefleri birlikte sahiplenme ele alınır.",
+        "bullets": [
+          "Vizyon ve misyonu ekiple buluşturma",
+          "OKR temelli ekip hedefleri oluşturma",
+          "Bireysel katkıyı büyük resme bağlama"
+        ]
+      },
+      {
+        "title": "Ekip Dinamikleri ve İşbirliği",
+        "intro": "İşbirliği kendiliğinden gelişmez; yapılandırılmış bir ortam gerektirir. Bu bölümde güven inşası, şeffaflık ve etkili işbirliği mekanizmaları ele alınır.",
+        "bullets": [
+          "Güven döngüsü: nasıl kırılır, nasıl onarılır",
+          "Ekip toplantılarında katılım ve eşit söz hakkı",
+          "Uzaktan ve hibrit çalışmada aidiyet yönetimi"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Ekipte psikolojik güvenlik ve aidiyet ortamının nasıl kurulduğunu kavrar",
+      "Takım motivasyonunu sürdürülebilir kılan pratik araçlar kullanır",
+      "Çeşitlilik içinde uyumu ve dahil ediciliği destekler",
+      "Ortak hedef etrafında ekip enerjisini yönlendirir",
+      "Ekip içinde güveni zedeleyen davranışları tanır ve onarır",
+      "Bireysel katkısını ekip hedefleriyle ilişkilendirir",
+      "Uzaktan ve hibrit çalışmada ekip bağlılığını korur"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 gün (8 saat) veya 2 yarım gün" },
+      { "label": "Format", "value": "Şirket içi (in-house) veya açık grup" },
+      { "label": "Yöntem", "value": "Grup aktiviteleri, simülasyonlar, vaka çalışmaları, bireysel refleksiyon" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitimi tüm ekiple birlikte mi alsak daha iyi olur?",
+        "a": "İdeal olan, liderlerin eğitimi önce kendilerinin alması, ardından tüm ekibe yönelik uygulamalı atölye düzenlenmesidir. Her iki format da mevcuttur; eğitim doğrudan ekip atölyesi olarak da uygulanabilir."
+      },
+      {
+        "q": "Hibrit çalışan ekipler için uyarlanabilir mi?",
+        "a": "Evet. Eğitim içeriği, uzaktan ve yüz yüze çalışmanın karışık olduğu ekipler için özel senaryolar içerecek şekilde düzenlenebilir."
+      },
+      {
+        "q": "Eğitim bir team-building etkinliği mi?",
+        "a": "Hayır. Grup aktiviteleri içerse de amaç eğlence değil; ekipte kalıcı bir aidiyet ve iş birliği kültürü oluşturacak somut davranış ve araçlar kazandırmaktır."
+      }
+    ]
+  },
+  "lider-yonetici-temel-kurallar": {
+    "seoTitle": "Lider ve Yöneticinin Temel Kuralları | Kurumsal Eğitim",
+    "seoDescription": "Lider ve yöneticinin temel kuralları eğitimi: liderlik kimliği, etki gücü, otorite yönetimi ve gelişim planı. Yönetici adayları için uygulamalı program.",
+    "heroQuote": "Yöneticilik ile liderlik arasındaki fark bir unvan değil; bir duruş meselesidir.",
+    "intro": [
+      "Pozisyon size otorite verir; ancak liderlik, güven kazanmakla başlar. Yöneticiler pozisyon gücüyle hareket ederken, liderler etki güçleriyle öne çıkar.",
+      "Bu eğitim; yöneticilik rolünü liderlik perspektifiyle yeniden çerçeveler ve katılımcılara uygulanabilir, güçlü bir liderlik altyapısı sunar. Liderliğe hazırlanan herkes için sağlam bir başlangıç noktasıdır.",
+      "Katılımcılar eğitimden yalnızca kavramlarla değil; kendi liderlik kimliklerini netleştirmiş ve somut bir gelişim planı oluşturmuş olarak ayrılır."
+    ],
+    "audience": "Yönetici pozisyonuna yeni atananlar, liderlik tarzını geliştirmek isteyen deneyimli yöneticiler, liderliğe hazırlanan yüksek potansiyelli çalışanlar ve kurumun liderlik gelişim programına dahil edilen tüm katılımcılar.",
+    "sections": [
+      {
+        "title": "Yöneticilik ile Liderlik: Temel Farklar",
+        "intro": "Pozisyon otorite verir; liderlik ise güven kazanır. Bu bölümde yöneticilik ve liderlik rolleri arasındaki kritik farklar somut örneklerle ele alınır.",
+        "bullets": [
+          "Yönetici ve lider profili: karşılaştırmalı analiz",
+          "Pozisyon gücü ile etki gücü arasındaki fark",
+          "Günlük iş pratiklerinde liderlik fırsatları"
+        ]
+      },
+      {
+        "title": "Liderlik Kimliğini Tanımlama",
+        "intro": "Etkili liderler, kendi güçlü yönlerini bilerek hareket eder. Bu bölümde katılımcılar bireysel liderlik profillerini keşfeder ve özgün liderlik kimliklerini netleştirir.",
+        "bullets": [
+          "Kişisel liderlik değerleri ve ilkeler",
+          "Güçlü yönler temelli liderlik yaklaşımı",
+          "Liderlik tarzı öz değerlendirmesi"
+        ]
+      },
+      {
+        "title": "Otorite ve Etki Alanı Yönetimi",
+        "intro": "Otoritenin kaynağı ne ise, etkinin sınırı da odur. Bu bölümde katılımcılar, sahip oldukları etkiyi bilinçli ve etik biçimde nasıl kullanacaklarını öğrenir.",
+        "bullets": [
+          "Otorite türleri: yasal, uzman, karizmatik, ödül, zorlayıcı",
+          "Etki alanını genişletmenin 3 yolu",
+          "Güven kazanma ve koruma stratejileri"
+        ]
+      },
+      {
+        "title": "Lider Yöneticinin Temel Sorumlulukları",
+        "intro": "Lider yöneticinin sorumluluğu yalnızca sonuçları değil; insanları da geliştirmektir. Bu bölümde liderlik sorumluluklarının kapsamı ve önceliklendirme ele alınır.",
+        "bullets": [
+          "Sonuç odaklılık ile insan odaklılık dengesi",
+          "Psikolojik güvenlik ve hesap verebilirlik kültürü",
+          "Lider yöneticinin 5 temel önceliği"
+        ]
+      },
+      {
+        "title": "Yöneticilikten Liderliğe Geçiş Yol Haritası",
+        "intro": "Liderlik bir varış noktası değil, süregelen bir yolculuktur. Bu bölümde katılımcılar, eğitim sonrası uygulamaya dönük bireysel bir gelişim planı oluşturur.",
+        "bullets": [
+          "Liderlik gelişim planı: 30-60-90 gün çerçevesi",
+          "Geri bildirim almayı alışkanlık haline getirme",
+          "Liderlik yolculuğunda mentorluktan yararlanma"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Liderlik ile yöneticilik rolleri arasındaki farkı kavrar ve uygulamaya taşır",
+      "Bireysel liderlik kimliğini ve değerlerini netleştirir",
+      "Otorite ve etki alanını stratejik biçimde kullanır",
+      "Güçlü yönlerini liderlik tarzının merkezine yerleştirir",
+      "Çevresinde güven ve hesap verebilirlik kültürü oluşturur",
+      "Sonuç odaklılık ile insan odaklılığı dengeler",
+      "Kişisel liderlik gelişim planıyla eğitimden ayrılır"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1–2 gün; program derinliğine göre" },
+      { "label": "Format", "value": "Şirket içi (in-house) veya açık grup" },
+      { "label": "Yöntem", "value": "Öz değerlendirme araçları, rol yapma, vaka çalışmaları, gelişim planı" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Henüz yönetici olmayanlar da katılabilir mi?",
+        "a": "Evet. Program; liderliğe hazırlanan yüksek potansiyelli çalışanlar için de tasarlanmıştır ve liderlik yolculuğuna sağlam bir başlangıç sağlar."
+      },
+      {
+        "q": "Deneyimli yöneticiler için de uygun mu?",
+        "a": "Evet. Eğitim hem yeni atanan yöneticilere temel bir çerçeve sunar hem de deneyimli yöneticilerin liderlik anlayışlarını taze bir perspektifle gözden geçirmelerini sağlar."
+      },
+      {
+        "q": "Eğitimde kullanılan araçlar nelerdir?",
+        "a": "Liderlik tarzı envanteri, kişisel değerler kartları ve 30-60-90 gün gelişim planı şablonu eğitimde kullanılan başlıca araçlardır."
+      }
+    ]
+  },
+  "liderlik-stratejisi-clinton-sidle": {
+    "seoTitle": "Liderlik Stratejisi: Clinton Sidle Modeli | Kurumsal Eğitim",
+    "seoDescription": "Clinton Sidle liderlik modeli eğitimi: dört liderlik yönelimi, kişisel profil keşfi ve tarz esnekliği. Her seviyeden katılımcı için uygulamalı atölye.",
+    "heroQuote": "Liderlik tek bir doğru tarz değil; kendi yöneliminizi bilerek duruma göre hareket etme becerisidir.",
+    "intro": [
+      "Herkesin doğal bir liderlik yönelimi vardır ve bu yönelim; karar alma, iletişim ve motivasyon biçimini doğrudan etkiler. Cornell Üniversitesi'nden Clinton Sidle'ın liderlik modeli, bu bilinçli liderliğin temelini oluşturur.",
+      "Model, liderliği dört temel yönelim üzerinden inceler: anlam odaklı, ilişki odaklı, güç odaklı ve süreç odaklı liderlik. Her katılımcının bu dört yönelimde kendine özgü bir profili vardır.",
+      "Bu atölyede katılımcılar kendi liderlik profillerini keşfeder; güçlü yanlarını stratejik avantaja, gelişime açık alanlarını ise fırsata dönüştürür."
+    ],
+    "audience": "Kendi liderlik yönelimini keşfetmek isteyen her seviyeden profesyonel; ekip liderleri, yöneticiler, liderliğe hazırlanan çalışanlar ve ekiplerindeki profil çeşitliliğini güce dönüştürmek isteyen kurumlar.",
+    "sections": [
+      {
+        "title": "Dört Liderlik Yönelimi",
+        "intro": "Her yönelim; güçlü yönleri, körleşme noktaları ve hangi durumlarda öne çıktığıyla birlikte ele alınır.",
+        "bullets": [
+          "Anlam odaklı liderlik: vizyon, değerler ve ilham verme",
+          "İlişki odaklı liderlik: empati, bağlantı ve güven",
+          "Güç odaklı liderlik: yönlendirme, kararlılık ve etki",
+          "Süreç odaklı liderlik: planlama, sistem ve güvenilirlik"
+        ]
+      },
+      {
+        "title": "Kişisel Liderlik Profili Keşfi",
+        "intro": "Katılımcılar; yapılandırılmış bir öz değerlendirme aracıyla kendi liderlik profillerini belirler. Bu profil; baskın yönelimleri, ikincil güçleri ve körleşme noktalarını ortaya koyar.",
+        "bullets": [
+          "Clinton Sidle liderlik profil envanteri uygulaması",
+          "Profil yorumlama ve kişisel anlam çıkarma",
+          "Güçlü yönler ile gelişim alanlarının belirlenmesi"
+        ]
+      },
+      {
+        "title": "Profili Stratejik Avantaja Dönüştürme",
+        "intro": "Profili bilmek yetmez; onu uygulamaya taşımak asıl beceridir. Bu bölümde katılımcılar, profillerini günlük kararlarda, ekip çalışmasında ve kurumsal ilişkilerde nasıl kullanacaklarını öğrenir.",
+        "bullets": [
+          "Profil temelli liderlik davranışları geliştirme",
+          "Takım tamamlayıcılığı: farklı profillerin birbirini güçlendirmesi",
+          "Baskı altında liderlik profili nasıl değişir?"
+        ]
+      },
+      {
+        "title": "Karma Ekiplerde Profil Çeşitliliğini Yönetme",
+        "intro": "Her ekipte farklı liderlik yönelimlerine sahip bireyler bir arada çalışır. Bu bölümde profil çeşitliliğinin çatışma kaynağı değil; ekip gücü olarak nasıl kullanılacağı keşfedilir.",
+        "bullets": [
+          "Ekip profil haritası oluşturma",
+          "Profil farklılıklarını köprüleme stratejileri",
+          "Liderlik tarzı esnekliği nasıl kazanılır"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Kendi liderlik yönelimini ve profilini net biçimde tanır",
+      "Dört liderlik yönelimini ve durumsal kullanımlarını kavrar",
+      "Güçlü yönlerini stratejik avantaja dönüştürür",
+      "Körleşme noktalarını farkındalıkla yönetir",
+      "Farklı liderlik profillerine sahip bireylerle etkili çalışır",
+      "Baskı altında profilinin nasıl değiştiğini fark eder ve yönetir",
+      "Durumlara göre liderlik tarzı esnekliği geliştirir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 gün (8 saat) — yoğun atölye formatında" },
+      { "label": "Format", "value": "Şirket içi (in-house) veya açık grup" },
+      { "label": "Yöntem", "value": "Sidle profil envanteri, grup tartışmaları, vaka analizleri, refleksiyon" },
+      { "label": "Katılımcı", "value": "8–18 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Clinton Sidle modelinin başka modellerden farkı ne?",
+        "a": "MBTI veya DISC gibi kişilik modellerinden farklı olarak Sidle modeli, doğrudan liderlik davranışlarına ve iş durumlarına odaklanır. Sonuçlar daha uygulanabilir ve liderlik gelişimine daha doğrudan katkı sağlar."
+      },
+      {
+        "q": "Yönetici olmayanlar için de anlamlı mı?",
+        "a": "Evet. Model, unvandan bağımsız olarak herkesin doğal yönelimini ortaya koyar; ekip içi iş birliğinde ve kişisel gelişimde her seviyeden katılımcıya değer katar."
+      },
+      {
+        "q": "Profil zamanla değişir mi?",
+        "a": "Temel yönelimler oldukça kararlıdır, ancak bilinçli gelişimle esneklik kazanılabilir. Eğitimde bu esnekliği nasıl geliştireceğiniz de ele alınır."
+      }
+    ]
+  },
+  "karar-verme-kararlilik": {
+    "seoTitle": "Karar Verme ve Kararlılık Eğitimi | Kurumsal Eğitim",
+    "seoDescription": "Karar verme ve kararlılık eğitimi: bilişsel önyargılar, karar modelleri, belirsizlikte karar alma ve uygulama disiplini. Kurumlar için uygulamalı program.",
+    "heroQuote": "Yanlış karar geri götürür; kararsızlık ise fırsat kaybettirir.",
+    "intro": [
+      "Belirsizlik altında doğru karar vermek, iş hayatının en kritik ve en zorlu sınavlarından biridir. Karar kalitesi; sadece üst yönetimin değil, her gün seçim yapan herkesin sorunudur.",
+      "Bu eğitim; katılımcılara karar alma süreçlerini yapılandıran, bilişsel tuzaklardan koruyan ve baskı altında bile kararlı kalmayı mümkün kılan pratik araçlar sunar.",
+      "Program; hem karar psikolojisini hem de somut karar araçlarını kapsar. Katılımcılar simülasyonlar ve karar egzersizleriyle öğrendiklerini anında uygular."
+    ],
+    "audience": "Karar kalitesini sistematik biçimde artırmak isteyen her seviyeden profesyonel; stratejik karar sorumluluğu taşıyanlar, zaman baskısı altında hızlı karar vermesi gerekenler ve proje ya da kriz yönetimi rolündeki liderler.",
+    "sections": [
+      {
+        "title": "Karar Verme Psikolojisi",
+        "intro": "Her karar, bilinçli ve bilinçdışı süreçlerin ürünüdür. Bu bölümde katılımcılar, zihinsel kısayolları ve bilişsel önyargıları tanıyarak daha sağlıklı kararlar almayı öğrenir.",
+        "bullets": [
+          "Sistem 1 ve Sistem 2 düşünce: sezgi ve analiz dengesi",
+          "En yaygın bilişsel önyargılar: onay yanlılığı, çıpalama, kayıptan kaçınma",
+          "Grup kararlarındaki tuzaklar: grupthink ve polarizasyon"
+        ]
+      },
+      {
+        "title": "Karar Verme Modelleri ve Araçları",
+        "intro": "İyi kararlar yapılandırılmış bir sürecin ürünüdür. Bu bölümde farklı karar türleri için uygun modeller ve pratik araçlar ele alınır.",
+        "bullets": [
+          "OODA döngüsü: gözlemle, yönlen, karar ver, uygula",
+          "Karar matrisi ve ağırlıklı seçim araçları",
+          "Senaryo planlama: en kötü, en iyi, en olası",
+          "Pre-mortem tekniği: kararı geleceğe taşıyıp geri bakmak"
+        ]
+      },
+      {
+        "title": "Belirsizlik Altında Karar Verme",
+        "intro": "Kararların büyük çoğunluğu tam bilgiyle değil; yeterli bilgiyle alınmak zorundadır. Bu bölümde belirsizliği yönetme ve risk toleransını geliştirme ele alınır.",
+        "bullets": [
+          "Yeterli bilgi eşiği: ne zaman yeterli veri var?",
+          "Risk değerlendirme çerçeveleri",
+          "Geri alınamaz kararlar için güvenli zemin oluşturma"
+        ]
+      },
+      {
+        "title": "Kararlılık: Kararın Ardındaki Yürütme",
+        "intro": "Karar vermek başlangıçtır; kararlılık ise o kararı hayata geçirme ısrarıdır. Bu bölümde kararlılık kültürü, uygulama takibi ve kararın iletişimi ele alınır.",
+        "bullets": [
+          "Kararı ekibe ve paydaşlara açıklama, sahiplenme yaratma",
+          "Direnç yönetimi: karşı görüşleri yapıcı biçimde ele alma",
+          "Uygulama takibi ve hesap verebilirlik döngüsü"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Karar alma süreçlerini yapılandırır ve hızlandırır",
+      "Bilişsel önyargıları tanır ve etkilerini azaltır",
+      "Duruma uygun karar modelini ve aracını seçer",
+      "Belirsizlik ortamında güvenle karar verir",
+      "Grup kararlarını daha sağlıklı biçimde yönetir",
+      "Aldığı kararı etkili biçimde iletir ve sahiplenme yaratır",
+      "Kararların uygulanmasında kararlılık ve tutarlılık gösterir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 gün (8 saat)" },
+      { "label": "Format", "value": "Şirket içi (in-house) veya açık grup" },
+      { "label": "Yöntem", "value": "Vaka simülasyonları, karar egzersizleri, grup tartışmaları, refleksiyon" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim analitik araçlar mı öğretiyor yoksa davranışsal mı?",
+        "a": "Her ikisini de kapsar. Hem pratik karar araçları hem de karar psikolojisi ele alınır; böylece katılımcılar hem araçları hem de bilinçli farkındalığı kazanır."
+      },
+      {
+        "q": "Kriz yönetimi senaryoları var mı?",
+        "a": "Evet. Eğitimin bir bölümü, baskı altında hızlı karar gerektiren simülasyon senaryolarına ayrılmıştır."
+      },
+      {
+        "q": "Yönetici olmayan çalışanlar için de uygun mu?",
+        "a": "Evet. Karar psikolojisi ve karar araçları, günlük işinde seçim yapan herkes için geçerlidir; içerik grubun rol dağılımına göre uyarlanır."
+      }
+    ]
+  },
+  "zor-insanlari-yonetme": {
+    "seoTitle": "Zor İnsanları Yönetme Eğitimi | Kurumsal Eğitim",
+    "seoDescription": "Zor insanları yönetme eğitimi: zorlayıcı kişilik tiplerini tanıma, yapıcı müdahale, sınır koyma ve ekip enerjisini koruma. Uygulamalı kurumsal program.",
+    "heroQuote": "Zor davranışla başa çıkmanın yolu tepki vermek değil; stratejik yaklaşmaktır.",
+    "intro": [
+      "Her iş ortamında zorlayıcı kişilikler vardır: her şeyi bilen, sürekli muhalif olan, pasif agresif davranan ya da performansından bağımsız biçimde ekip enerjisini tüketen bireyler.",
+      "Bu eğitim; katılımcılara bu kişilikleri tanıma, onlarla üretken ilişkiler kurma ve çalışma ortamının dengesini sağlıklı biçimde koruma becerisi kazandırır.",
+      "Yaklaşım tamamen uygulamalıdır: rol yapma egzersizleri ve gerçek vaka senaryolarıyla katılımcılar, zor konuşmaları güvenli bir ortamda prova eder."
+    ],
+    "audience": "Çalışma ortamında zorlayıcı davranışlarla karşılaşan her seviyeden profesyonel; ekibinde zorlayıcı bir çalışanla başa çıkmakta güçlük çeken yöneticiler ve insan ilişkilerinde daha sağlıklı sınırlar koymak isteyen herkes.",
+    "sections": [
+      {
+        "title": "Zorlayıcı Kişilik Tiplerini Tanıma",
+        "intro": "Zor davranışların arkasında genellikle belirli örüntüler yatar. Bu bölümde en yaygın zorlayıcı kişilik tipleri ve tetikleyicileri ele alınır.",
+        "bullets": [
+          "Her şeyi bilen: uzmanlık ile tahakküm arasındaki ince çizgi",
+          "Pasif agresif davranış: görünmez direnç nasıl okunur",
+          "Sürekli muhalif: eleştiri ile sabotaj arasındaki fark",
+          "Kurban rolü ve sorumluluktan kaçınma",
+          "Yıldız performans yanılgısı: sonuç getiren ama ekibi yıpratanlar"
+        ]
+      },
+      {
+        "title": "Yapıcı Müdahale Stratejileri",
+        "intro": "Zor davranışla başa çıkmanın en etkili yolu; tepkisel değil, stratejik yaklaşmaktır. Bu bölümde bireysel müdahale teknikleri ve adım adım görüşme rehberi sunulur.",
+        "bullets": [
+          "Davranışa odaklanma: kişiyi değil, davranışı ele alma",
+          "SBI modeli: Durum, Davranış, Etki",
+          "Sınır koyma konuşmaları nasıl yapılır",
+          "Savunmacı tepkileri yönetme teknikleri"
+        ]
+      },
+      {
+        "title": "Sınır Koyma ve Hesap Verebilirlik",
+        "intro": "Zorlayıcı kişilikler karşısında sınırları net biçimde belirlemek ve tutarlı biçimde korumak; hem ilişkiyi hem de iş sonuçlarını korur.",
+        "bullets": [
+          "Sınır ile ceza arasındaki fark",
+          "Beklentiyi netleştirme ve sonuçları tanımlama",
+          "Düzeltici eylem süreci: uyarı, plan, takip"
+        ]
+      },
+      {
+        "title": "Ekip Dinamiklerini ve Enerjiyi Koruma",
+        "intro": "Tek bir zorlayıcı birey, tüm ekip enerjisini tüketebilir. Bu bölümde bireysel sorunu çözerken ekip dengesinin nasıl korunacağı ele alınır.",
+        "bullets": [
+          "Gruba verilen zararı sınırlama stratejileri",
+          "Gözlemci ekip üyelerini koruma ve destekleme",
+          "Ekipte adalet ve eşit muamele algısını yönetme"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Zorlayıcı kişilik tiplerini ve davranış örüntülerini erkenden tanır",
+      "Tepkisel değil, stratejik ve yapıcı müdahale becerisi geliştirir",
+      "Kişiyi değil davranışı ele alan bir yaklaşım benimser",
+      "Net sınırlar koyar ve bu sınırları tutarlı biçimde korur",
+      "Zor konuşmaları güvenle ve etkili biçimde yürütür",
+      "Savunmacı tepkileri soğukkanlılıkla yönetir",
+      "Ekip enerjisini ve adalet algısını korur"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 gün (8 saat)" },
+      { "label": "Format", "value": "Şirket içi (in-house) veya açık grup" },
+      { "label": "Yöntem", "value": "Rol yapma egzersizleri, vaka senaryoları, grup tartışmaları, uygulama planı" },
+      { "label": "Katılımcı", "value": "8–18 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim yalnızca sorunlu çalışanı olan ekipler için mi?",
+        "a": "Hayır. Eğitim, herkesin karşılaşabileceği zorlayıcı davranış örüntülerine odaklanır. Mevcut bir sorun olmasa bile erken farkındalık ve hazırlık açısından değerlidir."
+      },
+      {
+        "q": "Yönetici olmayanlar da katılabilir mi?",
+        "a": "Evet. Sınır koyma, yapıcı görüşme ve zor kişiliklerle çalışma becerileri; unvandan bağımsız olarak her katılımcıya değer katar."
+      },
+      {
+        "q": "İnsan kaynakları süreçleriyle nasıl entegre olur?",
+        "a": "Eğitimde ele alınan düzeltici eylem süreci, kurumunuzun İK politikalarıyla uyumlu biçimde uyarlanabilir."
+      }
+    ]
+  },
+  "ikna-gucu-psikolojisi": {
+    "seoTitle": "İkna Gücü ve Psikolojisi Eğitimi | Kurumsal Eğitim",
+    "seoDescription": "İkna gücü ve psikolojisi eğitimi: Cialdini ilkeleri, paydaş ikna teknikleri ve müzakere becerileri. Her seviyeden profesyonel için uygulamalı program.",
+    "heroQuote": "İkna baskı değildir; ortak zemin inşa etmektir.",
+    "intro": [
+      "En etkili insanlar, emirle ya da ısrarla değil; anlam yaratarak, güven kazanarak ve doğru çerçeve kurarak karşısındakini harekete geçirir. İkna, öğrenilebilir bir beceridir.",
+      "Bu eğitim; katılımcılara psikoloji bilimiyle desteklenmiş ikna tekniklerini ve iş hayatında etki alanını genişletmenin stratejik yollarını sunar.",
+      "Etik çerçeve programın omurgasıdır: etik ikna ile manipülasyon arasındaki sınır, eğitim boyunca her tekniğin yanında ele alınır."
+    ],
+    "audience": "Fikirlerini kabul ettirmek, paydaşlarını kazanmak veya müzakere yürütmek durumunda olan her seviyeden profesyonel; yöneticiler, satış ve müşteri ilişkileri ekipleri ile ekibini değişime ikna etmesi gereken liderler.",
+    "sections": [
+      {
+        "title": "İknanın Psikolojik Temelleri",
+        "intro": "İnsan beyni yalnızca mantıkla değil; duygu ve hikayeyle ikna olur. Bu bölümde ikna psikolojisinin bilimsel temelleri ve iş hayatına yansımaları ele alınır.",
+        "bullets": [
+          "Dual-process theory: duygusal ve rasyonel ikna yolları",
+          "Sosyal kanıt, otorite ve kıtlık ilkelerinin iş hayatındaki yansımaları",
+          "Güven ve inanılırlık: iknanın altyapısı"
+        ]
+      },
+      {
+        "title": "Cialdini'nin 7 İkna İlkesi",
+        "intro": "Robert Cialdini'nin evrensel ikna ilkeleri; müzakereden ekip içi ikna süreçlerine kadar geniş bir uygulama alanına sahiptir. Her ilke, iş hayatından somut örneklerle ele alınır.",
+        "bullets": [
+          "Mütekabiliyet: önce ver, sonra al",
+          "Bağlılık ve tutarlılık: küçük adımdan büyük evet'e",
+          "Sosyal kanıt ve otorite: güvenilirliği sergileme",
+          "Sevme ve kıtlık: beğeni ile azlığın değer yaratması",
+          "Birlik: aidiyet ve ortak kimlik üzerinden ikna"
+        ]
+      },
+      {
+        "title": "Kurumsal Paydaş İkna Teknikleri",
+        "intro": "İş ortamında ikna; farklı çıkarları, güç dengelerini ve iletişim stillerini yönetmeyi gerektirir. Üst yönetim, eşdüzey çalışanlar ve ekip üyeleriyle ikna süreçleri ayrı ayrı ele alınır.",
+        "bullets": [
+          "Üst yönetime fikir ve proje sunma: mantık + duygu dengesi",
+          "Dirençli paydaşları kazanma stratejileri",
+          "Çerçeveleme etkisi: aynı fikri farklı anlatmak"
+        ]
+      },
+      {
+        "title": "Müzakere ve Uzlaşma Becerileri",
+        "intro": "İkna ve müzakere, ayrılmaz ikizlerdir. Bu bölümde kazan-kazan odaklı müzakere yaklaşımları ve uzlaşma stratejileri ele alınır.",
+        "bullets": [
+          "BATNA: en iyi alternatif anlaşmanın önemi",
+          "İlgi bazlı müzakere: pozisyonun arkasındaki ihtiyacı bulmak",
+          "Zor müzakere ortamlarında soğukkanlılığı koruma"
+        ]
+      }
+    ],
+    "outcomes": [
+      "İkna psikolojisini anlar ve bilinçli biçimde uygular",
+      "Cialdini'nin ikna ilkelerini iş hayatındaki durumlara taşır",
+      "Farklı paydaşlara yönelik ikna stratejisi geliştirir",
+      "Fikir ve önerilerini mantık ile duyguyu dengeleyerek sunar",
+      "Müzakerelerde daha etkili sonuçlar alır",
+      "Çevresini değişime ve yeniliğe ikna eder",
+      "Etik ikna ile manipülasyon arasındaki sınırı korur"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 gün (8 saat)" },
+      { "label": "Format", "value": "Şirket içi (in-house) veya açık grup" },
+      { "label": "Yöntem", "value": "Simülasyonlar, ikna egzersizleri, video analizleri, vaka çalışmaları" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim etik sınırları ele alıyor mu?",
+        "a": "Evet. Etik ikna ile manipülasyon arasındaki fark, eğitimin temel eksenlerinden birini oluşturur. Uzun vadeli güven inşası ön planda tutulur."
+      },
+      {
+        "q": "Satış ekipleri için de uygun mu?",
+        "a": "Kesinlikle. İçerik hem yöneticilere hem de müşteri ilişkileri yürüten profesyonellere uyarlanabilir."
+      },
+      {
+        "q": "Teorik mi yoksa uygulamalı mı ilerliyor?",
+        "a": "Ağırlıklı olarak uygulamalıdır. Her ilke ve teknik; simülasyonlar, ikna egzersizleri ve gerçek iş senaryoları üzerinden çalışılır."
+      }
+    ]
+  },
+  "catisma-yonetimi-problem-cozme": {
+    "seoTitle": "Çatışma Yönetimi ve Problem Çözme | Kurumsal Eğitim",
+    "seoDescription": "Çatışma yönetimi ve problem çözme eğitimi: çatışma stilleri, arabuluculuk becerileri, kök neden analizi ve sistematik çözüm araçları. Uygulamalı program.",
+    "heroQuote": "Sorun çatışmanın varlığı değil; yönetilmemesidir.",
+    "intro": [
+      "Çatışma, kaçınılması gereken bir tehlike değil; doğru yönetildiğinde ekipleri güçlendiren ve yeniliği besleyen bir dinamiktir. İyi yönetilen fikir ayrılıkları, daha iyi kararların hammaddesidir.",
+      "Bu eğitim; katılımcılara çatışmaları erkenden tanıma, yapıcı biçimde müdahale etme ve sistematik problem çözme araçlarını kullanma becerisi kazandırır.",
+      "Program; canlı çatışma simülasyonları ve problem çözme atölyeleriyle ilerler. Katılımcılar hem kendi çatışma stillerini keşfeder hem de somut çözüm araçlarıyla eğitimden ayrılır."
+    ],
+    "audience": "Ekip içinde veya birimler arasında çatışma yaşayan her seviyeden profesyonel; arabuluculuk rolü üstlenmek zorunda kalan liderler, çatışma yönetimini kurum kültürüne taşımak isteyen İK ekipleri ve problem çözme süreçlerini sistematikleştirmek isteyenler.",
+    "sections": [
+      {
+        "title": "Çatışmanın Anatomisi",
+        "intro": "Her çatışmanın altında bir ihtiyaç, bir beklenti ya da bir değer farkı yatar. Bu bölümde çatışma türleri, kaynakları ve tırmanma dinamikleri ele alınır.",
+        "bullets": [
+          "Görev çatışması, ilişki çatışması ve süreç çatışması",
+          "Çatışma tırmanma modeli: erken uyarı işaretleri",
+          "Sessiz çatışma: gizli gerginlik nasıl okunur"
+        ]
+      },
+      {
+        "title": "Çatışma Yönetim Stilleri",
+        "intro": "Thomas-Kilmann modeline göre beş farklı çatışma yönetim stili vardır ve her birinin uygun olduğu farklı durumlar mevcuttur. Katılımcılar kendi baskın stillerini keşfeder ve esneklik kazanır.",
+        "bullets": [
+          "Rekabet, uyum, kaçınma, uzlaşma ve iş birliği stilleri",
+          "Hangi stili ne zaman kullanmalı?",
+          "Baskı altında stil değişimi ve farkındalık"
+        ]
+      },
+      {
+        "title": "Yapıcı Müdahale ve Arabuluculuk",
+        "intro": "Amaç çatışmayı bastırmak değil; tarafları dinleyerek ortak zemini keşfetmelerine yardımcı olmaktır. Bu bölümde adım adım arabuluculuk süreci ele alınır.",
+        "bullets": [
+          "Tarafsız zemin hazırlama: görüşme ortamı ve kuralları",
+          "İlgi bazlı yaklaşım: pozisyonun arkasındaki ihtiyacı bulmak",
+          "Anlaşma belgesi oluşturma ve takip"
+        ]
+      },
+      {
+        "title": "Problem Çözme Döngüsü",
+        "intro": "Çatışma çözüldükten sonra asıl sorunun sistematik biçimde ele alınması gerekir. Bu bölümde yapılandırılmış problem çözme araçları ve kök neden analizi sunulur.",
+        "bullets": [
+          "5 Neden analizi ve kök neden tespiti",
+          "Balık kılçığı diyagramı (Ishikawa) ile sorun haritası",
+          "Çözüm önceliklendirme: etki-çaba matrisi",
+          "Uygulama planı ve başarı kriterleri"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Çatışmayı erkenden tanır ve tırmanmadan önce müdahale eder",
+      "Çatışma türlerini ve altında yatan ihtiyaçları ayırt eder",
+      "Kendi çatışma stilini bilir ve duruma göre esneklik kazanır",
+      "Yapıcı arabuluculuk sürecini adım adım yürütür",
+      "Fikir ayrılıklarını gelişim ve yenilik fırsatına dönüştürür",
+      "Problemi kök nedeninden çözen sistematik araçlar kullanır",
+      "Çözümleri önceliklendirir ve uygulanabilir plana bağlar"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1–2 gün; derinliğe göre" },
+      { "label": "Format", "value": "Şirket içi (in-house) veya açık grup" },
+      { "label": "Yöntem", "value": "Rol yapma, çatışma simülasyonları, vaka analizleri, problem çözme atölyeleri" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim hukuki bir arabuluculuk eğitimi mi?",
+        "a": "Hayır. Eğitimdeki arabuluculuk, iş yerindeki çatışmalarda uygulanabilecek yapıcı müdahale becerilerini kapsar; hukuki arabuluculuk eğitimi değildir."
+      },
+      {
+        "q": "Gerçek bir çatışma durumuyla eğitime gelebilir miyiz?",
+        "a": "Evet. Şirket içi eğitimlerde gerçek vakalar anonim biçimde simülasyona taşınabilir. Bu yaklaşım eğitimi çok daha uygulamalı kılar."
+      },
+      {
+        "q": "Problem çözme bölümü teknik ekipler için de uygun mu?",
+        "a": "Evet. Kök neden analizi, balık kılçığı diyagramı ve etki-çaba matrisi gibi araçlar; teknik ve operasyonel ekiplerin günlük problemlerine doğrudan uygulanabilir."
+      }
+    ]
+  },
+  "performans-yonetimi-geribildirim": {
+    "seoTitle": "Performans Yönetimi ve Geri Bildirim | Kurumsal Eğitim",
+    "seoDescription": "Performans yönetimi ve geri bildirim eğitimi: sürekli geribildirim kültürü, OKR ve SMART hedefler, etkili görüşme teknikleri. Uygulamalı kurumsal program.",
+    "heroQuote": "Gerçek performans kültürü yılda bir doldurulan formlarla değil; sürekli diyalogla kurulur.",
+    "intro": [
+      "Performans yönetimi; yılda bir doldurulan değerlendirme formlarından çok daha fazlasıdır. Gerçek performans kültürü; sürekli geri bildirim, net beklentiler ve gelişimi destekleyen bir anlayışla şekillenir.",
+      "Bu eğitim; katılımcılara bireyin ve ekibin potansiyelini ortaya çıkaran, motivasyonu artıran ve kurumsal sonuçlara katkıda bulunan bir performans anlayışı kazandırır.",
+      "Geri bildirim vermek kadar almak da bu programın konusudur: her seviyeden katılımcı, geri bildirimi bir gelişim aracına dönüştürmeyi öğrenir."
+    ],
+    "audience": "Performans ve gelişim kültürünü güçlendirmek isteyen her seviyeden profesyonel; ekip performansından sorumlu yöneticiler, geri bildirim becerisini geliştirmek isteyen çalışanlar ve İK süreçlerini güçlendirmek isteyen ekipler.",
+    "sections": [
+      {
+        "title": "Sürekli Performans Kültürü Oluşturma",
+        "intro": "Performans yönetimi, anlık bir değerlendirmeden çok; süregelen bir diyalog ve gelişim sürecidir. Bu bölümde sürekli performans kültürünün temelleri ele alınır.",
+        "bullets": [
+          "Performans yönetiminde geleneksel yaklaşımın sınırları",
+          "Sürekli geribildirim döngüsü: check-in kültürü",
+          "Psikolojik güvenlik ve performans ilişkisi"
+        ]
+      },
+      {
+        "title": "Hedef Belirleme: OKR ve SMART",
+        "intro": "Net ve ilham verici hedefler, performansın motorudur. Bu bölümde OKR çerçevesi ve SMART hedef belirleme yaklaşımı uygulamalı biçimde ele alınır.",
+        "bullets": [
+          "OKR nedir ve nasıl uygulanır?",
+          "Bireysel hedefleri kurumsal hedeflerle hizalama",
+          "Gerçekçi ama zorlayıcı hedef belirleme dengesi"
+        ]
+      },
+      {
+        "title": "Etkili Geribildirim Modelleri",
+        "intro": "Geribildirim, savunmacılığa yol açmadan gelişimi tetiklediğinde değerlidir. Bu bölümde yapıcı geribildirim modelleri ve zor geri bildirim konuşmaları ele alınır.",
+        "bullets": [
+          "SBI modeli: Durum, Davranış, Etki",
+          "Feedforward: geçmişe değil, geleceğe odaklanmak",
+          "Olumlu geribildirim: takdirin gücü ve zamanlaması",
+          "Zor geribildirim konuşmalarını hazırlama ve yürütme"
+        ]
+      },
+      {
+        "title": "Performans Görüşmesi Teknikleri",
+        "intro": "Performans görüşmesi; tek yönlü bir değerlendirme değil, gelişimin birlikte planlandığı stratejik bir diyalogdur. Bu bölümde etkili görüşme yapısı ve sık yapılan hatalar ele alınır.",
+        "bullets": [
+          "Görüşme öncesi hazırlık ve çerçeveleme",
+          "Açık uçlu sorularla diyaloğu yönetme",
+          "Düşük performansı doğrudan ve saygılı biçimde ele alma",
+          "Gelişim planı oluşturma ve taahhüt alma"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Sürekli geribildirim döngüsü oluşturur ve sürdürür",
+      "OKR ve SMART ile net, ölçülebilir hedefler belirler",
+      "Bireysel hedefleri kurumsal hedeflerle hizalar",
+      "Yapıcı ve motive edici geribildirim verir",
+      "Geribildirimi savunmaya geçmeden alır ve gelişime dönüştürür",
+      "Performans görüşmelerini etkili biçimde yürütür",
+      "Düşük performansı adil ve doğrudan ele alır"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 gün (8 saat)" },
+      { "label": "Format", "value": "Şirket içi (in-house) veya açık grup" },
+      { "label": "Yöntem", "value": "Geribildirim rol yapma, OKR atölyesi, vaka analizleri, görüşme simülasyonları" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "OKR sistemini uygulamak isteyen kurumlar için uygun mu?",
+        "a": "Evet. Eğitim; OKR'yi sıfırdan uygulamaya başlamak isteyen kurumlar için temel bir hazırlık programı olarak da kullanılabilir."
+      },
+      {
+        "q": "360 derece geribildirim sistemleriyle entegre edilebilir mi?",
+        "a": "Evet. Eğitim içeriği, kurumunuzda kullandığınız performans yönetim sistemiyle uyumlu biçimde uyarlanabilir."
+      },
+      {
+        "q": "Yönetici olmayan çalışanlar için de anlamlı mı?",
+        "a": "Evet. Geri bildirim verme ve alma, hedef belirleme ve gelişim diyaloğu becerileri; unvandan bağımsız olarak her katılımcının performansına katkı sağlar."
+      }
+    ]
+  },
+  "planlama-organizasyon-zaman-yonetimi": {
+    "seoTitle": "Planlama, Organizasyon ve Zaman Yönetimi Eğitimi",
+    "seoDescription": "Planlama, organize olma ve zaman yönetimi eğitimi: önceliklendirme, planlama sistemi, delege etme ve enerji yönetimi. Uygulamalı kurumsal verimlilik programı.",
+    "heroQuote": "Her şey önemliyse, hiçbir şey önemli değildir.",
+    "intro": [
+      "Zaman, iş hayatının en kıt ve en kritik kaynağıdır. Zamanınızı nasıl kullandığınız; enerjinizi, odağınızı ve ürettiğiniz sonuçların kalitesini doğrudan belirler.",
+      "Bu eğitim; katılımcılara operasyonel yoğunluk içinde gerçek önceliklere odaklanmayı, iş yükünü etkili biçimde organize etmeyi ve zamanı gerçek değer yaratan işlere ayırmayı öğretir.",
+      "Program; kişisel zaman analizi egzersiziyle başlar ve her katılımcının kendi çalışma düzenine uyarlanmış bir uygulama planıyla tamamlanır."
+    ],
+    "audience": "Yoğun iş temposunda önceliklerini kaybettiğini hisseden her seviyeden profesyonel; toplantı ve operasyonel görevler arasında sıkışan çalışanlar, delege etmekte güçlük çeken yöneticiler ve ekip verimliliğini artırmak isteyen liderler.",
+    "sections": [
+      {
+        "title": "Stratejik Önceliklendirme",
+        "intro": "Acil olan ile önemli olan çoğu zaman aynı şey değildir. Bu bölümde katılımcılar, zamanlarını gerçek önceliklerine göre yapılandırmayı öğrenir.",
+        "bullets": [
+          "Eisenhower matrisi: önemli ve acil dörtlüsü",
+          "Zaman tuzakları: sahte aciller ve kaçırılan önemliler",
+          "Haftalık öncelik belirleme ritüeli"
+        ]
+      },
+      {
+        "title": "Planlama ve Hedef Yönetimi",
+        "intro": "Etkili planlama; yapılacaklar listesi tutmaktan çok, doğru şeylere odaklanmayı sağlayan bir sistem kurmaktır. Bu bölümde pratik planlama araçları ve zaman blokları ele alınır.",
+        "bullets": [
+          "Haftalık ve aylık planlama yapısı kurma",
+          "Derin iş (deep work) blokları ve odak zamanını koruma",
+          "Planlama ile gerçeklik arasındaki boşluğu kapatma"
+        ]
+      },
+      {
+        "title": "Organize Olma: Sistem ve Yapı",
+        "intro": "Organize bir çalışan, çevresini de organize eder. Bu bölümde bilgi yönetimi, görev takibi ve iş akışı yapılandırması ele alınır.",
+        "bullets": [
+          "GTD (Getting Things Done) metodunun iş hayatı versiyonu",
+          "E-posta ve toplantı yönetimi: zaman hırsızlarıyla başa çıkma",
+          "Dijital araçlarla iş akışını yapılandırma"
+        ]
+      },
+      {
+        "title": "Delege Etme: Zamanı Çoğaltmanın Yolu",
+        "intro": "Delege etmemek; hem zamanı hem de ekip gelişimini tüketir. Bu bölümde neyin, kime, nasıl devredileceği ve takibinin nasıl yürütüleceği ele alınır.",
+        "bullets": [
+          "Delege etme kararı: hangi görevler devredilmeli?",
+          "Kişiye uygun delege etme: yetenek ve isteklilik matrisi",
+          "Kontrolü bırakmadan takip: hesap verebilirlik döngüsü"
+        ]
+      },
+      {
+        "title": "Enerji Yönetimi ve Sürdürülebilirlik",
+        "intro": "Zaman yönetimi tek başına yeterli değildir; enerjinin de yönetilmesi gerekir. Bu bölümde zihinsel performansı koruyan alışkanlıklar ve tükenmişliği önleme stratejileri ele alınır.",
+        "bullets": [
+          "Enerji döngüleri: en verimli saatinizi tanıma",
+          "Tükenmişliğin erken belirtileri",
+          "Yüksek performanslı çalışma alışkanlıkları"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Stratejik önceliklere odaklanır ve sahte acillerden korunur",
+      "Haftalık ve aylık planlama sistemi kurar",
+      "İş yükünü etkili biçimde organize eder ve yapılandırır",
+      "Derin iş bloklarıyla odak zamanını korur",
+      "E-posta ve toplantı yükünü bilinçli biçimde yönetir",
+      "Delege etmeyi alışkanlık haline getirir",
+      "Zihinsel enerjisini ve sürdürülebilir performansını yönetir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1 gün (8 saat)" },
+      { "label": "Format", "value": "Şirket içi (in-house) veya açık grup" },
+      { "label": "Yöntem", "value": "Bireysel zaman analizi, planlama atölyesi, grup tartışmaları, uygulama planı" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim yalnızca bireysel verimlilik için mi?",
+        "a": "Hayır. Eğitim; kişisel verimliliği artırmanın yanı sıra ekip organizasyonu ve delege etme boyutlarını da kapsar."
+      },
+      {
+        "q": "Dijital araç önerileri de içeriyor mu?",
+        "a": "Evet. Katılımcıların kurumlarında kullandıkları araçlara uygun öneriler sunulur; belirli bir uygulamaya bağımlı bir içerik değildir."
+      },
+      {
+        "q": "Delege etme bölümü, ekibi olmayan çalışanlar için anlamlı mı?",
+        "a": "Evet. Delege etme bölümü; iş devri, görev paylaşımı ve iş birliği içinde çalışma açısından ekip lideri olmayan katılımcılara da uyarlanır. Önceliklendirme, planlama ve enerji yönetimi modülleri ise herkes için ortaktır."
+      }
+    ]
+  },
+  "kocluk-mentorluk": {
+    "seoTitle": "Koçluk ve Mentorluk Eğitimi | Kurumsal Eğitim",
+    "seoDescription": "Koçluk ve mentorluk eğitimi: GROW modeli, güçlü sorular, mentorluk ilişkisi kurma ve kurumsal yetenek geliştirme. Uygulamalı kurumsal gelişim programı.",
+    "heroQuote": "En kalıcı iz, yetiştirdiğiniz insanlarda kalır.",
+    "intro": [
+      "Sonuç üreten bir profesyonel ile çevresini geliştiren bir lider arasındaki fark; çoğunlukla koçluk ve mentorluk kapasitesinde saklıdır. İnsanları geliştirmek, kurumların en kalıcı yatırımıdır.",
+      "Koçluk ve mentorluk sıkça birbirinin yerine kullanılır; oysa aralarında kritik bir fark vardır. Koçluk, soruların rehberliğinde kişinin kendi çözümünü bulmasını destekler; mentorluk ise deneyim paylaşımı ve yol göstericilik üzerine kuruludur.",
+      "Bu eğitim; katılımcılara her iki yaklaşımı da kavratır ve bunları ekip gelişimi ile kurumsal büyüme için etkin biçimde kullanma becerisi kazandırır."
+    ],
+    "audience": "Çevresindeki insanların potansiyelini ortaya çıkarmak isteyen her seviyeden profesyonel; ekip gelişiminden sorumlu yöneticiler, deneyimini paylaşarak rehberlik etmek isteyen çalışanlar ve kurumsal mentorluk programı kurmak isteyen İK ekipleri.",
+    "sections": [
+      {
+        "title": "Koçluk Temelleri ve Koçluk Zihniyeti",
+        "intro": "Koçluk; cevap vermek değil, doğru soruyu sormaktır. Bu bölümde koçluk zihniyeti, koçun rolü ve günlük iş akışıyla koçluğun denge noktası ele alınır.",
+        "bullets": [
+          "Koçluk ile yöneticilik arasındaki geçiş noktası",
+          "Direktif vermek yerine keşfettirmenin gücü",
+          "Koçluk için psikolojik güvenlik ortamı oluşturma"
+        ]
+      },
+      {
+        "title": "GROW Modeli ile Koçluk Konuşmaları",
+        "intro": "GROW modeli; dünyanın en yaygın kullanılan koçluk çerçevesidir. Bu bölümde model adım adım uygulanır ve katılımcılar gerçek senaryolarla pratik yapar.",
+        "bullets": [
+          "Goal (Hedef): konuşmanın amacını netleştirme",
+          "Reality (Mevcut Durum): bugünü tarafsız biçimde değerlendirme",
+          "Options (Seçenekler): olasılıkları birlikte keşfetme",
+          "Will (İrade): taahhüt ve aksiyon planı oluşturma"
+        ]
+      },
+      {
+        "title": "Güçlü Sorular Sorma Sanatı",
+        "intro": "Koçluğun kalbi, güçlü sorularda yatar. Bu bölümde katılımcılar; düşündüren, derinleştiren ve harekete geçiren soru tiplerini öğrenir ve pratik yapar.",
+        "bullets": [
+          "Açık uçlu sorular ile kapalı uçlu soruların farkı",
+          "Varsayımı sorgulayan sorular",
+          "Koçluk konuşmasında aktif dinleme ve yansıtma"
+        ]
+      },
+      {
+        "title": "Mentorluk İlişkisi Kurma ve Sürdürme",
+        "intro": "Mentorluk; anlık bir tavsiyenin çok ötesinde, güven ve süreklilik gerektiren bir ilişkidir. Bu bölümde etkili mentorluk ilişkisinin yapısı ve dinamikleri ele alınır.",
+        "bullets": [
+          "Mentorluk ilişkisinde roller ve sınırlar",
+          "Mentorluk görüşmelerini yapılandırma",
+          "Mentinin gelişimini izleme ve geri bildirim verme",
+          "Mentorluk ilişkisini sona erdirme ve kapanış"
+        ]
+      },
+      {
+        "title": "Kurumsal Yetenek Geliştirme",
+        "intro": "Bireysel koçluk ve mentorluk becerileri, kurumsal ölçeğe taşındığında sistematik bir yetenek geliştirme kültürüne dönüşür. Bu bölümde koçluk kültürü ve mentorluk programı tasarımı ele alınır.",
+        "bullets": [
+          "Koçluk kültürünü kuruma yaymak: role model olmak",
+          "Kurumsal mentorluk programı tasarlama ve yönetme",
+          "Yüksek potansiyelli çalışanlarla koçluk ve mentorluk stratejisi"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Koçluk ve mentorluk arasındaki farkı kavrar ve doğru zamanda doğru yaklaşımı uygular",
+      "GROW modeli ile yapılandırılmış koçluk konuşmaları yürütür",
+      "Güçlü sorular sorar ve aktif dinleme becerisini geliştirir",
+      "Direktif vermek yerine keşfettiren bir gelişim yaklaşımı benimser",
+      "Sürdürülebilir mentorluk ilişkileri kurar ve yönetir",
+      "Mentinin gelişimini izler ve yapıcı geri bildirim verir",
+      "Kurumda koçluk ve mentorluk kültürünün yaygınlaşmasına katkı sağlar"
+    ],
+    "format": [
+      { "label": "Süre", "value": "1–2 gün; uygulama yoğunluğuna göre" },
+      { "label": "Format", "value": "Şirket içi (in-house) veya açık grup" },
+      { "label": "Yöntem", "value": "GROW uygulamaları, ikili koçluk egzersizleri, mentorluk simülasyonları, vakalar" },
+      { "label": "Katılımcı", "value": "8–16 kişi (uygulama yoğunluğu nedeniyle küçük grup)" }
+    ],
+    "faq": [
+      {
+        "q": "ICF sertifikalı koçluk eğitimi mi?",
+        "a": "Bu eğitim, katılımcılara koçluk becerisi kazandırmayı hedefler; ICF veya benzeri bir profesyonel koçluk sertifikası vermez. Profesyonel koçluk sertifikası arıyorsanız bu konuda yönlendirme yapabiliriz."
+      },
+      {
+        "q": "Kurumsal mentorluk programı kurmak için yeterli mi?",
+        "a": "Evet. Eğitim; mentorluk programı tasarımı modülünü de içerdiğinden kurumunuzda bir programı başlatmak veya güçlendirmek için sağlam bir temel oluşturur."
+      },
+      {
+        "q": "Mentorluk programı olmayan kurumlar için de uygun mu?",
+        "a": "Kesinlikle. Eğitim; hem mevcut mentorluk programını güçlendirmek isteyen hem de sıfırdan başlamayı planlayan kurumlar için uygundur."
+      },
+      {
+        "q": "Yönetici olmayan çalışanlar mentorluk bölümünden yararlanabilir mi?",
+        "a": "Evet. Deneyimli her çalışan mentorluk rolü üstlenebilir; eğitim, unvandan bağımsız olarak mentorluk ilişkisi kurma ve sürdürme becerisi kazandırır."
+      }
+    ]
+  }
+}

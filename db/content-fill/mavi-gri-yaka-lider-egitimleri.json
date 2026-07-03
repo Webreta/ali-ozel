@@ -1,0 +1,887 @@
+{
+  "uretimde-iliski-yonetimi-verimlilik": {
+    "seoTitle": "Üretimde İlişki Yönetimi ve Verimlilik Eğitimi | Saha Lideri",
+    "seoDescription": "Formen ve saha liderleri için üretimde ilişki yönetimi ve verimlilik eğitimi. Güven temelli saha iletişimi, vardiya devri ve ekip performansı. Teklif alın.",
+    "heroQuote": "Güven olmadan iletişim, iletişim olmadan verimlilik olmaz.",
+    "intro": [
+      "Üretim hattındaki verimlilik; yalnızca makinelerin performansına değil, insanların birbirleriyle ve liderleriyle kurduğu ilişkilerin kalitesine de bağlıdır. Ekibine güven veren bir saha lideri, aynı hatta aynı ekiple çok daha yüksek sonuçlar alır.",
+      "Bu eğitim; saha liderlerine, ekipleriyle güven temelli ilişki kurmanın ve bu ilişkiyi üretim verimliliğine dönüştürmenin somut yollarını gösterir. Tüm içerik; üretim ortamının gürültüsüne, zaman baskısına ve temposuna göre tasarlanmıştır.",
+      "Akademik yönetim jargonu yerine saha dili kullanılır; tüm örnekler vardiya değişimlerinden, hat başı konuşmalarından ve gerçek üretim ortamından alınır."
+    ],
+    "audience": "Formen, vardiya amiri, hat lideri, ekip lideri ve üretim şefi gibi unvanlara sahip; sahadaki insanları doğrudan yöneten tüm liderler için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Saha İletişiminin Temelleri",
+        "intro": "Üretim ortamında iletişim; gürültü, zaman baskısı ve yoğun tempo altında gerçekleşir. Bu bölümde sahaya özgü etkili iletişim teknikleri ele alınır.",
+        "bullets": [
+          "Saha iletişimini zorlaştıran faktörler ve çözüm yolları",
+          "Net ve kısa talimat verme: Anlaşılmayı garantileme",
+          "Sözsüz iletişim: Beden dili ve ses tonunun sahadaki etkisi",
+          "Sahadaki iletişim kanallarını doğru kullanma"
+        ]
+      },
+      {
+        "title": "Güven İnşası ve Liderlik Otoritesi",
+        "intro": "Saha lideri, pozisyon gücüyle değil; güven ve saygıyla otorite kurar. Bu bölümde ekipte güven inşasının pratik yolları ele alınır.",
+        "bullets": [
+          "Güveni kazandıran ve yıkan davranışlar",
+          "Tutarlılık: Söylediğini yapmanın saha etkisi",
+          "Adalet algısı: Ekipte eşit ve adil muameleyi yönetme",
+          "Liderin görünürlüğü: Sahada var olmanın motivasyona etkisi"
+        ]
+      },
+      {
+        "title": "İlişkiyi Verimliliğe Dönüştürme",
+        "intro": "Güven ve iyi ilişkiler; verimlilik için zemin hazırlar. Bu bölümde ilişki kalitesinin üretim metriklerine nasıl yansıdığı ve bu ilişkiyi performansa dönüştürmenin yolları ele alınır.",
+        "bullets": [
+          "Ekip bağlılığı ile üretim verimliliği arasındaki doğrudan ilişki",
+          "Motivasyonu besleyen günlük lider davranışları",
+          "Performans sorunlarını ilişkiyi koruyarak ele alma",
+          "Ekibi hedefe odaklama: Anlam ve amaç yaratma"
+        ]
+      },
+      {
+        "title": "Vardiya Devir ve Bilgi Aktarım Yönetimi",
+        "intro": "Vardiya değişimlerinde yaşanan iletişim kopukluğu; hata, kaza ve verimlilik kayıplarının önemli bir kaynağıdır. Bu bölümde etkin vardiya devir süreci ele alınır.",
+        "bullets": [
+          "Vardiya devir tutanağı ve standart iletişim yapısı",
+          "Kritik bilgiyi eksiksiz aktarma",
+          "Vardiya öncesi brifing: Kısa ve etkili toplanma"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Saha ortamında net ve etkili iletişim kurar",
+      "Ekibinde güven ve saygı temelli otorite oluşturur",
+      "Güçlü ilişkiyi verimliliğe ve performansa dönüştürür",
+      "Vardiya devirlerini bilgi kaybı olmadan yönetir",
+      "Günlük lider davranışlarıyla ekip motivasyonunu besler",
+      "Performans sorunlarını ilişkiyi bozmadan ele alır",
+      "Vardiya öncesi brifingleri kısa ve etkili biçimde yürütür"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat); vardiya yapısına göre ayarlanabilir" },
+      { "label": "Format", "value": "Şirket içi (in-house); üretim ortamında veya eğitim salonunda" },
+      { "label": "Yöntem", "value": "Saha simülasyonları, vaka analizleri, rol yapma, grup tartışmaları" },
+      { "label": "Katılımcı", "value": "8–20 kişi; vardiya gruplarına göre ayrı oturumlar düzenlenebilir" }
+    ],
+    "faq": [
+      {
+        "q": "Eğitim fabrika içinde mi yapılacak?",
+        "a": "İkisi de mümkündür. Eğitim salonunda sunulan teorik içerik, saha ziyareti ve simülasyonlarla desteklenebilir. Tamamen saha ortamında yürütülen formatlar da mevcuttur."
+      },
+      {
+        "q": "Eğitim üretim durmadan uygulanabilir mi?",
+        "a": "Evet. Program, vardiya yapısına ve üretim takviminize göre planlanır. Kısa süreli oturumlar ve vardiya arası eğitim formatları mevcuttur."
+      },
+      {
+        "q": "Eğitim dili ne kadar teknik?",
+        "a": "Eğitim; saha diline uygun, sade ve anlaşılır bir içerikle sunulur. Akademik veya ofis odaklı yönetim jargonu kullanılmaz; tüm örnekler üretim ortamından alınır."
+      },
+      {
+        "q": "Eğitim sonrası saha takibi yapılıyor mu?",
+        "a": "Evet. Eğit-Öğret-Yönet metodolojisinin gereği olarak eğitim sonrası saha koçluğu ve takip seansları programa dahil edilebilir."
+      }
+    ]
+  },
+  "ekip-calismasi-takim-yonetimi": {
+    "seoTitle": "Ekip Çalışması ve Takımı Yönetebilme Eğitimi | Saha Lideri",
+    "seoDescription": "Formen ve saha liderleri için ekip çalışması ve takım yönetimi eğitimi. Üretimde ekip dinamikleri, görev dağılımı ve saha motivasyonu. Teklif alın.",
+    "heroQuote": "Yan yana çalışan bireyler otomatik olarak ekip oluşturmaz; onları takıma dönüştüren liderdir.",
+    "intro": [
+      "Üretim hattında yan yana çalışan bireyler; ortak amaç, güven ve uyum olmadan gerçek bir ekip oluşturamaz. Saha liderinin en kritik sorumluluklarından biri; bireyleri bir araya getirmek değil, onları gerçek bir takıma dönüştürmektir.",
+      "Bu eğitim; saha liderlerine, ekip dinamiklerini okumayı, görev dağılımını etkin biçimde yönetmeyi ve üretim hedeflerine odaklı yüksek performanslı bir saha takımı oluşturmayı öğretir.",
+      "İçerik; ekip simülasyonları, görev dağılımı atölyesi ve gerçek saha vakalarıyla desteklenir; teorik anlatım en aza indirilir."
+    ],
+    "audience": "Ekip liderliği sorumluluğu taşıyan formen, vardiya amiri, hat lideri ve üretim şefleri ile yeni ekip liderliği rolüne geçen deneyimli operatörler ve saha ekip yönetimini profesyonelleştirmek isteyen tüm liderler için uygundur.",
+    "sections": [
+      {
+        "title": "Saha Ekibinin Anatomisi",
+        "intro": "Her ekip; farklı yetkinliklere, motivasyonlara ve kişiliklere sahip bireylerden oluşur. Bu bölümde saha ekibinin yapısını anlama ve ekip olgunluk aşamaları ele alınır.",
+        "bullets": [
+          "Ekip gelişim aşamaları: Oluşum, çatışma, uyum, performans",
+          "Saha ekibinde rol dağılımı: Kim ne yapmalı, kim ne yapabilir?",
+          "Ekip içi güç dinamikleri: Resmi ve gayri resmi liderlik"
+        ]
+      },
+      {
+        "title": "Görev Dağılımı ve Delege Etme",
+        "intro": "Doğru kişiye doğru görevi vermek; hem verimliliği artırır hem de çalışan gelişimini destekler. Bu bölümde delege etme kararı verme ve görevi takip etme becerileri kazandırılır.",
+        "bullets": [
+          "Yetenek ve isteklilik matrisine göre görev dağılımı",
+          "Görevi devretme: Nasıl anlatılır, nasıl takip edilir",
+          "Her şeyi kendisi yapan lider tuzağından çıkma"
+        ]
+      },
+      {
+        "title": "Ekip Motivasyonunu Saha Koşullarında Yönetme",
+        "intro": "Üretim ortamında motivasyon; prim ve ödüllerin çok ötesindedir. Lider; günlük davranışlarıyla ekibin enerjisini besler ya da tüketir. Bu bölümde sahaya özgü motivasyon araçları ele alınır.",
+        "bullets": [
+          "Anlık tanıma ve takdir: Sahadaki gücü",
+          "Zorlu vardiyalarda ekip enerjisini canlı tutma",
+          "Monotonluk ve tükenmişlikle başa çıkma",
+          "Ekipte rekabeti değil, dayanışmayı besleyen lider davranışları"
+        ]
+      },
+      {
+        "title": "Ekip İçi İletişim ve Uyumu Güçlendirme",
+        "intro": "Güçlü ekiplerde bilgi paylaşılır, sorunlar açıkça konuşulur ve herkes birbirinin başarısını destekler. Bu bölümde saha liderlerine bu kültürü oluşturma yolları gösterilir.",
+        "bullets": [
+          "Ekip toplantısı: Kısa, odaklı ve motive edici vardiya brifingleri",
+          "Ekip içinde bilgi paylaşım kültürü oluşturma",
+          "Dayanışma ritüelleri: Küçük ama güçlü günlük alışkanlıklar"
+        ]
+      },
+      {
+        "title": "Ekip Performansını İzleme ve Geliştirme",
+        "intro": "Saha lideri; ekibinin performansını yalnızca sayısal hedeflerle değil, insan dinamikleriyle de takip eder. Bu bölümde performans gözlemleme ve geliştirici müdahale ele alınır.",
+        "bullets": [
+          "Günlük performans gözlemi: Ne izlenmeli, nasıl izlenmeli",
+          "Bireysel gelişim ihtiyaçlarını sahada tespit etme",
+          "Ekip başarısını görünür kılma ve kutlama"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Ekip gelişim aşamalarını okur ve doğru müdahaleyi yapar",
+      "Görevi doğru kişiye verir ve etkin biçimde takip eder",
+      "Sahada motivasyonu canlı tutan günlük davranışlar edinir",
+      "Ekip içinde açık iletişim ve dayanışma kültürü oluşturur",
+      "Ekip performansını bireysel ve toplu olarak izler ve geliştirir",
+      "Her şeyi kendisi yapan lider tuzağından çıkar",
+      "Vardiya brifinglerini kısa, odaklı ve motive edici biçimde yönetir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi (in-house); sınıf veya saha kombinasyonu" },
+      { "label": "Yöntem", "value": "Ekip simülasyonları, görev dağılımı atölyesi, vaka analizleri, rol yapma" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Yeni ekip liderliği rolüne geçen operatörler için uygun mu?",
+        "a": "Özellikle uygun. Bu profildeki katılımcılar için içerik; liderlik rolünün gerektirdiği zihinsel ve davranışsal dönüşüme odaklanacak biçimde uyarlanabilir."
+      },
+      {
+        "q": "Ekip liderleri ve formenler birlikte katılabilir mi?",
+        "a": "Evet. Karma gruplar; farklı saha deneyimlerinin paylaşılması açısından genellikle daha zengin bir öğrenme ortamı sağlar."
+      },
+      {
+        "q": "Eğitim üretim durmadan uygulanabilir mi?",
+        "a": "Evet. Program, vardiya yapısına ve üretim takviminize göre planlanır; vardiya gruplarına ayrı oturumlar düzenlenebilir."
+      },
+      {
+        "q": "İçerik kurumumuza göre uyarlanıyor mu?",
+        "a": "Evet. Tüm modüller; kurumunuzun üretim ortamına, sektörüne ve ekip yapısına göre uyarlanarak sunulur."
+      }
+    ]
+  },
+  "uretimde-insan-yonetimi-dinamik": {
+    "seoTitle": "Üretimde İnsan Yönetimi ve Dinamik Liderlik Eğitimi",
+    "seoDescription": "Üretim ortamında insan yönetimi ve dinamik liderlik eğitimi. Saha liderlerine değişime uyum, baskı altında liderlik ve anlık karar verme becerileri.",
+    "heroQuote": "Üretim sahası plana göre değil, ana göre yaşar; lider de öyle yönetmek zorundadır.",
+    "intro": [
+      "Üretim ortamı; sabit ve öngörülebilir bir ortam değildir. Anlık arızalar, devamsızlıklar, hedef değişiklikleri ve beklenmedik talepler; saha liderinin her gün karşılaştığı gerçeklerdir. Bu koşullarda ekibi yönetmek ve performansı korumak; dinamik ve esnek bir liderlik anlayışı gerektirir.",
+      "Bu eğitim; saha liderlerine, değişen koşullara hızla uyum sağlamayı, insanı baskı altında yönetmeyi ve sahada anlık kararlar alarak ekibini yönlendirmeyi öğretir.",
+      "Makine yönetmek ile insan yönetmek birbirinden köklü biçimde farklıdır; program, üretim baskısı altında bile insan odaklı kalmayı sürdürmenin pratik yollarına odaklanır."
+    ],
+    "audience": "Yoğun ve değişken üretim ortamlarında ekip yöneten formen, vardiya amiri ve hat liderleri; kriz ve acil durum yönetimi deneyimi kazanmak isteyen saha liderleri ve ekibindeki insan yönetimi güçlükleriyle başa çıkmak isteyen üretim şefleri için uygundur.",
+    "sections": [
+      {
+        "title": "Üretimde İnsan Yönetiminin Temelleri",
+        "intro": "Makine yönetmek ile insan yönetmek; birbirinden köklü biçimde farklıdır. Bu bölümde saha liderlerine, insanı anlama ve üretim baskısı altında insan odaklı kalmayı sürdürme becerileri kazandırılır.",
+        "bullets": [
+          "Saha liderinin insan yönetimi sorumluluğu",
+          "Çalışanın gözünden lider: Beklentiler ve hayal kırıklıkları",
+          "Yetkinlik ve tutum matrisi: Kimi nasıl yönetmeli?"
+        ]
+      },
+      {
+        "title": "Değişime Uyum ve Esneklik",
+        "intro": "Üretimde değişim; kaçınılmaz ve sık gerçekleşen bir olgudur. Bu bölümde liderler; değişime kendi uyumlarını ve ekiplerinin uyumunu nasıl hızlandıracaklarını öğrenir.",
+        "bullets": [
+          "Değişime direnç: Neden oluşur, nasıl azaltılır",
+          "Ekibi değişime hazırlayan iletişim: Ne zaman, nasıl anlatılır",
+          "Ani değişimlerde ekip dengesini koruma"
+        ]
+      },
+      {
+        "title": "Baskı Altında Liderlik",
+        "intro": "Yoğun üretim, geç kalan siparişler veya iş gücü eksikliği gibi baskı koşullarında lider; hem kendi stresini hem de ekibinin moralini yönetmek zorundadır. Bu bölümde baskı altında liderlik davranışları ele alınır.",
+        "bullets": [
+          "Baskı altında duygusal denge: Lider olarak sakin kalmak",
+          "Kriz anında ekibi yönlendirme: Net ve güven veren iletişim",
+          "Öncelik belirleme: Kriz ortamında neye odaklanmalı"
+        ]
+      },
+      {
+        "title": "Anlık Karar Verme",
+        "intro": "Saha lideri; tam bilgiyle değil, yeterli bilgiyle ve hızla karar vermek zorundadır. Bu bölümde saha koşullarında hızlı ve etkili karar verme ele alınır.",
+        "bullets": [
+          "Karar verme engelleri: Tereddüt ve ertelemenin sahaya maliyeti",
+          "Hızlı değerlendirme çerçevesi: Saha kararlarında 3 adım",
+          "Yanlış karardan geri dönme: Hatayı kabul etmek ve düzeltmek"
+        ]
+      },
+      {
+        "title": "Çalışan Farklılıklarını Yönetme",
+        "intro": "Her çalışan; farklı motivasyona, farklı yetkinliğe ve farklı bir kişiliğe sahiptir. Bu bölümde bireysel farklılıkları okuma ve kişiye göre liderlik tarzı uygulama ele alınır.",
+        "bullets": [
+          "Çalışan profillerini tanıma: Performanslı, gelişmekte olan, zorlu",
+          "Kişiye göre liderlik tarzı: Direktif, koçluk, destek, delege",
+          "Ekibindeki her bireyi sahada gözlemleme ve anlama"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Üretim baskısı altında insan odaklı liderliği sürdürür",
+      "Değişime kendi uyumunu ve ekibinin uyumunu hızlandırır",
+      "Kriz anında sakin, net ve güven veren bir lider olur",
+      "Saha koşullarında hızlı ve etkili karar verir",
+      "Her çalışana kişiliğine uygun liderlik tarzı uygular",
+      "Ani değişimlerde ekip dengesini ve moralini korur",
+      "Yanlış karardan geri dönmeyi bir liderlik gücü olarak kullanır"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi (in-house); sınıf veya saha kombinasyonu" },
+      { "label": "Yöntem", "value": "Saha senaryosu simülasyonları, anlık karar egzersizleri, vaka analizleri, rol yapma" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim kriz yönetimi eğitimi midir?",
+        "a": "Kriz yönetimi bu eğitimin önemli bir boyutunu oluşturmakla birlikte eğitim; günlük üretim baskısını ve değişken koşulları yönetmeye odaklanır. Anlık karar verme ve insan yönetimi, ağırlıklı temalar arasındadır."
+      },
+      {
+        "q": "Yeni atanan saha liderleri için uygun mu?",
+        "a": "Evet. Özellikle operatörlükten liderliğe geçen kişiler için bu eğitim; rolün gerektirdiği zihinsel dönüşümü hızlandıran kritik bir programdır."
+      },
+      {
+        "q": "Eğitim üretim durmadan uygulanabilir mi?",
+        "a": "Evet. Program, vardiya yapısına ve üretim takviminize göre planlanır; vardiya gruplarına ayrı oturumlar düzenlenebilir."
+      },
+      {
+        "q": "Eğitim sonrası saha takibi yapılıyor mu?",
+        "a": "Evet. Eğit-Öğret-Yönet metodolojisinin gereği olarak eğitim sonrası saha koçluğu ve takip seansları programa dahil edilebilir."
+      }
+    ]
+  },
+  "is-guvenligi-lider-davranislari": {
+    "seoTitle": "İş Güvenliği Odaklı Lider Davranışları Eğitimi | Saha",
+    "seoDescription": "Saha liderlerine iş güvenliği liderliği eğitimi. Güvenlik kültürü oluşturma, güvenli davranışı pekiştirme ve saha risk farkındalığı. Teklif alın.",
+    "heroQuote": "Saha lideri güvenliği ciddiye alıyorsa ekibi de alır; almıyorsa almaz.",
+    "intro": [
+      "İş güvenliği; yalnızca kural ve prosedür listesi değildir. Güvenli bir üretim ortamı; liderlerin sahaya yansıttığı tutum, davranış ve önceliklerle şekillenir. Kurallar kağıt üzerinde kalabilir; ama liderin davranışı her gün sahada görülür.",
+      "Bu eğitim; saha liderlerine, iş güvenliğini kurumsal bir kültüre dönüştüren liderlik davranışlarını kazandırır. Güvenlik; bu eğitimde ek bir sorumluluk değil, liderliğin ayrılmaz bir parçası olarak ele alınır.",
+      "Program tamamen davranışsaldır; teknik prosedür veya mevzuat bilgisi yerine, güvenli davranışı norma dönüştüren günlük liderlik pratiklerine odaklanır."
+    ],
+    "audience": "Üretim, inşaat, lojistik, enerji ve madencilik gibi sektörlerde çalışan formen, vardiya amiri, hat lideri ve ekip sorumluları ile iş güvenliği kültürünü sahaya taşımak isteyen tüm saha liderleri için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Güvenlik Liderliği Nedir?",
+        "intro": "Güvenlik liderliği; prosedürleri denetlemekten çok, güvenli davranışı norma dönüştüren liderlik anlayışıdır. Bu bölümde güvenlik liderliğinin temelleri ve saha liderinin güvenlik sorumluluğu ele alınır.",
+        "bullets": [
+          "Güvenlik lideri ile denetçi arasındaki fark",
+          "Saha liderinin güvenlik kültürüne etkisi: Doğrudan ve dolaylı",
+          "Güvenlik davranışı neden kurala değil, lidere bakar?"
+        ]
+      },
+      {
+        "title": "Güvenli Davranışı Pekiştirme Teknikleri",
+        "intro": "Çalışanlar; ceza korkusuyla değil, içselleştirilmiş bir güvenlik anlayışıyla güvenli davranır. Bu bölümde pozitif pekiştirme ve anlık geri bildirim teknikleri ele alınır.",
+        "bullets": [
+          "Güvenli davranışı fark etme ve anında takdir etme",
+          "Güvensiz davranışı ele alma: Yargılamadan, etkili biçimde",
+          "Güvenlik gözlemi: Sahadaki davranışı nesnel biçimde izleme",
+          "Güvenlik konuşmaları: Kısa, net ve yapıcı saha diyaloğu"
+        ]
+      },
+      {
+        "title": "Risk Farkındalığı ve Olay Öncesi Müdahale",
+        "intro": "En iyi kaza; yaşanmayan kazadır. Bu bölümde saha liderlerine, riskleri önceden görme ve olay meydana gelmeden önlem alma becerileri kazandırılır.",
+        "bullets": [
+          "Tehlike tanıma: Sahada risk okuma alışkanlığı",
+          "Ramak kala (near-miss) olaylarını raporlama kültürü oluşturma",
+          "Toolbox (araç kutusu) toplantısı nasıl etkin yapılır",
+          "Vardiya öncesi güvenlik brifingleri: Kısa ve odaklı"
+        ]
+      },
+      {
+        "title": "Güvenlik Kültürü Oluşturma ve Sürdürme",
+        "intro": "Güvenlik kültürü; tek bir eğitimle değil, liderliğin tutarlı davranışıyla inşa edilir. Bu bölümde güvenlik kültürünü sahaya taşımanın ve sürdürmenin yolları ele alınır.",
+        "bullets": [
+          "Güvenliği günlük liderlik diline entegre etme",
+          "Çalışanı güvenlik kararlarına dahil etme: Öneri ve katılım",
+          "Güvenlik başarılarını görünür kılma ve kutlama",
+          "Güvenlik kültüründe lider tutarsızlığının maliyeti"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Güvenliği liderlik anlayışının ayrılmaz bir parçası olarak benimser",
+      "Güvenli davranışı anlık ve etkili biçimde pekiştirir",
+      "Sahada riskleri önceden fark eder ve önlem alır",
+      "Güvenlik konuşmalarını doğal ve yapıcı biçimde yürütür",
+      "Ekibinde güvenlik kültürünü içselleştiren bir ortam oluşturur",
+      "Ramak kala olaylarının raporlanmasını teşvik eden bir iklim kurar",
+      "Toolbox toplantılarını ve vardiya öncesi brifingleri etkin yönetir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 tam gün; iş güvenliği gözlem uygulamasıyla genişletilebilir" },
+      { "label": "Format", "value": "Şirket içi (in-house); sınıf ve saha kombinasyonu önerilir" },
+      { "label": "Yöntem", "value": "Saha gözlem egzersizleri, güvenlik konuşması rol yapma, vaka analizleri, toolbox toplantısı simülasyonu" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim teknik iş güvenliği eğitimi mi?",
+        "a": "Hayır. Bu eğitim; teknik güvenlik prosedürleri veya mevzuat bilgisi vermez. Tamamen davranışsal bir program olup güvenlik liderliği tutumunu ve ekipte güvenlik kültürünü oluşturmayı hedefler."
+      },
+      {
+        "q": "İSG uzmanlarıyla birlikte düzenlenebilir mi?",
+        "a": "Evet. Bu eğitim; kurumunuzun İSG ekibiyle koordineli biçimde planlanabilir ve teknik güvenlik eğitimlerini davranışsal bir boyutla tamamlayacak şekilde tasarlanabilir."
+      },
+      {
+        "q": "Eğitim üretim durmadan uygulanabilir mi?",
+        "a": "Evet. Program, vardiya yapısına ve üretim takviminize göre planlanır; vardiya gruplarına ayrı oturumlar düzenlenebilir."
+      },
+      {
+        "q": "Eğitim sonrası saha takibi yapılıyor mu?",
+        "a": "Evet. Eğit-Öğret-Yönet metodolojisinin gereği olarak eğitim sonrası saha koçluğu ve güvenlik gözlem takip seansları programa dahil edilebilir."
+      }
+    ]
+  },
+  "kusak-farkliliklari-uretimde-yonetim": {
+    "seoTitle": "Kuşak Farklılıkları ve Üretimde Yönetim Eğitimi",
+    "seoDescription": "Üretimde kuşak farklılıkları ve çok kuşaklı ekip yönetimi eğitimi. Z, Y ve X kuşaklarını anlama, kuşağa göre motivasyon ve iletişim stratejileri.",
+    "heroQuote": "Aynı yöntemle herkesi yönetmeye çalışan lider, çoğu zaman hiç kimseyi yönetemez.",
+    "intro": [
+      "Bugünün üretim hatlarında üç, hatta dört farklı kuşak yan yana çalışmaktadır. Her kuşağın otoriteye bakışı, motivasyonu, iletişim tarzı ve beklentileri birbirinden belirgin biçimde farklıdır.",
+      "Bu farklılığı anlamayan saha lideri; aynı yöntemle herkesi yönetmeye çalışır ve çoğu zaman başarısız olur. Deneyimli ustayla işe yeni giren Z kuşağı operatörü, aynı brifingi bambaşka biçimde duyar.",
+      "Bu eğitim; saha liderlerine, farklı kuşakların profillerini tanımayı ve her kuşakla etkili iletişim kurmanın ve motivasyon sağlamanın pratik yollarını öğretir."
+    ],
+    "audience": "Farklı yaş gruplarından oluşan saha ekiplerini yöneten formen, vardiya amiri ve ekip liderleri ile Z kuşağı çalışanları yönetmekte güçlük çeken tüm saha liderleri için uygundur.",
+    "sections": [
+      {
+        "title": "Kuşak Profillerini Tanıma",
+        "intro": "Her kuşak; içinde büyüdüğü dönemin ekonomik, sosyal ve teknolojik koşullarıyla şekillenmiştir. Bu bölümde üretimde en sık karşılaşılan kuşak profilleri ve temel özellikleri ele alınır.",
+        "bullets": [
+          "Baby Boomer / X Kuşağı: Sorumluluk, sadakat ve hiyerarşi değerleri",
+          "Y Kuşağı (Millennials): Anlam arayışı, geri bildirim isteği ve esneklik",
+          "Z Kuşağı: Hız, otantiklik, dijital alışkanlıklar ve otorite algısı",
+          "Kuşak klişelerinin ötesi: Bireysel farklılıkları görme"
+        ]
+      },
+      {
+        "title": "Kuşağa Göre Motivasyon Stratejileri",
+        "intro": "Aynı ödül veya yaklaşım; farklı kuşaklar için farklı etkiler yaratır. Bu bölümde her kuşağın sahada ne tarafından motive olduğu ve liderlik yaklaşımının nasıl uyarlanması gerektiği ele alınır.",
+        "bullets": [
+          "X Kuşağı çalışanı için: İstikrar, yetki ve tanınma",
+          "Y Kuşağı çalışanı için: Anlam, gelişim fırsatı ve geri bildirim",
+          "Z Kuşağı çalışanı için: Hızlı geri bildirim, saydamlık ve esneklik",
+          "Çok kuşaklı ekipte ortak motivasyon zemini bulma"
+        ]
+      },
+      {
+        "title": "Kuşağa Göre İletişim Tarzı",
+        "intro": "Saha liderinin iletişim tarzı; her kuşakta farklı bir etki yaratır. Bu bölümde kuşağa uygun talimat verme, geri bildirim sunma ve brifing yapma ele alınır.",
+        "bullets": [
+          "X Kuşağına doğrudan ve net talimat verme",
+          "Y Kuşağına neden'i açıklayan, katılımcı iletişim",
+          "Z Kuşağına kısa, görsel ve anlık iletişim",
+          "Kuşaklar arası yanlış anlamaları önleme stratejileri"
+        ]
+      },
+      {
+        "title": "Kuşaklar Arası Sürtüşmeyi Yönetme",
+        "intro": "Farklı kuşakların bir arada çalışması; zenginlik yaratabildiği gibi sürtüşme de yaratabilir. Bu bölümde kuşaklar arası gerilimi yönetme ve çeşitliliği güce dönüştürme ele alınır.",
+        "bullets": [
+          "Kuşaklar arası tipik sürtüşme noktaları ve nedenleri",
+          "Deneyimli çalışan ile yeni nesil arasında köprü kurma",
+          "Mentorluğu ters çevirme: Gençten deneyimliye dijital aktarım",
+          "Ortak değerler etrafında kuşakları birleştirme"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Farklı kuşak profillerini tanır ve bireysel farklılıkları görür",
+      "Her kuşağa uygun motivasyon stratejisi uygular",
+      "Kuşağa göre iletişim tarzını uyarlar",
+      "Kuşaklar arası sürtüşmeyi azaltır ve çeşitliliği güce dönüştürür",
+      "Çok kuşaklı ekipte uyum ve dayanışmayı güçlendirir",
+      "Z kuşağı çalışanlarla etkili iletişim kurar ve onları elde tutar",
+      "Deneyimli çalışan ile yeni nesil arasında köprü kurar"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi (in-house); sınıf formatı" },
+      { "label": "Yöntem", "value": "Kuşak profil analizleri, vaka senaryoları, grup tartışmaları, kuşak etkileşim simülasyonları" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Z kuşağı çalışanları özellikle zorlayıcı buluyoruz; bu eğitim yardımcı olur mu?",
+        "a": "Evet. Eğitimin önemli bir bölümü; Z kuşağının iş değerleri, otorite algısı ve motivasyonunu anlamaya odaklanır. Bu kuşakla nasıl etkili iletişim kurulacağı somut örneklerle ele alınır."
+      },
+      {
+        "q": "Karışık kuşaklardan oluşan gruplarla mı çalışılıyor?",
+        "a": "İdeal oturumlar; farklı kuşaklardan liderlerin bir arada bulunduğu gruplardır. Bu sayede gerçek saha dinamikleri eğitim ortamına taşınır."
+      },
+      {
+        "q": "Eğitim üretim durmadan uygulanabilir mi?",
+        "a": "Evet. Program, vardiya yapısına ve üretim takviminize göre planlanır; vardiya gruplarına ayrı oturumlar düzenlenebilir."
+      },
+      {
+        "q": "İçerik sektörümüze göre uyarlanıyor mu?",
+        "a": "Evet. Tüm modüller; kurumunuzun üretim ortamına, sektörüne ve ekip yapısına göre uyarlanarak sunulur."
+      }
+    ]
+  },
+  "problem-cozme-catisma-yonetimi": {
+    "seoTitle": "Problem Çözme ve Çatışmaları Yönetme Eğitimi | Üretim",
+    "seoDescription": "Saha liderlerine problem çözme ve çatışma yönetimi eğitimi. Kök neden analizi, 5 Neden, Ishikawa ve ekip içi çatışmalara yapıcı müdahale. Teklif alın.",
+    "heroQuote": "Saha liderinin değeri; sorunun yaşanmamasında değil, hızla ve kökten çözülmesinde ortaya çıkar.",
+    "intro": [
+      "Üretim ortamında sorunlar kaçınılmazdır: üretim hataları, ekipman arızaları, süreç sapmaları ve ekip içi anlaşmazlıklar her gün gerçekleşir. Semptomu geçiştiren lider, aynı sorunla her vardiyada yeniden karşılaşır.",
+      "Bu eğitim; saha liderlerine, üretim problemlerini kök nedeninden çözmeyi ve ekip içi çatışmaları yapıcı biçimde yönetmeyi öğretir. Tüm araçlar, saha temposuna ve gerçeklerine uygun biçimde sunulur.",
+      "5 Neden ve Ishikawa gibi araçlar; teorik anlatımla değil, gerçek üretim vakaları üzerinde ekiple birlikte uygulanarak öğretilir."
+    ],
+    "audience": "Üretim problemlerini anlık çözmek zorunda kalan formen ve vardiya amirleri, ekip içi anlaşmazlıklarla baş etmek durumunda olan saha liderleri ve sistematik problem çözme becerisi kazanmak isteyen tüm üretim ekip liderleri için uygundur.",
+    "sections": [
+      {
+        "title": "Sahada Problem Tanımlama",
+        "intro": "Doğru tanımlanmayan problem; hiçbir zaman doğru çözülmez. Bu bölümde saha liderlerine, üretim problemini hızla ve doğru biçimde tanımlama becerileri kazandırılır.",
+        "bullets": [
+          "Problem ile semptom arasındaki kritik fark",
+          "Sahada hızlı problem tanımlama soruları",
+          "Acil müdahale gerektiren ile kök nedeni araştırılması gereken problemleri ayırt etme"
+        ]
+      },
+      {
+        "title": "Kök Neden Analizi Araçları",
+        "intro": "Semptomu gidermek problemi çözmez; kök nedeni bulmak tekrarlanmayı önler. Bu bölümde saha liderlerine uygun, uygulaması kolay kök neden analizi araçları sunulur.",
+        "bullets": [
+          "5 Neden Analizi: Sahada nasıl uygulanır?",
+          "Balık kılçığı (Ishikawa) diyagramı: Ekiple birlikte kullanma",
+          "Hata kategorileri: İnsan, makine, malzeme, yöntem, ortam",
+          "Kök neden bulma alıştırması: Gerçek saha vakaları"
+        ]
+      },
+      {
+        "title": "Anlık Müdahale ve Düzeltici Eylem",
+        "intro": "Kök neden bulunduktan sonra; kalıcı ve izlenebilir bir düzeltici eylem planı oluşturmak gerekir. Bu bölümde saha düzeyinde uygulanabilir düzeltici eylem yönetimi ele alınır.",
+        "bullets": [
+          "Düzeltici eylem planı: Kim, ne, ne zaman yapacak?",
+          "Sahada önlemi hayata geçirme ve doğrulama",
+          "Hatanın tekrarlanmasını önleyen basit standartlaştırma"
+        ]
+      },
+      {
+        "title": "Ekip İçi Çatışma Yönetimi",
+        "intro": "Saha ekiplerinde çatışma; kaçınılmaz bir olgudur. Bu bölümde saha liderlerine, ekip içi anlaşmazlıkları yüzeyden değil kökten çözme becerileri kazandırılır.",
+        "bullets": [
+          "Saha çatışmalarının yaygın kaynakları",
+          "Çatışmaya müdahale: Ne zaman, nasıl?",
+          "İki çalışan arasındaki anlaşmazlıkta tarafsız arabuluculuk",
+          "Çatışmayı bastırma yerine yapıcı çözüme yönlendirme"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Üretim problemini hızla ve doğru biçimde tanımlar",
+      "5 Neden ve Ishikawa gibi araçlarla kök nedene ulaşır",
+      "Düzeltici eylem planı oluşturur ve uygular",
+      "Ekip içi çatışmalara tarafsız ve yapıcı biçimde müdahale eder",
+      "Sorunların tekrarlanmasını önleyen basit standartlar geliştirir",
+      "Problem ile semptomu ayırt eder, doğru noktaya odaklanır",
+      "Çatışmayı bastırmak yerine yapıcı çözüme yönlendirir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi (in-house); sınıf ve saha kombinasyonu" },
+      { "label": "Yöntem", "value": "Kök neden analizi atölyeleri, çatışma rol yapma egzersizleri, gerçek üretim vaka analizleri" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim kalite sistemleriyle entegre edilebilir mi?",
+        "a": "Evet. Eğitimdeki problem çözme araçları; ISO, Kaizen ve Lean üretim sistemleriyle uyumludur ve kurumunuzun mevcut kalite süreçleriyle entegre biçimde sunulabilir."
+      },
+      {
+        "q": "Gerçek üretim vakalarımızla çalışılabilir mi?",
+        "a": "Evet. Şirket içi eğitimlerde kurumunuzda yaşanan gerçek problemler, eğitimin temel pratiği olarak kullanılabilir."
+      },
+      {
+        "q": "Eğitim üretim durmadan uygulanabilir mi?",
+        "a": "Evet. Program, vardiya yapısına ve üretim takviminize göre planlanır; kısa oturumlar ve vardiya arası formatlar mevcuttur."
+      },
+      {
+        "q": "Eğitim sonrası saha takibi yapılıyor mu?",
+        "a": "Evet. Eğit-Öğret-Yönet metodolojisinin gereği olarak eğitim sonrası saha koçluğu ve takip seansları programa dahil edilebilir."
+      }
+    ]
+  },
+  "is-planlama-zaman-yonetimi": {
+    "seoTitle": "İş Planlama ve Zaman Yönetimi Eğitimi | Üretim Sahası",
+    "seoDescription": "Saha liderlerine iş planlama ve zaman yönetimi eğitimi. Vardiya planlaması, üretim önceliklendirme, delege etme ve saha organizasyonu. Teklif alın.",
+    "heroQuote": "Plansız çalışan saha lideri, ekibini de aynı kaosa sürükler.",
+    "intro": [
+      "Saha liderinin zamanı; hem kendi verimliliğini hem de ekibinin çıktısını belirler. Plansız çalışan, anlık sorunlara tepki veren ve önceliklerini yönetemeyen bir saha lideri; ekibini de aynı kaosa sürükler.",
+      "Bu eğitim; saha liderlerine, vardiya planlamasını yapılandırmayı, üretim önceliklerini doğru belirlemeyi ve zamanı en kritik faaliyetlere yönlendirmeyi öğretir.",
+      "Tüm araçlar; saha temposuna ve üretim gerçeklerine uygun biçimde sunulur. Katılımcılar, kendi vardiya yapıları ve üretim senaryoları üzerinden planlama çalışması yapar."
+    ],
+    "audience": "Vardiya planlaması ve üretim organizasyonundan sorumlu formen ve vardiya amirleri, anlık sorunlara tepki vermekten planlı çalışmaya geçmek isteyen saha liderleri ve üretim verimliliğini artırmayı hedefleyen ekip liderleri için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Saha Liderinin Zaman Tuzakları",
+        "intro": "Saha liderlerinin büyük çoğunluğu; zamanlarının önemli bir bölümünü asıl işlerine değil, anlık sorunlara ve gereksiz bekleyişlere harcadığının farkında değildir. Bu bölümde zaman tuzakları tespit edilir ve çözüm yolları gösterilir.",
+        "bullets": [
+          "Saha liderinin zamanını çalan 5 temel tuzak",
+          "Reaktif liderden proaktif lidere geçiş",
+          "Acil ile önemli arasındaki fark: Üretim versiyonu"
+        ]
+      },
+      {
+        "title": "Vardiya Planlaması ve Hazırlık",
+        "intro": "Vardiya öncesi yapılan planlama; vardiya boyunca yaşanacak aksaklıkların büyük bölümünü önler. Bu bölümde etkin vardiya planlaması ve vardiya hazırlık rutini ele alınır.",
+        "bullets": [
+          "Vardiya öncesi kontrol listesi: Ne hazırlanmalı, ne kontrol edilmeli",
+          "İnsan kaynağı ve ekipman hazırlığını önceden görme",
+          "Vardiya brifingini planlama ve yönetme"
+        ]
+      },
+      {
+        "title": "Üretim Önceliklendirme",
+        "intro": "Her şeyi aynı anda yapmak; hiçbir şeyi iyi yapmamakla sonuçlanır. Bu bölümde saha liderlerine, üretim hedeflerini ve anlık talepleri önceliklendirme becerileri kazandırılır.",
+        "bullets": [
+          "Üretim hedefi ile anlık talep arasında denge kurma",
+          "Hangi soruna önce müdahale edilmeli? Karar çerçevesi",
+          "Ekip içinde görev önceliklendirmeyi netleştirme"
+        ]
+      },
+      {
+        "title": "Görev Takibi ve Verimlilik İzleme",
+        "intro": "Plan yapmak yeterli değildir; planın uygulanmasını izlemek ve sapmaları zamanında görmek gerekir. Bu bölümde basit ve etkili saha takip yöntemleri ele alınır.",
+        "bullets": [
+          "Basit görsel takip araçları: Beyaz tahta, pano, dijital araçlar",
+          "Vardiya sonunda kısa değerlendirme alışkanlığı",
+          "Plan-gerçekleşme farkını analiz etme ve önlem alma"
+        ]
+      },
+      {
+        "title": "Delege Etme ve Organizasyon",
+        "intro": "Saha liderinin her işi kendisi yapması; hem zamanı tüketir hem de ekibinin gelişimini engeller. Bu bölümde saha koşullarında etkin delege etme ele alınır.",
+        "bullets": [
+          "Sahada hangi görevler delege edilebilir?",
+          "Doğru kişiye doğru görevi verme",
+          "Delege ettikten sonra nasıl takip edilir"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Vardiyasını önceden planlar ve hazırlıklı başlar",
+      "Üretim önceliklerini hızla belirler ve ekibini yönlendirir",
+      "Zaman tuzaklarını tanır ve reaktif çalışmadan çıkar",
+      "Görevleri etkin biçimde delege eder ve takip eder",
+      "Vardiya performansını basit araçlarla izler ve değerlendirir",
+      "Acil ile önemli arasındaki farkı üretim gerçeğinde uygular",
+      "Vardiya sonu değerlendirmeyi kalıcı bir alışkanlığa dönüştürür"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi (in-house); sınıf formatı, uygulamalı atölye" },
+      { "label": "Yöntem", "value": "Vardiya planlama egzersizi, zaman analizi çalışması, önceliklendirme simülasyonu" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Katılımcılar kendi vardiya planlarıyla mı çalışıyor?",
+        "a": "Evet. Şirket içi eğitimlerde katılımcılar kendi vardiya yapıları ve üretim senaryoları üzerinden planlama çalışması yapar."
+      },
+      {
+        "q": "Eğitim üretim durmadan uygulanabilir mi?",
+        "a": "Evet. Program, vardiya yapısına ve üretim takviminize göre planlanır; kısa oturumlar ve vardiya arası formatlar mevcuttur."
+      },
+      {
+        "q": "Dijital planlama araçları da ele alınıyor mu?",
+        "a": "Evet. Beyaz tahta ve pano gibi basit görsel takip araçlarının yanı sıra kurumunuzda kullanılan dijital araçlara uyarlanabilir takip yöntemleri de ele alınır."
+      },
+      {
+        "q": "Eğitim sonrası saha takibi yapılıyor mu?",
+        "a": "Evet. Eğit-Öğret-Yönet metodolojisinin gereği olarak eğitim sonrası saha koçluğu ve takip seansları programa dahil edilebilir."
+      }
+    ]
+  },
+  "operator-etkileme-ikna-teknikleri": {
+    "seoTitle": "Operatörleri Etkileme ve İkna Teknikleri Eğitimi | Üretim",
+    "seoDescription": "Saha liderlerine operatörleri etkileme ve ikna teknikleri eğitimi. Sahada güven temelli otorite, dirençle başa çıkma ve harekete geçirici iletişim.",
+    "heroQuote": "Saha liderinin en güçlü yönetim aracı emir vermek değil, etki yaratmaktır.",
+    "intro": [
+      "Operatörler; kendilerine saygı duyan, dinleyen ve güvenen liderleri izler. Korkuyla kurulan otorite ancak lider oradayken işler; güven ve saygıyla kurulan otoritenin etkisi ise daha derin ve kalıcıdır.",
+      "Bu eğitim; saha liderlerine, operatörlerle güven temelli etki kurmanın, direktifi kabul ettirmenin ve zorlu durumlarda bile ekibi harekete geçirebilmenin pratik tekniklerini öğretir.",
+      "Program; manipülasyon değil, etik ve saygı temelli etki kurma üzerine kuruludur. Güven, şeffaflık ve çalışanı dahil etme ön planda tutulur."
+    ],
+    "audience": "Operatörler ve saha çalışanları üzerinde etki yaratmakta güçlük çeken formen ve vardiya amirleri, yeni liderlik rolüne geçen deneyimli operatörler ve sahada otoritesini güçlendirmek isteyen tüm ekip liderleri için uygundur.",
+    "sections": [
+      {
+        "title": "Etki ve Otorite: Emir ile İkna Arasındaki Fark",
+        "intro": "Emir vermek; uyumu zorunlu kılar. İkna etmek; içsel bağlılık yaratır. Bu bölümde etki ve otorite kavramları sahada somut örneklerle ele alınır.",
+        "bullets": [
+          "Emir odaklı liderlik ile etki odaklı liderlik: Fark ve maliyet",
+          "Saha otoritesinin kaynakları: Pozisyon, uzmanlık ve güven",
+          "Operatörler neden direnç gösterir? Altındaki ihtiyaçlar"
+        ]
+      },
+      {
+        "title": "Güvenilirlik ve Saygınlık İnşası",
+        "intro": "Operatörler; bilen, sözünü tutan ve adil olan liderlerini izler. Bu bölümde saha liderlerinin güvenilirliğini ve saygınlığını inşa eden davranışlar ele alınır.",
+        "bullets": [
+          "Sözünü tutmak: Küçük taahhütlerin büyük etkisi",
+          "Teknik bilginin ötesinde: Adaletli ve tutarlı davranmak",
+          "Sahada görünür olmak: Uzaktan değil, yanında liderlik"
+        ]
+      },
+      {
+        "title": "Sahada İkna Teknikleri",
+        "intro": "Saha koşullarında ikna; uzun argümanlarla değil, kısa ve güçlü iletişimle gerçekleşir. Bu bölümde sahaya özgü ikna dili ve teknikleri ele alınır.",
+        "bullets": [
+          "Neden'i açıklama: Talimatın arkasındaki mantığı paylaşmak",
+          "Operatörü dahil etme: Görüşünü sormak ve dinlemek",
+          "Sosyal kanıt: Ekipteki diğerlerini referans gösterme",
+          "Somut faydayı gösterme: Bu onlara ne kazandırır?"
+        ]
+      },
+      {
+        "title": "Dirençle Başa Çıkma",
+        "intro": "Direktife direniş; üretim sahalarında sık karşılaşılan bir durumdur. Bu bölümde direnişi fark etme, anlamlandırma ve yapıcı biçimde aşma ele alınır.",
+        "bullets": [
+          "Direnç türleri: Açık muhalefet, sessiz sabotaj, pasif uyum",
+          "Direncin arkasındaki ihtiyacı okuma",
+          "Direnci savunmacılık olmadan karşılama teknikleri",
+          "Uzlaşma noktası bulma: Ekiple birlikte çözüm geliştirme"
+        ]
+      },
+      {
+        "title": "Harekete Geçirici İletişim",
+        "intro": "En iyi mesaj; operatörü harekete geçirendir. Bu bölümde motivasyonu artıran, enerji veren ve ekibi hedefe odaklayan iletişim dili ele alınır.",
+        "bullets": [
+          "Vardiya öncesi motive edici brifing yapısı",
+          "Zor hedefleri ekibe anlatma: Gerçekçi ama ilham verici",
+          "Başarıyı kutlama: Anlık, samimi ve güçlü bir araç"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Emir yerine etki ve iknayla yönetim yapar",
+      "Sahada güvenilirlik ve saygınlık inşa eder",
+      "Direktiflerini operatöre kabul ettiren iletişim kullanır",
+      "Direnişi fark eder ve yapıcı biçimde aşar",
+      "Ekibi harekete geçiren motive edici bir iletişim tarzı geliştirir",
+      "Talimatın arkasındaki nedeni paylaşarak içsel bağlılık yaratır",
+      "Vardiya öncesi brifingleri motive edici biçimde yapılandırır"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi (in-house); sınıf ve saha kombinasyonu" },
+      { "label": "Yöntem", "value": "İkna ve etki rol yapma egzersizleri, saha senaryosu simülasyonları, vaka analizleri" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim manipülasyon teknikleri mi öğretiyor?",
+        "a": "Hayır. Eğitim; etik ve saygı temelli etki kurma üzerine kuruludur. Manipülasyon yerine güven, şeffaflık ve çalışanı dahil etme ön planda tutulur."
+      },
+      {
+        "q": "Yeni lider rolüne geçen deneyimli operatörler için uygun mu?",
+        "a": "Özellikle uygun. Bu profil için eğitim; eski iş arkadaşlarını artık yönetmenin getirdiği güçlükleri ve bu geçişin nasıl sağlıklı yönetileceğini de kapsar."
+      },
+      {
+        "q": "Eğitim üretim durmadan uygulanabilir mi?",
+        "a": "Evet. Program, vardiya yapısına ve üretim takviminize göre planlanır; vardiya gruplarına ayrı oturumlar düzenlenebilir."
+      },
+      {
+        "q": "Eğitim sonrası saha takibi yapılıyor mu?",
+        "a": "Evet. Eğit-Öğret-Yönet metodolojisinin gereği olarak eğitim sonrası saha koçluğu ve takip seansları programa dahil edilebilir."
+      }
+    ]
+  },
+  "zor-calisanlarla-basa-cikma": {
+    "seoTitle": "Zor Çalışanlarla Başa Çıkma Eğitimi | Saha Lider Programı",
+    "seoDescription": "Saha liderlerine zor çalışan yönetimi eğitimi. Dirençli, kural tanımayan ve negatif çalışan profillerine yapıcı müdahale ve sınır koyma. Teklif alın.",
+    "heroQuote": "Zor davranış; sınır koyulmadığında büyür ve tek bir kişi tüm ekip iklimini değiştirir.",
+    "intro": [
+      "Her üretim ekibinde bulunur: kurallara uymayan, sürekli yakınan, işi yavaşlatan ya da ekip enerjisini tüketen çalışanlar. Bu bireylerle nasıl başa çıkıldığı; hem üretim verimliliğini hem de diğer çalışanların motivasyonunu doğrudan etkiler.",
+      "Bu eğitim; saha liderlerine, zorlayıcı çalışan profillerini tanımayı, onlara stratejik biçimde yaklaşmayı ve hem ilişkiyi hem de ekip dengesini koruyarak sorunu çözmeyi öğretir.",
+      "Zorlayıcı davranışın altında genellikle karşılanmamış bir ihtiyaç, güvensizlik veya alışkanlık yatar; program, tepki vermek yerine bu nedeni okuyup yapıcı müdahale etmeyi kazandırır."
+    ],
+    "audience": "Ekibinde direnç gösteren, kuralları esnetmeye çalışan veya negatif tutum sergileyen çalışanlar bulunan formen, vardiya amiri ve ekip liderleri ile davranış sorunlarını erken aşamada çözmek ve insan yönetimi becerilerini güçlendirmek isteyen tüm üretim şefleri için uygundur.",
+    "sections": [
+      {
+        "title": "Zor Çalışan Profillerini Tanıma",
+        "intro": "Zorlayıcı çalışan davranışlarının altında genellikle karşılanmamış bir ihtiyaç, güvensizlik veya alışkanlık yatar. Bu bölümde üretim ortamındaki yaygın zor çalışan profilleri ele alınır.",
+        "bullets": [
+          "Kural tanımayan: Her seferinde bir istisnası olan çalışan",
+          "Sürekli şikayet eden: Negatif enerji yayan çalışan",
+          "İşi yavaşlatan: Tempoya uymayan ya da düşüren çalışan",
+          "Pasif agresif: Görünürde uyumlu ama gizlice direnen çalışan",
+          "Yıldız ama zehir: Performansı yüksek ama ekibi yıpratan çalışan"
+        ]
+      },
+      {
+        "title": "Yapıcı Müdahale Yaklaşımı",
+        "intro": "Zor çalışana müdahale; tepkisel değil, stratejik ve yapıcı biçimde gerçekleştiğinde hem sorun çözülür hem de ilişki korunur. Bu bölümde adım adım müdahale yaklaşımı ele alınır.",
+        "bullets": [
+          "Davranışa odaklanma: Kişiyi değil, davranışı ele alma",
+          "SBI çerçevesi: Durum-Davranış-Etki modelinin sahada uygulaması",
+          "Özel görüşme: Ne zaman, nerede, nasıl yapılmalı",
+          "Savunmacı tepkiyi yönetme: Karşı saldırıya kapılmama"
+        ]
+      },
+      {
+        "title": "Sınır Koyma ve Beklentiyi Netleştirme",
+        "intro": "Zor davranış; sınır koyulmadığında büyür. Bu bölümde saha liderlerine, net beklenti belirleme ve sınırları tutarlı biçimde koruma becerileri kazandırılır.",
+        "bullets": [
+          "Beklentiyi net ve anlaşılır biçimde ifade etme",
+          "Sonuçları önceden tanımlama: Değişmezse ne olacak?",
+          "Sınırda tutarlılık: Her seferinde farklı davranmanın maliyeti"
+        ]
+      },
+      {
+        "title": "Ekip Dengesini ve Enerjisini Koruma",
+        "intro": "Tek bir zor çalışan; tüm ekip iklimini etkileyebilir. Bu bölümde saha liderlerine, bireysel sorunu yönetirken ekibin geri kalanını koruma stratejileri gösterilir.",
+        "bullets": [
+          "Zor çalışanın ekip üzerindeki domino etkisi",
+          "Ekipte adalet algısını koruma: \"Neden o yapıyor?\" sorusunu önleme",
+          "Ekibin gözlemlemesine rağmen liderin duruşunu koruma"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Zor çalışan profillerini erken fark eder",
+      "Davranışa odaklanan yapıcı müdahale yapar",
+      "Net sınır koyar ve tutarlı biçimde uygular",
+      "Zor konuşmaları güvenle ve etkili biçimde yürütür",
+      "Bireysel sorunu çözerken ekip dengesini korur",
+      "SBI (Durum-Davranış-Etki) çerçevesini sahada uygular",
+      "Ekipte adalet algısını koruyarak domino etkisini önler"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi (in-house); sınıf formatı" },
+      { "label": "Yöntem", "value": "Zor çalışan senaryoları, rol yapma egzersizleri, vaka analizleri, grup tartışmaları" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim disiplin süreci mi öğretiyor?",
+        "a": "Hayır. Eğitim; resmi disiplin süreçlerinden önce uygulanabilecek yapıcı liderlik müdahalelerine odaklanır. Resmi süreçlerle koordinasyon için İK departmanıyla iş birliği önerilir."
+      },
+      {
+        "q": "Gerçek yaşanan vakalarla eğitime hazırlık yapılabilir mi?",
+        "a": "Evet. Şirket içi eğitimlerde anonim hale getirilen gerçek vakalar, simülasyon senaryolarına dönüştürülerek kullanılabilir."
+      },
+      {
+        "q": "Eğitim üretim durmadan uygulanabilir mi?",
+        "a": "Evet. Program, vardiya yapısına ve üretim takviminize göre planlanır; vardiya gruplarına ayrı oturumlar düzenlenebilir."
+      },
+      {
+        "q": "Eğitim sonrası saha takibi yapılıyor mu?",
+        "a": "Evet. Eğit-Öğret-Yönet metodolojisinin gereği olarak eğitim sonrası saha koçluğu ve takip seansları programa dahil edilebilir."
+      }
+    ]
+  },
+  "verimli-geribildirim-verme": {
+    "seoTitle": "Çalışanlara Verimli Geribildirim Verme Eğitimi | Üretim",
+    "seoDescription": "Saha liderlerine etkili geribildirim eğitimi. Üretimde anlık geri bildirim, davranış odaklı SBI modeli ve motivasyonu artıran takdir. Teklif alın.",
+    "heroQuote": "Geribildirim; yanlışı cezalandırmak için değil, doğruyu kalıcı kılmak içindir.",
+    "intro": [
+      "Doğru verilen bir geribildirim; çalışanın motivasyonunu artırır, performansını yükseltir ve lidere duyduğu güveni pekiştirir. Yanlış verilen bir geribildirim ise tam tersini yapar.",
+      "Bu eğitim; saha liderlerine, üretim ortamına özgü anlık ve etkili geribildirim verme becerilerini kazandırır. Tüm yöntemler; saha temposuna ve çalışan profiline uygun, uygulaması kolay bir çerçeveyle sunulur.",
+      "Sahada en etkili geribildirim; olayın hemen ardından, yerinde ve kısa biçimde verilendir. Program, 2 dakikada tamamlanan geribildirim konuşmasından yapılandırılmış gelişim görüşmesine kadar tüm sahayı kapsar."
+    ],
+    "audience": "Operatörlere ve saha çalışanlarına geribildirim vermekten kaçınan ya da etkisini yönetemeyen formen ve vardiya amirleri, geribildirim kültürünü sahaya taşımak isteyen ekip liderleri ve çalışan performansını geribildirimle geliştirmek isteyen tüm saha yöneticileri için uygundur.",
+    "sections": [
+      {
+        "title": "Geribildirim Nedir, Ne Değildir?",
+        "intro": "Geribildirim; eleştiri değildir. Çalışanların büyük bölümü; geribildirim yerine yargılama almaya alışmıştır. Bu bölümde geribildirim kavramı ve saha liderinin geribildirim sorumluluğu ele alınır.",
+        "bullets": [
+          "Geribildirim ile eleştiri arasındaki temel fark",
+          "Geribildirim vermemek ne anlama gelir?",
+          "Saha liderinin geribildirim konuşmalarından kaçınmasının maliyeti"
+        ]
+      },
+      {
+        "title": "Anlık Saha Geri Bildirimi",
+        "intro": "Sahada en etkili geribildirim; olayın hemen ardından, yerinde ve kısa biçimde verilen geri bildirimdir. Bu bölümde anlık geribildirim tekniklerinin sahaya uyarlaması ele alınır.",
+        "bullets": [
+          "Geribildirim için doğru an: Hemen mi, sonra mı?",
+          "Birebir geribildirim: Ekibin önünde değil, özel alanda",
+          "Kısa ve net geribildirim: 2 dakikada tamamlanan konuşma yapısı"
+        ]
+      },
+      {
+        "title": "Davranış Odaklı Geribildirim Modeli",
+        "intro": "Etkili geribildirim; kişiyi değil, davranışı hedef alır. Bu bölümde saha liderlerine, davranış odaklı geribildirim vermenin pratik çerçevesi kazandırılır.",
+        "bullets": [
+          "SBI modeli sahada: Durum-Davranış-Etki",
+          "\"Sen\" dili yerine \"Ben\" ve \"Davranış\" dili",
+          "Genel ifadelerden kaçınma: Somut ve gözlemlenebilir davranışa odaklanma",
+          "Geribildirime çalışanın tepkisini yönetme"
+        ]
+      },
+      {
+        "title": "Olumlu Geribildirim ve Takdirin Gücü",
+        "intro": "Saha liderlerinin büyük çoğunluğu; yanlışı söylemeyi doğruyu söylemekten daha kolay bulur. Oysa doğru davranışı pekiştirmek; en güçlü performans geliştirme aracıdır. Bu bölümde etkili takdir ve olumlu geribildirim ele alınır.",
+        "bullets": [
+          "Takdirin biyolojik etkisi: Dopamin ve performans döngüsü",
+          "Genel değil, spesifik takdir: Neyi, neden takdir ediyorsun?",
+          "Anlık tanıma: Doğru zamanda yapılan takdirin gücü",
+          "Toplu takdir ile bireysel takdir arasındaki fark"
+        ]
+      },
+      {
+        "title": "Gelişime Yönelik Geribildirim Konuşması",
+        "intro": "Sahada zaman baskısı altında geribildirim yapmak; yapılandırılmış bir yaklaşım gerektirir. Bu bölümde saha koşullarında kısa ama etkili gelişim odaklı geribildirim konuşması ele alınır.",
+        "bullets": [
+          "Geribildirim konuşmasını hazırlama: Ne söyleyeceğini bilmek",
+          "Çalışanı konuşmaya dahil etme: Kendi değerlendirmesini sorma",
+          "Geribildirim sonrası taahhüt alma ve takip"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Anlık ve etkili saha geri bildirimi verir",
+      "Davranışa odaklanan, kişiyi hedef almayan geribildirim kullanır",
+      "Olumlu geri bildirimi ve takdiri güçlü bir araç olarak kullanır",
+      "Gelişim odaklı geribildirim konuşmasını yapılandırır ve yürütür",
+      "Ekibinde geribildirime açık ve gelişime istekli bir kültür oluşturur",
+      "SBI (Durum-Davranış-Etki) modelini saha temposunda uygular",
+      "Geribildirim sonrası taahhüt alır ve takip eder"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi (in-house); sınıf formatı" },
+      { "label": "Yöntem", "value": "Geribildirim rol yapma egzersizleri, saha senaryoları, video analizi, bireysel uygulama çalışması" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim performans yönetim sistemimizle entegre edilebilir mi?",
+        "a": "Evet. Eğitimdeki geribildirim yapıları; kurumunuzun mevcut performans değerlendirme ve koçluk süreçleriyle uyumlu biçimde uyarlanabilir."
+      },
+      {
+        "q": "Eğitim üretim durmadan uygulanabilir mi?",
+        "a": "Evet. Program, vardiya yapısına ve üretim takviminize göre planlanır; kısa oturumlar ve vardiya arası formatlar mevcuttur."
+      },
+      {
+        "q": "Eğitim dili ne kadar teknik?",
+        "a": "Eğitim; saha diline uygun, sade ve anlaşılır bir içerikle sunulur. Akademik jargon kullanılmaz; tüm örnekler üretim ortamından alınır."
+      },
+      {
+        "q": "Eğitim sonrası saha takibi yapılıyor mu?",
+        "a": "Evet. Eğit-Öğret-Yönet metodolojisinin gereği olarak eğitim sonrası saha koçluğu ve takip seansları programa dahil edilebilir."
+      }
+    ]
+  }
+}

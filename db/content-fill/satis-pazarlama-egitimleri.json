@@ -1,0 +1,625 @@
+{
+  "musteri-iliskileri-yonetimi-iletisim": {
+    "seoTitle": "Müşteri İlişkileri Yönetimi ve İletişim Eğitimi",
+    "seoDescription": "Müşteri ilişkileri yönetimi ve satış iletişimi eğitimi. Güven temelli iletişim, aktif dinleme ve uzun vadeli müşteri bağlılığı stratejileri. Teklif alın.",
+    "heroQuote": "Müşteriyi kazanmak bir başlangıçtır; onu elde tutmak asıl rekabet alanıdır.",
+    "intro": [
+      "Satışın sürdürülebilir olması için tek seferlik işlemden çok, güven temelli ilişkiye dönüşmesi gerekir. Müşteriyi kazanmak bir başlangıçtır; onu elde tutmak ve geliştirmek ise asıl rekabet alanıdır.",
+      "Bu eğitim; satış profesyonellerine müşteri ilişkilerini stratejik biçimde yönetmeyi, her temas noktasında güven inşa etmeyi ve uzun vadeli müşteri değeri yaratmayı öğretir."
+    ],
+    "audience": "Müşteri portföyü yöneten satış temsilcileri ve key account yöneticileri, müşteri hizmetleri ve satış sonrası destek ekipleri, müşteri bağlılığını artırmak isteyen satış müdürleri ve müşteri deneyimi iyileştirme sorumluluğu taşıyan profesyoneller için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Müşteri İlişkisinin Anatomisi",
+        "intro": "Her müşteri ilişkisi bir güven eğrisi üzerinde şekillenir. Bu bölümde müşteri ilişkisinin aşamaları, ilişkiyi güçlendiren ve zayıflatan dinamikler ele alınır.",
+        "bullets": [
+          "Müşteri ilişkisi yaşam döngüsü: Edinim, geliştirme, elde tutma, geri kazanım",
+          "Güven inşasının 3 bileşeni: Yetkinlik, güvenilirlik, samimilik",
+          "Müşteri memnuniyeti ile müşteri bağlılığı arasındaki kritik fark"
+        ]
+      },
+      {
+        "title": "Satış İletişiminin Temelleri",
+        "intro": "Satış iletişimi; konuşmaktan çok dinlemek, anlatmaktan çok anlamak üzerine kuruludur. Bu bölümde satışçının iletişim tarzı ve müşteri algısı üzerindeki etkisi ele alınır.",
+        "bullets": [
+          "Sözel, sözsüz ve dijital iletişimde güven sinyalleri",
+          "Müşteriye göre iletişim stili uyarlama: DISC modeli uygulaması",
+          "Yüz yüze, telefon ve video görüşmelerinde etki yaratma"
+        ]
+      },
+      {
+        "title": "Aktif Dinleme ve İhtiyaç Analizi",
+        "intro": "Müşteri söylemez; ancak ipuçlarını verir. Bu bölümde aktif dinleme teknikleri ve gizli ihtiyaçları keşfeden soru teknikleri ele alınır.",
+        "bullets": [
+          "Aktif dinleme: Duymak ile anlamak arasındaki fark",
+          "Açık uçlu, derinleştirici ve teyit edici soru teknikleri",
+          "SPIN soru yapısı ile ihtiyacı yüzeye çıkarma",
+          "Söylenmeyeni okuma: Sessizlik ve tereddüt ipuçları"
+        ]
+      },
+      {
+        "title": "Müşteri Bağlılığı Stratejileri",
+        "intro": "Müşteri bağlılığı; ürünün değil, ilişkinin bir sonucudur. Bu bölümde uzun vadeli müşteri değeri yaratmanın pratik yolları ve portföy yönetimi stratejileri ele alınır.",
+        "bullets": [
+          "Müşteri memnuniyet anı ve kritik temas noktaları",
+          "Proaktif iletişim: Sorun çıkmadan önce görünür olmak",
+          "Upsell ve cross-sell: İlişkiyi genişletme fırsatları",
+          "Kayıp müşteri analizi ve geri kazanım stratejisi"
+        ]
+      },
+      {
+        "title": "Dijital Kanallar ve CRM Kültürü",
+        "intro": "Modern müşteri ilişkisi yönetimi; dijital kanalları ve CRM sistemlerini etkin kullanmayı gerektirir. Bu bölümde dijital temas noktaları ve CRM disiplini ele alınır.",
+        "bullets": [
+          "CRM sistemini satışa dönüştüren 5 alışkanlık",
+          "E-posta, LinkedIn ve WhatsApp üzerinden profesyonel müşteri iletişimi",
+          "Müşteri verilerini ilişki geliştirme için kullanma"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Müşteri ilişkisini stratejik biçimde yönetir ve geliştirir",
+      "Her temas noktasında güven ve değer inşa eder",
+      "Aktif dinleme ve güçlü sorularla ihtiyacı keşfeder",
+      "Müşteriye göre iletişim stilini bilinçli biçimde uyarlar",
+      "Müşteri bağlılığını artıran proaktif iletişim kurar",
+      "Upsell ve cross-sell fırsatlarını ilişki içinde değerlendirir",
+      "CRM disiplinini müşteri verisini ilişkiye dönüştürmek için kullanır"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Rol yapma, müşteri görüşmesi simülasyonları, vaka analizleri" },
+      { "label": "Katılımcı", "value": "8–16 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "B2B ve B2C satış ekipleri için ayrı versiyonlar var mı?",
+        "a": "Evet. B2B ve B2C satış süreçleri farklı dinamiklere sahiptir. İhtiyaç analizinin ardından içerik, ekibinizin satış modeline göre uyarlanır."
+      },
+      {
+        "q": "CRM yazılımı eğitimi de kapsıyor mu?",
+        "a": "Bu eğitim belirli bir yazılımın kullanımını değil, CRM disiplinini ve müşteri verilerini ilişkiye dönüştürme kültürünü kapsar."
+      },
+      {
+        "q": "Eğitim sektöre özel uyarlanabilir mi?",
+        "a": "Evet. İhtiyaç analizi görüşmesinin ardından içerik; kurumunuzun sektörüne, ürün/hizmet yapısına ve satış döngüsünün özelliklerine göre özelleştirilir."
+      }
+    ]
+  },
+  "satis-teknikleri-deger-yaratma": {
+    "seoTitle": "Satış Teknikleri ve Değer Yaratma Eğitimi | SPIN Satış",
+    "seoDescription": "Modern satış teknikleri ve değer yaratma eğitimi. SPIN satışı, danışmanlık satışı, itiraz yönetimi ve kapanış teknikleri. Kurumsal satış eğitimi teklifi alın.",
+    "heroQuote": "Modern müşteri; özellikleri değil sonuçları, fiyatı değil değeri satın alır.",
+    "intro": [
+      "Modern müşteri; özellikleri değil sonuçları, fiyatı değil değeri satın alır. Ürün ve hizmetinizi ne kadar iyi anlatsanız da müşteri zihninde somut bir değer yaratamıyorsanız satış gerçekleşmez.",
+      "Bu eğitim; satış profesyonellerine danışmanlık temelli satış anlayışını benimsemeyi, müşteri için anlamlı değer önerisi oluşturmayı ve satış sürecini daha yüksek dönüşüm oranıyla tamamlamayı öğretir."
+    ],
+    "audience": "Satış süreçlerini profesyonelleştirmek isteyen satış temsilcileri, teknik satış ve çözüm satışı yapan profesyoneller, fiyat baskısıyla mücadele eden satış ekipleri ve itiraz yönetimini güçlendirmek isteyen satış müdürleri için uygundur.",
+    "sections": [
+      {
+        "title": "Modern Satışın Paradigması: Özellikten Değere",
+        "intro": "Geleneksel ürün satışı ile danışmanlık satışı arasındaki fark; müşteriyi dinleme derinliğinde ve değer çerçevesini kurma becerisinde yatar. Bu bölümde modern satış anlayışının temelleri ele alınır.",
+        "bullets": [
+          "Ürün satışı ile çözüm satışı arasındaki fark",
+          "Müşteri satın alma psikolojisi: Neden evet, neden hayır?",
+          "Değer önerisi (value proposition) nedir ve nasıl oluşturulur?"
+        ]
+      },
+      {
+        "title": "SPIN Satış Yöntemi",
+        "intro": "Neil Rackham'ın araştırmalarına dayanan SPIN yöntemi; büyük ve karmaşık satışlarda dünyanın en etkili satış çerçevelerinden biri olarak kanıtlanmıştır. Bu bölümde SPIN sorularının uygulamalı kullanımı ele alınır.",
+        "bullets": [
+          "Situation (Durum) soruları: Mevcut durumu keşfetme",
+          "Problem soruları: Rahatsızlığı yüzeye çıkarma",
+          "Implication (Etki) soruları: Sorunun ağırlığını hissettirme",
+          "Need-Payoff (İhtiyaç Karşılama) soruları: Çözümün değerini müşteriye söyletme"
+        ]
+      },
+      {
+        "title": "Değer Odaklı Sunum Teknikleri",
+        "intro": "Satış sunumu; ürün kataloğu okumak değil, müşterinin hikayesinde çözümünüzün rolünü anlatmaktır. Bu bölümde etkili sunum yapısı ve müşteri zihninde farklılaşma ele alınır.",
+        "bullets": [
+          "Problem–Çözüm–Kanıt–Sonuç sunum çerçevesi",
+          "Referans ve vaka çalışmalarını ikna aracına dönüştürme",
+          "Rakipten farklılaşma: Mavi okyanus çerçevelemesi",
+          "Fiyatı değerle savunma: Fiyat konuşmasını geciktirme"
+        ]
+      },
+      {
+        "title": "İtiraz Yönetimi",
+        "intro": "İtiraz; reddetme değil, ilgi sinyalidir. Bu bölümde en yaygın satış itirazları ve bunlara karşı etkili, doğal yanıt teknikleri ele alınır.",
+        "bullets": [
+          "Fiyat itirazı: Karşılaştırma değil, değer büyütme",
+          "Zaman itirazı: Aciliyet yaratma stratejileri",
+          "\"Rakibinizde de var\" itirazı: Farklılaşmayı sağlamlaştırma",
+          "\"Şu an ihtiyacımız yok\" itirazı: Gizli ihtiyacı keşfetme"
+        ]
+      },
+      {
+        "title": "Kapanış Teknikleri",
+        "intro": "Kapanış; zorlamayla değil, sürecin doğal akışıyla gerçekleşir. Bu bölümde satışı doğal biçimde kapatan teknikler ve kapanış sinyalleri ele alınır.",
+        "bullets": [
+          "Satın alma sinyallerini tanıma",
+          "Özet kapanış, alternatif kapanış ve koşullu kapanış",
+          "Satış sonrası ilk temas: Pişmanlık yönetimi ve taahhüt güçlendirme"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Danışmanlık temelli satış anlayışını benimser ve uygular",
+      "SPIN yöntemiyle müşteri ihtiyacını derinlemesine keşfeder",
+      "Müşteri için anlamlı bir değer önerisi oluşturur",
+      "Değer odaklı sunum yapar ve fiyatı değerle savunur",
+      "İtirazları fırsata çeviren doğal yanıtlar geliştirir",
+      "Satın alma sinyallerini tanır ve doğru anda harekete geçer",
+      "Satışı doğal ve güvenli biçimde kapatır"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün; sektöre ve derinliğe göre ayarlanabilir" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "SPIN uygulama egzersizleri, satış simülasyonları, itiraz rol yapma" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "SPIN yöntemi her sektörde işe yarar mı?",
+        "a": "SPIN; özellikle B2B, uzun satış döngüsü ve kompleks çözüm satışında son derece etkilidir. B2C ve kısa döngülü satışlar için içerik uyarlanabilir."
+      },
+      {
+        "q": "Eğitim sırasında gerçek ürün/hizmetimizle pratik yapabilir miyiz?",
+        "a": "Evet. Şirket içi eğitimlerde tüm simülasyonlar kurumunuzun gerçek ürün ve müşteri senaryoları üzerinden yürütülür."
+      },
+      {
+        "q": "Eğitim sonrasında saha koçluğu desteği var mı?",
+        "a": "Evet. Eğitim sonrası saha koçluğu ve uygulama takip seansları isteğe bağlı olarak programa dahil edilebilir."
+      }
+    ]
+  },
+  "stratejik-muzakere-yonetimi": {
+    "seoTitle": "Stratejik Müzakere Yönetimi Eğitimi | Değer Koruma",
+    "seoDescription": "Satış profesyonelleri için stratejik müzakere eğitimi. BATNA analizi, taviz yönetimi, kazan-kazan stratejileri ve fiyat savunma teknikleri. Teklif alın.",
+    "heroQuote": "En iyi müzakereci; en sert davranan değil, en iyi hazırlanan ve en iyi dinleyendir.",
+    "intro": [
+      "Müzakere; fiyatı kırmak değil, değeri koruyarak her iki tarafın da kazandığı anlaşmaya ulaşmaktır. En iyi müzakereci; en sert davranan değil, en iyi hazırlanan ve en iyi dinleyendir.",
+      "Bu eğitim; satış profesyonellerine müzakere süreçlerini stratejik biçimde yönetmeyi, baskı altında değerlerini korumayı ve uzun vadeli ilişkiyi zedelemeden güçlü anlaşmalar kapatmayı öğretir."
+    ],
+    "audience": "Fiyat ve koşul müzakeresi yürüten satış temsilcileri ve key account yöneticileri, büyük hesaplarla sözleşme pazarlığı yapan satış müdürleri, tedarikçi ve iş ortağı müzakerelerini yöneten profesyoneller ve satın alma tarafındaki yöneticiler için uygundur.",
+    "sections": [
+      {
+        "title": "Müzakerenin Temelleri ve Zihniyeti",
+        "intro": "Güçlü müzakereci olmak; doğuştan gelen bir yetenek değil, öğrenilebilir bir beceridir. Bu bölümde müzakere psikolojisi, hazırlık süreci ve doğru zihniyet ele alınır.",
+        "bullets": [
+          "Müzakere ile pazarlık arasındaki fark",
+          "Kazan-kazan paradigması: Pasta büyütme stratejisi",
+          "Müzakerede güç: Gerçek güç ile algılanan güç"
+        ]
+      },
+      {
+        "title": "Hazırlık: Müzakerenin En Kritik Aşaması",
+        "intro": "Müzakere masasında kazanılmaz; masaya oturmadan önce kazanılır. Bu bölümde sistematik müzakere hazırlığı ve senaryo planlaması ele alınır.",
+        "bullets": [
+          "BATNA analizi: En iyi alternatif anlaşmanın gücü",
+          "Karşı tarafın BATNA'sını tahmin etme ve zayıf noktaları belirleme",
+          "Hedef, beklenti ve sınır noktalarını netleştirme",
+          "Müzakere değişkenleri: Fiyat dışı koşulları kullanma sanatı"
+        ]
+      },
+      {
+        "title": "Müzakere Stratejileri ve Taktikleri",
+        "intro": "Her müzakere farklıdır; ancak etkili stratejiler ve taktikler öğrenilebilir ve duruma göre uygulanabilir. Bu bölümde somut müzakere stratejileri ve karşı taktikler ele alınır.",
+        "bullets": [
+          "Çıpalama (anchoring) ve ilk teklif stratejisi",
+          "Taviz yönetimi: Nasıl verilir, nasıl alınır",
+          "Zaman baskısı ve aciliyet taktiklerini yönetme",
+          "Çaresiz görünme tuzağından çıkma stratejileri"
+        ]
+      },
+      {
+        "title": "Fiyat Müzakeresi ve Değer Savunma",
+        "intro": "Fiyat müzakeresi; satış sürecinin en zorlu noktasıdır. Bu bölümde fiyat baskısına karşı değeri savunmanın ve indirimi en aza indirirken anlaşmayı kapatmanın yolları ele alınır.",
+        "bullets": [
+          "Fiyat baskısına karşı değer büyütme çerçevesi",
+          "\"Rakibiniz daha ucuz\" itirazını kırma stratejileri",
+          "Koşullu indirim: İndirimi tavize dönüştürme",
+          "Fiyat yerine toplam değer maliyetini (TCO) konuşturma"
+        ]
+      },
+      {
+        "title": "Zor Müzakere Durumları ve Çıkmaz Yönetimi",
+        "intro": "Her müzakerede çıkmaz noktalar, sert taktikler ve beklenmedik gelişmeler yaşanabilir. Bu bölümde bu durumlarda soğukkanlılığı koruma ve müzakereyi ilerletme stratejileri ele alınır.",
+        "bullets": [
+          "Çıkmaz durumunda köprü inşa etme teknikleri",
+          "Sert müzakere taktiklerini tanıma ve nötralize etme",
+          "Müzakereyi sekteye uğratan duygusal tepkileri yönetme",
+          "Anlaşmadan geri çekilme kararını verme ve yönetme"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Müzakereye sistematik ve stratejik hazırlanır",
+      "BATNA analiziyle müzakere gücünü artırır",
+      "Değeri koruyarak esnek ve etkili taviz yönetimi yapar",
+      "Fiyat baskısı altında güvenle değer savunur",
+      "Fiyat dışı müzakere değişkenlerini etkin kullanır",
+      "Sert müzakere taktiklerini tanır ve nötralize eder",
+      "Zor müzakere durumlarını soğukkanlılıkla yönetir"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün; yoğunluğa göre ayarlanabilir" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Canlı müzakere simülasyonları, video analizi, gerçek senaryo rol yapma" },
+      { "label": "Katılımcı", "value": "8–18 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim satın alma ekipleri için de uygun mu?",
+        "a": "Evet. Tedarikçi müzakeresi ve sözleşme yönetimi açısından satın alma profesyonelleri için de değerli bir program olup içerik buna göre uyarlanabilir."
+      },
+      {
+        "q": "Gerçek müzakere vakalarımızla çalışabilir miyiz?",
+        "a": "Evet. Şirket içi eğitimlerde kurumunuzun yaşadığı veya yaşamakta olduğu gerçek müzakere senaryoları eğitime dahil edilebilir."
+      },
+      {
+        "q": "Eğitim sektöre özel uyarlanabilir mi?",
+        "a": "Evet. İhtiyaç analizi görüşmesinin ardından içerik; kurumunuzun sektörüne, ürün/hizmet yapısına ve satış döngüsünün özelliklerine göre özelleştirilir."
+      }
+    ]
+  },
+  "zor-musteri-yonetimi": {
+    "seoTitle": "Zor Müşteri Yönetimi Eğitimi | Şikayet Yönetimi",
+    "seoDescription": "Satış ekipleri için zor müşteri yönetimi eğitimi. Zorlayıcı müşteri tipleri, şikayet yönetimi, sınır koyma ve müşteri kaybını önleme. Kurumsal teklif alın.",
+    "heroQuote": "Doğru yönetilen bir şikâyet; en güçlü bağlılık anına dönüşebilir.",
+    "intro": [
+      "Her portföyde bulunur: baskı kuran, sürekli şikâyet eden, kararsız davranan ya da saygı sınırlarını zorlayan müşteriler. Bu müşterilerle nasıl çalıştığınız hem ilişkinin geleceğini hem de kendi profesyonel enerjinizi belirler.",
+      "Bu eğitim; satış ve müşteri hizmetleri profesyonellerine zorlayıcı müşteri tiplerini tanımayı, ilişkiyi koruyarak sınırlarını belirlemeyi ve her müşteri temasından değer üretmeyi öğretir."
+    ],
+    "audience": "Müşteri portföyü yöneten satış temsilcileri, müşteri hizmetleri ve şikâyet yönetimi ekipleri, key account yöneticileri ve müşteri deneyimi iyileştirme sorumluluğu taşıyan yöneticiler için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Zor Müşteri Tiplerini Tanıma",
+        "intro": "Zorlayıcı müşteri davranışlarının altında genellikle karşılanmamış beklentiler, geçmiş hayal kırıklıkları veya kontrol ihtiyacı yatar. Bu bölümde yaygın zor müşteri tipleri ve tetikleyicileri ele alınır.",
+        "bullets": [
+          "Sürekli fiyat baskısı kuran müşteri: Değer algısını yeniden inşa etme",
+          "Beklentilerini net ifade etmeyen, sonra şikâyet eden müşteri",
+          "Kararı sürekli erteleyen ve kaybettiren müşteri",
+          "Agresif ve saygı sınırını zorlayan müşteri",
+          "Her şeyi bilen ve satış sürecini yönetmeye çalışan müşteri"
+        ]
+      },
+      {
+        "title": "Duygusal Dengeyi Koruma",
+        "intro": "Zor bir müşteri karşısında profesyonel duruşu korumak hem ilişkiyi hem de kendi enerjinizi korur. Bu bölümde duygusal tetikleyiciler ve tepkisel olmama becerileri ele alınır.",
+        "bullets": [
+          "Duygusal tetikleyicileri tanıma ve yönetme",
+          "Empati ile sınır arasındaki denge",
+          "Müşterinin duygusunu almadan problemi çözme"
+        ]
+      },
+      {
+        "title": "Şikâyet ve İtiraz Yönetimi",
+        "intro": "Doğru yönetilen bir şikâyet; en güçlü bağlılık anına dönüşebilir. Bu bölümde şikâyet karşılama, çözüm üretme ve müşteri güvenini yeniden kazanma ele alınır.",
+        "bullets": [
+          "HEARD modeli: Duy, empati kur, özür dile, çöz, teşekkür et",
+          "Şikâyeti fırsata çeviren konuşma yapısı",
+          "Kurumsal sınırlar içinde esnek çözüm üretme",
+          "Şikâyetten sonra ilişkiyi onarma ve güçlendirme"
+        ]
+      },
+      {
+        "title": "Sınır Koyma ve Değeri Koruma",
+        "intro": "Her müşteri istediğini almak zorunda değildir; her müşteri adil ve saygılı bir hizmet almayı hak eder. Bu bölümde profesyonel sınırlar ve değeri koruma stratejileri ele alınır.",
+        "bullets": [
+          "Hayır demeden sınır koyma: Alternatif çözümler sunma",
+          "Değer kırıcı talepleri reddetme ve ilişkiyi koruma",
+          "Kurumunuzu ve kendinizi savunma: Sakin ama net iletişim"
+        ]
+      },
+      {
+        "title": "Müşteri Kaybını Önleme ve Geri Kazanım",
+        "intro": "Kaybedilen müşteriyi geri kazanmak mümkündür; ancak doğru strateji gerektirir. Bu bölümde müşteri kaybı sinyallerini erkenden okuma ve geri kazanım planı oluşturma ele alınır.",
+        "bullets": [
+          "Churn (kayıp) öncesi uyarı sinyalleri",
+          "Kayıp müşteri görüşmesi: Ne yapılır, ne yapılmaz",
+          "Geri kazanım teklifi yapısı ve zamanlama"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Zor müşteri tiplerini tanır ve duruma uygun yaklaşır",
+      "Duygusal dengesini koruyarak profesyonel duruş sergiler",
+      "Şikayetleri müşteri bağlılığına dönüştürür",
+      "Empati ile sınır arasındaki dengeyi kurar",
+      "Değerini koruyarak net ve saygılı sınırlar koyar",
+      "Müşteri kaybı riskini erkenden fark edip önlem alır",
+      "Kaybedilen müşteriyi doğru strateji ile geri kazanır"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Rol yapma, şikâyet senaryoları simülasyonu, vaka analizleri" },
+      { "label": "Katılımcı", "value": "8–16 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim müşteri hizmetleri ekibi için de uygun mu?",
+        "a": "Evet. Eğitim hem satış hem de müşteri hizmetleri profesyonellerine hitap edecek biçimde uyarlanabilir."
+      },
+      {
+        "q": "Gerçek şikâyet vakalarımızı eğitime dahil edebilir miyiz?",
+        "a": "Evet. Şirket içi eğitimlerde gerçek vakalar anonim biçimde simülasyon senaryolarına dönüştürülebilir."
+      },
+      {
+        "q": "Eğitim sonrasında uygulama desteği var mı?",
+        "a": "Evet. Eğitim sonrası saha koçluğu ve uygulama takip seansları isteğe bağlı olarak programa dahil edilebilir."
+      }
+    ]
+  },
+  "segmentasyon-planlama-zaman": {
+    "seoTitle": "Segmentasyon, Planlama ve Zaman Yönetimi Eğitimi",
+    "seoDescription": "Satış ekipleri için segmentasyon, satış planlaması ve zaman yönetimi eğitimi. Müşteri önceliklendirme, portföy yönetimi ve satış verimliliği. Teklif alın.",
+    "heroQuote": "Satışta başarı; çok çalışmaktan değil, doğru müşteriye doğru enerjiyi harcamaktan gelir.",
+    "intro": [
+      "Satışta başarı; çok çalışmaktan değil, doğru müşteriye doğru enerjiyi harcamaktan gelir. Portföyünü yanlış önceliklendiren bir satış temsilcisi, potansiyelin yalnızca küçük bir kısmına ulaşabilir.",
+      "Bu eğitim; satış profesyonellerine müşteri segmentasyonunu stratejik biçimde uygulamayı, satış planlamasını yapılandırmayı ve zamanı en değerli faaliyetlere yönlendirmeyi öğretir."
+    ],
+    "audience": "Geniş müşteri portföyü yöneten satış temsilcileri, bölge ve saha satış yöneticileri, satış planlamasını sistematik hale getirmek isteyen satış müdürleri ve satış verimliliğini artırmayı hedefleyen ekipler için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "Müşteri Segmentasyonu",
+        "intro": "Her müşteri eşit değildir; her müşteri eşit enerji hak etmez. Bu bölümde müşteri segmentasyon modelleri ve segmentasyonu satış stratejisine dönüştürme ele alınır.",
+        "bullets": [
+          "ABC segmentasyonu: Değere göre müşteri sınıflandırma",
+          "Potansiyel ve mevcut değer matrisi",
+          "Stratejik, geliştirme ve verimlilik müşterileri için farklı yaklaşımlar",
+          "Kayıp riski taşıyan müşterileri belirleme ve önlem alma"
+        ]
+      },
+      {
+        "title": "Satış Planlaması ve Hedef Yönetimi",
+        "intro": "Hedef olmadan çalışmak; rotasız yol almak gibidir. Bu bölümde satış hedeflerini anlamlı alt hedeflere kırma ve günlük-haftalık-aylık satış planlaması yapılandırılır.",
+        "bullets": [
+          "Satış hedefini aktiviteye dönüştürme: Geriye doğru planlama",
+          "Haftalık ve aylık satış planı şablonu",
+          "Pipeline (satış hunisi) yönetimi ve sağlıklı huni dengesi",
+          "Satış tahminleme: Gerçekçi forecast oluşturma"
+        ]
+      },
+      {
+        "title": "Satışçı Zaman Yönetimi",
+        "intro": "Satış temsilcisinin en değerli zamanı; müşteriyle geçirilen zamandır. Bu bölümde zaman hırsızlarını temizleme ve satış aktivitelerine ayrılan süreyi artırma ele alınır.",
+        "bullets": [
+          "Satışçının zaman analizi: Gerçekte neye vakit harcanıyor?",
+          "Satış aktiviteleri ile satış dışı görevleri ayırma",
+          "Günlük satış rutini ve verimlilik ritüelleri",
+          "Seyahat ve saha ziyareti optimizasyonu"
+        ]
+      },
+      {
+        "title": "Bölge ve Portföy Yönetimi",
+        "intro": "Saha satışında bölge yönetimi; yalnızca coğrafi kapsama değil, stratejik müşteri erişim planına dayanmalıdır. Bu bölümde bölge planlaması ve ziyaret optimizasyonu ele alınır.",
+        "bullets": [
+          "Bölge analizi: Potansiyel, kapsama ve açık alan tespiti",
+          "Müşteri ziyaret sıklığı matrisi",
+          "Saha ziyaret planı oluşturma ve yürütme"
+        ]
+      },
+      {
+        "title": "Dijital Araçlarla Satış Verimliliği",
+        "intro": "CRM, satış otomasyon araçları ve dijital kanallar; doğru kullanıldığında satış verimliliğini önemli ölçüde artırır. Bu bölümde dijital araçları satış planlamasına entegre etme ele alınır.",
+        "bullets": [
+          "CRM'i satış planlama aracına dönüştürme",
+          "Satış dashboard'u ve performans takibi",
+          "Dijital temas noktalarıyla müşteri iletişimini planlama"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Müşteri portföyünü stratejik biçimde segmente eder ve önceliklendirir",
+      "Satış hedefini aktivite planına dönüştürür",
+      "Zamanını en değerli satış faaliyetlerine yönlendirir",
+      "Pipeline'ı sağlıklı ve dengeli yönetir",
+      "Gerçekçi satış tahminleri (forecast) oluşturur",
+      "Bölge ve saha ziyaret planını optimize eder",
+      "Dijital araçları satış verimliliği için etkin kullanır"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Portföy analizi atölyesi, zaman analizi egzersizi, bireysel planlama çalışması" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Katılımcılar kendi portföyleriyle mi çalışıyor?",
+        "a": "Evet. Şirket içi eğitimlerde katılımcılar kendi müşteri portföyleri üzerinden segmentasyon ve planlama çalışması yapar; bu sayede eğitim doğrudan iş çıktısına dönüşür."
+      },
+      {
+        "q": "Bu eğitim satış yöneticileri için de uygun mu?",
+        "a": "Evet. Satış yöneticileri; ekip portföyünü yönetme ve bireysel satışçıların planlamasını nasıl denetleyecekleri konusunda özel kazanımlar elde eder."
+      },
+      {
+        "q": "Eğitim sektöre özel uyarlanabilir mi?",
+        "a": "Evet. İhtiyaç analizi görüşmesinin ardından içerik; kurumunuzun sektörüne, ürün/hizmet yapısına ve satış döngüsünün özelliklerine göre özelleştirilir."
+      }
+    ]
+  },
+  "yeni-musteri-olusturma-stratejisi": {
+    "seoTitle": "Yeni Müşteri Oluşturma Stratejisi Eğitimi | Prospecting",
+    "seoDescription": "Yeni müşteri kazanma ve prospecting eğitimi. Soğuk temas stratejisi, referans satışı ve LinkedIn üzerinden müşteri edinimi. Kurumsal eğitim teklifi alın.",
+    "heroQuote": "Mevcut müşteri güvenli limandır; büyüme ise yeni müşteri kazanmadan mümkün değildir.",
+    "intro": [
+      "Mevcut müşteri tabanı; bir satış ekibinin güvenli limanıdır. Ancak büyüme; yeni müşteri kazanmadan mümkün değildir. Yeni müşteri edinimi, satışın en zorlu ama en stratejik boyutudur.",
+      "Bu eğitim; satış profesyonellerine doğru müşteriyi bulma, ilk temasa geçme ve ilgiyi satış fırsatına dönüştürme konusunda sistematik bir çerçeve sunar."
+    ],
+    "audience": "Yeni müşteri kazanma sorumluluğu taşıyan saha ve iç satış temsilcileri, iş geliştirme (business development) profesyonelleri, yeni pazara giriş planı olan satış ekipleri ve portföy büyütme hedefi taşıyan key account yöneticileri için tasarlanmıştır.",
+    "sections": [
+      {
+        "title": "İdeal Müşteri Profili Oluşturma",
+        "intro": "Her müşteriye satmaya çalışmak; hiç kimseye satamamakla sonuçlanır. Bu bölümde ideal müşteri profili (ICP) ve hedef segment belirleme ele alınır.",
+        "bullets": [
+          "İdeal Müşteri Profili (ICP): Kime satmalıyım?",
+          "Demografik, firmografik ve davranışsal segmentasyon",
+          "En karlı müşteri tipini analiz etme ve klonlama",
+          "Hedef listesi oluşturma: Araçlar ve kaynaklar"
+        ]
+      },
+      {
+        "title": "Prospecting Stratejileri",
+        "intro": "Prospecting; doğru kişiyi, doğru zamanda, doğru mesajla bulmak demektir. Bu bölümde farklı prospecting kanalları ve yaklaşımları ele alınır.",
+        "bullets": [
+          "Sıcak prospecting: Referans, network ve mevcut müşteri genişlemesi",
+          "Soğuk prospecting: Soğuk arama ve soğuk e-posta stratejisi",
+          "Dijital prospecting: LinkedIn Sales Navigator ve sosyal satış",
+          "Etkinlik ve fuar prospecting'i: Yüz yüze temas stratejisi"
+        ]
+      },
+      {
+        "title": "Soğuk Temas: İlk İzlenimi Kazanma",
+        "intro": "Soğuk temas; reddedilme korkusunun en yoğun hissedildiği ama doğru yapıldığında en güçlü fırsat kapısını aralayan adımdır. Bu bölümde soğuk arama ve soğuk e-posta teknikleri ele alınır.",
+        "bullets": [
+          "Soğuk aramada ilk 10 saniyeyi kazanma",
+          "Hook cümlesi: Dikkat çeken, değer sunan açılış",
+          "Soğuk e-posta yapısı: Kısa, kişiselleştirilmiş, eylem odaklı",
+          "Takip stratejisi: Kaç kez, hangi aralıklarla, hangi kanalda?"
+        ]
+      },
+      {
+        "title": "Referans Satışı ve Network Kullanımı",
+        "intro": "Referansla gelen bir potansiyel müşteri; soğuk temasa göre 4–5 kat daha hızlı kapanır. Bu bölümde mevcut ilişkileri yeni müşteriye dönüştürme stratejileri ele alınır.",
+        "bullets": [
+          "Referans isteğini doğal biçimde yerleştirme",
+          "Memnun müşteriyi elçiye dönüştürme",
+          "Network'ü aktif biçimde kullanma: Tanışma, takip, değer paylaşımı"
+        ]
+      },
+      {
+        "title": "Lead Yönetimi ve Dönüşüm",
+        "intro": "Lead üretmek yeterli değildir; leadi zamanında ve doğru biçimde takip etmek gerekir. Bu bölümde lead kalifikasyonu, takip süreci ve satış hunisine besleme ele alınır.",
+        "bullets": [
+          "Lead kalifikasyonu: BANT (Bütçe, Yetki, İhtiyaç, Zamanlama)",
+          "Lead takip süreci: Hız, sıklık ve çok kanallı yaklaşım",
+          "Hayır diyenden fırsat yaratma: Zamanlamayı koruma stratejisi"
+        ]
+      }
+    ],
+    "outcomes": [
+      "İdeal müşteri profilini netleştirir ve hedef listeyi oluşturur",
+      "Çok kanallı prospecting sistemi kurar",
+      "Soğuk temasta güçlü ilk izlenim yaratır",
+      "Reddedilme korkusunu yönetir ve soğuk temasa duyulan direnci aşar",
+      "Referans satışını sistematik biçimde kullanır",
+      "LinkedIn ve sosyal satış kanallarını etkin kullanır",
+      "Lead'i etkin biçimde kalifiye eder ve dönüştürür"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Soğuk arama simülasyonları, e-posta yazma atölyesi, ICP oluşturma çalışması" },
+      { "label": "Katılımcı", "value": "8–16 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Soğuk arama korkusunu da ele alıyor mu?",
+        "a": "Evet. Eğitim; reddedilme korkusu ve motivasyon yönetimi konularını da kapsar. Soğuk temasa duyulan psikolojik direnci aşmak, teknik beceri kadar önemlidir."
+      },
+      {
+        "q": "LinkedIn üzerinden müşteri kazanmayı öğretiyor mu?",
+        "a": "Evet. LinkedIn Sales Navigator kullanımı ve sosyal satış stratejileri eğitimin bir bölümünü oluşturur."
+      },
+      {
+        "q": "Eğitim sektöre özel uyarlanabilir mi?",
+        "a": "Evet. İhtiyaç analizi görüşmesinin ardından içerik; kurumunuzun sektörüne, ürün/hizmet yapısına ve satış döngüsünün özelliklerine göre özelleştirilir."
+      }
+    ]
+  },
+  "noromarketing-satis-modeli": {
+    "seoTitle": "Nöromarketing Satış Modeli Eğitimi | Beyin Temelli Satış",
+    "seoDescription": "Nöromarketing ve beyin temelli satış eğitimi. Müşteri karar nörobilimi, duygusal tetikleyiciler, fiyat algısı yönetimi ve sunum optimizasyonu. Teklif alın.",
+    "heroQuote": "Mantık kararı açıklamak için sonradan devreye girer; kararı veren duygudur.",
+    "intro": [
+      "Müşteri kararlarının yüzde doksanından fazlası; bilinçdışı süreçlerle şekillenir. Mantıksal gerekçeler, kararı açıklamak için sonradan devreye girer; kararı veren ise duygudur.",
+      "Nöromarketing; nörobilim, psikoloji ve pazarlama disiplinlerinin kesişim noktasında yer alan bir alandır. Müşterinin beyni satın alma kararını nasıl alır, hangi mesajlar ve uyaranlar bu kararı hızlandırır ya da engeller sorularının yanıtlarını nörobilim araştırmaları üzerinden sunar.",
+      "Bu eğitim; satış profesyonellerine nöromarketing biliminin bulgularını satış süreçlerine uygulamayı, müşteri beyninin nasıl karar verdiğini anlamayı ve bu anlayışla daha etkili satış deneyimleri tasarlamayı öğretir."
+    ],
+    "audience": "Satış performansını bilimsel bir çerçeveyle geliştirmek isteyen satış temsilcileri ve yöneticileri, pazarlama ve marka iletişimi profesyonelleri, ürün ve hizmet sunumunu optimize etmek isteyen ekipler ve müşteri deneyimi tasarımıyla ilgilenen profesyoneller için uygundur.",
+    "sections": [
+      {
+        "title": "Müşteri Beyninin Karar Alma Mekanizması",
+        "intro": "Satın alma kararı; üç beyin katmanının ortak ürünüdür: sürüngen beyin, duygusal beyin ve akılcı beyin. Satışın gerçek hedefi sürüngen ve duygusal beyindir.",
+        "bullets": [
+          "Triune brain modeli ve satış sürecine yansımaları",
+          "Karar vermenin nörobilimi: Duygusal öncekiler ve mantıksal gerekçeler",
+          "Müşteri beyninin ilgisini çeken 6 temel uyaran"
+        ]
+      },
+      {
+        "title": "Duygusal Tetikleyiciler ve Satış Tasarımı",
+        "intro": "Doğru duygusal tetikleyici; satış mesajının kısa sürede hedefe ulaşmasını sağlar. Bu bölümde en güçlü duygusal tetikleyiciler ve satış sürecine nasıl entegre edileceği ele alınır.",
+        "bullets": [
+          "Acı ve kazanç: Kayıptan kaçınma güdüsünü kullanma",
+          "Kontrast ilkesi: Karşılaştırmayla algıyı yönetme",
+          "Hikaye anlatımı (storytelling): Beynin en sevdiği format",
+          "Görsellik: Beynin görsel bilgiyi işleme hızı ve satışa etkisi"
+        ]
+      },
+      {
+        "title": "Fiyat Algısı Yönetimi",
+        "intro": "Fiyat; bir sayı değil, bir algıdır. Bu bölümde nöromarketing araştırmalarına dayanan fiyat sunumu stratejileri ve müşterinin beyninde değer büyütme teknikleri ele alınır.",
+        "bullets": [
+          "Çıpalama etkisi: İlk fiyatın gücü",
+          "Fiyat çerçevelemesi: Günlük maliyete, kayıp maliyetine kıyaslama",
+          "Fiyat-kalite sezgiselliği: Pahalı = iyi algısını kullanma",
+          "Fiyat sunumunda rakam psikolojisi: 9'ların gücü ve ötesi"
+        ]
+      },
+      {
+        "title": "Satış Sunumunu Nöromarketing ile Optimize Etme",
+        "intro": "Her satış sunumu; müşteri beyninde bir deneyim yaratır. Bu bölümde beyin dostu sunum tasarımı ve mesajın etkisini artıran nöromarketing ilkeleri ele alınır.",
+        "bullets": [
+          "İlk 90 saniye: Beynin ilk izlenimi kilitlemesi",
+          "Sosyal kanıt ve otorite: Güven ve onay güdüsü",
+          "Kıtlık ve aciliyet: Kayıp korkusunu satış momentumuna çevirme",
+          "Sadelik ilkesi: Beynin bilişsel yük yönetimi"
+        ]
+      },
+      {
+        "title": "Nöromarketing ile Dijital Satış ve Pazarlama",
+        "intro": "Nöromarketing ilkeleri; yüz yüze satışın ötesinde dijital içerik, e-posta, web sitesi ve reklam tasarımına da uygulanır. Bu bölümde dijital temas noktalarında nöromarketing kullanımı ele alınır.",
+        "bullets": [
+          "Web sitesi ve landing page tasarımında beyin dostu prensipler",
+          "E-posta açılma oranını artıran nöromarketing teknikleri",
+          "Video ve görsel içerikte dikkat yönetimi"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Müşterinin bilinçdışı karar alma mekanizmalarını anlar",
+      "Duygusal tetikleyicileri satış sürecine bilinçli biçimde entegre eder",
+      "Fiyat algısını yönetir ve değer büyütme teknikleri kullanır",
+      "Beyin dostu satış sunumu tasarlar",
+      "Sosyal kanıt, kıtlık ve aciliyet ilkelerini etik biçimde kullanır",
+      "Nöromarketing ilkelerini dijital kanallara uygular"
+    ],
+    "format": [
+      { "label": "Süre", "value": "2 gün (12 saat)" },
+      { "label": "Format", "value": "Şirket içi veya açık grup" },
+      { "label": "Yöntem", "value": "Nöromarketing deneyleri, sunum optimizasyon atölyesi, vaka incelemeleri" },
+      { "label": "Katılımcı", "value": "8–20 kişi" }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim manipülasyon teknikleri mi öğretiyor?",
+        "a": "Hayır. Eğitimin temeli; müşteri için gerçek değer yaratmak ve bu değeri müşteri beyninin anlayacağı biçimde sunmaktır. Etik ikna ile manipülasyon arasındaki fark eğitim boyunca vurgulanır."
+      },
+      {
+        "q": "Teknik bir ön bilgi gerektiriyor mu?",
+        "a": "Hayır. Nörobilim kavramları, satış pratiğiyle ilişkilendirilerek anlaşılır ve uygulanabilir biçimde sunulur. Teknik bir arka plan gerekmez."
+      },
+      {
+        "q": "Pazarlama ekipleri için de uygun mu?",
+        "a": "Kesinlikle. İçerik; hem satış hem de pazarlama profesyonelleri için zengin uygulama alanları sunar."
+      }
+    ]
+  }
+}
