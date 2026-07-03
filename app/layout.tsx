@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans, Dancing_Script } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import TeklifModal from "@/components/TeklifModal";
 import { site } from "@/lib/site";
 
 const inter = Inter({
@@ -50,12 +47,7 @@ export default function RootLayout({
       lang="tr"
       className={`${inter.variable} ${jakarta.variable} ${dancing.variable}`}
     >
-      <body>
-        <Header />
-        <main>{children}</main>
-        <Footer />
-        <TeklifModal />
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

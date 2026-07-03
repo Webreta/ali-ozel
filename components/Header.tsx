@@ -5,10 +5,16 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { mainNav } from "@/lib/site";
-import { categories } from "@/lib/content";
 import Icon from "./Icon";
 
-export default function Header() {
+export type NavCategory = {
+  slug: string;
+  shortName: string;
+  icon: string;
+  tagline: string;
+};
+
+export default function Header({ categories }: { categories: NavCategory[] }) {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();

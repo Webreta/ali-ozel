@@ -1,53 +1,32 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useActionState } from "react";
 import Icon from "./Icon";
-
-// kod → firma sayfası eşlemesi (yeni firma ekledikçe buraya kod eklenir)
-const CODES: Record<string, string> = {
-  "VESTEL-2025": "vestel",
-};
+import { submitAccessCode, type AccessState } from "@/app/actions/noteAccess";
 
 export default function NoteAccessForm() {
-  const [value, setValue] = useState("");
-  const [error, setError] = useState(false);
-  const router = useRouter();
-
-  const submit = (e: React.FormEvent) => {
-    e.preventDefault();
-    const slug = CODES[value.trim().toUpperCase()];
-    if (slug) {
-      router.push(`/egitim-notlari/${slug}`);
-    } else {
-      setError(true);
-    }
-  };
+  const [state, formAction, pending] = useActionState<AccessState, FormData>(
+    submitAccessCode,
+    {}
+  );
 
   return (
-    <form className="access-form" onSubmit={submit}>
+    <form className="access-form" action={formAction}>
       <div className="access-input-row">
         <input
           type="text"
-          value={value}
-          onChange={(e) => {
-            setValue(e.target.value);
-            if (error) setError(false);
-          }}
+          name="code"
           placeholder="Erişim kodunuzu girin"
           aria-label="Erişim kodu"
-          className={error ? "is-error" : ""}
+          className={state.error ? "is-error" : ""}
+          required
         />
-        <button type="submit">
-          Görüntüle
+        <button type="submit" disabled={pending}>
+          {pending ? "Kontrol ediliyor…" : "Görüntüle"}
           <Icon name="arrow-right" />
         </button>
       </div>
-      {error && (
-        <span className="access-error">
-          Bu koda ait bir eğitim notu bulunamadı. Kodu kontrol edin.
-        </span>
-      )}
+      {state.error && <span className="access-error">{state.error}</span>}
     </form>
   );
 }

@@ -2707,6 +2707,199 @@ body:has(.note-standalone) .site-footer { display: none; }
 }
 .form-done { text-align: center; padding: 20px 0; }
 
+.ns-file.is-disabled {
+  opacity: 0.55;
+  cursor: default;
+  pointer-events: none;
+}
+
+/* ---------- Çerez bildirimi ---------- */
+
+.cookie-banner {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  z-index: 90;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  max-width: 720px;
+  margin: 0 auto;
+  background: var(--surface-ink);
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  box-shadow: var(--shadow-lg);
+}
+
+.cookie-banner-body strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  margin-bottom: 3px;
+}
+
+.cookie-banner-body p {
+  margin: 0;
+  font-size: 0.86rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.5;
+}
+
+.cookie-banner-body a {
+  color: var(--gold);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.cookie-banner .btn { flex-shrink: 0; }
+
+@media (max-width: 640px) {
+  .cookie-banner { flex-direction: column; align-items: stretch; text-align: center; }
+}
+
+/* ---------- Blog ---------- */
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+}
+
+.blog-card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-3px);
+  border-color: var(--line-strong);
+}
+
+.blog-card-img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.blog-card-img-empty {
+  display: grid;
+  place-items: center;
+  background: var(--brand-50);
+  color: var(--brand);
+}
+
+.blog-card-img-empty svg { width: 36px; height: 36px; }
+
+.blog-card-body {
+  padding: 20px 22px 22px;
+  display: grid;
+  gap: 10px;
+}
+
+.blog-card-date {
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.blog-card-body h2 { font-size: 1.15rem; line-height: 1.4; }
+
+.blog-card-body p {
+  color: var(--muted);
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
+.blog-card-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--brand);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.blog-card-more svg { width: 15px; height: 15px; }
+
+.blog-post { max-width: 780px; }
+
+.blog-post-cover {
+  width: 100%;
+  border-radius: var(--radius);
+  margin-bottom: 34px;
+  max-height: 420px;
+  object-fit: cover;
+}
+
+/* Markdown içerik gövdesi (blog + panel önizleme) */
+.prose { line-height: 1.75; font-size: 1.04rem; }
+.prose h2 { font-size: 1.45rem; margin: 1.6em 0 0.6em; }
+.prose h3 { font-size: 1.18rem; margin: 1.4em 0 0.5em; }
+.prose p { margin: 0 0 1.1em; }
+.prose ul, .prose ol { margin: 0 0 1.1em; padding-left: 1.4em; }
+.prose li { margin-bottom: 0.4em; }
+.prose a { color: var(--brand); font-weight: 600; text-decoration: underline; }
+.prose blockquote {
+  border-left: 3px solid var(--gold);
+  background: var(--bg-soft);
+  padding: 14px 20px;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  margin: 0 0 1.1em;
+  color: var(--ink-soft);
+}
+.prose img {
+  max-width: 100%;
+  border-radius: var(--radius-sm);
+  margin: 0.4em 0 1.1em;
+}
+.prose code {
+  background: var(--bg-warm);
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-size: 0.9em;
+}
+
+.form-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.form-consent input {
+  width: auto;
+  margin-top: 3px;
+  accent-color: var(--brand);
+}
+
+.form-consent a {
+  color: var(--brand);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.form-error {
+  background: var(--brand-50);
+  border: 1px solid var(--brand-100);
+  color: var(--brand);
+  padding: 11px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
 /* iki kolonlu modal: solda form, sağda foto */
 .modal-split {
   max-width: 880px;

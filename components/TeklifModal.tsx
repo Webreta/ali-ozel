@@ -1,10 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import ContactForm from "./ContactForm";
+import ContactForm, { type FormConsent } from "./ContactForm";
 import Icon from "./Icon";
 
-export default function TeklifModal() {
+export default function TeklifModal({
+  consents = [],
+}: {
+  consents?: FormConsent[];
+}) {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -57,7 +61,7 @@ export default function TeklifModal() {
             </p>
           </div>
           <div className="modal-body">
-            <ContactForm />
+            <ContactForm consents={consents} />
           </div>
         </div>
 

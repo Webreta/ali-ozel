@@ -38,3 +38,7 @@ yarn-error.log*
 # ham görsel/screenshot bırakma klasörleri (public/ içinde kullanılan kopyalar yeterli)
 /ali-ozel-ss
 /ali-ozel-foto
+/son
+
+# dev upload klasörü (prod'da Docker volume)
+/.uploads

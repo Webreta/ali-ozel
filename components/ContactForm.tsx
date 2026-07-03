@@ -1,12 +1,32 @@
 "use client";
 
-import { useState } from "react";
+import { useActionState, useEffect } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import Icon from "./Icon";
+import { submitContact, type SubmitState } from "@/app/actions/submissions";
 
-export default function ContactForm() {
-  const [sent, setSent] = useState(false);
+export type FormConsent = { id: number; title: string; slug: string };
 
-  if (sent) {
+export default function ContactForm({
+  kind = "teklif",
+  consents = [],
+}: {
+  kind?: "contact" | "teklif";
+  consents?: FormConsent[];
+}) {
+  const pathname = usePathname();
+  const [state, formAction, pending] = useActionState<SubmitState, FormData>(
+    submitContact,
+    {}
+  );
+
+  // Google Ads lead dönüşümü — ConversionTracker dinler
+  useEffect(() => {
+    if (state.ok) window.dispatchEvent(new Event("lead-conversion"));
+  }, [state.ok]);
+
+  if (state.ok) {
     return (
       <div className="form-card form-done">
         <div className="es-icon" style={{ margin: "0 auto 18px" }}>
@@ -21,13 +41,9 @@ export default function ContactForm() {
   }
 
   return (
-    <form
-      className="form-card"
-      onSubmit={(e) => {
-        e.preventDefault();
-        setSent(true);
-      }}
-    >
+    <form className="form-card" action={formAction}>
+      <input type="hidden" name="kind" value={kind} />
+      <input type="hidden" name="pagePath" value={pathname} />
       <div className="field">
         <label htmlFor="name">Ad Soyad</label>
         <input id="name" name="name" required placeholder="Adınız ve soyadınız" />
@@ -48,8 +64,29 @@ export default function ContactForm() {
           placeholder="İhtiyacınızı kısaca anlatın"
         />
       </div>
-      <button type="submit" className="btn btn-primary btn-lg" style={{ width: "100%" }}>
-        Teklif Talebi Gönder
+      {consents.map((c) => (
+        <label key={c.id} className="form-consent">
+          <input type="checkbox" name={`consent-${c.id}`} required />
+          <span>
+            <Link href={`/yasal/${c.slug}`} target="_blank">
+              {c.title}
+            </Link>
+            {"'"}ni okudum, onaylıyorum.
+          </span>
+        </label>
+      ))}
+      {state.error ? (
+        <p className="form-error" role="alert">
+          {state.error}
+        </p>
+      ) : null}
+      <button
+        type="submit"
+        className="btn btn-primary btn-lg"
+        style={{ width: "100%" }}
+        disabled={pending}
+      >
+        {pending ? "Gönderiliyor…" : "Teklif Talebi Gönder"}
         <Icon name="arrow-right" />
       </button>
     </form>

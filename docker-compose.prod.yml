@@ -1,0 +1,40 @@
+# VPS prod kurulumu. Kullanım: DEPLOY.md
+# Gerekli env (.env dosyasında): DB_PASSWORD, AUTH_SECRET
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: aliozel
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: aliozel
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    # port publish edilmez — yalnızca compose ağından erişilir
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aliozel"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  app:
+    build:
+      context: .
+      args:
+        DATABASE_URL: postgres://aliozel:${DB_PASSWORD}@db:5432/aliozel
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgres://aliozel:${DB_PASSWORD}@db:5432/aliozel
+      AUTH_SECRET: ${AUTH_SECRET}
+      UPLOAD_DIR: /data/uploads
+      NEXT_PUBLIC_SITE_URL: https://aliozel.com.tr
+    volumes:
+      - ./uploads:/data/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:3000:3000" # nginx host'tan proxy'ler
+
+volumes:
+  pgdata:

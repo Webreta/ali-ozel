@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { site } from "@/lib/site";
-import { categories } from "@/lib/content";
+import { getCatalog } from "@/lib/data/catalog";
 import Icon from "./Icon";
 
-export default function Footer() {
+export default async function Footer() {
+  const categories = await getCatalog();
   const year = 2026;
   return (
     <footer className="site-footer">
