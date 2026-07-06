@@ -122,7 +122,7 @@ export default function TrainingForm({
           </fieldset>
 
           <fieldset className="adm-fieldset">
-            <legend>Program modülleri</legend>
+            <legend>İçerik detayları (program modülleri)</legend>
             <RepeatableList<SectionRow>
               name="sections"
               addLabel="+ Modül ekle"

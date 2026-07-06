@@ -10,7 +10,8 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:seed": "tsx db/seed.ts",
-    "db:import-content": "tsx db/import-content.ts"
+    "db:import-content": "tsx db/import-content.ts",
+    "db:import-blog": "tsx db/import-blog.ts"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",

@@ -34,7 +34,7 @@ npm start
 app/                     # sayfalar (App Router)
   page.tsx               # ana sayfa
   egitimler/             # eğitim index + [category] + [category]/[training]
-  hakkimda, ekibimiz, iletisim, blog, galeri, referanslar
+  farkimiz-ne, ekibimiz, iletisim, blog, galeri, referanslar
   globals.css            # tüm tasarım sistemi ve bileşen stilleri
 components/              # Header, Footer, kartlar, modal, ApproachList vb.
 lib/

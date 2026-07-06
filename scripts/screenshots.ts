@@ -18,7 +18,7 @@ const PAGES: { name: string; url: string; gated?: boolean }[] = [
   { name: "04-egitim-detay-kocluk-mentorluk", url: "/egitimler/yonetim-egitimleri/kocluk-mentorluk" },
   { name: "05-ekibimiz", url: "/ekibimiz" },
   { name: "06-referanslar", url: "/referanslar" },
-  { name: "07-hakkimda", url: "/hakkimda" },
+  { name: "07-farkimiz-ne", url: "/farkimiz-ne" },
   { name: "08-blog", url: "/blog" },
   { name: "09-blog-yazi", url: "/blog/sahada-liderlik" },
   { name: "10-galeri", url: "/galeri" },

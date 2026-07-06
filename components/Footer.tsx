@@ -14,7 +14,12 @@ export default async function Footer() {
         {/* üst: marka + iletişim/sosyal */}
         <div className="footer-head">
           <div className="footer-brand">
-            <Image src="/logo.png" alt="aliozel" width={150} height={56} />
+            <Image
+              src="/logo.png"
+              alt="San Eğitim & Danışmanlık"
+              width={199}
+              height={40}
+            />
             <p>{site.description}</p>
           </div>
           <div className="footer-reach">
@@ -63,7 +68,7 @@ export default async function Footer() {
           </div>
           <div className="footer-col">
             <h5>Kurumsal</h5>
-            <Link href="/hakkimda">Hakkımda</Link>
+            <Link href="/farkimiz-ne">Farkımız Ne?</Link>
             <Link href="/ekibimiz">Ekibimiz</Link>
             <Link href="/referanslar">Referanslar</Link>
             <Link href="/blog">Blog</Link>

@@ -31,7 +31,7 @@ export default function Header({ categories }: { categories: NavCategory[] }) {
     pathname.startsWith("/egitimler/") ||
     pathname === "/ekibimiz" ||
     pathname === "/referanslar" ||
-    pathname === "/hakkimda" ||
+    pathname === "/farkimiz-ne" ||
     pathname === "/iletisim" ||
     pathname === "/blog" ||
     pathname === "/galeri" ||
@@ -50,9 +50,9 @@ export default function Header({ categories }: { categories: NavCategory[] }) {
         <Link href="/" className="brand" aria-label="aliozel ana sayfa">
           <Image
             src="/logo.png"
-            alt="aliozel san eğitim & danışmanlık"
-            width={148}
-            height={55}
+            alt="San Eğitim & Danışmanlık"
+            width={199}
+            height={40}
             priority
           />
         </Link>

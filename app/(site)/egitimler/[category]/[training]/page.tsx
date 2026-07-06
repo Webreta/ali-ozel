@@ -160,7 +160,7 @@ export default async function TrainingPage({
                   className="section-title modules-title"
                   style={{ marginBottom: 22 }}
                 >
-                  Program modülleri
+                  İçerik Detayları
                 </h2>
                 {p.sections.map((s, i) => (
                   <div className="module" key={i}>

@@ -29,7 +29,7 @@ export const mainNav: NavItem[] = [
   { label: "Eğitimler", href: "/egitimler" }, // children doldurulur (content.ts)
   { label: "Ekibimiz", href: "/ekibimiz" },
   { label: "Referanslar", href: "/referanslar" },
-  { label: "Hakkımda", href: "/hakkimda" },
+  { label: "Farkımız Ne?", href: "/farkimiz-ne" },
   { label: "Blog", href: "/blog" },
   { label: "Galeri", href: "/galeri" },
   { label: "İletişim", href: "/iletisim" },

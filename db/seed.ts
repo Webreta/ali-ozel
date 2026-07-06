@@ -96,7 +96,7 @@ async function seedReferences() {
 const team = [
   {
     name: "Ali Özel",
-    roleTitle: "Kurucu & Baş Eğitmen",
+    roleTitle: "Kurucu & Eğitmen & Koordinatör",
     photo: "/team/ali-ozel.jpg",
     bio: "Mavi yaka liderliği ve Eğit-Öğret-Yönet metodolojisinin mimarı. Yıllarını üretim sahasında, gerçek ekiplerin içinde geçirdi; sahanın gerçeğinden doğan, davranış değiştiren eğitimler veriyor.",
   },

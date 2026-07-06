@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Get-Content *)",
+      "PowerShell(Get-Item *)",
+      "PowerShell(Get-Process *)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(Select-String *)",
+      "PowerShell(Measure-Object *)",
+      "PowerShell(Get-NetTCPConnection *)",
+      "PowerShell(Invoke-WebRequest *)",
+      "PowerShell(Start-Process http://localhost*)",
+      "PowerShell(docker compose ps)",
+      "PowerShell(docker compose ps *)",
+      "PowerShell(docker compose logs *)",
+      "PowerShell(docker compose up -d)",
+      "PowerShell(npm run dev)",
+      "PowerShell(npm run build)",
+      "PowerShell(npm run lint)",
+      "PowerShell(npm run db:migrate)",
+      "PowerShell(npm run db:seed)",
+      "PowerShell(npm run db:import-content)",
+      "PowerShell(npm run db:import-blog)",
+      "PowerShell(npx tsc --noEmit)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(curl -s http://localhost*)",
+      "Bash(docker compose ps)",
+      "Bash(docker compose logs *)",
+      "Bash(docker compose up -d)",
+      "Bash(npm run dev)",
+      "Bash(npm run build)",
+      "Bash(npm run db:import-blog)",
+      "mcp__ide__getDiagnostics",
+      "WebFetch(domain:aliozel.com.tr)"
+    ]
+  }
+}

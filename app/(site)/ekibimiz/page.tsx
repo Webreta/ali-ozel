@@ -61,10 +61,11 @@ export default async function EkibimizPage() {
             </div>
             <div className="team-hero-main">
               <span className="badge">Ekibimiz</span>
-              <h1>Arkasında güçlü bir ekip olan eğitim</h1>
+              <h1>Gücünü deneyimden alan uzman kadro</h1>
               <p className="page-lead">
-                İhtiyaç analizinden saha takibine kadar her aşamada yanınızda
-                olan; akademiden üretim sahasına, alanında uzman bir kadro.
+                On binlerce katılımcıya dokunan, kurumların gerçeğini bilen
+                eğitmenlerimizle; teoriyi yaşanmış deneyimle buluşturan bir
+                ekip.
               </p>
               <div className="team-hero-stats">
                 <div>
@@ -76,12 +77,12 @@ export default async function EkibimizPage() {
                   <span>Eğitilen katılımcı</span>
                 </div>
                 <div>
-                  <strong>20+ yıl</strong>
-                  <span>Saha deneyimi</span>
+                  <strong>35+ yıl</strong>
+                  <span>Kurumsal deneyim</span>
                 </div>
                 <div>
-                  <strong>8+</strong>
-                  <span>Eğitim alanı</span>
+                  <strong>15+ yıl</strong>
+                  <span>Eğitmenlik deneyimi</span>
                 </div>
               </div>
               <div className="team-hero-tags">
@@ -89,6 +90,7 @@ export default async function EkibimizPage() {
                 <span>Satış &amp; İletişim</span>
                 <span>İK &amp; Gelişim</span>
                 <span>Üretim Sahası</span>
+                <span>Yapay Zekâ ve Liderlik</span>
               </div>
               <blockquote className="team-hero-quote">
                 Yalnız gidersen hızlı gidersin; birlikte gidersen uzağa.

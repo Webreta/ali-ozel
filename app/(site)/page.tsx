@@ -66,13 +66,13 @@ export default async function HomePage() {
               San Eğitim &amp; Danışmanlık
             </span>
             <h1 className="hero-title">
-              Sahadan üst yönetime{" "}
-              <span className="accent">liderlik</span> dönüşümü
+              Ekibinizin potansiyelini{" "}
+              <span className="accent">iş sonuçlarına</span> dönüştürüyoruz
             </h1>
             <p className="hero-lead">
-              Mavi yaka, gri yaka ve beyaz yaka liderler için davranışsal ve
-              uygulamalı kurumsal eğitim programları. Ekibinizin gerçek
-              potansiyelini sahada açığa çıkarıyoruz.
+              Farklı disiplinlerden uzman kadromuzla; eğitimle başlayan,
+              danışmanlık ve ölçümlemeyle tamamlanan sürdürülebilir gelişim
+              yolculukları.
             </p>
             <div className="hero-actions">
               <Link href="/egitimler" className="btn btn-primary btn-lg">
@@ -124,11 +124,11 @@ export default async function HomePage() {
           <div className="section-head center">
             <span className="eyebrow">Eğitim Alanlarımız</span>
             <h2 className="section-title">
-              Her seviyeye, her sahaya özel programlar
+              Her ihtiyaca doğru uzmanlık, her kuruma özel program
             </h2>
             <p className="section-desc">
-              Üretim hattındaki formenden üst düzey yöneticiye kadar; kurumunuzun
-              ihtiyacına göre tasarlanmış {categories.length} ana eğitim alanı.
+              Şirketinizin tüm çalışan kademeleri için; farklı disiplinlerden
+              uzman kadromuzla tasarlanmış ana gelişim alanları.
             </p>
           </div>
           <div className="cat-grid-wide">
@@ -150,8 +150,8 @@ export default async function HomePage() {
               Slayt anlatan değil; davranış dönüştüren eğitimler. Bizim için
               başarı, eğitim biter bitmez sahada görünür hale gelen değişimdir.
             </p>
-            <Link href="/hakkimda" className="btn btn-outline">
-              Yaklaşımı keşfet
+            <Link href="/farkimiz-ne" className="btn btn-outline">
+              Farkımızı keşfet
               <Icon name="arrow-right" />
             </Link>
           </div>
@@ -167,7 +167,7 @@ export default async function HomePage() {
             <img src="/ali-ozel-selfie.jpg" alt="Ali Özel bir eğitim sırasında" />
           </div>
           <div>
-            <span className="eyebrow">Hakkımda</span>
+            <span className="eyebrow">Kurucu</span>
             <h2 className="section-title">
               Üretimin diliyle konuşan bir eğitmen
             </h2>
@@ -190,7 +190,7 @@ export default async function HomePage() {
                 Kuruma özel uyarlama ve eğitim sonrası saha takibi
               </li>
             </ul>
-            <Link href="/hakkimda" className="btn btn-outline">
+            <Link href="/farkimiz-ne" className="btn btn-outline">
               Daha fazlasını oku
               <Icon name="arrow-right" />
             </Link>
