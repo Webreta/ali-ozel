@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 1AW8ggOi2pQef7RYNE8SfT4p4zmvlqNJtoTwzSZQa2x3f70qDbjxtgwmdFviPTN
+\restrict w7Zd0X05blnlH5EHcXExf9yNtbXenQoUwaac2qui4u3OlbOgRq7W9eOL38D9dyU
 
 -- Dumped from database version 17.10
 -- Dumped by pg_dump version 17.10
@@ -19,87 +19,87 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
-ALTER TABLE IF EXISTS ONLY public.trainings DROP CONSTRAINT IF EXISTS trainings_category_id_categories_id_fk;
-ALTER TABLE IF EXISTS ONLY public.training_pages DROP CONSTRAINT IF EXISTS training_pages_training_id_trainings_id_fk;
-ALTER TABLE IF EXISTS ONLY public.submissions DROP CONSTRAINT IF EXISTS submissions_training_id_trainings_id_fk;
-ALTER TABLE IF EXISTS ONLY public.submissions DROP CONSTRAINT IF EXISTS submissions_handled_by_users_id_fk;
-ALTER TABLE IF EXISTS ONLY public.sessions DROP CONSTRAINT IF EXISTS sessions_user_id_users_id_fk;
-ALTER TABLE IF EXISTS ONLY public.note_comments DROP CONSTRAINT IF EXISTS note_comments_brand_note_id_brand_notes_id_fk;
-ALTER TABLE IF EXISTS ONLY public.brand_note_materials DROP CONSTRAINT IF EXISTS brand_note_materials_brand_note_id_brand_notes_id_fk;
-ALTER TABLE IF EXISTS ONLY public.blog_posts DROP CONSTRAINT IF EXISTS blog_posts_author_id_users_id_fk;
-ALTER TABLE IF EXISTS ONLY public.access_codes DROP CONSTRAINT IF EXISTS access_codes_brand_note_id_brand_notes_id_fk;
-DROP INDEX IF EXISTS public.trainings_category_slug_unique;
-DROP INDEX IF EXISTS public.trainings_category_idx;
-DROP INDEX IF EXISTS public.submissions_created_idx;
-DROP INDEX IF EXISTS public.note_comments_note_idx;
-DROP INDEX IF EXISTS public.materials_note_idx;
-DROP INDEX IF EXISTS public.access_codes_note_idx;
-ALTER TABLE IF EXISTS ONLY public.users DROP CONSTRAINT IF EXISTS users_pkey;
-ALTER TABLE IF EXISTS ONLY public.users DROP CONSTRAINT IF EXISTS users_email_unique;
-ALTER TABLE IF EXISTS ONLY public.trainings DROP CONSTRAINT IF EXISTS trainings_pkey;
-ALTER TABLE IF EXISTS ONLY public.training_pages DROP CONSTRAINT IF EXISTS training_pages_pkey;
-ALTER TABLE IF EXISTS ONLY public.team_members DROP CONSTRAINT IF EXISTS team_members_pkey;
-ALTER TABLE IF EXISTS ONLY public.submissions DROP CONSTRAINT IF EXISTS submissions_pkey;
-ALTER TABLE IF EXISTS ONLY public.settings DROP CONSTRAINT IF EXISTS settings_pkey;
-ALTER TABLE IF EXISTS ONLY public.sessions DROP CONSTRAINT IF EXISTS sessions_pkey;
-ALTER TABLE IF EXISTS ONLY public.reference_logos DROP CONSTRAINT IF EXISTS reference_logos_pkey;
-ALTER TABLE IF EXISTS ONLY public.note_comments DROP CONSTRAINT IF EXISTS note_comments_pkey;
-ALTER TABLE IF EXISTS ONLY public.legal_pages DROP CONSTRAINT IF EXISTS legal_pages_slug_unique;
-ALTER TABLE IF EXISTS ONLY public.legal_pages DROP CONSTRAINT IF EXISTS legal_pages_pkey;
-ALTER TABLE IF EXISTS ONLY public.categories DROP CONSTRAINT IF EXISTS categories_slug_unique;
-ALTER TABLE IF EXISTS ONLY public.categories DROP CONSTRAINT IF EXISTS categories_pkey;
-ALTER TABLE IF EXISTS ONLY public.brand_notes DROP CONSTRAINT IF EXISTS brand_notes_slug_unique;
-ALTER TABLE IF EXISTS ONLY public.brand_notes DROP CONSTRAINT IF EXISTS brand_notes_pkey;
-ALTER TABLE IF EXISTS ONLY public.brand_note_materials DROP CONSTRAINT IF EXISTS brand_note_materials_pkey;
-ALTER TABLE IF EXISTS ONLY public.blog_posts DROP CONSTRAINT IF EXISTS blog_posts_slug_unique;
-ALTER TABLE IF EXISTS ONLY public.blog_posts DROP CONSTRAINT IF EXISTS blog_posts_pkey;
-ALTER TABLE IF EXISTS ONLY public.access_codes DROP CONSTRAINT IF EXISTS access_codes_pkey;
-ALTER TABLE IF EXISTS ONLY public.access_codes DROP CONSTRAINT IF EXISTS access_codes_code_unique;
-ALTER TABLE IF EXISTS ONLY drizzle.__drizzle_migrations DROP CONSTRAINT IF EXISTS __drizzle_migrations_pkey;
-ALTER TABLE IF EXISTS public.trainings ALTER COLUMN id DROP DEFAULT;
-ALTER TABLE IF EXISTS public.team_members ALTER COLUMN id DROP DEFAULT;
-ALTER TABLE IF EXISTS public.submissions ALTER COLUMN id DROP DEFAULT;
-ALTER TABLE IF EXISTS public.reference_logos ALTER COLUMN id DROP DEFAULT;
-ALTER TABLE IF EXISTS public.note_comments ALTER COLUMN id DROP DEFAULT;
-ALTER TABLE IF EXISTS public.legal_pages ALTER COLUMN id DROP DEFAULT;
-ALTER TABLE IF EXISTS public.categories ALTER COLUMN id DROP DEFAULT;
-ALTER TABLE IF EXISTS public.brand_notes ALTER COLUMN id DROP DEFAULT;
-ALTER TABLE IF EXISTS public.brand_note_materials ALTER COLUMN id DROP DEFAULT;
-ALTER TABLE IF EXISTS public.blog_posts ALTER COLUMN id DROP DEFAULT;
-ALTER TABLE IF EXISTS public.access_codes ALTER COLUMN id DROP DEFAULT;
-ALTER TABLE IF EXISTS drizzle.__drizzle_migrations ALTER COLUMN id DROP DEFAULT;
-DROP TABLE IF EXISTS public.users;
-DROP SEQUENCE IF EXISTS public.trainings_id_seq;
-DROP TABLE IF EXISTS public.trainings;
-DROP TABLE IF EXISTS public.training_pages;
-DROP SEQUENCE IF EXISTS public.team_members_id_seq;
-DROP TABLE IF EXISTS public.team_members;
-DROP SEQUENCE IF EXISTS public.submissions_id_seq;
-DROP TABLE IF EXISTS public.submissions;
-DROP TABLE IF EXISTS public.settings;
-DROP TABLE IF EXISTS public.sessions;
-DROP SEQUENCE IF EXISTS public.reference_logos_id_seq;
-DROP TABLE IF EXISTS public.reference_logos;
-DROP SEQUENCE IF EXISTS public.note_comments_id_seq;
-DROP TABLE IF EXISTS public.note_comments;
-DROP SEQUENCE IF EXISTS public.legal_pages_id_seq;
-DROP TABLE IF EXISTS public.legal_pages;
-DROP SEQUENCE IF EXISTS public.categories_id_seq;
-DROP TABLE IF EXISTS public.categories;
-DROP SEQUENCE IF EXISTS public.brand_notes_id_seq;
-DROP TABLE IF EXISTS public.brand_notes;
-DROP SEQUENCE IF EXISTS public.brand_note_materials_id_seq;
-DROP TABLE IF EXISTS public.brand_note_materials;
-DROP SEQUENCE IF EXISTS public.blog_posts_id_seq;
-DROP TABLE IF EXISTS public.blog_posts;
-DROP SEQUENCE IF EXISTS public.access_codes_id_seq;
-DROP TABLE IF EXISTS public.access_codes;
-DROP SEQUENCE IF EXISTS drizzle.__drizzle_migrations_id_seq;
-DROP TABLE IF EXISTS drizzle.__drizzle_migrations;
-DROP TYPE IF EXISTS public.submission_kind;
-DROP TYPE IF EXISTS public.role;
-DROP TYPE IF EXISTS public.post_status;
-DROP SCHEMA IF EXISTS drizzle;
+ALTER TABLE ONLY public.trainings DROP CONSTRAINT trainings_category_id_categories_id_fk;
+ALTER TABLE ONLY public.training_pages DROP CONSTRAINT training_pages_training_id_trainings_id_fk;
+ALTER TABLE ONLY public.submissions DROP CONSTRAINT submissions_training_id_trainings_id_fk;
+ALTER TABLE ONLY public.submissions DROP CONSTRAINT submissions_handled_by_users_id_fk;
+ALTER TABLE ONLY public.sessions DROP CONSTRAINT sessions_user_id_users_id_fk;
+ALTER TABLE ONLY public.note_comments DROP CONSTRAINT note_comments_brand_note_id_brand_notes_id_fk;
+ALTER TABLE ONLY public.brand_note_materials DROP CONSTRAINT brand_note_materials_brand_note_id_brand_notes_id_fk;
+ALTER TABLE ONLY public.blog_posts DROP CONSTRAINT blog_posts_author_id_users_id_fk;
+ALTER TABLE ONLY public.access_codes DROP CONSTRAINT access_codes_brand_note_id_brand_notes_id_fk;
+DROP INDEX public.trainings_category_slug_unique;
+DROP INDEX public.trainings_category_idx;
+DROP INDEX public.submissions_created_idx;
+DROP INDEX public.note_comments_note_idx;
+DROP INDEX public.materials_note_idx;
+DROP INDEX public.access_codes_note_idx;
+ALTER TABLE ONLY public.users DROP CONSTRAINT users_pkey;
+ALTER TABLE ONLY public.users DROP CONSTRAINT users_email_unique;
+ALTER TABLE ONLY public.trainings DROP CONSTRAINT trainings_pkey;
+ALTER TABLE ONLY public.training_pages DROP CONSTRAINT training_pages_pkey;
+ALTER TABLE ONLY public.team_members DROP CONSTRAINT team_members_pkey;
+ALTER TABLE ONLY public.submissions DROP CONSTRAINT submissions_pkey;
+ALTER TABLE ONLY public.settings DROP CONSTRAINT settings_pkey;
+ALTER TABLE ONLY public.sessions DROP CONSTRAINT sessions_pkey;
+ALTER TABLE ONLY public.reference_logos DROP CONSTRAINT reference_logos_pkey;
+ALTER TABLE ONLY public.note_comments DROP CONSTRAINT note_comments_pkey;
+ALTER TABLE ONLY public.legal_pages DROP CONSTRAINT legal_pages_slug_unique;
+ALTER TABLE ONLY public.legal_pages DROP CONSTRAINT legal_pages_pkey;
+ALTER TABLE ONLY public.categories DROP CONSTRAINT categories_slug_unique;
+ALTER TABLE ONLY public.categories DROP CONSTRAINT categories_pkey;
+ALTER TABLE ONLY public.brand_notes DROP CONSTRAINT brand_notes_slug_unique;
+ALTER TABLE ONLY public.brand_notes DROP CONSTRAINT brand_notes_pkey;
+ALTER TABLE ONLY public.brand_note_materials DROP CONSTRAINT brand_note_materials_pkey;
+ALTER TABLE ONLY public.blog_posts DROP CONSTRAINT blog_posts_slug_unique;
+ALTER TABLE ONLY public.blog_posts DROP CONSTRAINT blog_posts_pkey;
+ALTER TABLE ONLY public.access_codes DROP CONSTRAINT access_codes_pkey;
+ALTER TABLE ONLY public.access_codes DROP CONSTRAINT access_codes_code_unique;
+ALTER TABLE ONLY drizzle.__drizzle_migrations DROP CONSTRAINT __drizzle_migrations_pkey;
+ALTER TABLE public.trainings ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.team_members ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.submissions ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.reference_logos ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.note_comments ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.legal_pages ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.categories ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.brand_notes ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.brand_note_materials ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.blog_posts ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.access_codes ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE drizzle.__drizzle_migrations ALTER COLUMN id DROP DEFAULT;
+DROP TABLE public.users;
+DROP SEQUENCE public.trainings_id_seq;
+DROP TABLE public.trainings;
+DROP TABLE public.training_pages;
+DROP SEQUENCE public.team_members_id_seq;
+DROP TABLE public.team_members;
+DROP SEQUENCE public.submissions_id_seq;
+DROP TABLE public.submissions;
+DROP TABLE public.settings;
+DROP TABLE public.sessions;
+DROP SEQUENCE public.reference_logos_id_seq;
+DROP TABLE public.reference_logos;
+DROP SEQUENCE public.note_comments_id_seq;
+DROP TABLE public.note_comments;
+DROP SEQUENCE public.legal_pages_id_seq;
+DROP TABLE public.legal_pages;
+DROP SEQUENCE public.categories_id_seq;
+DROP TABLE public.categories;
+DROP SEQUENCE public.brand_notes_id_seq;
+DROP TABLE public.brand_notes;
+DROP SEQUENCE public.brand_note_materials_id_seq;
+DROP TABLE public.brand_note_materials;
+DROP SEQUENCE public.blog_posts_id_seq;
+DROP TABLE public.blog_posts;
+DROP SEQUENCE public.access_codes_id_seq;
+DROP TABLE public.access_codes;
+DROP SEQUENCE drizzle.__drizzle_migrations_id_seq;
+DROP TABLE drizzle.__drizzle_migrations;
+DROP TYPE public.submission_kind;
+DROP TYPE public.role;
+DROP TYPE public.post_status;
+DROP SCHEMA drizzle;
 --
 -- Name: drizzle; Type: SCHEMA; Schema: -; Owner: aliozel
 --
@@ -858,14 +858,14 @@ COPY public.brand_notes (id, slug, company, logo, title, event_date_label, meta,
 --
 
 COPY public.categories (id, slug, name, short_name, icon, tagline, summary, for_whom, sort_order, published, created_at, updated_at) FROM stdin;
-1	genel-katalog-egitimleri	Genel Katalog Eğitimleri	Genel Katalog	book	Her seviyeye uygun temel liderlik kataloğu	Tüm kademelerde işe yarayan, en çok talep gören temel liderlik ve yönetim eğitimlerinden oluşan genel katalog. Kurumunuzun ihtiyacına göre tekil modül ya da bütün bir program olarak planlanabilir.	["Her seviyeden yönetici ve takım lideri", "Liderlik gelişimine yeni başlayan ekipler", "Karma kademelerden oluşan gruplar"]	0	t	2026-07-03 09:57:36.425624+00	\N
-2	yonetim-egitimleri	Yönetim Eğitimleri	Yönetim	compass	Orta ve üst düzey yöneticiler için liderlik gelişimi	Yöneticilerin liderlik etkisini derinleştiren, iletişimden karar vermeye, çatışma yönetiminden koçluğa uzanan kapsamlı bir gelişim programı. Her modül davranışsal ve uygulamaya odaklıdır.	["Orta ve üst düzey yöneticiler", "Departman ve takım liderleri", "Yüksek potansiyelli çalışanlar"]	1	t	2026-07-03 09:57:36.457909+00	\N
-3	lider-muhendis-egitimleri	Lider Mühendis Eğitimleri	Lider Mühendis	cog	Teknik uzmanlığı insan yönetimiyle birleştiren mühendisler için	İnsan yönetimi, iletişim, ikna ve koçluk mühendislik müfredatında yer almaz; ancak mühendis liderlerin her gün karşılaştığı gerçeklerdir. Bu program teknik düşünceyi liderlik becerileriyle buluşturur.	["Üretim, proje ve Ar-Ge mühendisleri", "Proje yöneticisi ve teknik lider pozisyonundaki mühendisler", "Mühendislik müdürleri ve departman şefleri"]	2	t	2026-07-03 09:57:36.518361+00	\N
-4	mavi-gri-yaka-lider-egitimleri	Mavi Yaka ve Gri Yaka Lider Eğitimleri	Mavi & Gri Yaka	wrench	Üretim sahasının gerçek liderleri için Eğit-Öğret-Yönet	Formen, vardiya amiri, hat lideri ve üretim şefi kurumun operasyonel omurgasıdır. Bu program sahaya özgü Eğit-Öğret-Yönet metodolojisiyle, üretim ortamının diline ve temposuna uygun biçimde tasarlanmıştır.	["Formen ve kıdemli formenler", "Vardiya amirleri ve vardiya şefleri", "Hat liderleri, üretim şefleri ve atölye sorumluları"]	3	t	2026-07-03 09:57:36.543723+00	\N
-5	satis-pazarlama-egitimleri	Satış ve Pazarlama Eğitimleri	Satış & Pazarlama	chart	Sürdürülebilir satış performansı için uygulamalı programlar	Satış; doğru insana doğru zamanda doğru değeri sunmaktır. Bu programlar satış profesyonellerinin hem teknik becerilerini hem de ilişki kurma kapasitelerini geliştirir ve müşteri değerini artırır.	["Satış direktörleri ve satış müdürleri", "Satış temsilcileri ve key account yöneticileri", "Pazarlama profesyonelleri"]	4	t	2026-07-03 09:57:36.570497+00	\N
-6	takim-calismasi-indoor-outdoor	Takım Çalışması — Indoor & Outdoor	Takım Çalışması	users	Yaşayarak öğrenme ile davranış dönüşümü	Söylenen şeyler unutulur; yaşananlar kişiliğe işlenir. Indoor ve outdoor deneyimsel aktiviteler; ekip uyumunu, iletişimi ve ortak sorumluluğu güçlendirir. Her aktivite kurumun gerçek ihtiyaçlarına göre uyarlanır.	["Ekip uyumunu güçlendirmek isteyen tüm kurumlar", "Departmanlar arası iş birliği hedefleyen ekipler", "Yeni kurulan veya birleşen takımlar"]	5	t	2026-07-03 09:57:36.589689+00	\N
-7	turizm-isletme-egitimleri	Turizm İşletme Eğitimleri	Turizm İşletme	building	Otel yönetimi ve konaklama sektörü için sistemli programlar	Konaklama sektörü; insan yoğun, hız gerektiren ve her temas noktasının marka değerini etkilediği dinamik bir sektördür. Bu programlar güçlü bir yönetim sistemi, net roller ve sürekli gelişen bir ekip kurmaya odaklanır.	["Otel müdürleri ve departman liderleri", "İK ve gelir yöneticileri", "Beş yıldızlı, butik ve bağımsız konaklama işletmeleri"]	6	t	2026-07-03 09:57:36.612128+00	\N
-8	yapay-zeka-liderlik-egitimleri	Yapay Zekâ ve Liderlik Eğitimleri	Yapay Zekâ	cpu	YZ çağında insanı merkeze alan dönüşüm programları	Teknolojiyi satın almak ile onu kurumsal bir güce dönüştürmek arasındaki fark liderlikte, kültürde ve insan kapasitesinde yatar. Bu programlar yöneticileri, mühendisleri ve saha ekiplerini yapay zekâyı anlayan ve yönlendiren bireylere dönüştürür.	["Dijital dönüşümü yöneten üst ve orta düzey yöneticiler", "YZ ile çalışmaya hazırlanan saha ve ofis çalışanları", "Mühendisler ve takım liderleri"]	7	t	2026-07-03 09:57:36.627394+00	\N
+1	genel-katalog-egitimleri	Genel Katalog Eğitimleri	Tüm Eğitimler	book	Her seviyeye uygun temel liderlik kataloğu	Tüm kademelerde işe yarayan, en çok talep gören temel liderlik ve yönetim eğitimlerinden oluşan genel katalog. Kurumunuzun ihtiyacına göre tekil modül ya da bütün bir program olarak planlanabilir.	["Her seviyeden yönetici ve takım lideri", "Liderlik gelişimine yeni başlayan ekipler", "Karma kademelerden oluşan gruplar"]	0	t	2026-07-03 09:57:36.425624+00	\N
+2	yonetim-egitimleri	Yönetim Eğitimleri	Yönetim Eğitimleri	compass	Orta ve üst düzey yöneticiler için liderlik gelişimi	Yöneticilerin liderlik etkisini derinleştiren, iletişimden karar vermeye, çatışma yönetiminden koçluğa uzanan kapsamlı bir gelişim programı. Her modül davranışsal ve uygulamaya odaklıdır.	["Orta ve üst düzey yöneticiler", "Departman ve takım liderleri", "Yüksek potansiyelli çalışanlar"]	1	t	2026-07-03 09:57:36.457909+00	\N
+3	lider-muhendis-egitimleri	Lider Mühendis Eğitimleri	Lider Mühendis Eğitimleri	cog	Teknik uzmanlığı insan yönetimiyle birleştiren mühendisler için	İnsan yönetimi, iletişim, ikna ve koçluk mühendislik müfredatında yer almaz; ancak mühendis liderlerin her gün karşılaştığı gerçeklerdir. Bu program teknik düşünceyi liderlik becerileriyle buluşturur.	["Üretim, proje ve Ar-Ge mühendisleri", "Proje yöneticisi ve teknik lider pozisyonundaki mühendisler", "Mühendislik müdürleri ve departman şefleri"]	2	t	2026-07-03 09:57:36.518361+00	\N
+4	mavi-gri-yaka-lider-egitimleri	Mavi Yaka ve Gri Yaka Lider Eğitimleri	Mavi & Gri Yaka Eğitimleri	wrench	Üretim sahasının gerçek liderleri için Eğit-Öğret-Yönet	Formen, vardiya amiri, hat lideri ve üretim şefi kurumun operasyonel omurgasıdır. Bu program sahaya özgü Eğit-Öğret-Yönet metodolojisiyle, üretim ortamının diline ve temposuna uygun biçimde tasarlanmıştır.	["Formen ve kıdemli formenler", "Vardiya amirleri ve vardiya şefleri", "Hat liderleri, üretim şefleri ve atölye sorumluları"]	3	t	2026-07-03 09:57:36.543723+00	\N
+5	satis-pazarlama-egitimleri	Satış ve Pazarlama Eğitimleri	Satış & Pazarlama Eğitimleri	chart	Sürdürülebilir satış performansı için uygulamalı programlar	Satış; doğru insana doğru zamanda doğru değeri sunmaktır. Bu programlar satış profesyonellerinin hem teknik becerilerini hem de ilişki kurma kapasitelerini geliştirir ve müşteri değerini artırır.	["Satış direktörleri ve satış müdürleri", "Satış temsilcileri ve key account yöneticileri", "Pazarlama profesyonelleri"]	4	t	2026-07-03 09:57:36.570497+00	\N
+6	takim-calismasi-indoor-outdoor	Takım Çalışması — Indoor & Outdoor	Takım Çalışması Eğitimleri	users	Yaşayarak öğrenme ile davranış dönüşümü	Söylenen şeyler unutulur; yaşananlar kişiliğe işlenir. Indoor ve outdoor deneyimsel aktiviteler; ekip uyumunu, iletişimi ve ortak sorumluluğu güçlendirir. Her aktivite kurumun gerçek ihtiyaçlarına göre uyarlanır.	["Ekip uyumunu güçlendirmek isteyen tüm kurumlar", "Departmanlar arası iş birliği hedefleyen ekipler", "Yeni kurulan veya birleşen takımlar"]	5	t	2026-07-03 09:57:36.589689+00	\N
+7	turizm-isletme-egitimleri	Turizm İşletme Eğitimleri	Turizm İşletme Eğitimleri	building	Otel yönetimi ve konaklama sektörü için sistemli programlar	Konaklama sektörü; insan yoğun, hız gerektiren ve her temas noktasının marka değerini etkilediği dinamik bir sektördür. Bu programlar güçlü bir yönetim sistemi, net roller ve sürekli gelişen bir ekip kurmaya odaklanır.	["Otel müdürleri ve departman liderleri", "İK ve gelir yöneticileri", "Beş yıldızlı, butik ve bağımsız konaklama işletmeleri"]	6	t	2026-07-03 09:57:36.612128+00	\N
+8	yapay-zeka-liderlik-egitimleri	Yapay Zekâ ve Liderlik Eğitimleri	Yapay Zekâ Eğitimleri	cpu	YZ çağında insanı merkeze alan dönüşüm programları	Teknolojiyi satın almak ile onu kurumsal bir güce dönüştürmek arasındaki fark liderlikte, kültürde ve insan kapasitesinde yatar. Bu programlar yöneticileri, mühendisleri ve saha ekiplerini yapay zekâyı anlayan ve yönlendiren bireylere dönüştürür.	["Dijital dönüşümü yöneten üst ve orta düzey yöneticiler", "YZ ile çalışmaya hazırlanan saha ve ofis çalışanları", "Mühendisler ve takım liderleri"]	7	t	2026-07-03 09:57:36.627394+00	\N
 \.
 
 
@@ -908,6 +908,30 @@ COPY public.reference_logos (id, name, src, sort_order, published, created_at, u
 12	Batısöke	/referanslar/batisoke.png	11	t	2026-07-03 09:57:36.65704+00	\N
 13	Batıgöz	/referanslar/batigoz.png	12	t	2026-07-03 09:57:36.65704+00	\N
 14	Yaşar Üniversitesi	/referanslar/yasar-universitesi.webp	13	t	2026-07-03 09:57:36.65704+00	\N
+15	İGA Havalimanı İşletmesi	/referanslar/iga.png	14	t	2026-07-14 12:38:22.006166+00	\N
+16	Turkcell	/referanslar/turkcell.png	15	t	2026-07-14 12:38:22.006166+00	\N
+17	Çamur Gayrimenkul	/referanslar/camur-gayrimenkul.png	16	t	2026-07-14 12:38:22.006166+00	\N
+18	Base	/referanslar/base.png	17	t	2026-07-14 12:38:22.006166+00	\N
+19	Next Pharma	/referanslar/next-pharma.png	18	t	2026-07-14 12:38:22.006166+00	\N
+20	Krone	/referanslar/krone.png	19	t	2026-07-14 12:38:22.006166+00	\N
+21	JCI	/referanslar/jci.png	20	t	2026-07-14 12:38:22.006166+00	\N
+22	IVECO	/referanslar/iveco.png	21	t	2026-07-14 12:38:22.006166+00	\N
+23	Yaşar Birleşik Pazarlama	/referanslar/yasar-birlesik-pazarlama.png	22	t	2026-07-14 12:38:22.006166+00	\N
+24	IKEA	/referanslar/ikea.png	23	t	2026-07-14 12:38:22.006166+00	\N
+25	Honda	/referanslar/honda.png	24	t	2026-07-14 12:38:22.006166+00	\N
+26	Ford Otosan	/referanslar/ford-otosan.png	25	t	2026-07-14 12:38:22.006166+00	\N
+27	Big Dutchman	/referanslar/big-dutchman.png	26	t	2026-07-14 12:38:22.006166+00	\N
+28	Tatmetal	/referanslar/tatmetal.png	27	t	2026-07-14 12:38:22.006166+00	\N
+29	Fan Market	/referanslar/fan-market.png	28	t	2026-07-14 12:38:22.006166+00	\N
+30	Deva Holding	/referanslar/deva-holding.png	29	t	2026-07-14 12:38:22.006166+00	\N
+31	CMS	/referanslar/cms.png	30	t	2026-07-14 12:38:22.006166+00	\N
+32	BSH	/referanslar/bsh.png	31	t	2026-07-14 12:38:22.006166+00	\N
+33	BPN	/referanslar/bpn.png	32	t	2026-07-14 12:38:22.006166+00	\N
+34	Arçelik	/referanslar/arcelik.png	33	t	2026-07-14 12:38:22.006166+00	\N
+35	Abbott	/referanslar/abbott.png	34	t	2026-07-14 12:38:22.006166+00	\N
+36	FIT Global	/referanslar/fit-global.png	35	t	2026-07-14 12:38:22.006166+00	\N
+37	Döhler	/referanslar/dohler.png	36	t	2026-07-14 12:38:22.006166+00	\N
+38	Weber	/referanslar/weber.png	37	t	2026-07-14 12:38:22.006166+00	\N
 \.
 
 
@@ -1180,7 +1204,7 @@ SELECT pg_catalog.setval('public.note_comments_id_seq', 3, true);
 -- Name: reference_logos_id_seq; Type: SEQUENCE SET; Schema: public; Owner: aliozel
 --
 
-SELECT pg_catalog.setval('public.reference_logos_id_seq', 14, true);
+SELECT pg_catalog.setval('public.reference_logos_id_seq', 38, true);
 
 
 --
@@ -1498,5 +1522,5 @@ ALTER TABLE ONLY public.trainings
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 1AW8ggOi2pQef7RYNE8SfT4p4zmvlqNJtoTwzSZQa2x3f70qDbjxtgwmdFviPTN
+\unrestrict w7Zd0X05blnlH5EHcXExf9yNtbXenQoUwaac2qui4u3OlbOgRq7W9eOL38D9dyU
 
