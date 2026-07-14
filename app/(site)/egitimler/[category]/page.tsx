@@ -60,7 +60,7 @@ export default async function CategoryPage({
           <div className="hero-count">
             <span className="hc-circle">{cat.trainings.length}</span>
             <div className="hc-info">
-              <strong>program</strong>
+              <strong>eğitim programı</strong>
               <span>
                 Tüm programlar kurumunuzun ihtiyacına göre tek tek ya da bütün
                 bir program olarak uyarlanabilir.
@@ -91,7 +91,11 @@ export default async function CategoryPage({
                 <div className="teklif-banner">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src="/ali-ozel-form.jpg" alt="Ali Özel" />
-                  <span className="teklif-tag">San Eğitim Danışmanlık</span>
+                  <img
+                    className="teklif-logo"
+                    src="/logo.png"
+                    alt="San Eğitim Danışmanlık"
+                  />
                 </div>
                 <h4>Kuruma özel teklif</h4>
                 <p>

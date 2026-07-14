@@ -46,7 +46,7 @@ export const categories: Category[] = [
   {
     slug: "genel-katalog-egitimleri",
     name: "Genel Katalog Eğitimleri",
-    shortName: "Genel Katalog",
+    shortName: "Tüm Eğitimler",
     icon: "book",
     tagline: "Her seviyeye uygun temel liderlik kataloğu",
     summary:
@@ -118,7 +118,7 @@ export const categories: Category[] = [
   {
     slug: "yonetim-egitimleri",
     name: "Yönetim Eğitimleri",
-    shortName: "Yönetim",
+    shortName: "Yönetim Eğitimleri",
     icon: "compass",
     tagline: "Orta ve üst düzey yöneticiler için liderlik gelişimi",
     summary:
@@ -191,7 +191,7 @@ export const categories: Category[] = [
   {
     slug: "lider-muhendis-egitimleri",
     name: "Lider Mühendis Eğitimleri",
-    shortName: "Lider Mühendis",
+    shortName: "Lider Mühendis Eğitimleri",
     icon: "cog",
     tagline: "Teknik uzmanlığı insan yönetimiyle birleştiren mühendisler için",
     summary:
@@ -257,7 +257,7 @@ export const categories: Category[] = [
   {
     slug: "mavi-gri-yaka-lider-egitimleri",
     name: "Mavi Yaka ve Gri Yaka Lider Eğitimleri",
-    shortName: "Mavi & Gri Yaka",
+    shortName: "Mavi & Gri Yaka Eğitimleri",
     icon: "wrench",
     tagline: "Üretim sahasının gerçek liderleri için Eğit-Öğret-Yönet",
     summary:
@@ -323,7 +323,7 @@ export const categories: Category[] = [
   {
     slug: "satis-pazarlama-egitimleri",
     name: "Satış ve Pazarlama Eğitimleri",
-    shortName: "Satış & Pazarlama",
+    shortName: "Satış & Pazarlama Eğitimleri",
     icon: "chart",
     tagline: "Sürdürülebilir satış performansı için uygulamalı programlar",
     summary:
@@ -374,7 +374,7 @@ export const categories: Category[] = [
   {
     slug: "takim-calismasi-indoor-outdoor",
     name: "Takım Çalışması — Indoor & Outdoor",
-    shortName: "Takım Çalışması",
+    shortName: "Takım Çalışması Eğitimleri",
     icon: "users",
     tagline: "Yaşayarak öğrenme ile davranış dönüşümü",
     summary:
@@ -430,7 +430,7 @@ export const categories: Category[] = [
   {
     slug: "turizm-isletme-egitimleri",
     name: "Turizm İşletme Eğitimleri",
-    shortName: "Turizm İşletme",
+    shortName: "Turizm İşletme Eğitimleri",
     icon: "building",
     tagline: "Otel yönetimi ve konaklama sektörü için sistemli programlar",
     summary:
@@ -471,7 +471,7 @@ export const categories: Category[] = [
   {
     slug: "yapay-zeka-liderlik-egitimleri",
     name: "Yapay Zekâ ve Liderlik Eğitimleri",
-    shortName: "Yapay Zekâ",
+    shortName: "Yapay Zekâ Eğitimleri",
     icon: "cpu",
     tagline: "YZ çağında insanı merkeze alan dönüşüm programları",
     summary:

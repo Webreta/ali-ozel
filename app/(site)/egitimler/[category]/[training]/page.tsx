@@ -183,7 +183,7 @@ export default async function TrainingPage({
               <div style={{ marginTop: 44 }}>
                 <span className="eyebrow">Kazanımlar</span>
                 <h2 className="section-title" style={{ marginBottom: 22 }}>
-                  Eğitim sonunda katılımcılar
+                  Bu eğitimin sonunda ekibiniz
                 </h2>
                 <div className="outcome-grid">
                   {p.outcomes.map((o, i) => (
@@ -201,7 +201,11 @@ export default async function TrainingPage({
                 <div className="teklif-banner">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src="/ali-ozel-form.jpg" alt="Ali Özel" />
-                  <span className="teklif-tag">San Eğitim Danışmanlık</span>
+                  <img
+                    className="teklif-logo"
+                    src="/logo.png"
+                    alt="San Eğitim Danışmanlık"
+                  />
                 </div>
                 <h4>Kurumunuza özel planlayalım</h4>
                 <p>

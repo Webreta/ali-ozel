@@ -172,14 +172,17 @@ export default async function HomePage() {
               Üretimin diliyle konuşan bir eğitmen
             </h2>
             <p className="lead">
-              Yıllarını üretim sahasında, gerçek ekiplerin içinde geçirdim. Bu
-              yüzden eğitimlerim ofis jargonundan değil; sahanın gerçeğinden,
-              vardiya dilinden ve insan ilişkilerinin özünden besleniyor.
+              Yıllarını üretim sahasında, gerçek ekiplerin içinde geçirdim.
+              Bugün liderlik ve yönetimden satışa, takım çalışmasından yapay
+              zekâya uzanan tüm eğitimlerimiz aynı kaynaktan besleniyor:
+              sahanın gerçeği, insan ilişkilerinin özü ve kalıcı davranış
+              değişimi.
             </p>
             <ul className="check-list" style={{ margin: "24px 0 30px" }}>
               <li>
                 <Icon name="check-circle" />
-                Mavi yaka liderliğinde uzmanlaşmış, sahada test edilmiş içerikler
+                Yöneticiden saha liderine, her kademe için sahada test edilmiş
+                içerikler
               </li>
               <li>
                 <Icon name="check-circle" />

@@ -67,13 +67,12 @@ export default function TeklifModal({
 
         <div className="modal-photo">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/ali-ozel-form.jpg" alt="Ali Özel" />
+          <img src="/ali-ozel.jpg" alt="Ali Özel" />
           <div className="modal-quote">
-            <p>
-              “Siz kendinize inanmazsanız, başkalarının size inanmasını
-              beklemeyin.”
-            </p>
-            <span>— Margaret Thatcher</span>
+            <span className="modal-sign">Ali Özel</span>
+            <span className="modal-sign-title">
+              Kurucu &amp; Eğitmen &amp; Koordinatör
+            </span>
           </div>
         </div>
       </div>
