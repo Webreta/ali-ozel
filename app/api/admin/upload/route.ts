@@ -70,6 +70,18 @@ export async function POST(request: NextRequest) {
   await mkdir(dir, { recursive: true });
   await writeFile(path.join(dir, fileName), buffer);
 
+  if (ext === "webp") {
+    // Galeri gibi çok görselli listeler için küçük önizleme (aynı ad + .thumb)
+    const thumb = await sharp(buffer)
+      .resize({ width: 640, height: 640, fit: "inside", withoutEnlargement: true })
+      .webp({ quality: 76 })
+      .toBuffer();
+    await writeFile(
+      path.join(dir, fileName.replace(/\.webp$/, ".thumb.webp")),
+      thumb
+    );
+  }
+
   return NextResponse.json({
     url: `/uploads/${subdir}/${fileName}`,
     size: buffer.length,

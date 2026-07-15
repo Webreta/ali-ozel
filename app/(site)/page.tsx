@@ -55,7 +55,12 @@ export default async function HomePage() {
             src="/ali-ozel-hero.jpg"
             alt="Ali Özel — kurumsal eğitmen ve danışman"
           />
-          <span className="hero-photo-badge">{site.name}</span>
+          <span className="hero-photo-sign">
+            <span className="hero-photo-badge">{site.name}</span>
+            <span className="hero-photo-role">
+              Kurucu &amp; Eğitmen &amp; Koordinatör
+            </span>
+          </span>
         </div>
         <div className="container hero-grid">
           <div className="hero-content">
@@ -159,38 +164,36 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* About teaser */}
+      {/* Eğitim felsefemiz */}
       <section className="section">
         <div className="container about-split">
           <div className="about-portrait">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/ali-ozel-selfie.jpg" alt="Ali Özel bir eğitim sırasında" />
+            <img
+              src="/uploads/images/3a4c1421-54f1-4101-b353-45c464296e25.webp"
+              alt="Ali Özel bir eğitim sırasında"
+            />
           </div>
           <div>
-            <span className="eyebrow">Kurucu</span>
+            <span className="eyebrow">Eğitim Felsefemiz</span>
             <h2 className="section-title">
-              Üretimin diliyle konuşan bir eğitmen
+              Katılım belgesiyle değil, davranışla biten eğitimler
             </h2>
-            <p className="lead">
-              Yıllarını üretim sahasında, gerçek ekiplerin içinde geçirdim.
-              Bugün liderlik ve yönetimden satışa, takım çalışmasından yapay
-              zekâya uzanan tüm eğitimlerimiz aynı kaynaktan besleniyor:
-              sahanın gerçeği, insan ilişkilerinin özü ve kalıcı davranış
-              değişimi.
-            </p>
-            <ul className="check-list" style={{ margin: "24px 0 30px" }}>
+            <ul className="check-list" style={{ margin: "26px 0 30px" }}>
               <li>
                 <Icon name="check-circle" />
-                Yöneticiden saha liderine, her kademe için sahada test edilmiş
-                içerikler
+                Konu ne olursa olsun — liderlik, iletişim, satış, teknik
+                beceri — kuruma özel ihtiyaç analiziyle başlıyoruz
               </li>
               <li>
                 <Icon name="check-circle" />
-                Eğit-Öğret-Yönet metodolojisiyle kalıcı davranış değişimi
+                Sahada test edilmiş içerik ve Eğit-Öğret-Yönet metodolojisiyle
+                kalıcı davranış değişimi sağlıyoruz
               </li>
               <li>
                 <Icon name="check-circle" />
-                Kuruma özel uyarlama ve eğitim sonrası saha takibi
+                Eğitim sonrası ölçümleme ve takiple çalışan bağlılığına somut
+                katkı sunuyoruz
               </li>
             </ul>
             <Link href="/farkimiz-ne" className="btn btn-outline">

@@ -2,6 +2,8 @@
 
 import { useActionState } from "react";
 import SubmitButton from "@/components/admin/SubmitButton";
+import ImageField from "@/components/admin/ImageField";
+import RepeatableList from "@/components/admin/RepeatableList";
 import Icon from "@/components/Icon";
 import type { CatalogFormState } from "./actions";
 
@@ -18,8 +20,11 @@ type Category = {
   tagline: string;
   summary: string;
   forWhom: string[];
+  heroImages: string[];
   published: boolean;
 };
+
+type HeroImageRow = { src: string };
 
 export default function CategoryForm({
   action,
@@ -107,6 +112,26 @@ export default function CategoryForm({
           placeholder={"Vardiya liderleri\nFormenler\nTakım liderleri"}
         />
       </div>
+
+      <fieldset className="adm-fieldset">
+        <legend>Hero görsel slider&apos;ı</legend>
+        <span className="adm-hint" style={{ marginBottom: 10, display: "block" }}>
+          Görsel eklerseniz kategori sayfasının üst bölümünde (sağda) küçük bir
+          slider görünür. Boş bırakılırsa slider gösterilmez.
+        </span>
+        <RepeatableList<HeroImageRow>
+          name="heroImages"
+          addLabel="+ Görsel ekle"
+          initialItems={(initialData?.heroImages ?? []).map((src) => ({ src }))}
+          empty={{ src: "" }}
+          renderRow={(item, update) => (
+            <ImageField
+              defaultValue={item.src}
+              onChange={(url) => update({ src: url })}
+            />
+          )}
+        />
+      </fieldset>
 
       <div className="adm-field">
         <label style={{ display: "flex", alignItems: "center", gap: 8 }}>

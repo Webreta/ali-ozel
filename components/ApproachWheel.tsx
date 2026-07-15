@@ -2,14 +2,16 @@
 
 import { useEffect, useState } from "react";
 
-// çark üzerindeki 12 çentik
+// çark üzerindeki 12 çentik — koordinatlar yuvarlanır, yoksa server/client
+// float farkı hydration uyarısı üretiyor
+const r2 = (n: number) => Math.round(n * 100) / 100;
 const TICKS = Array.from({ length: 12 }, (_, i) => {
   const a = (i * 30 * Math.PI) / 180;
   return {
-    x1: 120 + 86 * Math.cos(a),
-    y1: 120 + 86 * Math.sin(a),
-    x2: 120 + 104 * Math.cos(a),
-    y2: 120 + 104 * Math.sin(a),
+    x1: r2(120 + 86 * Math.cos(a)),
+    y1: r2(120 + 86 * Math.sin(a)),
+    x2: r2(120 + 104 * Math.cos(a)),
+    y2: r2(120 + 104 * Math.sin(a)),
   };
 });
 

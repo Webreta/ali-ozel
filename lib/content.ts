@@ -38,6 +38,8 @@ export type Category = {
   tagline: string;
   summary: string;
   forWhom: string[];
+  /** Hero'daki mini slider görselleri — boş/undefined ise slider gösterilmez */
+  heroImages?: string[];
   trainings: Training[];
 };
 

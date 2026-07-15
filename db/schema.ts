@@ -66,6 +66,8 @@ export const categories = pgTable("categories", {
   tagline: text("tagline").notNull(),
   summary: text("summary").notNull(),
   forWhom: jsonb("for_whom").$type<string[]>().notNull().default([]),
+  // Kategori hero'sundaki mini slider görselleri — boşsa slider gösterilmez
+  heroImages: jsonb("hero_images").$type<string[]>().notNull().default([]),
   sortOrder: integer("sort_order").notNull(),
   published: boolean("published").notNull().default(true),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
@@ -135,11 +137,17 @@ export const blogPosts = pgTable("blog_posts", {
 
 export const teamMembers = pgTable("team_members", {
   id: serial("id").primaryKey(),
+  // Detay sayfası adresi (/ekibimiz/[slug]) — oluşturulunca değişmez
+  slug: text("slug").unique(),
   name: text("name").notNull(),
   roleTitle: text("role_title").notNull(),
   bio: text("bio").notNull(),
   photo: text("photo"),
   initials: text("initials"),
+  // Detay sayfası içeriği (markdown) — boşsa üyenin detay sayfası yoktur
+  detailBio: text("detail_bio").notNull().default(""),
+  expertise: jsonb("expertise").$type<string[]>().notNull().default([]),
+  highlights: jsonb("highlights").$type<FormatItem[]>().notNull().default([]),
   sortOrder: integer("sort_order").notNull(),
   published: boolean("published").notNull().default(true),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
@@ -225,6 +233,38 @@ export const noteComments = pgTable(
     createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
   },
   (t) => [index("note_comments_note_idx").on(t.brandNoteId, t.approved)]
+);
+
+// ---------- Galeri ----------
+
+export const galleryLayoutEnum = pgEnum("gallery_layout", ["grid", "masonry"]);
+
+// Public /galeri sayfasında her bölüm bir tab olarak görünür
+export const gallerySections = pgTable("gallery_sections", {
+  id: serial("id").primaryKey(),
+  title: text("title").notNull(),
+  layout: galleryLayoutEnum("layout").notNull().default("masonry"),
+  // 3-6 arası sütun sayısı — uygulama katmanında (zod) doğrulanır
+  columns: integer("columns").notNull().default(4),
+  sortOrder: integer("sort_order").notNull(),
+  published: boolean("published").notNull().default(true),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  updatedAt: timestamp("updated_at", { withTimezone: true }),
+});
+
+export const galleryImages = pgTable(
+  "gallery_images",
+  {
+    id: serial("id").primaryKey(),
+    sectionId: integer("section_id")
+      .notNull()
+      .references(() => gallerySections.id, { onDelete: "cascade" }),
+    src: text("src").notNull(),
+    alt: text("alt"),
+    sortOrder: integer("sort_order").notNull().default(0),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [index("gallery_images_section_idx").on(t.sectionId)]
 );
 
 // ---------- Ayarlar & yasal sayfalar ----------
@@ -323,6 +363,17 @@ export const noteCommentsRelations = relations(noteComments, ({ one }) => ({
   note: one(brandNotes, {
     fields: [noteComments.brandNoteId],
     references: [brandNotes.id],
+  }),
+}));
+
+export const gallerySectionsRelations = relations(gallerySections, ({ many }) => ({
+  images: many(galleryImages),
+}));
+
+export const galleryImagesRelations = relations(galleryImages, ({ one }) => ({
+  section: one(gallerySections, {
+    fields: [galleryImages.sectionId],
+    references: [gallerySections.id],
   }),
 }));
 

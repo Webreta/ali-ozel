@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import TrainingCard from "@/components/TrainingCard";
+import CategoryHeroSlider from "@/components/CategoryHeroSlider";
 import Icon from "@/components/Icon";
 import CTA from "@/components/CTA";
 import TeklifButton from "@/components/TeklifButton";
@@ -39,10 +40,15 @@ export default async function CategoryPage({
   const { category } = await params;
   const cat = await getCategory(category);
   if (!cat) notFound();
+  const heroImages = cat.heroImages ?? [];
 
   return (
     <>
-      <section className="page-hero on-brand hero-extended">
+      <section
+        className={`page-hero on-brand hero-extended${
+          heroImages.length ? " has-slider" : ""
+        }`}
+      >
         <Icon name={cat.icon} className="hero-watermark" strokeWidth={1} />
         <div className="container">
           <Breadcrumb
@@ -51,21 +57,28 @@ export default async function CategoryPage({
               { label: cat.shortName },
             ]}
           />
-          <span className="badge">
-            <Icon name={cat.icon} style={{ width: 16, height: 16 }} />
-            {cat.tagline}
-          </span>
-          <h1>{cat.name}</h1>
-          <p className="page-lead">{cat.summary}</p>
-          <div className="hero-count">
-            <span className="hc-circle">{cat.trainings.length}</span>
-            <div className="hc-info">
-              <strong>eğitim programı</strong>
-              <span>
-                Tüm programlar kurumunuzun ihtiyacına göre tek tek ya da bütün
-                bir program olarak uyarlanabilir.
+          <div className="cat-hero-grid">
+            <div className="cat-hero-main">
+              <span className="badge">
+                <Icon name={cat.icon} style={{ width: 16, height: 16 }} />
+                {cat.tagline}
               </span>
+              <h1>{cat.name}</h1>
+              <p className="page-lead">{cat.summary}</p>
+              <div className="hero-count">
+                <span className="hc-circle">{cat.trainings.length}</span>
+                <div className="hc-info">
+                  <strong>eğitim programı</strong>
+                  <span>
+                    Tüm programlar kurumunuzun ihtiyacına göre tek tek ya da
+                    bütün bir program olarak uyarlanabilir.
+                  </span>
+                </div>
+              </div>
             </div>
+            {heroImages.length ? (
+              <CategoryHeroSlider images={heroImages} alt={cat.name} />
+            ) : null}
           </div>
         </div>
       </section>

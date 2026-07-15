@@ -15,6 +15,20 @@
       "when": 1783083402900,
       "tag": "0001_settings-legal",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1784109775837,
+      "tag": "0002_lucky_sleeper",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1784115677299,
+      "tag": "0003_good_meltdown",
+      "breakpoints": true
     }
   ]
 }

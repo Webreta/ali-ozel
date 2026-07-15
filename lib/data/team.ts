@@ -14,3 +14,9 @@ export const getTeam = unstable_cache(
   ["team"],
   { tags: ["team"] }
 );
+
+/** Detay sayfası için tek üye — getTeam cache'inden okur */
+export async function getMember(slug: string) {
+  const team = await getTeam();
+  return team.find((m) => m.slug === slug);
+}

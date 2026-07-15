@@ -63,11 +63,11 @@ export default function FarkimizNePage() {
               <span>Eğitilen katılımcı</span>
             </div>
             <div>
-              <strong>8</strong>
+              <strong>9</strong>
               <span>Eğitim alanı</span>
             </div>
             <div>
-              <strong>71+</strong>
+              <strong>80+</strong>
               <span>Eğitim modülü</span>
             </div>
           </div>
@@ -101,30 +101,31 @@ export default function FarkimizNePage() {
         <div className="container about-split">
           <div className="about-portrait">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/ali-ozel-selfie.jpg" alt="Ali Özel bir eğitim sırasında" />
+            <img
+              src="/uploads/images/3a4c1421-54f1-4101-b353-45c464296e25.webp"
+              alt="Ali Özel bir eğitim sırasında"
+            />
           </div>
           <div>
-            <span className="eyebrow">Sahadan Gelen Deneyim</span>
+            <span className="eyebrow">Eğitim Felsefemiz</span>
             <h2 className="section-title">
-              Teoriyi sahada yaşamış bir kadro
+              Katılım belgesiyle değil, davranışla biten eğitimler
             </h2>
-            <p className="lead">
-              Akademiden üretim sahasına uzanan ekibimiz; formenden üst düzey
-              yöneticiye kadar on binlerce profesyonelle çalıştı. Her programı
-              kurumun gerçek vakalarına ve kültürüne göre yeniden tasarlıyoruz.
-            </p>
-            <ul className="check-list" style={{ margin: "24px 0 30px" }}>
+            <ul className="check-list" style={{ margin: "26px 0 30px" }}>
               <li>
                 <Icon name="check-circle" />
-                Farklı disiplinlerden, alanında uzman eğitmen kadrosu
+                Konu ne olursa olsun — liderlik, iletişim, satış, teknik
+                beceri — kuruma özel ihtiyaç analiziyle başlıyoruz
               </li>
               <li>
                 <Icon name="check-circle" />
-                Eğit-Öğret-Yönet metodolojisiyle kalıcı davranış değişimi
+                Sahada test edilmiş içerik ve Eğit-Öğret-Yönet metodolojisiyle
+                kalıcı davranış değişimi sağlıyoruz
               </li>
               <li>
                 <Icon name="check-circle" />
-                Eğitim sonrası danışmanlık, saha takibi ve ölçümleme
+                Eğitim sonrası ölçümleme ve takiple çalışan bağlılığına somut
+                katkı sunuyoruz
               </li>
             </ul>
             <Link href="/ekibimiz" className="btn btn-outline">

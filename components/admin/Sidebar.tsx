@@ -12,6 +12,7 @@ const NAV: NavEntry[] = [
   { href: "/admin/egitimler", label: "Eğitimler", icon: "book" },
   { href: "/admin/blog", label: "Blog", icon: "megaphone" },
   { href: "/admin/egitim-notlari", label: "Eğitim Notları", icon: "layers" },
+  { href: "/admin/galeri", label: "Galeri", icon: "sparkle" },
   { href: "/admin/ekip", label: "Ekip", icon: "users" },
   { href: "/admin/referanslar", label: "Referanslar", icon: "shield" },
   { href: "/admin/yasal", label: "Yasal Sayfalar", icon: "check-circle" },

@@ -66,21 +66,23 @@ export default function Header({ categories }: { categories: NavCategory[] }) {
                   <Icon name="chevron-down" />
                 </Link>
                 <div className="dropdown">
-                  {categories.map((cat) => (
-                    <Link
-                      key={cat.slug}
-                      href={`/egitimler/${cat.slug}`}
-                      className="dropdown-item"
-                    >
-                      <span className="di-icon">
-                        <Icon name={cat.icon} />
-                      </span>
-                      <span>
-                        <strong>{cat.shortName}</strong>
-                        <span>{cat.tagline}</span>
-                      </span>
-                    </Link>
-                  ))}
+                  <div className="dropdown-grid">
+                    {categories.map((cat) => (
+                      <Link
+                        key={cat.slug}
+                        href={`/egitimler/${cat.slug}`}
+                        className="dropdown-item"
+                      >
+                        <span className="di-icon">
+                          <Icon name={cat.icon} />
+                        </span>
+                        <span>
+                          <strong>{cat.shortName}</strong>
+                          <span>{cat.tagline}</span>
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
                   <Link href="/egitimler" className="dropdown-all">
                     Tüm eğitimleri gör →
                   </Link>

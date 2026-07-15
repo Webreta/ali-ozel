@@ -2,8 +2,12 @@
 
 import { useActionState } from "react";
 import ImageField from "@/components/admin/ImageField";
+import MarkdownField from "@/components/admin/MarkdownField";
+import RepeatableList from "@/components/admin/RepeatableList";
 import SubmitButton from "@/components/admin/SubmitButton";
 import type { TeamFormState } from "./actions";
+
+type HighlightRow = { label: string; value: string };
 
 type Member = {
   name: string;
@@ -11,6 +15,9 @@ type Member = {
   bio: string;
   photo: string | null;
   initials: string | null;
+  detailBio: string;
+  expertise: string[];
+  highlights: HighlightRow[];
   published: boolean;
 };
 
@@ -75,6 +82,54 @@ export default function TeamForm({
           <span className="adm-hint">Fotoğrafsız kartlarda görünür.</span>
         </div>
       </div>
+
+      <fieldset className="adm-fieldset">
+        <legend>Hakkında sayfası</legend>
+        <span className="adm-hint" style={{ display: "block", marginBottom: 10 }}>
+          Detaylı tanıtım doldurulursa üyenin /ekibimiz altında kendi
+          &quot;Hakkında&quot; sayfası açılır; boş bırakılırsa kartta buton
+          görünmez.
+        </span>
+        <MarkdownField
+          name="detailBio"
+          label="Detaylı tanıtım (markdown)"
+          defaultValue={initialData?.detailBio ?? ""}
+        />
+        <div className="adm-field">
+          <label htmlFor="expertise">
+            Eğitim &amp; uzmanlık alanları (her satıra bir madde)
+          </label>
+          <textarea
+            id="expertise"
+            name="expertise"
+            defaultValue={(initialData?.expertise ?? []).join("\n")}
+            placeholder={"Liderlik\nSatış Becerileri\nEkip Yönetimi"}
+          />
+        </div>
+        <div className="adm-field">
+          <label>Öne çıkan sayılar</label>
+          <RepeatableList<HighlightRow>
+            name="highlights"
+            addLabel="+ Satır ekle"
+            initialItems={initialData?.highlights ?? []}
+            empty={{ label: "", value: "" }}
+            renderRow={(item, update) => (
+              <div className="adm-form-row">
+                <input
+                  placeholder="Değer (ör. 21.000+)"
+                  value={item.value}
+                  onChange={(e) => update({ value: e.target.value })}
+                />
+                <input
+                  placeholder="Etiket (ör. katılımcı)"
+                  value={item.label}
+                  onChange={(e) => update({ label: e.target.value })}
+                />
+              </div>
+            )}
+          />
+        </div>
+      </fieldset>
 
       <div className="adm-field">
         <label style={{ display: "flex", alignItems: "center", gap: 8 }}>

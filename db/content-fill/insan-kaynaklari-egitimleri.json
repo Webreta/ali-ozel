@@ -1,0 +1,759 @@
+{
+  "yetkinlik-bazli-mulakat-teknikleri": {
+    "seoTitle": "Yetkinlik Bazlı Mülakat Teknikleri Eğitimi | Kurumsal İK Programı",
+    "seoDescription": "İK profesyonelleri ve yöneticiler için yetkinlik bazlı mülakat eğitimi. STAR tekniği, mülakat hatalarından kaçınma, yetkinlik modelleme ve mülakat simülasyonları. Teklif alın.",
+    "heroQuote": "Doğru adayı seçmek; şansa değil, doğru soruya bağlıdır.",
+    "intro": [
+      "Yetkinlik bazlı mülakat; adayın ne söylediğine değil, geçmişte ne yaptığına odaklanır ve gelecekteki performansı çok daha güvenilir biçimde öngörür.",
+      "Bu eğitim; İK profesyonellerine ve işe alım yapan yöneticilere, yapılandırılmış ve objektif mülakat yürütme becerisi kazandırır. Tüm teknikler; uygulamalı simülasyonlarla ve gerçek mülakat senaryolarıyla pekiştirilir."
+    ],
+    "audience": "İşe alım süreçlerini yürüten İK uzmanları ve İK yöneticileri, ekibine eleman seçen departman yöneticileri, mülakatlarda daha objektif ve tutarlı karar vermek isteyen tüm işe alım paydaşları için uygundur.",
+    "sections": [
+      {
+        "title": "Yetkinlik Nedir?",
+        "intro": "Sağlam bir mülakat; net bir yetkinlik tanımıyla başlar. Bu bölümde yetkinlik kavramı ve pozisyona doğru yetkinliği eşleştirmenin mantığı ele alınır.",
+        "bullets": [
+          "Yetkinlik ile beceri arasındaki fark",
+          "Davranışsal göstergeler: Yetkinlik nasıl gözlemlenir?",
+          "Pozisyona göre kritik yetkinliklerin belirlenmesi"
+        ]
+      },
+      {
+        "title": "STAR Tekniği",
+        "intro": "Yetkinlik bazlı mülakatın omurgası STAR tekniğidir. Bu bölümde adayın geçmiş davranışını yapılandırılmış biçimde açığa çıkarma yöntemi uygulanır.",
+        "bullets": [
+          "Durum/Görev-Aksiyon-Sonuç yapısı",
+          "Ezber cevabı gerçek deneyimden ayırma",
+          "Derinleştirici sorularla eksik bilgiyi tamamlama"
+        ]
+      },
+      {
+        "title": "Mülakat Hataları",
+        "intro": "En deneyimli görüşmeci bile fark etmeden yanlı karar verebilir. Bu bölümde mülakatı bozan bilişsel tuzaklar ele alınır.",
+        "bullets": [
+          "İlk izlenim ve halo etkisi",
+          "Benzerlik yanlılığı: Kendine benzeyeni seçme",
+          "Yönlendirici sorular ve cevabı ele veren ifadeler"
+        ]
+      },
+      {
+        "title": "Mülakat Simülasyonları",
+        "intro": "Teknik; ancak uygulamayla yerleşir. Bu bölümde katılımcılar gerçek zamanlı mülakat pratiği yapar ve geri bildirim alır.",
+        "bullets": [
+          "Rol yapma ile canlı mülakat pratiği",
+          "Görüşmeci performansının değerlendirilmesi",
+          "Ekip halinde ortak değerlendirme yapma"
+        ]
+      },
+      {
+        "title": "Yetkinlik Modelleme",
+        "intro": "Sürdürülebilir işe alım; kuruma özel bir yetkinlik modeli gerektirir. Bu bölümde kurumun ihtiyacına göre model kurma çerçevesi kazandırılır.",
+        "bullets": [
+          "Kurumsal yetkinlik sözlüğü oluşturma",
+          "Rol bazlı yetkinlik profilleri çıkarma",
+          "Yetkinlik modelini işe alım süreçlerine bağlama"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Yetkinlik bazlı, yapılandırılmış mülakat yürütür",
+      "STAR tekniğiyle adayın gerçek deneyimini açığa çıkarır",
+      "Mülakat yanlılıklarını fark eder ve etkisini azaltır",
+      "Objektif ve karşılaştırılabilir değerlendirme yapar",
+      "Pozisyona uygun yetkinlik profili oluşturur"
+    ],
+    "format": [
+      {
+        "label": "Süre",
+        "value": "2 gün. (12 Saat)"
+      },
+      {
+        "label": "Format",
+        "value": "Şirket içi (in-house); sınıf formatı."
+      },
+      {
+        "label": "Yöntem",
+        "value": "Rol yapma egzersizleri, uygulama senaryoları, bireysel çalışma ve geri bildirim."
+      },
+      {
+        "label": "Katılımcı",
+        "value": "8–15 kişi"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim mevcut işe alım süreçlerimize uyarlanabilir mi?",
+        "a": "Evet. Mülakat yapıları ve yetkinlik modelleri; kurumunuzun pozisyonlarına ve mevcut işe alım akışına uygun biçimde uyarlanır."
+      },
+      {
+        "q": "Daha önce mülakat deneyimi olmayan yöneticiler de katılabilir mi?",
+        "a": "Evet. Eğitim; temel yetkinlik kavramından başlayarak ilerler ve mülakat simülasyonlarıyla uygulama pratiği kazandırdığı için işe alım sürecine yeni dahil olan yöneticiler için de uygundur."
+      }
+    ]
+  },
+  "profesyonel-on-boarding-surecleri": {
+    "seoTitle": "Profesyonel On-Boarding Süreçleri Eğitimi | İK Oryantasyon Programı",
+    "seoDescription": "İK ekipleri için profesyonel on-boarding ve oryantasyon eğitimi. İş görüşmesi rehberi oluşturma, doğru sorular, envanter kullanımı ve oryantasyon süreç yönetimi. Teklif alın.",
+    "heroQuote": "Yeni çalışanın ilk günleri; kalıcı olup olmayacağını büyük ölçüde belirler.",
+    "intro": [
+      "İyi tasarlanmış bir on-boarding; işe uyumu hızlandırır, erken ayrılmaları azaltır ve çalışanın bağlılığını en baştan güçlendirir.",
+      "Bu eğitim; İK ekiplerine, görüşme öncesinden oryantasyon sonrasına kadar tüm işe alıştırma sürecini profesyonelce yönetme becerisi kazandırır. Yaklaşım; uygulanabilir rehberler ve süreç şablonlarıyla desteklenir."
+    ],
+    "audience": "İşe alım ve oryantasyon süreçlerini yöneten İK uzmanları, yeni çalışan deneyimini iyileştirmek isteyen İK yöneticileri ve ekibine yeni katılanları hızlı uyumlandırmak isteyen yöneticiler için uygundur.",
+    "sections": [
+      {
+        "title": "Envanterler Nasıl Kullanılır?",
+        "intro": "Doğru işe alım kararı; sağlıklı verilerle güçlenir. Bu bölümde kişilik ve yetkinlik envanterlerinin süreçte doğru kullanımı ele alınır.",
+        "bullets": [
+          "Envanter sonuçlarını yorumlama",
+          "Envanteri karar aracı olarak değil, destek olarak kullanma",
+          "Envanter verisini görüşmeyle birleştirme"
+        ]
+      },
+      {
+        "title": "İş Görüşmesi Rehberi Oluşturma",
+        "intro": "Tutarlı görüşme; hazırlıklı bir rehber gerektirir. Bu bölümde pozisyona özel görüşme rehberi hazırlama çerçevesi kazandırılır.",
+        "bullets": [
+          "Tüm adaylar için genel sorular",
+          "Gelişim Alanları-Güçlü Yönler soruları",
+          "Yetkinlik Bazlı Sorular",
+          "STAR Tekniği",
+          "Sorulması ve kaçınılması gereken sorular",
+          "Mülakata hazırlık & Mülakatı açma & Mülakatı kapatma"
+        ]
+      },
+      {
+        "title": "Oryantasyon Süreçleri Yönetimi",
+        "intro": "İşe alım biter; uyum yeni başlar. Bu bölümde ilk gün, ilk hafta ve ilk ayı kapsayan yapılandırılmış oryantasyon yönetimi ele alınır.",
+        "bullets": [
+          "İşbaşı öncesi yapılacaklar listesi (Karşılamadan sistemlere erişme, ilk gün ulaşımı vs…)",
+          "Süreç yol haritası",
+          "Etkin oryantasyon takvimi",
+          "Oryantasyon programındaki sapmalar (hassas pozisyonlar, sektör tecrübeli adaylar vs…)",
+          "Kritik Noktalar (Deneme süresi bitmeden oryantasyonun tamamlanması gibi)",
+          "MY ve BY olarak farklı oryantasyon programları",
+          "Oryantasyon / İşbaşı eğitimi farkı",
+          "Oryantasyon başarısını ölçme ve iyileştirme",
+          "Oryantasyon değerlendirmelerinin raporlaştırılması"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Pozisyona özel iş görüşmesi rehberi oluşturur",
+      "Görüşmeyi profesyonelce açar ve kapatır",
+      "Yapılandırılmış bir işe alıştırma süreci tasarlar",
+      "Oryantasyonu işe alımın devamı, performans ve yetenek sisteminin bir girdisi olarak görür.",
+      "Yeni çalışan deneyimini ölçülebilir biçimde iyileştirir"
+    ],
+    "format": [
+      {
+        "label": "Süre",
+        "value": "2 gün. (12 Saat)"
+      },
+      {
+        "label": "Format",
+        "value": "Şirket içi (in-house); sınıf formatı."
+      },
+      {
+        "label": "Yöntem",
+        "value": "Rol yapma egzersizleri, uygulama senaryoları, bireysel çalışma ve geri bildirim."
+      },
+      {
+        "label": "Katılımcı",
+        "value": "8–15 kişi"
+      }
+    ],
+    "faq": [
+      {
+        "q": "On-boarding şablonları kurumumuza özel hazırlanır mı?",
+        "a": "Evet. Görüşme rehberleri ve oryantasyon akışları; kurumunuzun yapısına, pozisyonlarına ve işe alıştırma hedeflerine göre uyarlanır."
+      },
+      {
+        "q": "Mevcut bir oryantasyon programımız varsa eğitim bunun üzerine kurulabilir mi?",
+        "a": "Evet. Eğitimde mevcut oryantasyon akışınız birlikte değerlendirilir; süreç yol haritası, takvim ve ölçme adımları var olan programınızı iyileştirecek şekilde uyarlanır."
+      }
+    ]
+  },
+  "360-derece-degerlendirme": {
+    "seoTitle": "360 Derece Değerlendirme Eğitimi | Geri Bildirim ve Gelişim Planı",
+    "seoDescription": "İK profesyonelleri için 360 derece değerlendirme eğitimi. Sonuçların yorumlanması, geri bildirim oturumları yönetimi ve gelişim planı hazırlama. Kurumunuza özel teklif alın.",
+    "heroQuote": "İnsan; kendini yalnızca kendi gözünden göremez.",
+    "intro": [
+      "360 derece değerlendirme; çalışanın kendisi, yöneticisi, peer'leri (eş düzeydeki çalışanlar) ve yönettiği ekibin bakış açılarını bir araya getirerek çalışanın gelişim profilini bütüncül bir şekilde ortaya koyar.",
+      "Bu eğitim; İK profesyonellerine, 360 derece sürecini kurgulama, sonuçları doğru yorumlama ve gelişime dönüştürme becerisi kazandırır. Yaklaşım; savunmacılığı azaltan ve gelişimi merkeze alan bir çerçeveyle sunulur."
+    ],
+    "audience": "360 derece değerlendirme sürecini yürüten İK uzmanları ve yöneticileri, geri bildirim oturumlarını yönetecek İK iş ortakları ve çalışan gelişimini veriyle yönlendirmek isteyen yöneticiler için uygundur.",
+    "sections": [
+      {
+        "title": "360 Derece Sonuçlarının Yorumlanması",
+        "intro": "Rapor; tek başına anlam taşımaz. Bu bölümde 360 derece sonuçlarını doğru okuma ve öne çıkan örüntüleri anlamlandırma ele alınır.",
+        "bullets": [
+          "Öz değerlendirme ile başkalarının algısı arasındaki fark",
+          "Güçlü yönleri ve kör noktaları ayırt etme",
+          "Puan farklarını gelişim sinyaline dönüştürme"
+        ]
+      },
+      {
+        "title": "Geri Bildirim Oturumları",
+        "intro": "360 derecenin değeri; iyi yönetilen bir geri bildirim oturumunda ortaya çıkar. Bu bölümde sonuçları çalışanla paylaşma pratiği kazandırılır.",
+        "bullets": [
+          "Savunmacılığı azaltan konuşma yapısı",
+          "Zorlayıcı geri bildirimi yapıcı biçimde aktarma",
+          "Çalışanı kendi verisini yorumlamaya dahil etme"
+        ]
+      },
+      {
+        "title": "Gelişim Planı Hazırlama",
+        "intro": "Değerlendirme; eyleme dönüşmezse kağıtta kalır. Bu bölümde sonuçları somut bir gelişim planına bağlama çerçevesi ele alınır.",
+        "bullets": [
+          "Öncelikli 2-3 gelişim alanı seçme",
+          "Ölçülebilir gelişim hedefleri yazma",
+          "Gelişimi takip etme ve destekleme yapısı"
+        ]
+      }
+    ],
+    "outcomes": [
+      "360 derece sonuçlarını doğru yorumlar",
+      "Geri bildirim oturumlarını yapıcı biçimde yönetir",
+      "Güçlü yön ve kör noktaları ayırt eder",
+      "Sonuçları somut bir gelişim planına dönüştürür",
+      "Gelişimi ölçülebilir hedeflerle takip eder"
+    ],
+    "format": [
+      {
+        "label": "Süre",
+        "value": "1 gün. (6 Saat)"
+      },
+      {
+        "label": "Format",
+        "value": "Şirket içi (in-house); sınıf formatı."
+      },
+      {
+        "label": "Yöntem",
+        "value": "Rol yapma egzersizleri, uygulama senaryoları, bireysel çalışma ve geri bildirim."
+      },
+      {
+        "label": "Katılımcı",
+        "value": "8–20 kişi"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Eğitim kendi 360 derece aracımızla uyumlu olur mu?",
+        "a": "Evet. İçerik; kurumunuzun kullandığı değerlendirme aracına ve yetkinlik modeline göre uyarlanır."
+      },
+      {
+        "q": "Kurumumuzda daha önce 360 derece uygulaması yapılmadıysa bu eğitim uygun mu?",
+        "a": "Evet. Eğitim; süreci sıfırdan kurgulama adımlarını da kapsar ve ilk kez 360 derece değerlendirme uygulayacak kurumlar için sağlam bir başlangıç çerçevesi sunar."
+      }
+    ]
+  },
+  "yetenek-yonetimi": {
+    "seoTitle": "Yetenek Yönetimi Eğitimi | Yüksek Potansiyel ve Yedekleme Planı",
+    "seoDescription": "İK yöneticileri için yetenek yönetimi eğitimi. Yüksek potansiyel belirleme, 9 grid tablosu, yedekleme planları, kariyer yönetimi ve yetenek havuzu oluşturma. Teklif alın.",
+    "heroQuote": "Kurumun geleceği; bugün geliştirdiği yeteneklerle şekillenir.",
+    "intro": [
+      "Kritik rolleri bekleyene kadar değil, önceden hazırlanan bir yetenek havuzuyla doldurmak; sürdürülebilir başarının temelidir.",
+      "Bu eğitim; İK profesyonellerine, yüksek potansiyeli belirleme, yedekleme planı kurma ve kariyer yolları tasarlama becerisi kazandırır. Yaklaşım; kuruma uygulanabilir araçlar ve karar tablolarıyla desteklenir."
+    ],
+    "audience": "Yetenek yönetimi süreçlerini kuran İK yöneticileri ve uzmanları, yedekleme ve kariyer planlaması yapan İK iş ortakları ve ekibindeki potansiyeli geliştirmek isteyen üst düzey yöneticiler için uygundur.",
+    "sections": [
+      {
+        "title": "Performans Potansiyel İlişkisi",
+        "intro": "Yüksek performans; her zaman yüksek potansiyel demek değildir. Bu bölümde ikisini ayırt etme ve potansiyeli objektif belirleme ele alınır.",
+        "bullets": [
+          "Performans ve potansiyel arasındaki fark",
+          "Potansiyelin davranışsal göstergeleri",
+          "Yanlılıktan arınmış belirleme yaklaşımı"
+        ]
+      },
+      {
+        "title": "9 Grid Tablosu Oluşturma",
+        "intro": "Yeteneği görünür kılmak; ortak bir haritayla mümkündür. Bu bölümde performans-potansiyel matrisini kurma ve okuma uygulanır.",
+        "bullets": [
+          "9 kutu matrisini, efektif roundtable toplantılarıyla doğru konumlandırma",
+          "Her kutu için farklı gelişim stratejisi oluşturabilme",
+          "Kalibrasyon toplantısıyla ortak karar alma"
+        ]
+      },
+      {
+        "title": "Yedekleme Planları",
+        "intro": "Kritik roller boşaldığında kurum sarsılmamalıdır. Bu bölümde yedekleme planı kurma ve güncel tutma çerçevesi ele alınır.",
+        "bullets": [
+          "Kritik pozisyonları belirleme",
+          "Yedek adayların hazırlık seviyesini derecelendirme",
+          "Yedekleme planını oluşturma ve canlı tutma"
+        ]
+      },
+      {
+        "title": "Kariyer Yönetimi ve Yetenek Havuzu",
+        "intro": "Yetenek; net bir gelecek göremezse kurumdan ayrılır. Bu bölümde kariyer yolları tasarlama ve yetenek havuzu kurma ele alınır.",
+        "bullets": [
+          "Kariyer yolları ve terfi kriterleri tanımlama",
+          "Yetenek havuzu oluşturma ve besleme",
+          "Gelişim programlarını havuzla ilişkilendirme"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Yüksek potansiyeli objektif ölçütlerle belirler",
+      "Etkin bir roundtable ve kalibrasyon toplantısı gerçekleştirebilme",
+      "9 grid tablosunu kurar ve yorumlar",
+      "9 grid tablosuna göre kariyer gelişim planı yapar",
+      "Kritik roller için yedekleme planı hazırlar",
+      "Sürdürülebilir bir yetenek havuzu oluşturur"
+    ],
+    "format": [
+      {
+        "label": "Süre",
+        "value": "1 gün (6 saat)"
+      },
+      {
+        "label": "Format",
+        "value": "Şirket içi (in-house); sınıf formatı"
+      },
+      {
+        "label": "Yöntem",
+        "value": "Uygulama senaryoları, bireysel çalışma ve geri bildirim"
+      },
+      {
+        "label": "Katılımcı",
+        "value": "8–20 kişi"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Yetenek yönetimi modeli kurumumuza özel kurgulanır mı?",
+        "a": "Evet. 9 grid kriterleri, yedekleme kuralları ve kariyer yolları; kurumunuzun yapısına ve stratejik önceliklerine göre tasarlanır."
+      },
+      {
+        "q": "Eğitim sonrasında 9 grid çalışmasını kendi ekibimizle uygulayabilir miyiz?",
+        "a": "Evet. Eğitimde 9 kutu matrisini kurma, roundtable ve kalibrasyon toplantısı yürütme adımları uygulamalı olarak çalışıldığı için katılımcılar süreci kendi kurumlarında yürütecek donanımla ayrılır."
+      }
+    ]
+  },
+  "calisan-bagliligi": {
+    "seoTitle": "Çalışan Bağlılığı Eğitimi | Engagement ve Çalışan Deneyimi",
+    "seoDescription": "İK profesyonelleri için çalışan bağlılığı eğitimi. Engagement kavramı, çalışan deneyimi tasarımı, bağlılık anketi analizi ve aksiyon planı hazırlama. Teklif alın.",
+    "heroQuote": "Bağlı çalışan; işini yapan değil, işini sahiplenen çalışandır.",
+    "intro": [
+      "Bağlılık; maaşla değil, anlamlı iş, adil yönetim ve iyi bir çalışan deneyimiyle kurulur.",
+      "Bu eğitim; İK profesyonellerine, bağlılığı ölçme, çalışan deneyimini tasarlama ve anket sonuçlarını gerçek aksiyona dönüştürme becerisi kazandırır. Yaklaşım; veriye dayalı ve uygulanabilir bir çerçeveyle sunulur."
+    ],
+    "audience": "Çalışan bağlılığı süreçlerini yöneten İK uzmanları ve yöneticileri, çalışan deneyimini iyileştirmek isteyen İK iş ortakları ve ekibinin bağlılığını artırmak isteyen yöneticiler için uygundur.",
+    "sections": [
+      {
+        "title": "Bağlılık (Engagement) Nedir?",
+        "intro": "Bağlılık; memnuniyetten farklı bir kavramdır. Bu bölümde bağlılığın ne olduğu ve neyi etkilediği ele alınır.",
+        "bullets": [
+          "Bağlılık ile memnuniyet arasındaki fark",
+          "Bağlılığın performansa ve devir hızına etkisi",
+          "Bağlılığı besleyen temel etkenler"
+        ]
+      },
+      {
+        "title": "Çalışan Deneyimi Tasarımı",
+        "intro": "Bağlılık; tekil etkinliklerle değil, uçtan uca deneyimle kurulur. Bu bölümde çalışan yolculuğunu tasarlama çerçevesi kazandırılır.",
+        "bullets": [
+          "Çalışan yolculuğu haritası çıkarma",
+          "Kritik temas noktalarını iyileştirme",
+          "Küçük dokunuşlarla deneyimi güçlendirme"
+        ]
+      },
+      {
+        "title": "Anket Sonuçlarının Analizi",
+        "intro": "Anket; doğru okunmazsa yanıltır. Bu bölümde bağlılık anketi sonuçlarını anlamlandırma ele alınır.",
+        "bullets": [
+          "Skorların ötesine geçip örüntü okuma",
+          "Departman ve segment bazlı analiz",
+          "Öncelik alanlarını veriyle belirleme"
+        ]
+      },
+      {
+        "title": "Aksiyon Planı Hazırlama",
+        "intro": "Anketin en büyük riski; sonuçsuz kalmasıdır. Bu bölümde sonuçları somut aksiyona bağlama ele alınır.",
+        "bullets": [
+          "Sonuçları çalışanlarla paylaşma",
+          "Önceliklendirilmiş aksiyon planı yazma",
+          "Aksiyonların etkisini takip etme"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Bağlılık ile memnuniyeti ayırt eder",
+      "Uçtan uca çalışan deneyimi tasarlar",
+      "Bağlılık anketi sonuçlarını doğru analiz eder",
+      "Sonuçları önceliklendirilmiş aksiyon planına dönüştürür",
+      "Aksiyonların etkisini ölçer ve iyileştirir"
+    ],
+    "format": [
+      {
+        "label": "Süre",
+        "value": "1 gün (6 saat)"
+      },
+      {
+        "label": "Format",
+        "value": "Şirket içi (in-house); sınıf formatı"
+      },
+      {
+        "label": "Yöntem",
+        "value": "Uygulama senaryoları, bireysel çalışma ve geri bildirim"
+      },
+      {
+        "label": "Katılımcı",
+        "value": "8–20 kişi"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Eğitim mevcut bağlılık anketimizle bütünleşir mi?",
+        "a": "Evet. Analiz ve aksiyon çerçevesi; kurumunuzun kullandığı anket yapısına ve bağlılık verisine göre uyarlanır."
+      },
+      {
+        "q": "Kurumumuzda henüz bağlılık anketi yoksa eğitim yine de faydalı olur mu?",
+        "a": "Evet. Eğitim; bağlılık kavramını, çalışan deneyimi tasarımını ve ölçüm çerçevesini temelden ele aldığı için bağlılık sürecini yeni kuracak kurumlar için de sağlam bir başlangıç sunar."
+      }
+    ]
+  },
+  "ik-analitigi": {
+    "seoTitle": "İK Analitiği Eğitimi | HR Metrics, Dashboard ve Veri Hikayeleştirme",
+    "seoDescription": "İK profesyonelleri için İK analitiği eğitimi. HR metrics, dashboard tasarımı, veri hikayeleştirme ve karar destek raporları hazırlama. Kurumunuza özel teklif alın.",
+    "heroQuote": "İK; artık yalnızca hisle değil, veriyle konuşmak zorunda.",
+    "intro": [
+      "Doğru metrikler; işe alımdan devir hızına kadar her kararı sağlamlaştırır ve İK'yı yönetim masasında güçlü kılar.",
+      "Bu eğitim; İK profesyonellerine, doğru metrikleri seçme, anlaşılır dashboard kurma ve veriyi karar verdiren bir hikayeye dönüştürme becerisi kazandırır. Yaklaşım; uygulamalı örneklerle desteklenir."
+    ],
+    "audience": "İK verisini raporlayan ve yorumlayan İK uzmanları, karar destek raporları hazırlayan İK yöneticileri ve İK'yı veriyle yönetmek isteyen tüm İK paydaşları için uygundur.",
+    "sections": [
+      {
+        "title": "İK Metrikleri",
+        "intro": "Her sayı; metrik değildir. Bu bölümde kurumun kararlarını gerçekten etkileyen İK metriklerini seçme ele alınır.",
+        "bullets": [
+          "Temel İK metrikleri ve neyi ölçtükleri bilme",
+          "Vanity metrik ile karar veren metriği ayırma",
+          "Metrikleri iş hedefleriyle ilişkilendirme"
+        ]
+      },
+      {
+        "title": "Dashboard Tasarımı",
+        "intro": "İyi bir dashboard; bakışta anlaşılır. Bu bölümde sade ve karar odaklı gösterge paneli tasarlama çerçevesi kazandırılır.",
+        "bullets": [
+          "Hedef kitleye göre gösterge seçimi",
+          "Gürültüyü azaltan sade görselleştirme",
+          "Trendi ve sapmayı öne çıkarma"
+        ]
+      },
+      {
+        "title": "Veri Hikayeleştirme",
+        "intro": "Veri; ancak bir hikayeyle ikna eder. Bu bölümde sayıları anlamlı bir anlatıya dönüştürme ele alınır.",
+        "bullets": [
+          "Bulgudan mesaja: Ne söylemek istiyorum?",
+          "Bağlam ve karşılaştırmayla anlam kazandırma",
+          "Karar önerisiyle sonuçlandırma"
+        ]
+      },
+      {
+        "title": "Karar Destek Raporları Hazırlama",
+        "intro": "Yönetim; rapor değil, karar bekler. Bu bölümde yönetime yön veren karar destek raporu hazırlama uygulanır.",
+        "bullets": [
+          "Yönetim sunumları için özet-önce yapı",
+          "Bulgu, sebep ve öneriyi net ayırma",
+          "Aksiyona çağıran bir kapanış kurma"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Karar veren İK metriklerini seçer",
+      "Sade ve etkili dashboard tasarlar",
+      "Veriyi ikna eden bir hikayeye dönüştürür",
+      "Yönetime karar destek raporu hazırlar",
+      "İK'yı veriyle güçlü biçimde temsil eder"
+    ],
+    "format": [
+      {
+        "label": "Süre",
+        "value": "2 gün (12 saat)"
+      },
+      {
+        "label": "Format",
+        "value": "Şirket içi (in-house); sınıf formatı"
+      },
+      {
+        "label": "Yöntem",
+        "value": "Workshop çalışması, sunum simulasyonu, uygulama senaryoları, bireysel çalışma ve geri bildirim"
+      },
+      {
+        "label": "Katılımcı",
+        "value": "8–20 kişi"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Eğitimde kendi İK verimizle çalışabilir miyiz?",
+        "a": "Evet. Örnekler ve dashboard çalışmaları; kurumunuzun metriklerine ve raporlama ihtiyacına göre uyarlanabilir."
+      },
+      {
+        "q": "Eğitime katılmak için ileri düzey istatistik veya araç bilgisi gerekiyor mu?",
+        "a": "Hayır. Eğitim; metrik seçimi, dashboard tasarımı ve veri hikayeleştirme gibi kavramsal ve uygulamalı becerilere odaklanır; temel Excel/raporlama deneyimi yeterlidir."
+      }
+    ]
+  },
+  "etkili-geri-bildirim-verme-ve-alma": {
+    "seoTitle": "Etkili Geri Bildirim Verme ve Alma Eğitimi | Kurumsal Program",
+    "seoDescription": "Kurumsal ekipler için etkili geri bildirim eğitimi. Geri bildirim kültürü, psikolojik güvenli ortam, açık iletişim ve sürekli gelişim yaklaşımı. Kurumunuza özel teklif alın.",
+    "heroQuote": "Geri bildirim; suçlamak değil, birlikte gelişmektir.",
+    "intro": [
+      "Verildiğinde ve alındığında doğru işleyen bir geri bildirim; güveni büyütür, sorunları küçükken çözer ve ekibi hızla ileri taşır.",
+      "Bu eğitim; ekiplere, hem geri bildirim vermeyi hem de savunmaya geçmeden almayı öğretir. Yaklaşım; psikolojik güvenliği merkeze alan ve günlük çalışmada uygulanabilir bir çerçeveyle sunulur."
+    ],
+    "audience": "Ekip içi iletişimi güçlendirmek isteyen tüm çalışanlar ve yöneticiler, geri bildirim kültürünü kurmak isteyen ekip liderleri ve açık iletişimi kuruma yaymak isteyen İK profesyonelleri için uygundur.",
+    "sections": [
+      {
+        "title": "Geri Bildirim Kültürü Oluşturma",
+        "intro": "Geri bildirim; tek seferlik olay değil, bir alışkanlıktır. Bu bölümde geri bildirimi günlük çalışmanın parçası yapma ele alınır.",
+        "bullets": [
+          "Geri bildirimi periyodik ve doğal hale getirme",
+          "Geri bildirimde yöneticinin rol model duruşu",
+          "Küçük ve sık geri bildirimin gücü"
+        ]
+      },
+      {
+        "title": "Psikolojik Güvenlikli Çalışma Ortamı",
+        "intro": "Geri bildirim ancak güvenli hissedilen ortamda işler. Bu bölümde psikolojik güvenliğin temelleri ele alınır.",
+        "bullets": [
+          "Psikolojik güvenlik nedir, ne değildir?",
+          "Hatanın suçlama değil, öğrenme fırsatı sayıldığı ekip ortamı kurma"
+        ]
+      },
+      {
+        "title": "Açık İletişim Kültürü",
+        "intro": "Açık iletişim; kabalık değil, netlik ve saygıdır. Bu bölümde dürüst ama yıkıcı olmayan iletişim kurma çerçevesi kazandırılır.",
+        "bullets": [
+          "Net olmak ile kırıcı olmak arasındaki fark",
+          "Zor konuları erteleme yerine yönetme",
+          "Karşılıklı dinleme ve doğrulama"
+        ]
+      },
+      {
+        "title": "Sürekli Gelişim Yaklaşımı",
+        "intro": "Geri bildirim; gelişimi hedeflediğinde anlam kazanır. Bu bölümde geri bildirimi kalıcı gelişime bağlama ele alınır.",
+        "bullets": [
+          "Geri bildirimi eyleme dönüştürme",
+          "Gelişimi birlikte takip etme",
+          "İlerlemeyi görünür kılma ve pekiştirme"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Geri bildirimi objektif bir bakış açısıyla ele alır ve gelişimine yansıtır.",
+      "Geri bildirim metodolojisini öğrenir.",
+      "Ekipte geri bildirim kültürü oluşturur",
+      "Psikolojik güvenlikli bir ortam kurar",
+      "Geri bildirimi sürekli gelişime bağlar"
+    ],
+    "format": [
+      {
+        "label": "Süre",
+        "value": "2 gün (12 saat)"
+      },
+      {
+        "label": "Format",
+        "value": "Şirket içi (in-house); sınıf formatı."
+      },
+      {
+        "label": "Yöntem",
+        "value": "Rol yapma egzersizleri, uygulama senaryoları, bireysel çalışma ve geri bildirim."
+      },
+      {
+        "label": "Katılımcı",
+        "value": "8–15 kişi"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Bu eğitim hem yöneticiler hem çalışanlar için uygun mu?",
+        "a": "Evet. İçerik; karma ekipler için tasarlanabilir; hem geri bildirim veren hem alan tarafı kapsar ve kurumun kültürüne göre uyarlanır."
+      },
+      {
+        "q": "Eğitim içeriği kurumumuza özel uyarlanabilir mi?",
+        "a": "Evet. Rol yapma egzersizleri ve uygulama senaryoları; kurumunuzun gerçek geri bildirim durumlarına göre özelleştirilir, böylece katılımcılar öğrendiklerini günlük çalışmalarına doğrudan taşır."
+      }
+    ]
+  },
+  "etkili-sunum-teknikleri": {
+    "seoTitle": "Etkili Sunum Teknikleri Eğitimi | Kurumsal Sunum Becerileri",
+    "seoDescription": "Profesyoneller için etkili sunum teknikleri eğitimi. Sunum planlama, içerik tasarımı, veri hikayeleştirme, beden dili ve soru-cevap yönetimi. Kurumunuza özel teklif alın.",
+    "heroQuote": "İyi bir fikir; kötü sunulduğunda kaybolur.",
+    "intro": [
+      "Etkili sunum; mesajı net kurmak, dinleyiciyi bağlamak ve akılda kalıcı bir izlenim bırakmaktır.",
+      "Bu eğitim; profesyonellere, sunumu planlamaktan sahnede durmaya kadar tüm süreci güçlü yönetme becerisi kazandırır. Yaklaşım; bol uygulama ve video analiziyle desteklenir."
+    ],
+    "audience": "İç ve dış sunum yapan tüm profesyoneller, yönetime rapor sunan uzman ve yöneticiler ve sahne önü özgüvenini geliştirmek isteyen tüm çalışanlar için uygundur.",
+    "sections": [
+      {
+        "title": "Sunum Planlama ve Hazırlık",
+        "intro": "Güçlü sunum; slayttan önce kurgulanır. Bu bölümde sunumu hedefe göre planlama ele alınır.",
+        "bullets": [
+          "Sunumun amacını ve ana mesajını netleştirme",
+          "Dinleyiciyi tanıma ve içeriği ona göre kurma",
+          "Zaman ve akış planı çıkarma"
+        ]
+      },
+      {
+        "title": "İçerik Tasarımı ve Görsel Tasarım",
+        "intro": "Slayt; konuşmacının yerine geçmez, ona yardım eder. Bu bölümde sade ve etkili slayt tasarlama çerçevesi kazandırılır.",
+        "bullets": [
+          "Az ile çok anlatma: Slayt sadeliği",
+          "Veri hikayeleştirme: Sayıyı anlama dönüştürme",
+          "Görsel hiyerarşi ve okunabilirlik"
+        ]
+      },
+      {
+        "title": "Beden Dili ve Ses Kullanımı",
+        "intro": "Mesajın büyük kısmı; kelimelerle değil, duruşla iletilir. Bu bölümde sahnedeki beden dili ve ses kontrolü uygulanır.",
+        "bullets": [
+          "Duruş, göz teması ve jestler",
+          "Parazit sesler ve dolgu kelimelerden kaçınma",
+          "Vurgu ve tempoyla dikkat yönetimi"
+        ]
+      },
+      {
+        "title": "Soru-Cevap Yönetimi",
+        "intro": "Sunum; son slaytla bitmez. Bu bölümde soruları kontrolü kaybetmeden yönetme ele alınır.",
+        "bullets": [
+          "Zor soruları sakin karşılama",
+          "Bilinmeyen soruyu dürüstçe yönetme",
+          "Soru-cevabı mesajı pekiştirmek için kullanma"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Sunumu hedefe göre planlar ve kurgular",
+      "Sade ve etkili slaytlar tasarlar",
+      "Veriyi anlaşılır bir hikayeye dönüştürür",
+      "Beden dilini ve sesini bilinçli kullanır",
+      "Soru-cevap bölümünü güvenle yönetir"
+    ],
+    "format": [
+      {
+        "label": "Süre",
+        "value": "2 gün (12 saat)"
+      },
+      {
+        "label": "Format",
+        "value": "Şirket içi (in-house); sınıf formatı."
+      },
+      {
+        "label": "Yöntem",
+        "value": "Sunum simülasyonu, uygulama senaryoları, bireysel çalışma ve geri bildirim."
+      },
+      {
+        "label": "Katılımcı",
+        "value": "8–15 kişi"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Katılımcılar kendi sunumları üzerinde çalışabilir mi?",
+        "a": "Evet. Eğitim; katılımcıların gerçek sunumları üzerinden uygulama ve geri bildirim içerecek biçimde uyarlanabilir."
+      },
+      {
+        "q": "Sunum deneyimi az olan katılımcılar için uygun mu?",
+        "a": "Evet. Eğitim; sunum planlamadan beden dili ve soru-cevap yönetimine kadar temelden ilerler; sunum simülasyonları ve bireysel geri bildirimle her seviyedeki katılımcının sahne önü özgüvenini geliştirir."
+      }
+    ]
+  },
+  "performans-yonetimi-sistemi-kurulumu": {
+    "seoTitle": "Performans Yönetimi Sistemi Kurulumu Eğitimi | KPI ve OKR",
+    "seoDescription": "Yöneticiler için performans yönetimi sistemi kurulumu eğitimi. Hedef belirleme, KPI ve OKR yazma workshopu, performans görüşmeleri ve düşük performans yönetimi. Teklif alın.",
+    "heroQuote": "Ölçülmeyen performans; yönetilemez.",
+    "intro": [
+      "İyi kurulmuş bir performans sistemi; herkesin ne beklendiğini bilmesini sağlar, adaleti güçlendirir ve sonuçları görünür kılar.",
+      "Bu eğitim; yöneticilere ve İK'ya, hedef belirlemeden performans görüşmesine kadar tüm sistemi kurma ve işletme becerisi kazandırır. Yaklaşım; uygulamalı workshoplarla desteklenir."
+    ],
+    "audience": "Performans sistemi kuran veya iyileştiren İK profesyonelleri, ekibinin performansını yöneten tüm yöneticiler ve hedef ve değerlendirme süreçlerini sahiplenmek isteyen liderler için uygundur.",
+    "sections": [
+      {
+        "title": "Etkili Hedef Belirleme / SMART Hedef Yazımı",
+        "intro": "Mevcutta sistem olup olmamasına göre farklı eğitim içerikleri hazırlanır.",
+        "bullets": [
+          "KPI / OKR Yazma Workshopu",
+          "Kurum hedefini ekip ve birey hedefine indirme"
+        ]
+      },
+      {
+        "title": "Performans Görüşmeleri Yönetimi Eğitimi",
+        "intro": "Sistem; iyi görüşmeyle hayat bulur. Bu bölümde performans görüşmesini yapıcı yürütme çerçevesi kazandırılır.",
+        "bullets": [
+          "Görüşmeye hazırlık ve veri toplama",
+          "Değerlendirmeyi gelişimle birleştirme",
+          "Görüşmeyi taahhüt ve takiple kapatma"
+        ]
+      },
+      {
+        "title": "Düşük Performans Yönetimi",
+        "intro": "Düşük performans; cezayla değil, yapılandırılmış bir gelişim planıyla yönetilir.",
+        "bullets": [
+          "Düşük performansın kök nedenlerini analiz etme",
+          "Gelişim Aksiyon Planları Oluşturma"
+        ]
+      },
+      {
+        "title": "Proje Stratejisi ve Süresi",
+        "intro": "Süre ≈ 1 ay",
+        "bullets": [
+          "İhtiyaç Analizi ≈ 1 Adam/Saat",
+          "Dönüşüm sürecinin tüm çalışanlarla paylaşımı",
+          "Yazılım ihtiyacının netleştirilmesi ≈ 15 gün içinde tüm denemeler İK ekibi tarafından yapılır",
+          "Uygun yazılım seçimi",
+          "Demo çalışmaları",
+          "Parametrelerin test edilmesi",
+          "Metodolojiyi anlama ve aktarma",
+          "Paralelde yönetim ekibine geri bildirim eğitimi organizasyonu ≈ 1 gün (6 saat)",
+          "Kurulum ve çalışanların eğitimi ≈ 1 gün",
+          "Hedef yazma atölye eğitimleri ≈ 7 gün içinde İK ekibi tarafından belirlenen oturumlarla workshop'lar tamamlanır",
+          "Canlıya alma"
+        ]
+      }
+    ],
+    "outcomes": [
+      "Net ve ölçülebilir hedefler belirler",
+      "KPI/OKR'ı doğru kurgular ve yazar",
+      "Performans görüşmelerini yapıcı yönetir",
+      "Düşük performansı adil biçimde ele alır",
+      "Sürdürülebilir bir performans sistemi kurulur."
+    ],
+    "format": [
+      {
+        "label": "Süre",
+        "value": "≈ 1 ay"
+      },
+      {
+        "label": "Format",
+        "value": "Şirket içi (in-house); sınıf formatı + online eğitimler."
+      },
+      {
+        "label": "Yöntem",
+        "value": "Proje bazlı çalışma, uygulama senaryoları, bireysel çalışma ve geri bildirim."
+      },
+      {
+        "label": "Katılımcı",
+        "value": "Tüm çalışanlar"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Sistem mevcut performans sürecimize entegre edilebilir mi?",
+        "a": "Evet. Hedef yapıları, KPI/OKR ve görüşme akışları; kurumunuzun mevcut performans süreçleriyle uyumlu biçimde uyarlanır."
+      },
+      {
+        "q": "Mevcutta bir performans sistemi var ise süreci daha iyi yönetmek adına sadece eğitim ya da workshop hizmetlerinden faydalanabilir miyiz?",
+        "a": "Evet. Mevcut sisteminiz ile uyumlu olacak şekilde eğitim kurgusunda güncellemeler yapılarak kurumunuza özgü eğitim tasarlanır."
+      },
+      {
+        "q": "Sıfırdan sistem kurulumu yapılabilir mi?",
+        "a": "Evet. Hiçbir performans sistemi kullanmıyorsanız da yeni sistem oluşturabilir."
+      }
+    ]
+  }
+}

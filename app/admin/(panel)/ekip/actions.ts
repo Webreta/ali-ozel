@@ -7,6 +7,7 @@ import { z } from "zod";
 import { db } from "@/db";
 import { teamMembers } from "@/db/schema";
 import { requireUser } from "@/lib/auth/session";
+import { slugify } from "@/lib/slug";
 
 export type TeamFormState = {
   error?: string;
@@ -19,12 +20,29 @@ const teamSchema = z.object({
   bio: z.string().trim().min(10, "Kısa bir tanıtım yazın").max(2000),
   photo: z.string().trim().max(500).optional().or(z.literal("")),
   initials: z.string().trim().max(4).optional().or(z.literal("")),
+  detailBio: z.string().trim().max(40000).optional().or(z.literal("")),
+  expertise: z
+    .string()
+    .transform((s) => s.split("\n").map((l) => l.trim()).filter(Boolean)),
+  highlights: z
+    .string()
+    .transform((s, ctx) => {
+      try {
+        return JSON.parse(s || "[]");
+      } catch {
+        ctx.addIssue({ code: "custom", message: "Geçersiz veri" });
+        return z.NEVER;
+      }
+    })
+    .pipe(z.array(z.object({ label: z.string().trim(), value: z.string().trim() })))
+    .transform((rows) => rows.filter((r) => r.label && r.value)),
   published: z.coerce.boolean(),
 });
 
 function revalidateTeam() {
   revalidateTag("team");
   revalidatePath("/ekibimiz");
+  revalidatePath("/ekibimiz/[slug]", "page");
   revalidatePath("/admin/ekip");
 }
 
@@ -35,8 +53,26 @@ function parseForm(formData: FormData) {
     bio: formData.get("bio"),
     photo: formData.get("photo"),
     initials: formData.get("initials"),
+    detailBio: formData.get("detailBio") ?? "",
+    expertise: formData.get("expertise") ?? "",
+    highlights: formData.get("highlights") ?? "[]",
     published: formData.get("published") === "on",
   });
+}
+
+/** Ad çakışırsa -2, -3... ekleyerek benzersiz slug üretir */
+async function uniqueMemberSlug(name: string) {
+  const base = slugify(name);
+  let slug = base;
+  for (let i = 2; ; i++) {
+    const [existing] = await db
+      .select({ id: teamMembers.id })
+      .from(teamMembers)
+      .where(eq(teamMembers.slug, slug))
+      .limit(1);
+    if (!existing) return slug;
+    slug = `${base}-${i}`;
+  }
 }
 
 function fieldErrors(error: z.ZodError): Record<string, string> {
@@ -61,11 +97,15 @@ export async function createMember(
     .select({ max: sql<number>`coalesce(max(${teamMembers.sortOrder}), -1)` })
     .from(teamMembers);
   await db.insert(teamMembers).values({
+    slug: await uniqueMemberSlug(d.name),
     name: d.name,
     roleTitle: d.roleTitle,
     bio: d.bio,
     photo: d.photo || null,
     initials: d.initials || null,
+    detailBio: d.detailBio || "",
+    expertise: d.expertise,
+    highlights: d.highlights,
     published: d.published,
     sortOrder: max + 1,
   });
@@ -83,14 +123,24 @@ export async function updateMember(
   if (!parsed.success) return { fieldErrors: fieldErrors(parsed.error) };
 
   const d = parsed.data;
+  // Slug OLUŞTURULDUĞU GİBİ KALIR (SEO); slug'sız eski kayda bir kez üretilir
+  const [current] = await db
+    .select({ slug: teamMembers.slug })
+    .from(teamMembers)
+    .where(eq(teamMembers.id, id))
+    .limit(1);
   await db
     .update(teamMembers)
     .set({
+      slug: current?.slug ?? (await uniqueMemberSlug(d.name)),
       name: d.name,
       roleTitle: d.roleTitle,
       bio: d.bio,
       photo: d.photo || null,
       initials: d.initials || null,
+      detailBio: d.detailBio || "",
+      expertise: d.expertise,
+      highlights: d.highlights,
       published: d.published,
       updatedAt: new Date(),
     })

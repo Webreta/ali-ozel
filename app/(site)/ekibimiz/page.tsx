@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import Icon from "@/components/Icon";
 import CTA from "@/components/CTA";
@@ -16,9 +17,12 @@ type Member = {
   bio: string;
   photo: string | null;
   initials: string | null;
+  slug: string | null;
+  detailBio: string;
 };
 
 function MemberCard({ m, lead = false }: { m: Member; lead?: boolean }) {
+  const hasDetail = Boolean(m.slug && m.detailBio);
   return (
     <div className={`member-card${lead ? " member-lead" : ""}`}>
       <div className="member-photo">
@@ -33,13 +37,15 @@ function MemberCard({ m, lead = false }: { m: Member; lead?: boolean }) {
         <span className="member-role">{m.roleTitle}</span>
         <h3 className="member-name">{m.name}</h3>
         <p className="member-bio">{m.bio}</p>
-        <button
-          type="button"
-          className={`btn member-btn${lead ? " btn-primary" : " btn-outline"}`}
-        >
-          Hakkında
-          <Icon name="arrow-right" />
-        </button>
+        {hasDetail ? (
+          <Link
+            href={`/ekibimiz/${m.slug}`}
+            className={`btn member-btn${lead ? " btn-primary" : " btn-outline"}`}
+          >
+            Hakkında
+            <Icon name="arrow-right" />
+          </Link>
+        ) : null}
       </div>
     </div>
   );

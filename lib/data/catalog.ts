@@ -31,6 +31,7 @@ export const getCatalog = unstable_cache(
       tagline: cat.tagline,
       summary: cat.summary,
       forWhom: cat.forWhom,
+      heroImages: cat.heroImages,
       trainings: cat.trainings
         .filter((t) => t.published)
         .map(

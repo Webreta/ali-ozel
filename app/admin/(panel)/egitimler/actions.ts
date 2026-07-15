@@ -34,6 +34,16 @@ function fieldErrors(error: z.ZodError): Record<string, string> {
 
 // ---------- Kategori ----------
 
+const jsonField = <T extends z.ZodTypeAny>(schema: T) =>
+  z.string().transform((s, ctx) => {
+    try {
+      return JSON.parse(s || "[]");
+    } catch {
+      ctx.addIssue({ code: "custom", message: "Geçersiz veri" });
+      return z.NEVER;
+    }
+  }).pipe(schema);
+
 const categorySchema = z.object({
   name: z.string().trim().min(3, "Kategori adı gerekli").max(200),
   shortName: z.string().trim().min(2, "Kısa ad gerekli").max(100),
@@ -43,6 +53,8 @@ const categorySchema = z.object({
   forWhom: z
     .string()
     .transform((s) => s.split("\n").map((l) => l.trim()).filter(Boolean)),
+  heroImages: jsonField(z.array(z.object({ src: z.string() })))
+    .transform((rows) => rows.map((r) => r.src.trim()).filter(Boolean)),
   published: z.coerce.boolean(),
 });
 
@@ -54,6 +66,7 @@ function parseCategoryForm(formData: FormData) {
     tagline: formData.get("tagline"),
     summary: formData.get("summary"),
     forWhom: formData.get("forWhom") ?? "",
+    heroImages: formData.get("heroImages") ?? "[]",
     published: formData.get("published") === "on",
   });
 }
@@ -147,16 +160,6 @@ const sectionSchema = z.object({
 });
 const faqSchema = z.object({ q: z.string().trim().min(1), a: z.string().trim().min(1) });
 const formatSchema = z.object({ label: z.string().trim().min(1), value: z.string().trim().min(1) });
-
-const jsonField = <T extends z.ZodTypeAny>(schema: T) =>
-  z.string().transform((s, ctx) => {
-    try {
-      return JSON.parse(s || "[]");
-    } catch {
-      ctx.addIssue({ code: "custom", message: "Geçersiz veri" });
-      return z.NEVER;
-    }
-  }).pipe(schema);
 
 const trainingSchema = z.object({
   title: z.string().trim().min(3, "Eğitim adı gerekli").max(300),

@@ -183,7 +183,7 @@ export default async function TrainingPage({
               <div style={{ marginTop: 44 }}>
                 <span className="eyebrow">Kazanımlar</span>
                 <h2 className="section-title" style={{ marginBottom: 22 }}>
-                  Bu eğitimin sonunda ekibiniz
+                  Bu eğitimin sonunda ekibiniz:
                 </h2>
                 <div className="outcome-grid">
                   {p.outcomes.map((o, i) => (
