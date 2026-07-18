@@ -2,29 +2,40 @@
 
 import { useRef, useState } from "react";
 
-type GalleryImage = { src: string; alt: string };
-type WithKey = GalleryImage & { _key: string };
+type GalleryImage = { src: string } & Record<string, string>;
+type WithKey = { src: string; text: string; _key: string };
 
 /**
  * Galeri bölümü için çoklu görsel yükleyici. Birden çok dosya seçilebilir /
  * sürüklenebilir; her dosya sırayla /api/admin/upload'a gider. Güncel liste
- * tek bir hidden input'ta JSON olarak taşınır ({src, alt}[]).
+ * tek bir hidden input'ta JSON olarak taşınır ({src, [textKey]}[] —
+ * galeri modülünde alt, eğitim notlarında caption).
  */
 export default function GalleryImagesField({
   name,
   initialItems,
+  textKey = "alt",
+  textPlaceholder = "Alt yazı (isteğe bağlı)",
 }: {
   name: string;
   initialItems: GalleryImage[];
+  textKey?: string;
+  textPlaceholder?: string;
 }) {
   const [items, setItems] = useState<WithKey[]>(() =>
-    initialItems.map((i) => ({ ...i, _key: crypto.randomUUID() }))
+    initialItems.map((i) => ({
+      src: i.src,
+      text: i[textKey] ?? "",
+      _key: crypto.randomUUID(),
+    }))
   );
   const [busy, setBusy] = useState(0); // yüklenmekte olan dosya sayısı
   const [error, setError] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const serialized = JSON.stringify(items.map(({ _key, ...rest }) => rest));
+  const serialized = JSON.stringify(
+    items.map(({ src, text }) => ({ src, [textKey]: text }))
+  );
 
   async function uploadFiles(files: FileList | File[]) {
     setError("");
@@ -40,7 +51,7 @@ export default function GalleryImagesField({
         if (!res.ok) throw new Error(data.error ?? "Yükleme başarısız");
         setItems((prev) => [
           ...prev,
-          { src: data.url, alt: "", _key: crypto.randomUUID() },
+          { src: data.url, text: "", _key: crypto.randomUUID() },
         ]);
       } catch (e) {
         setError(
@@ -117,12 +128,12 @@ export default function GalleryImagesField({
               />
               <input
                 type="text"
-                placeholder="Alt yazı (isteğe bağlı)"
-                value={item.alt}
+                placeholder={textPlaceholder}
+                value={item.text}
                 onChange={(e) =>
                   setItems((prev) =>
                     prev.map((p) =>
-                      p._key === item._key ? { ...p, alt: e.target.value } : p
+                      p._key === item._key ? { ...p, text: e.target.value } : p
                     )
                   )
                 }

@@ -2,10 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { site } from "@/lib/site";
 import { getCatalog } from "@/lib/data/catalog";
+import { getLegalPages } from "@/lib/data/legal";
 import Icon from "./Icon";
 
 export default async function Footer() {
-  const categories = await getCatalog();
+  const [categories, legal] = await Promise.all([getCatalog(), getLegalPages()]);
   const year = 2026;
   return (
     <footer className="site-footer">
@@ -55,7 +56,7 @@ export default async function Footer() {
         <div className="footer-divider" />
 
         {/* link kolonları */}
-        <div className="footer-nav">
+        <div className={`footer-nav${legal.length ? " has-legal" : ""}`}>
           <div className="footer-col footer-col-wide">
             <h5>Eğitimler</h5>
             <div className="footer-links-grid">
@@ -74,6 +75,16 @@ export default async function Footer() {
             <Link href="/blog">Blog</Link>
             <Link href="/galeri">Galeri</Link>
           </div>
+          {legal.length > 0 ? (
+            <div className="footer-col">
+              <h5>Yasal Metinler</h5>
+              {legal.map((p) => (
+                <Link key={p.slug} href={`/yasal/${p.slug}`}>
+                  {p.title}
+                </Link>
+              ))}
+            </div>
+          ) : null}
           <div className="footer-col">
             <h5>İletişim</h5>
             <span className="footer-loc">

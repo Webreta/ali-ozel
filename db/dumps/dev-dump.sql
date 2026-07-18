@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict Ex7IAkDszBIFFzYTTLVU3YOcXncCCQXtoaiXM66zxsDKQ6qhDG8PhcxdScF4LUa
+\restrict lmdhc7Vowy8JJS2fG2DjUMnzBIHXxDPT1DVGMWeUeePuhSyVnSYoYTFEOzl9Xwv
 
 -- Dumped from database version 17.10
 -- Dumped by pg_dump version 17.10
@@ -998,68 +998,78 @@ COPY public.categories (id, slug, name, short_name, icon, tagline, summary, for_
 --
 
 COPY public.gallery_images (id, section_id, src, alt, sort_order, created_at) FROM stdin;
-1	1	/uploads/images/3a4c1421-54f1-4101-b353-45c464296e25.webp	\N	0	2026-07-15 10:12:04.787106+00
-2	1	/uploads/images/4c9a18f6-b5fb-4bd6-9d63-9469ce1c0dee.webp	\N	1	2026-07-15 10:12:04.9885+00
-3	1	/uploads/images/2420ae4b-79d0-4a0c-9652-78253fc97f19.webp	\N	2	2026-07-15 10:12:05.356571+00
-4	1	/uploads/images/33e36399-1ab2-41a9-b338-787d8e810903.webp	\N	3	2026-07-15 10:12:05.587993+00
-5	1	/uploads/images/2efa6478-4618-4209-84cb-0a5dbec4f268.webp	\N	4	2026-07-15 10:12:06.044025+00
-6	1	/uploads/images/fd4b8873-2002-4bd4-ad55-6f11c9cbef5d.webp	\N	5	2026-07-15 10:12:06.181827+00
-7	1	/uploads/images/65b7e111-1fb6-4285-bc75-f71de8e572a5.webp	\N	6	2026-07-15 10:12:06.420134+00
-8	1	/uploads/images/b06b9866-8d58-47df-b110-2c7e39d857ed.webp	\N	7	2026-07-15 10:12:06.745853+00
-9	1	/uploads/images/b64bbbc2-f914-488e-a787-36aadf5048a1.webp	\N	8	2026-07-15 10:12:07.089834+00
-10	1	/uploads/images/7130184f-a3f7-4c7e-97fa-fe0b7bf354be.webp	\N	9	2026-07-15 10:12:07.24171+00
-11	1	/uploads/images/f84ecfc3-dfc2-4159-b118-bf1a252105f4.webp	\N	10	2026-07-15 10:12:08.64304+00
-12	1	/uploads/images/146d1fd3-8794-43ae-90c7-33116aeb9a8b.webp	\N	11	2026-07-15 10:12:10.439402+00
-13	1	/uploads/images/98801328-3e38-4421-97bc-3e22e2300106.webp	\N	12	2026-07-15 10:12:12.14046+00
-14	1	/uploads/images/34844f88-6ebd-48a3-bfe5-8667cd3887d2.webp	\N	13	2026-07-15 10:12:13.906418+00
-15	1	/uploads/images/7116d9eb-1a6f-4d01-8919-c9ad2bf58313.webp	\N	14	2026-07-15 10:12:15.62611+00
-16	1	/uploads/images/40551797-c470-4493-8795-5ae1c57db56c.webp	\N	15	2026-07-15 10:12:17.15593+00
-17	1	/uploads/images/16accf59-140e-45da-a752-a57e22986224.webp	\N	16	2026-07-15 10:12:18.704626+00
-18	1	/uploads/images/884c1255-17bf-42e1-bf95-72db21271641.webp	\N	17	2026-07-15 10:12:20.202582+00
-19	1	/uploads/images/b6462abf-2383-46aa-be6d-7461d28f6110.webp	\N	18	2026-07-15 10:12:21.868404+00
-20	1	/uploads/images/039a3699-26b9-4fb1-a4a3-37ae33928ae3.webp	\N	19	2026-07-15 10:12:23.440133+00
-21	1	/uploads/images/3bc0f4bd-fc10-4dc6-a52e-9c714def822b.webp	\N	20	2026-07-15 10:12:25.178575+00
-22	1	/uploads/images/0b280762-0325-4c3b-9ef1-6e2d4c0b4b4f.webp	\N	21	2026-07-15 10:12:26.730758+00
-23	1	/uploads/images/5e75aef9-6442-42df-841e-3cfc56dc26e2.webp	\N	22	2026-07-15 10:12:28.292313+00
-24	1	/uploads/images/ea8580f0-5206-4857-81fb-c6403c0557b0.webp	\N	23	2026-07-15 10:12:29.465616+00
-25	1	/uploads/images/8d102764-d416-4751-a370-2fe4f567c6c7.webp	\N	24	2026-07-15 10:12:30.787149+00
-26	1	/uploads/images/b0ee0cc2-403f-4563-95eb-10e93acf4199.webp	\N	25	2026-07-15 10:12:32.48291+00
-27	1	/uploads/images/f53ad85b-aec4-40fb-94fc-d5b444dc1046.webp	\N	26	2026-07-15 10:12:34.037298+00
-28	1	/uploads/images/c6f2d908-60a2-4262-b3c7-867a524283f4.webp	\N	27	2026-07-15 10:12:35.586004+00
-29	1	/uploads/images/0ce0f566-4ff7-4bd4-8b71-de1c3137ade8.webp	\N	28	2026-07-15 10:12:37.176159+00
-30	1	/uploads/images/5ce2653d-7206-4050-8689-2baf4e3f0b5a.webp	\N	29	2026-07-15 10:12:39.385984+00
-31	1	/uploads/images/e4347ba3-c70c-4137-b04f-71152f7bf38e.webp	\N	30	2026-07-15 10:12:41.926586+00
-32	1	/uploads/images/dfd956de-0f30-411b-846d-73d170d1067d.webp	\N	31	2026-07-15 10:12:43.88441+00
-33	1	/uploads/images/a5f2727a-2533-4954-a120-35686da88990.webp	\N	32	2026-07-15 10:12:46.048748+00
-34	1	/uploads/images/24259b61-efb7-4521-986b-397e92042754.webp	\N	33	2026-07-15 10:12:48.612542+00
-35	1	/uploads/images/122039ca-527e-4e0b-971a-01f909eba65f.webp	\N	34	2026-07-15 10:12:50.959131+00
-36	1	/uploads/images/f95f0803-3695-45af-b547-706a25bd0d92.webp	\N	35	2026-07-15 10:12:52.727393+00
-37	1	/uploads/images/9c26204f-3a7b-4fc8-ae79-42e3d3b887cd.webp	\N	36	2026-07-15 10:12:53.040289+00
-38	1	/uploads/images/3f6e55b9-d21f-43c1-a977-bd0bbda9e45f.webp	\N	37	2026-07-15 10:12:55.839262+00
-39	1	/uploads/images/4cb0c817-e3b9-427f-8bff-293cbc3a2875.webp	\N	38	2026-07-15 10:12:58.683152+00
-40	1	/uploads/images/04264507-64b2-44bf-967a-f45d82640a06.webp	\N	39	2026-07-15 10:13:02.196101+00
-41	1	/uploads/images/59aa17d5-f04e-47ba-84ce-110aee9f8fac.webp	\N	40	2026-07-15 10:13:04.250817+00
-42	1	/uploads/images/a9dd9a5a-7fc8-4dd5-8367-ef5826b8e488.webp	\N	41	2026-07-15 10:13:06.447077+00
-43	1	/uploads/images/b9b85d4f-f07c-46d6-b4ff-7defb52073c9.webp	\N	42	2026-07-15 10:13:08.505948+00
-44	1	/uploads/images/93acc6f0-3ba0-4b05-984e-020d7ff165a3.webp	\N	43	2026-07-15 10:13:08.787585+00
-45	1	/uploads/images/f8a56414-24d3-4980-8cbd-db32cbbb1e8d.webp	\N	44	2026-07-15 10:13:11.541396+00
-46	1	/uploads/images/cc111c1b-87b3-4386-b341-596b185c486d.webp	\N	45	2026-07-15 10:13:14.206715+00
-47	1	/uploads/images/a1343219-e9d8-43f0-a971-6b25c9570d62.webp	\N	46	2026-07-15 10:13:16.837096+00
-48	1	/uploads/images/35a1da47-4aad-4cc9-8bad-0377dc07ad71.webp	\N	47	2026-07-15 10:13:19.378149+00
-49	1	/uploads/images/0500141e-6e13-4fb5-a898-0089a9f3ce3b.webp	\N	48	2026-07-15 10:13:21.688781+00
-50	1	/uploads/images/20f17aa2-c96f-4235-8a28-84b649fbb3bf.webp	\N	49	2026-07-15 10:13:24.043693+00
-51	1	/uploads/images/ef30b946-c1a2-4a37-bcbc-d6cd9758d25f.webp	\N	50	2026-07-15 10:13:25.764773+00
-52	1	/uploads/images/d26f7c7b-f858-41cd-bdf4-3199c6558649.webp	\N	51	2026-07-15 10:13:26.177245+00
-53	1	/uploads/images/b2890394-32da-433a-9e0f-ea695ca815c5.webp	\N	52	2026-07-15 10:13:26.734063+00
-54	1	/uploads/images/4582bda1-474a-4ed1-a5b3-daaa27528fae.webp	\N	53	2026-07-15 10:13:27.149334+00
-55	1	/uploads/images/35eb0fc7-7682-4043-a624-57df81d3a227.webp	\N	54	2026-07-15 10:13:27.303589+00
-56	1	/uploads/images/d41be8ba-1c36-4626-8877-b1ca3f5fd1fb.webp	\N	55	2026-07-15 10:13:27.536371+00
-57	1	/uploads/images/391e5ded-a56e-4d3c-95f7-d154000fb353.webp	\N	56	2026-07-15 10:13:27.823753+00
-58	1	/uploads/images/737e6515-17a5-4fa2-9548-c42131f11b9e.webp	\N	57	2026-07-15 10:13:28.130934+00
-59	1	/uploads/images/d29e7bc9-d35f-45e9-a141-14be7300d0a0.webp	\N	58	2026-07-15 10:13:28.299303+00
-60	1	/uploads/images/b3c459c6-6ff4-4b4f-91c3-94e64805f2f8.webp	\N	59	2026-07-15 10:13:28.475427+00
-61	1	/uploads/images/e9a32a5c-19a1-4ec4-bf80-7ad0a7ac605f.webp	\N	60	2026-07-15 10:13:28.733442+00
-62	1	/uploads/images/40f6d2f2-c756-402f-bed9-80a68489f4d0.webp	\N	61	2026-07-15 10:13:28.89072+00
+139	1	/uploads/images/3a4c1421-54f1-4101-b353-45c464296e25.webp	\N	0	2026-07-16 15:24:49.275751+00
+140	1	/uploads/images/4c9a18f6-b5fb-4bd6-9d63-9469ce1c0dee.webp	\N	1	2026-07-16 15:24:49.275751+00
+141	1	/uploads/images/2420ae4b-79d0-4a0c-9652-78253fc97f19.webp	\N	2	2026-07-16 15:24:49.275751+00
+142	1	/uploads/images/2efa6478-4618-4209-84cb-0a5dbec4f268.webp	\N	3	2026-07-16 15:24:49.275751+00
+143	1	/uploads/images/fd4b8873-2002-4bd4-ad55-6f11c9cbef5d.webp	\N	4	2026-07-16 15:24:49.275751+00
+144	1	/uploads/images/33e36399-1ab2-41a9-b338-787d8e810903.webp	\N	5	2026-07-16 15:24:49.275751+00
+145	1	/uploads/images/65b7e111-1fb6-4285-bc75-f71de8e572a5.webp	\N	6	2026-07-16 15:24:49.275751+00
+146	1	/uploads/images/b06b9866-8d58-47df-b110-2c7e39d857ed.webp	\N	7	2026-07-16 15:24:49.275751+00
+147	1	/uploads/images/b64bbbc2-f914-488e-a787-36aadf5048a1.webp	\N	8	2026-07-16 15:24:49.275751+00
+148	1	/uploads/images/7130184f-a3f7-4c7e-97fa-fe0b7bf354be.webp	\N	9	2026-07-16 15:24:49.275751+00
+149	1	/uploads/images/f84ecfc3-dfc2-4159-b118-bf1a252105f4.webp	\N	10	2026-07-16 15:24:49.275751+00
+150	1	/uploads/images/146d1fd3-8794-43ae-90c7-33116aeb9a8b.webp	\N	11	2026-07-16 15:24:49.275751+00
+151	1	/uploads/images/98801328-3e38-4421-97bc-3e22e2300106.webp	\N	12	2026-07-16 15:24:49.275751+00
+152	1	/uploads/images/34844f88-6ebd-48a3-bfe5-8667cd3887d2.webp	\N	13	2026-07-16 15:24:49.275751+00
+153	1	/uploads/images/7116d9eb-1a6f-4d01-8919-c9ad2bf58313.webp	\N	14	2026-07-16 15:24:49.275751+00
+154	1	/uploads/images/40551797-c470-4493-8795-5ae1c57db56c.webp	\N	15	2026-07-16 15:24:49.275751+00
+155	1	/uploads/images/16accf59-140e-45da-a752-a57e22986224.webp	\N	16	2026-07-16 15:24:49.275751+00
+156	1	/uploads/images/884c1255-17bf-42e1-bf95-72db21271641.webp	\N	17	2026-07-16 15:24:49.275751+00
+157	1	/uploads/images/b6462abf-2383-46aa-be6d-7461d28f6110.webp	\N	18	2026-07-16 15:24:49.275751+00
+158	1	/uploads/images/039a3699-26b9-4fb1-a4a3-37ae33928ae3.webp	\N	19	2026-07-16 15:24:49.275751+00
+159	1	/uploads/images/3bc0f4bd-fc10-4dc6-a52e-9c714def822b.webp	\N	20	2026-07-16 15:24:49.275751+00
+160	1	/uploads/images/0b280762-0325-4c3b-9ef1-6e2d4c0b4b4f.webp	\N	21	2026-07-16 15:24:49.275751+00
+161	1	/uploads/images/5e75aef9-6442-42df-841e-3cfc56dc26e2.webp	\N	22	2026-07-16 15:24:49.275751+00
+162	1	/uploads/images/ea8580f0-5206-4857-81fb-c6403c0557b0.webp	\N	23	2026-07-16 15:24:49.275751+00
+163	1	/uploads/images/8d102764-d416-4751-a370-2fe4f567c6c7.webp	\N	24	2026-07-16 15:24:49.275751+00
+164	1	/uploads/images/b0ee0cc2-403f-4563-95eb-10e93acf4199.webp	\N	25	2026-07-16 15:24:49.275751+00
+165	1	/uploads/images/f53ad85b-aec4-40fb-94fc-d5b444dc1046.webp	\N	26	2026-07-16 15:24:49.275751+00
+166	1	/uploads/images/c6f2d908-60a2-4262-b3c7-867a524283f4.webp	\N	27	2026-07-16 15:24:49.275751+00
+167	1	/uploads/images/0ce0f566-4ff7-4bd4-8b71-de1c3137ade8.webp	\N	28	2026-07-16 15:24:49.275751+00
+168	1	/uploads/images/5ce2653d-7206-4050-8689-2baf4e3f0b5a.webp	\N	29	2026-07-16 15:24:49.275751+00
+169	1	/uploads/images/e4347ba3-c70c-4137-b04f-71152f7bf38e.webp	\N	30	2026-07-16 15:24:49.275751+00
+170	1	/uploads/images/dfd956de-0f30-411b-846d-73d170d1067d.webp	\N	31	2026-07-16 15:24:49.275751+00
+171	1	/uploads/images/a5f2727a-2533-4954-a120-35686da88990.webp	\N	32	2026-07-16 15:24:49.275751+00
+172	1	/uploads/images/24259b61-efb7-4521-986b-397e92042754.webp	\N	33	2026-07-16 15:24:49.275751+00
+173	1	/uploads/images/122039ca-527e-4e0b-971a-01f909eba65f.webp	\N	34	2026-07-16 15:24:49.275751+00
+174	1	/uploads/images/f95f0803-3695-45af-b547-706a25bd0d92.webp	\N	35	2026-07-16 15:24:49.275751+00
+175	1	/uploads/images/9c26204f-3a7b-4fc8-ae79-42e3d3b887cd.webp	\N	36	2026-07-16 15:24:49.275751+00
+176	1	/uploads/images/3f6e55b9-d21f-43c1-a977-bd0bbda9e45f.webp	\N	37	2026-07-16 15:24:49.275751+00
+177	1	/uploads/images/4cb0c817-e3b9-427f-8bff-293cbc3a2875.webp	\N	38	2026-07-16 15:24:49.275751+00
+178	1	/uploads/images/04264507-64b2-44bf-967a-f45d82640a06.webp	\N	39	2026-07-16 15:24:49.275751+00
+179	1	/uploads/images/59aa17d5-f04e-47ba-84ce-110aee9f8fac.webp	\N	40	2026-07-16 15:24:49.275751+00
+180	1	/uploads/images/a9dd9a5a-7fc8-4dd5-8367-ef5826b8e488.webp	\N	41	2026-07-16 15:24:49.275751+00
+181	1	/uploads/images/b9b85d4f-f07c-46d6-b4ff-7defb52073c9.webp	\N	42	2026-07-16 15:24:49.275751+00
+182	1	/uploads/images/93acc6f0-3ba0-4b05-984e-020d7ff165a3.webp	\N	43	2026-07-16 15:24:49.275751+00
+183	1	/uploads/images/f8a56414-24d3-4980-8cbd-db32cbbb1e8d.webp	\N	44	2026-07-16 15:24:49.275751+00
+184	1	/uploads/images/cc111c1b-87b3-4386-b341-596b185c486d.webp	\N	45	2026-07-16 15:24:49.275751+00
+185	1	/uploads/images/a1343219-e9d8-43f0-a971-6b25c9570d62.webp	\N	46	2026-07-16 15:24:49.275751+00
+186	1	/uploads/images/35a1da47-4aad-4cc9-8bad-0377dc07ad71.webp	\N	47	2026-07-16 15:24:49.275751+00
+187	1	/uploads/images/0500141e-6e13-4fb5-a898-0089a9f3ce3b.webp	\N	48	2026-07-16 15:24:49.275751+00
+188	1	/uploads/images/20f17aa2-c96f-4235-8a28-84b649fbb3bf.webp	\N	49	2026-07-16 15:24:49.275751+00
+189	1	/uploads/images/ef30b946-c1a2-4a37-bcbc-d6cd9758d25f.webp	\N	50	2026-07-16 15:24:49.275751+00
+190	1	/uploads/images/d26f7c7b-f858-41cd-bdf4-3199c6558649.webp	\N	51	2026-07-16 15:24:49.275751+00
+191	1	/uploads/images/b2890394-32da-433a-9e0f-ea695ca815c5.webp	\N	52	2026-07-16 15:24:49.275751+00
+192	1	/uploads/images/4582bda1-474a-4ed1-a5b3-daaa27528fae.webp	\N	53	2026-07-16 15:24:49.275751+00
+193	1	/uploads/images/35eb0fc7-7682-4043-a624-57df81d3a227.webp	\N	54	2026-07-16 15:24:49.275751+00
+194	1	/uploads/images/d41be8ba-1c36-4626-8877-b1ca3f5fd1fb.webp	\N	55	2026-07-16 15:24:49.275751+00
+195	1	/uploads/images/391e5ded-a56e-4d3c-95f7-d154000fb353.webp	\N	56	2026-07-16 15:24:49.275751+00
+196	1	/uploads/images/737e6515-17a5-4fa2-9548-c42131f11b9e.webp	\N	57	2026-07-16 15:24:49.275751+00
+197	1	/uploads/images/d29e7bc9-d35f-45e9-a141-14be7300d0a0.webp	\N	58	2026-07-16 15:24:49.275751+00
+198	1	/uploads/images/b3c459c6-6ff4-4b4f-91c3-94e64805f2f8.webp	\N	59	2026-07-16 15:24:49.275751+00
+199	1	/uploads/images/e9a32a5c-19a1-4ec4-bf80-7ad0a7ac605f.webp	\N	60	2026-07-16 15:24:49.275751+00
+200	1	/uploads/images/40f6d2f2-c756-402f-bed9-80a68489f4d0.webp	\N	61	2026-07-16 15:24:49.275751+00
+129	2	/uploads/images/110d8ee4-530c-4c2b-a005-f96f17055190.webp	\N	0	2026-07-16 15:24:27.703098+00
+130	2	/uploads/images/8cd88ab2-b0e0-4bbb-a9c4-829b4b107b01.webp	\N	1	2026-07-16 15:24:27.703098+00
+131	2	/uploads/images/f084650f-d9c0-44ab-b621-39aaae498425.webp	\N	2	2026-07-16 15:24:27.703098+00
+132	2	/uploads/images/53511e6d-98e9-4ebf-8311-45a1bf91e132.webp	\N	3	2026-07-16 15:24:27.703098+00
+133	2	/uploads/images/aa647796-850d-4075-bb8e-0d9af44c9d65.webp	\N	4	2026-07-16 15:24:27.703098+00
+134	2	/uploads/images/168a4fca-98cd-4d7f-8fe5-f6b64ecca287.webp	\N	5	2026-07-16 15:24:27.703098+00
+135	2	/uploads/images/976c209a-0a55-46a7-913f-d7eab6714225.webp	\N	6	2026-07-16 15:24:27.703098+00
+136	2	/uploads/images/ac15ff06-af8e-4453-a409-6a27a7a55171.webp	\N	7	2026-07-16 15:24:27.703098+00
+137	2	/uploads/images/33ee1ae9-0fb0-4917-8455-3c8ad0916b43.webp	\N	8	2026-07-16 15:24:27.703098+00
+138	2	/uploads/images/d93b4742-c18f-427a-8eb9-1089271db742.webp	\N	9	2026-07-16 15:24:27.703098+00
 \.
 
 
@@ -1068,7 +1078,8 @@ COPY public.gallery_images (id, section_id, src, alt, sort_order, created_at) FR
 --
 
 COPY public.gallery_sections (id, title, layout, columns, sort_order, published, created_at, updated_at) FROM stdin;
-1	Galeri	masonry	4	0	t	2026-07-15 10:12:04.593535+00	\N
+2	Taner Akdaş	masonry	4	1	t	2026-07-16 15:23:14.762509+00	2026-07-16 15:24:27.688+00
+1	Ali Özel	masonry	4	0	t	2026-07-15 10:12:04.593535+00	2026-07-16 15:24:49.259+00
 \.
 
 
@@ -1077,7 +1088,8 @@ COPY public.gallery_sections (id, title, layout, columns, sort_order, published,
 --
 
 COPY public.legal_pages (id, slug, title, body, created_at, updated_at) FROM stdin;
-1	gizlilik-politikasi-ve-kvkk	Gizlilik Politikası ve K.V.K.K. Aydınlatma Metni	Bu bir test paragrafıdır.\n\nİkinci paragraf: kişisel verileriniz KVKK kapsamında korunur.	2026-07-03 13:04:46.842254+00	\N
+1	gizlilik-politikasi-ve-kvkk	Gizlilik Politikası ve K.V.K.K. Aydınlatma Metni	GİZLİLİK POLİTİKASI VE KVKK AYDINLATMA METNİ\nBu sayfada, internet sitesi gizlilik politikası ile veri sahiplerinin kişisel verilerinin işlenmesi, çerez politikası ve internet sitesi gizlilik politikasının yürürlüğü hakkında açıklamalar yapılmaktadır.\n\nVERİ SORUMLUSU\n6698 sayılı Kişisel Verilerin Korunması Kanunu ("Kanun") uyarınca kişisel verileriniz, veri sorumlusu sıfatıyla SAN EĞİTİM DANIŞMANLIK tarafından aşağıda açıklanan kapsamda işlenmektedir.\nAdres: Sarıyer / İstanbul\nE-posta: ali@aliozel.com.tr\nİnternet sitesi: www.aliozel.com.tr\n\nVERİ SAHİPLERİNİN KİŞİSEL VERİLERİNİN İŞLENMESİ\nİnternet sitemizi ziyaret etmeniz sırasında ve sitemizdeki formlar aracılığıyla tarafımıza ilettiğiniz kişisel veriler, veri sorumlusu olarak SAN EĞİTİM DANIŞMANLIK tarafından 6698 sayılı Kanun uyarınca aşağıda açıklanan kapsamda işlenebilecektir.\n\nİŞLENEN KİŞİSEL VERİLER\nSitemiz aracılığıyla aşağıdaki kişisel verileriniz işlenebilmektedir:\nKimlik ve iletişim verileri: Ad-soyad, e-posta adresi, telefon numarası ve iletişim, teklif ile yorum formları aracılığıyla tarafımıza ilettiğiniz diğer bilgiler.\nİşlem ve trafik verileri: IP adresi, tarayıcı türü, ziyaret edilen sayfalar, sitede gezinme ve tıklama hareketleri, çerezler aracılığıyla toplanan veriler.\n\nKİŞİSEL VERİLERİNİZİN İŞLENME AMACI\nİnternet sitemizi ziyaret etmeniz veya sitemizdeki formları doldurmanız dolayısıyla elde edilen kişisel verileriniz, Kanun'un 5. ve 6. maddelerine uygun olarak aşağıdaki amaçlarla işlenebilecektir:\nSAN EĞİTİM DANIŞMANLIK tarafından yürütülen eğitim ve danışmanlık faaliyetlerinin gerçekleştirilmesi için gerekli çalışmaların yapılması ve buna bağlı iş süreçlerinin yürütülmesi,\nTarafımıza ilettiğiniz talep, teklif başvurusu ve sorularınızın değerlendirilmesi ve yanıtlanması,\nSizinle iletişime geçilmesi ve eğitim programlarımız ile hizmetlerimize ilişkin bilgilendirme yapılması,\nİnternet sitesinin performansının ölçülmesi, geliştirilmesi ve kullanıcı deneyiminin iyileştirilmesi,\nAçık rızanızın bulunması hâlinde, kampanya ve tanıtım amaçlı ticari elektronik iletilerin gönderilmesi.\n\nKİŞİSEL VERİLERİNİZİN AKTARILDIĞI TARAFLAR VE AKTARIM AMACI\nİnternet sitemizi ziyaret etmeniz dolayısıyla elde edilen kişisel verileriniz, kişisel verilerinizin işlenme amaçları doğrultusunda, Kanun'un 8. ve 9. maddelerinde belirtilen kişisel veri işleme şartları ve amaçları dahilinde; kanunen yetkili kamu kurum ve kuruluşları ile hukuken yetkili özel hukuk tüzel kişilerine ve hizmetin sağlanması amacıyla çalıştığımız tedarikçi ve iş ortaklarına (barındırma/hosting, e-posta, analiz hizmeti sağlayıcıları gibi) aktarılabilecektir.\n\nKİŞİSEL VERİLERİNİZİN TOPLANMA YÖNTEMİ VE HUKUKİ SEBEBİ\nKimliğinizi belirli ya da belirlenebilir kılan her türlü bilgi "kişisel veri"dir. Kişisel verileriniz, internet sitemizi ziyaretiniz kapsamında Kanun'da yer alan veri işleme şartlarına uygun olarak; internet sitemizdeki formlar, teknik iletişim dosyaları olan çerezler (cookies) ve elektronik iletişim kanalları vasıtasıyla toplanmaktadır.\nBu kişisel veriler, Kanun'un 5. maddesinde belirtilen sözleşmenin kurulması veya ifası, veri sorumlusunun meşru menfaati, hukuki yükümlülüklerin yerine getirilmesi hukuki sebeplerine ve gerektiği hâllerde açık rızanıza dayanılarak işlenmektedir.\n\nVERİ SAHİPLERİNİN HAKLARI\nKişisel veri sahibi olarak Kanun'un 11. maddesi uyarınca aşağıdaki haklara sahip olduğunuzu bildiririz:\nKişisel verilerinizin işlenip işlenmediğini öğrenme,\nKişisel verileriniz işlenmişse buna ilişkin bilgi talep etme,\nKişisel verilerinizin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme,\nYurt içinde veya yurt dışında kişisel verilerinizin aktarıldığı üçüncü kişileri bilme,\nKişisel verilerinizin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme ve bu kapsamda yapılan işlemin kişisel verilerinizin aktarıldığı üçüncü kişilere bildirilmesini isteme,\nKanun'a ve ilgili diğer kanun hükümlerine uygun olarak işlenmiş olmasına rağmen, işlenmesini gerektiren sebeplerin ortadan kalkması hâlinde kişisel verilerin silinmesini veya yok edilmesini isteme ve bu kapsamda yapılan işlemin kişisel verilerinizin aktarıldığı üçüncü kişilere bildirilmesini isteme,\nİşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle aleyhinize bir sonucun ortaya çıkması durumunda buna itiraz etme,\nKişisel verilerinizin kanuna aykırı olarak işlenmesi sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme.\n\nBAŞVURU YÖNTEMİ\nYukarıda sıralanan haklarınıza yönelik başvurularınızı www.aliozel.com.tr adresindeki iletişim formu veya ali@aliozel.com.tr e-posta adresi aracılığıyla SAN EĞİTİM DANIŞMANLIK'a iletebilirsiniz. Talebinizin niteliğine göre en kısa sürede ve en geç otuz gün içinde başvurularınız ücretsiz olarak sonuçlandırılacaktır; ancak işlemin ayrıca bir maliyet gerektirmesi hâlinde Kişisel Verileri Koruma Kurulu tarafından belirlenecek tarifeye göre tarafınızdan ücret talep edilebilecektir.\n\nÇEREZ POLİTİKASI\nİnternet sitemizde çerez kullanımına ilişkin detaylı bilgiye www.aliozel.com.tr/yasal/cerez-politikasi adresindeki Çerez Politikası sayfamızdan ulaşabilirsiniz.	2026-07-03 13:04:46.842254+00	2026-07-18 13:37:54.422286+00
+2	cerez-politikasi	Çerez Politikası	ÇEREZ POLİTİKASI\n\nSAN EĞİTİM DANIŞMANLIK olarak www.aliozel.com.tr internet sitemizde, deneyiminizi geliştirmek, sitenin performansını analiz etmek ve hizmetlerimizi iyileştirmek amacıyla çerezler (cookies) kullanıyoruz. Bu Çerez Politikası, hangi çerezleri hangi amaçlarla kullandığımızı ve bunları nasıl yönetebileceğinizi açıklamaktadır.\n\n1. Çerez Nedir?\nÇerezler, bir internet sitesini ziyaret ettiğinizde cihazınıza (bilgisayar, telefon, tablet) kaydedilen küçük metin dosyalarıdır. Çerezler, sitenin sizi tanımasını, tercihlerinizi hatırlamasını ve ziyaretinize ilişkin bilgilerin işlenmesini sağlar.\n\n2. Kullandığımız Çerez Türleri\nZorunlu (Teknik) Çerezler: Sitenin temel işlevlerini yerine getirmesi için gereklidir. Bu çerezler olmadan site düzgün çalışmaz. Açık rıza gerektirmez.\nPerformans ve Analiz Çerezleri: Ziyaretçilerin siteyi nasıl kullandığını, hangi sayfaları ziyaret ettiğini ve site üzerindeki hareketlerini anlamamızı sağlar. Bu veriler, site performansını ölçmek ve geliştirmek amacıyla anonim/istatistiksel olarak kullanılır.\nHedefleme ve Pazarlama Çerezleri: İlgi alanlarınıza uygun içerik ve reklam sunmak amacıyla kullanılır.\n\n3. Çerezler Aracılığıyla İşlenen Veriler\nÇerezler aracılığıyla IP adresi, tarayıcı türü, ziyaret edilen sayfalar, sitede geçirilen süre, tıklama ve gezinme hareketleri gibi veriler toplanabilmektedir. Bu veriler 6698 sayılı Kişisel Verilerin Korunması Kanunu ve ilgili mevzuata uygun olarak işlenmektedir.\n\n4. Çerezlerin Yönetimi\nZorunlu çerezler dışındaki çerezler, yalnızca açık rızanız ile çalıştırılır. Siteye ilk girişinizde görüntülenen çerez bildirim panelinden çerez tercihlerinizi belirleyebilir, dilediğiniz zaman değiştirebilir veya rızanızı geri çekebilirsiniz. Ayrıca tarayıcınızın ayarları üzerinden de çerezleri silebilir veya engelleyebilirsiniz. Ancak zorunlu çerezlerin engellenmesi durumunda sitenin bazı bölümleri düzgün çalışmayabilir. Çerez ayarlarına ilişkin yönlendirmeler kullandığınız tarayıcının yardım sayfalarında yer almaktadır.\n\n5. Veri Sahibi Olarak Haklarınız\nKanun'un 11. maddesi kapsamındaki haklarınız ve kişisel verilerinizin işlenmesine ilişkin detaylı bilgi için www.aliozel.com.tr/yasal/gizlilik-politikasi-ve-kvkk adresindeki Gizlilik Politikası ve K.V.K.K. Aydınlatma Metni sayfamızı inceleyebilirsiniz.\n\n6. İletişim\nÇerez kullanımına ilişkin sorularınız için www.aliozel.com.tr adresindeki iletişim formundan veya ali@aliozel.com.tr üzerinden bizimle iletişime geçebilirsiniz.	2026-07-18 13:37:54.433015+00	\N
 \.
 
 
@@ -1097,44 +1109,46 @@ COPY public.note_comments (id, brand_note_id, name, initials, body, approved, cr
 --
 
 COPY public.reference_logos (id, name, src, sort_order, published, created_at, updated_at) FROM stdin;
-1	Vestel	/referanslar/vestel.png	0	t	2026-07-03 09:57:36.65704+00	\N
-2	Medtronic	/referanslar/medtronic.png	1	t	2026-07-03 09:57:36.65704+00	\N
-3	Grundfos	/referanslar/grundfos.png	2	t	2026-07-03 09:57:36.65704+00	\N
-4	Mondi	/referanslar/mondi.png	3	t	2026-07-03 09:57:36.65704+00	\N
-5	BD	/referanslar/bd.png	4	t	2026-07-03 09:57:36.65704+00	\N
-6	Batıçim	/referanslar/baticim.png	5	t	2026-07-03 09:57:36.65704+00	\N
-7	ODE	/referanslar/ode.png	6	t	2026-07-03 09:57:36.65704+00	\N
-8	Trio Mobil	/referanslar/trio-mobil.png	7	t	2026-07-03 09:57:36.65704+00	\N
-9	Univera	/referanslar/univera.png	8	t	2026-07-03 09:57:36.65704+00	\N
-10	Telcoset	/referanslar/telcoset.png	9	t	2026-07-03 09:57:36.65704+00	\N
-11	Chemiola	/referanslar/chemiola.png	10	t	2026-07-03 09:57:36.65704+00	\N
-12	Batısöke	/referanslar/batisoke.png	11	t	2026-07-03 09:57:36.65704+00	\N
-13	Batıgöz	/referanslar/batigoz.png	12	t	2026-07-03 09:57:36.65704+00	\N
-14	Yaşar Üniversitesi	/referanslar/yasar-universitesi.webp	13	t	2026-07-03 09:57:36.65704+00	\N
-15	İGA Havalimanı İşletmesi	/referanslar/iga.png	14	t	2026-07-14 12:38:22.006166+00	\N
-16	Turkcell	/referanslar/turkcell.png	15	t	2026-07-14 12:38:22.006166+00	\N
-17	Çamur Gayrimenkul	/referanslar/camur-gayrimenkul.png	16	t	2026-07-14 12:38:22.006166+00	\N
-18	Base	/referanslar/base.png	17	t	2026-07-14 12:38:22.006166+00	\N
-19	Next Pharma	/referanslar/next-pharma.png	18	t	2026-07-14 12:38:22.006166+00	\N
-20	Krone	/referanslar/krone.png	19	t	2026-07-14 12:38:22.006166+00	\N
-21	JCI	/referanslar/jci.png	20	t	2026-07-14 12:38:22.006166+00	\N
-22	IVECO	/referanslar/iveco.png	21	t	2026-07-14 12:38:22.006166+00	\N
-23	Yaşar Birleşik Pazarlama	/referanslar/yasar-birlesik-pazarlama.png	22	t	2026-07-14 12:38:22.006166+00	\N
-24	IKEA	/referanslar/ikea.png	23	t	2026-07-14 12:38:22.006166+00	\N
-25	Honda	/referanslar/honda.png	24	t	2026-07-14 12:38:22.006166+00	\N
-26	Ford Otosan	/referanslar/ford-otosan.png	25	t	2026-07-14 12:38:22.006166+00	\N
-27	Big Dutchman	/referanslar/big-dutchman.png	26	t	2026-07-14 12:38:22.006166+00	\N
-28	Tatmetal	/referanslar/tatmetal.png	27	t	2026-07-14 12:38:22.006166+00	\N
-29	Fan Market	/referanslar/fan-market.png	28	t	2026-07-14 12:38:22.006166+00	\N
-30	Deva Holding	/referanslar/deva-holding.png	29	t	2026-07-14 12:38:22.006166+00	\N
-31	CMS	/referanslar/cms.png	30	t	2026-07-14 12:38:22.006166+00	\N
-32	BSH	/referanslar/bsh.png	31	t	2026-07-14 12:38:22.006166+00	\N
-33	BPN	/referanslar/bpn.png	32	t	2026-07-14 12:38:22.006166+00	\N
-34	Arçelik	/referanslar/arcelik.png	33	t	2026-07-14 12:38:22.006166+00	\N
-35	Abbott	/referanslar/abbott.png	34	t	2026-07-14 12:38:22.006166+00	\N
-36	FIT Global	/referanslar/fit-global.png	35	t	2026-07-14 12:38:22.006166+00	\N
-37	Döhler	/referanslar/dohler.png	36	t	2026-07-14 12:38:22.006166+00	\N
-38	Weber	/referanslar/weber.png	37	t	2026-07-14 12:38:22.006166+00	\N
+40	Filli Boya	/uploads/images/665afcfc-57ab-413c-a99c-46d688afc9c9.webp	0	t	2026-07-18 13:15:51.555018+00	2026-07-18 15:05:38.499+00
+41	BETEK	/uploads/images/a17db1af-563a-4fad-a6b4-209e7b335da4.webp	1	t	2026-07-18 14:02:35.295756+00	2026-07-18 15:05:38.501+00
+2	Medtronic	/referanslar/medtronic.png	2	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.502+00
+1	Vestel	/referanslar/vestel.png	3	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.502+00
+3	Grundfos	/referanslar/grundfos.png	4	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.503+00
+4	Mondi	/referanslar/mondi.png	5	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.504+00
+5	BD	/referanslar/bd.png	6	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.505+00
+6	Batıçim	/referanslar/baticim.png	7	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.506+00
+7	ODE	/referanslar/ode.png	8	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.507+00
+8	Trio Mobil	/referanslar/trio-mobil.png	9	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.508+00
+9	Univera	/referanslar/univera.png	10	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.509+00
+10	Telcoset	/referanslar/telcoset.png	11	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.511+00
+11	Chemiola	/referanslar/chemiola.png	12	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.512+00
+12	Batısöke	/referanslar/batisoke.png	13	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.513+00
+13	Batıgöz	/referanslar/batigoz.png	14	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.514+00
+14	Yaşar Üniversitesi	/referanslar/yasar-universitesi.webp	15	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.515+00
+15	İGA Havalimanı İşletmesi	/referanslar/iga.png	16	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.516+00
+16	Turkcell	/referanslar/turkcell.png	17	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.517+00
+17	Çamur Gayrimenkul	/referanslar/camur-gayrimenkul.png	18	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.518+00
+18	Base	/referanslar/base.png	19	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.518+00
+19	Next Pharma	/referanslar/next-pharma.png	20	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.519+00
+20	Krone	/referanslar/krone.png	21	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.52+00
+21	JCI	/referanslar/jci.png	22	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.521+00
+22	IVECO	/referanslar/iveco.png	23	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.522+00
+23	Yaşar Birleşik Pazarlama	/referanslar/yasar-birlesik-pazarlama.png	24	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.523+00
+24	IKEA	/referanslar/ikea.png	25	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.524+00
+25	Honda	/referanslar/honda.png	26	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.525+00
+26	Ford Otosan	/referanslar/ford-otosan.png	27	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.527+00
+27	Big Dutchman	/referanslar/big-dutchman.png	28	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.528+00
+28	Tatmetal	/referanslar/tatmetal.png	29	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.529+00
+29	Fan Market	/referanslar/fan-market.png	30	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.529+00
+30	Deva Holding	/referanslar/deva-holding.png	31	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.53+00
+31	CMS	/referanslar/cms.png	32	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.531+00
+32	BSH	/referanslar/bsh.png	33	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.532+00
+33	BPN	/referanslar/bpn.png	34	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.533+00
+34	Arçelik	/referanslar/arcelik.png	35	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.534+00
+35	Abbott	/referanslar/abbott.png	36	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.534+00
+36	FIT Global	/referanslar/fit-global.png	37	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.535+00
+37	Döhler	/referanslar/dohler.png	38	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.536+00
+38	Weber	/referanslar/weber.png	39	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.537+00
 \.
 
 
@@ -1146,6 +1160,10 @@ COPY public.sessions (id, user_id, expires_at, created_at) FROM stdin;
 0328d250ea8304c9596cd2541f1f85ec9346a952cd478d3ce915e4db859f5f72	bcde7cf9-61b9-4e49-8bd3-feed2e7c6857	2026-08-05 08:44:41.673+00	2026-07-06 08:44:41.676415+00
 7660eb4c5e27ea25b3d80c6c982e3b97f6c778cb140c25cae067bb879251cda0	bcde7cf9-61b9-4e49-8bd3-feed2e7c6857	2026-08-14 10:16:45.131+00	2026-07-15 10:16:45.138481+00
 a6536f24c0c9eae47fe5aa0762b1a2c945beb39e3f5eff73570e07aaff0085f1	bcde7cf9-61b9-4e49-8bd3-feed2e7c6857	2026-08-14 10:23:47.695+00	2026-07-15 10:23:47.697025+00
+8c95a8b00ba9d851e76f1a5531e39581e14cdb4adb835343ce219aabec558dab	bcde7cf9-61b9-4e49-8bd3-feed2e7c6857	2026-08-17 13:12:49.191+00	2026-07-18 13:12:49.195611+00
+0d0231587237bd78512d6c5ea395171f6636d9a373164b41bb18ddd3eef8dc6b	bcde7cf9-61b9-4e49-8bd3-feed2e7c6857	2026-08-17 13:15:35.262+00	2026-07-18 13:15:35.264988+00
+1b28ad11771ad635f637b664037d47248d90d3277364677a8e1d2947b7086384	bcde7cf9-61b9-4e49-8bd3-feed2e7c6857	2026-08-17 14:50:12.787+00	2026-07-18 14:50:12.790066+00
+369a792ae1ee554ce987259d602c132a82b758a064f676ed591f57dcb0316f25	bcde7cf9-61b9-4e49-8bd3-feed2e7c6857	2026-08-17 15:05:36.761+00	2026-07-18 15:05:36.763635+00
 \.
 
 
@@ -1173,10 +1191,10 @@ COPY public.submissions (id, kind, name, email, phone, message, training_id, pag
 
 COPY public.team_members (id, name, role_title, bio, photo, initials, sort_order, published, created_at, updated_at, slug, detail_bio, expertise, highlights) FROM stdin;
 1	Ali Özel	Kurucu & Eğitmen & Koordinatör	Mavi yaka liderliği ve Eğit-Öğret-Yönet metodolojisinin mimarı. Yıllarını üretim sahasında, gerçek ekiplerin içinde geçirdi; sahanın gerçeğinden doğan, davranış değiştiren eğitimler veriyor.	/team/ali-ozel.jpg	\N	0	t	2026-07-03 09:57:36.663323+00	2026-07-15 11:46:17.145+00	ali-ozel	Ali Özel, profesyonel hayatının büyük bölümünü üretim sahasında, gerçek ekiplerin içinde geçirdi. Vardiya amirliğinden yöneticiliğe uzanan bu yolculuk; ona liderliğin slaytlarda değil, sahada — insanların arasında — öğrenildiğini gösterdi. Bugün verdiği her eğitimin arkasında bu sahada yaşanmış deneyim birikimi var.\n\nSan Eğitim & Danışmanlık'ı tek bir eğitmenin sınırlarına bağlı kalmayan bir model üzerine kurdu: farklı disiplinlerden gelen uzmanlıkları kurumların gerçek ihtiyaçlarıyla eşleştiren, eğitimle başlayıp danışmanlık ve ölçümlemeyle tamamlanan bir gelişim yaklaşımı. Kurucu, eğitmen ve koordinatör rollerini bir arada üstlenerek; her programın kuruma özel kurgulanmasını ve eğitim sonrası saha takibiyle kalıcı davranış değişimine dönüşmesini bizzat yönetiyor.\n\nGeliştirdiği **Eğit-Öğret-Yönet** metodolojisi; bilgiyi aktarmakla yetinmeyen, öğreten ve sahada uygulatan üç aşamalı bir öğrenme modelidir. Liderlik ve yönetimden satışa, takım çalışmasından yapay zekâ çağında liderliğe uzanan tüm eğitim alanları bu ortak metodolojiden beslenir.\n\nBugün San Eğitim & Danışmanlık çatısı altında; üretim tesislerinden hizmet sektörüne geniş bir yelpazede kurumla çalışıyor, 8 eğitim alanında 70'in üzerinde modülün içeriğini ve eğitmen kadrosunu koordine ediyor.	["Liderlik ve Yönetim", "Üretimde İnsan Yönetimi", "Eğit-Öğret-Yönet Metodolojisi", "Satış ve İletişim", "Takım Çalışması (Indoor & Outdoor)", "Yapay Zekâ ve Liderlik"]	[{"label": "Kurumsal deneyim", "value": "35+ yıl"}, {"label": "Eğitmenlik", "value": "15+ yıl"}, {"label": "Eğitim modülü", "value": "71+"}]
-2	Prof. Dr. Sabah Balta Ulay	Yönetim & Strateji Profesörü	Yaşar Üniversitesi öğretim üyesi ve 14+ yıl YÜSEM müdürü. Yönetim, liderlik, motivasyon ve örgütsel gelişim alanlarında binlerce yöneticiye eğitim verdi.	/team/sabah-balta-ulay.jpg	\N	1	t	2026-07-03 09:57:36.663323+00	2026-07-15 11:46:17.193+00	sabah-balta-ulay	Nevşehir doğumlu olan Sabah Balta Ulay, iş dünyasının içinde yetişmiş bir akademisyendir. Lisans eğitimini tamamlar tamamlamaz Kapadokya'nın önde gelen otellerinde yönetici pozisyonlarında çalışmış; bu erken dönem sektör deneyimi, akademik kariyerinin temel taşlarından birini oluşturmuştur.\n\nAnadolu Üniversitesi'nde öğretim görevlisi olarak başlayan akademik yolculuğunda yüksek lisans ve doktorasını aynı üniversitede tamamlamıştır. Doktora sürecinde üniversitenin uygulama otelinde yöneticilik yaparak teori ile pratiği aynı anda yaşamış; ekip yönetimi, çalışan motivasyonu, halkla ilişkiler ve otel operasyonları konularında derin bir birikim edinmiştir.\n\nKariyerinin ilerleyen döneminde Ege Üniversitesi'nde öğretim üyeliği görevinin ardından Yaşar Üniversitesi'ne geçmiş ve buradaki uzun soluklu görevinde hem akademik hem de kurumsal liderlik alanında iz bırakmıştır. On dört yılı aşkın süre Yaşar Üniversitesi Sürekli Eğitim Merkezi (YÜSEM) Müdürlüğü'nü üstlenerek onlarca ulusal ve uluslararası kuruluşla eğitim iş birlikleri kurmuş; binlerce yetişkin katılımcıya yönetim, liderlik, motivasyon ve örgütsel gelişme gibi alanlarda eğitimler vermiştir.\n\nYönetim ve Strateji alanında doçentlik, ardından profesörlük unvanını alan Sabah Balta Ulay; Web of Science ve Google Scholar indekslerinde yer alan makaleleri, kitapları ve bildirileriyle uluslararası bilim dünyasına katkı sunmaktadır. Yaşar Üniversitesi tarafından hem araştırma başarısı hem de eğitimdeki etkinliği nedeniyle ödüllendirilen Prof. Dr. Ulay, akademi ile iş dünyası arasında köprü kurma konusundaki deneyimiyle alanının sayılı isimlerinden biridir.	["İşletme Yönetimi ve Yönetim Fonksiyonları", "Liderlik, Ekip Yönetimi ve Çalışan Motivasyonu", "Rekabet Stratejileri", "Turizm İşletmelerinde İnsan Kaynakları Yönetimi", "Turizm Politikaları ve Destinasyon Yönetimi", "Sağlık Turizmi ve Tarım Turizmi", "Örgütsel Gelişme ve Yönetim Becerileri", "Otel İşletmeciliği ve Turizm Mevzuatı", "Yetişkin Eğitimi ve Sürekli Eğitim"]	[{"label": "Yönetim ve Strateji", "value": "Prof. Dr."}, {"label": "YÜSEM Müdürlüğü", "value": "14+ yıl"}, {"label": "Yetişkin katılımcı", "value": "Binlerce"}]
 3	Taner Akdaş	Satış & İletişim Eğitmeni · ICF Koç	ICF onaylı profesyonel koç. Satış, iletişim ve müşteri deneyimi alanında 21.000+ katılımcıya 13.000+ saat eğitim verdi; Garanti, Akbank, Hepsiburada gibi kurumlarla çalıştı.	/team/taner-akdas.jpg	\N	2	t	2026-07-03 09:57:36.663323+00	2026-07-15 11:46:17.196+00	taner-akdas	1979 doğumlu Taner Akdaş, İstanbul Üniversitesi İşletme Bölümü'nü bitirdikten sonra Bilgi Üniversitesi'nde Ekonomi yüksek lisansını tamamladı. Henüz üniversite yıllarında Çağdaş Yaşamı Destekleme Derneği'nde gönüllü matematik dersleri vererek öğretmeye olan ilgisini keşfetti.\n\nProfesyonel hayatına 1999'da MNG Bank Müşteri Hizmetleri'nde başladı; temel bankacılık, yatırım bankacılığı ve şüpheli işlem takibi birimlerinde görev aldı. 2002'de Turkcell Global Bilgi'de katma değerli servisler ekibinde "Mobil Teknoloji Uzmanı" olarak çalışırken müşteri deneyimi ve satış dünyasıyla tanıştı. Sonraki yıllarda MEP İletişim'de İç Anadolu Satış Müdürlüğü ve C5 Elektronik'te zincir mağazalardan sorumlu satış yönetmenliği görevlerinde; bayi kanal yönetimi, perakende satış ve ekip yönetimi konularında uzmanlaştı, 47 kişilik saha ekibini yönetti. "Eğitim ve çalışan gelişimi" üzerine ilk çalışmalarını da bu dönemde yaptı.\n\n2011 yılı sonunda eğitim ve danışmanlık sektörüne geçti. Bankaların, sigorta kurumlarının ve perakende firmalarının çağrı merkezleri ve şubeleri için satış, iletişim, ikna, takım olma, müşteri memnuniyeti, şikâyet yönetimi, liderlik ve stres yönetimi başta olmak üzere onlarca başlıkta eğitim içeriği hazırladı ve sundu.\n\nBugüne kadar **21.000'den fazla katılımcıyla 13.000 saatin üzerinde eğitim** gerçekleştiren Taner Akdaş; ICF onaylı Profesyonel Koç olarak eğitim ve danışmanlık çalışmalarına devam ediyor. Eğitim verdiği kurumlardan bazıları: Garanti Bankası, Hepsiburada, Enuygun, Yapı Kredi, Agesa, Akbank, QNB Finansbank, Vakıfbank, Halkbank, sahibinden.com, Eureko, Hepsiemlak ve Albaraka Türk.	["Etkin İletişim", "Satış Becerileri ve Satış Koçluğu", "Müşteri Deneyimi ve Şikâyet Yönetimi", "Tahsilat Becerileri", "Stres Yönetimi ve Zor Durumlarla Başa Çıkma", "Temel Yönetim Becerileri", "Sunum Becerileri ve Diksiyon"]	[{"label": "Katılımcı", "value": "21.000+"}, {"label": "Saat eğitim", "value": "13.000+"}, {"label": "Onaylı profesyonel koç", "value": "ICF"}]
 4	Timur Nihat Vreskala	İş Geliştirme & Operasyon Uzmanı	25+ yıllık kariyerinde IT proje yönetimi, çağrı merkezi, satış ve iş geliştirme alanlarında uzmanlaştı. 12.000+ katılımcıya 8.000+ saat eğitim verdi.	/team/timur-vreskala.jpg	\N	3	t	2026-07-03 09:57:36.663323+00	2026-07-15 11:46:17.199+00	timur-nihat-vreskala	1974 doğumlu Timur Nihat Vreskala, Marmara Üniversitesi Alman Dili ve Edebiyatı bölümünden mezun oldu; ardından aynı üniversitede Sosyoloji bölümünde ikinci dal eğitimine devam etti.\n\nProfesyonel iş hayatına 1997'de Turkcell'de çağrı merkezi operasyon temsilcisi olarak başladı. 1999–2010 yılları arasında Turkcell Global Bilgi'de farklı kademelerde görev alarak iş gücü yönetimi (workforce management), iş zekâsı analizi, IT talep ve proje yönetimi alanlarında deneyim kazandı. Sonrasında Vakıfbank ve ING Bank'ta Performans ve Planlama Müdürü olarak verimlilik yönetimi ve iş gücü planlamasında uzmanlaştı.\n\nPronet'te IT Proje Müdürü olarak yazılım geliştirme projeleri yönetti; bağımsız danışman olarak CRM, satış aktiviteleri, yönetim raporlaması ve koçluk hizmetleri verdi. Dünya Göz Hastaneler Grubu ve YourCCC'de Çağrı Merkezi Müdürü olarak müşteri deneyimi yönetimi, kaynak planlama ve performans ölçümleme ekiplerini yönetti. 2017–2021 arasında Zenkronn'da İş Geliştirme Direktörü olarak yapay zekâ ve RPA projeleri üzerinde çalıştı; 2021'den bu yana Teleperformance'ta IT Proje Yöneticisi olarak proje yönetim ofisi süreçlerinin kurulumu ve metodoloji geliştirme çalışmalarını sürdürüyor.\n\n25 yılı aşkın kariyerinde farklı sektörlerden kurumlarda **12.000'in üzerinde katılımcıya 8.000 saatin üzerinde eğitim** veren Timur Vreskala; Türkçe ve Almanca'yı ana dil düzeyinde, İngilizce'yi iyi derecede konuşuyor.	["IT Proje Yönetimi", "Çağrı Merkezi ve Operasyon Yönetimi", "Satış ve İş Geliştirme", "CRM ve B2B Stratejiler", "Ekip Yönetimi", "RPA ve Yapay Zekâ Uygulamaları", "İş Gücü Planlama ve Performans Ölçümleme"]	[{"label": "Katılımcı", "value": "12.000+"}, {"label": "Saat eğitim", "value": "8.000+"}, {"label": "Profesyonel deneyim", "value": "25+ yıl"}]
 5	Sevde Engin	İK & Organizasyonel Gelişim Uzmanı	İK, organizasyonel gelişim ve eğitim yönetiminde 13+ yıl deneyim. Performans yönetimi, OKR sistemleri ve liderlik gelişimi alanlarında danışmanlık veriyor.	/team/sevde-engin.jpg	\N	4	t	2026-07-03 09:57:36.663323+00	2026-07-15 11:46:17.203+00	sevde-engin	Sevde Engin, Celal Bayar Üniversitesi Matematik bölümünden mezun oldu; pedagojik formasyonunun ardından 2024 yılında İK Yönetimi programını tamamladı. Eğitime olan ilgisini "Eğitimcinin Eğitimi" programıyla profesyonel bir zemine taşıdı.\n\nKariyerine 2013'te Norm Holding'de İnsan Kaynakları Sorumlusu olarak başladı; İK ve idari işlerin tüm operasyonel süreçlerini yürüttü, grup şirketleriyle standardizasyon ve süreç iyileştirme projelerinde görev aldı. 2017–2023 arasında Mondi Tire Kutsan'da İK Uzmanı, İK İş Ortağı ve İK Yöneticisi rollerinde; yaklaşık 471 kişilik organizasyonun İK ve gelişim süreçlerini yönetti. Performans yönetimi, yetenek yönetimi, çalışan bağlılığı, liderlik gelişimi, 360 derece değerlendirme, yetkinlik bazlı mülakat sistemleri ve geri bildirim kültürü projelerinde aktif sorumluluk üstlendi; Mondi Türkiye'nin tüm işe alım ve oryantasyon süreçlerinin yeniden tasarımına liderlik etti. 2022'de Mondi Grubu'nun küresel sürdürülebilirlik projesi SEAT'in Türkiye ayağında proje liderliği yaptı.\n\n2023'te Konfrut AG Tarım'da (Döhler'in start-up şirketi) İK Müdürü olarak OKR bazlı performans yönetim sistemi dönüşümünü bizzat hayata geçirdi; organizasyonel tasarım, ücret yapıları ve ekip kurulumu konularında uzmanlaştı. 2024'te Döhler Gıda'ya geçerek Eğitim ve Performans Müdürü olarak eğitim ihtiyaç analizleri, liderlik gelişim programları, iç eğitmen sistemleri ve dijital öğrenme projelerini yönetti.\n\nİnsan kaynakları, organizasyonel gelişim ve eğitim yönetimi alanlarında **13 yılı aşkın deneyime** sahip olan Sevde Engin; British Psychological Society onaylı Assessor Skills sertifikasına sahiptir. Stratejik ve operasyonel İK deneyimini bir araya getirerek kurumların sürdürülebilir performans kültürü oluşturmalarına destek oluyor.	["Performans Yönetimi ve OKR Sistemleri", "Yetenek Yönetimi", "Çalışan Bağlılığı", "Liderlik Gelişimi", "Geri Bildirim Kültürü", "Yetkinlik Bazlı Mülakat Teknikleri", "360 Derece Değerlendirme", "Organizasyonel Gelişim ve Eğitim Sistemleri"]	[{"label": "İK & gelişim deneyimi", "value": "13+ yıl"}, {"label": "Onaylı assessor", "value": "BPS"}, {"label": "Kişilik organizasyon deneyimi", "value": "471"}]
+2	Prof. Dr. Sabah Balta Ulay	Yönetim & Strateji Profesörü	Yaşar Üniversitesi öğretim üyesi ve 14+ yıl YÜSEM müdürü. Yönetim, liderlik, motivasyon ve örgütsel gelişim alanlarında binlerce yöneticiye eğitim verdi.	/team/sabah-balta-ulay.jpg	\N	1	t	2026-07-03 09:57:36.663323+00	2026-07-16 15:26:55.355+00	sabah-balta-ulay	Nevşehir doğumlu olan Sabah Balta Ulay, iş dünyasının içinde yetişmiş bir akademisyendir. Lisans eğitimini tamamlar tamamlamaz Kapadokya'nın önde gelen otellerinde yönetici pozisyonlarında çalışmış; bu erken dönem sektör deneyimi, akademik kariyerinin temel taşlarından birini oluşturmuştur.\r\n\r\nAnadolu Üniversitesi'nde öğretim görevlisi olarak başlayan akademik yolculuğunda yüksek lisans ve doktorasını aynı üniversitede tamamlamıştır. Doktora sürecinde üniversitenin uygulama otelinde yöneticilik yaparak teori ile pratiği aynı anda yaşamış; ekip yönetimi, çalışan motivasyonu, halkla ilişkiler ve otel operasyonları konularında derin bir birikim edinmiştir.\r\n\r\nKariyerinin ilerleyen döneminde Ege Üniversitesi'nde öğretim üyeliği görevinin ardından Yaşar Üniversitesi'ne geçmiş ve buradaki uzun soluklu görevinde hem akademik hem de kurumsal liderlik alanında iz bırakmıştır. On dört yılı aşkın süre Yaşar Üniversitesi Sürekli Eğitim Merkezi (YÜSEM) Müdürlüğü'nü üstlenerek onlarca ulusal ve uluslararası kuruluşla eğitim iş birlikleri kurmuş; binlerce yetişkin katılımcıya yönetim, liderlik, motivasyon ve örgütsel gelişme gibi alanlarda eğitimler vermiştir.\r\n\r\nYönetim ve Strateji alanında doçentlik, ardından profesörlük unvanını alan Sabah Balta Ulay; Web of Science ve Google Scholar indekslerinde yer alan makaleleri, kitapları ve bildirileriyle uluslararası bilim dünyasına katkı sunmaktadır. Yaşar Üniversitesi tarafından hem araştırma başarısı hem de eğitimdeki etkinliği nedeniyle ödüllendirilen Prof. Dr. Ulay, akademi ile iş dünyası arasında köprü kurma konusundaki deneyimiyle alanının sayılı isimlerinden biridir.	["İşletme Yönetimi ve Yönetim Fonksiyonları", "Liderlik, Ekip Yönetimi ve Çalışan Motivasyonu", "Rekabet Stratejileri", "Turizm İşletmelerinde İnsan Kaynakları Yönetimi", "Turizm Politikaları ve Destinasyon Yönetimi", "Sağlık Turizmi ve Tarım Turizmi", "Örgütsel Gelişme ve Yönetim Becerileri", "Otel İşletmeciliği ve Turizm Mevzuatı", "Yetişkin Eğitimi ve Sürekli Eğitim"]	[{"label": "Yönetim ve Strateji", "value": "Prof. Dr."}, {"label": "YÜSEM Müdürlüğü", "value": "14+ yıl"}, {"label": "Yetişkin katılımcı", "value": "Binlerce"}, {"label": "Cart Curt", "value": "Test"}]
 \.
 
 
@@ -1411,21 +1429,21 @@ SELECT pg_catalog.setval('public.categories_id_seq', 9, true);
 -- Name: gallery_images_id_seq; Type: SEQUENCE SET; Schema: public; Owner: aliozel
 --
 
-SELECT pg_catalog.setval('public.gallery_images_id_seq', 62, true);
+SELECT pg_catalog.setval('public.gallery_images_id_seq', 200, true);
 
 
 --
 -- Name: gallery_sections_id_seq; Type: SEQUENCE SET; Schema: public; Owner: aliozel
 --
 
-SELECT pg_catalog.setval('public.gallery_sections_id_seq', 1, true);
+SELECT pg_catalog.setval('public.gallery_sections_id_seq', 2, true);
 
 
 --
 -- Name: legal_pages_id_seq; Type: SEQUENCE SET; Schema: public; Owner: aliozel
 --
 
-SELECT pg_catalog.setval('public.legal_pages_id_seq', 1, true);
+SELECT pg_catalog.setval('public.legal_pages_id_seq', 2, true);
 
 
 --
@@ -1439,7 +1457,7 @@ SELECT pg_catalog.setval('public.note_comments_id_seq', 3, true);
 -- Name: reference_logos_id_seq; Type: SEQUENCE SET; Schema: public; Owner: aliozel
 --
 
-SELECT pg_catalog.setval('public.reference_logos_id_seq', 38, true);
+SELECT pg_catalog.setval('public.reference_logos_id_seq', 41, true);
 
 
 --
@@ -1796,5 +1814,5 @@ ALTER TABLE ONLY public.trainings
 -- PostgreSQL database dump complete
 --
 
-\unrestrict Ex7IAkDszBIFFzYTTLVU3YOcXncCCQXtoaiXM66zxsDKQ6qhDG8PhcxdScF4LUa
+\unrestrict lmdhc7Vowy8JJS2fG2DjUMnzBIHXxDPT1DVGMWeUeePuhSyVnSYoYTFEOzl9Xwv
 

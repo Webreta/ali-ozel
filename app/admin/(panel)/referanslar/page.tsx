@@ -3,9 +3,8 @@ import { asc } from "drizzle-orm";
 import { db } from "@/db";
 import { referenceLogos } from "@/db/schema";
 import { requireUser } from "@/lib/auth/session";
-import ConfirmDelete from "@/components/admin/ConfirmDelete";
 import ReferenceForm from "./ReferenceForm";
-import { deleteReference, moveReference, toggleReference } from "./actions";
+import ReferenceGrid from "./ReferenceGrid";
 
 export const metadata: Metadata = { title: "Referanslar" };
 
@@ -22,8 +21,8 @@ export default async function ReferanslarAdminPage() {
         <div>
           <h1>Referanslar</h1>
           <p>
-            {rows.length} logo — sıralama, tanınan markaları dağıtacak şekilde
-            sitedeki görünüm sırasıdır.
+            {rows.length} logo — logoları sürükleyip bırakarak sitedeki görünüm
+            sırasını değiştirebilirsiniz. Yeni eklenen logo en başa gelir.
           </p>
         </div>
       </div>
@@ -34,45 +33,14 @@ export default async function ReferanslarAdminPage() {
       </div>
 
       <div className="adm-card">
-        <div className="adm-ref-grid">
-          {rows.map((r, i) => (
-            <figure className="adm-ref-cell" key={r.id}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={r.src} alt={r.name} />
-              <figcaption>{r.name}</figcaption>
-              <span className={`adm-badge ${r.published ? "is-done" : "is-muted"}`}>
-                {r.published ? "Yayında" : "Gizli"}
-              </span>
-              <div className="adm-ref-actions">
-                <form action={moveReference.bind(null, r.id, "up")}>
-                  <button type="submit" className="adm-icon-btn" disabled={i === 0} title="Öne al">
-                    ↑
-                  </button>
-                </form>
-                <form action={moveReference.bind(null, r.id, "down")}>
-                  <button
-                    type="submit"
-                    className="adm-icon-btn"
-                    disabled={i === rows.length - 1}
-                    title="Arkaya al"
-                  >
-                    ↓
-                  </button>
-                </form>
-                <form action={toggleReference.bind(null, r.id, !r.published)}>
-                  <button type="submit" className="adm-icon-btn" title={r.published ? "Gizle" : "Yayınla"}>
-                    {r.published ? "◎" : "○"}
-                  </button>
-                </form>
-                <ConfirmDelete
-                  action={deleteReference.bind(null, r.id)}
-                  label="Sil"
-                  confirmText={`"${r.name}" logosu silinecek. Emin misiniz?`}
-                />
-              </div>
-            </figure>
-          ))}
-        </div>
+        <ReferenceGrid
+          rows={rows.map((r) => ({
+            id: r.id,
+            name: r.name,
+            src: r.src,
+            published: r.published,
+          }))}
+        />
       </div>
     </>
   );

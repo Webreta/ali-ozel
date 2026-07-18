@@ -1,6 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
+import GalleryImagesField from "@/components/admin/GalleryImagesField";
 import ImageField from "@/components/admin/ImageField";
 import RepeatableList from "@/components/admin/RepeatableList";
 import SubmitButton from "@/components/admin/SubmitButton";
@@ -9,7 +10,6 @@ import type { NoteFormState } from "./actions";
 type MetaRow = { label: string; value: string };
 type SegmentRow = { title: string; desc: string };
 type GalleryRow = { src: string; caption: string };
-type FeedbackRow = { quote: string; person: string };
 
 export type BrandNoteFormData = {
   company: string;
@@ -22,7 +22,6 @@ export type BrandNoteFormData = {
   meta: MetaRow[];
   segments: SegmentRow[];
   gallery: GalleryRow[];
-  feedback: FeedbackRow[];
   published: boolean;
 };
 
@@ -146,49 +145,11 @@ export default function BrandNoteForm({
 
       <fieldset className="adm-fieldset">
         <legend>Galeri</legend>
-        <RepeatableList<GalleryRow>
+        <GalleryImagesField
           name="gallery"
-          addLabel="+ Fotoğraf ekle"
+          textKey="caption"
+          textPlaceholder="Alt yazı"
           initialItems={initialData?.gallery ?? []}
-          empty={{ src: "", caption: "" }}
-          renderRow={(item, update) => (
-            <>
-              <ImageField
-                defaultValue={item.src}
-                onChange={(url) => update({ src: url })}
-              />
-              <input
-                placeholder="Alt yazı"
-                value={item.caption}
-                onChange={(e) => update({ caption: e.target.value })}
-              />
-            </>
-          )}
-        />
-      </fieldset>
-
-      <fieldset className="adm-fieldset">
-        <legend>Katılımcı geri bildirimleri</legend>
-        <RepeatableList<FeedbackRow>
-          name="feedback"
-          addLabel="+ Geri bildirim ekle"
-          initialItems={initialData?.feedback ?? []}
-          empty={{ quote: "", person: "" }}
-          renderRow={(item, update) => (
-            <>
-              <textarea
-                placeholder="Alıntı"
-                value={item.quote}
-                rows={2}
-                onChange={(e) => update({ quote: e.target.value })}
-              />
-              <input
-                placeholder="Kişi/rol (ör. Vardiya Lideri, Montaj Hattı)"
-                value={item.person}
-                onChange={(e) => update({ person: e.target.value })}
-              />
-            </>
-          )}
         />
       </fieldset>
 

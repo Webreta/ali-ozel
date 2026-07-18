@@ -454,7 +454,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 62% 16%;
+  object-position: 74% 16%;
   transform: scale(1.16);
   transform-origin: 72% 38%;
   -webkit-mask-image: linear-gradient(to left, #000 60%, transparent 100%);
@@ -1461,6 +1461,14 @@ ul { margin: 0; padding: 0; list-style: none; }
   box-shadow: 0 12px 24px -12px rgba(224, 211, 198, 0.6);
 }
 .aside-card.dark .btn-primary:hover { background: #ffffff; color: var(--brand-dark); }
+.aside-card.dark .btn-outline {
+  color: var(--gold);
+  border-color: rgba(224, 211, 198, 0.45);
+}
+.aside-card.dark .btn-outline:hover {
+  color: #fff;
+  border-color: #fff;
+}
 /* teklif kartı — üstte Ali Özel foto banner, altı bordoya eriyen overlay */
 .teklif-card { padding-top: 0; overflow: hidden; }
 .teklif-banner {
@@ -2430,6 +2438,8 @@ body:has(.note-standalone) .site-footer { display: none; }
   gap: 40px;
   margin-bottom: 44px;
 }
+/* yasal metin varsa 4. kolon açılır */
+.footer-nav.has-legal { grid-template-columns: 1.6fr 1fr 1.1fr 1fr; }
 .footer-col h5 {
   font-family: var(--font-display); color: #fff; font-size: 0.8rem;
   text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 18px; font-weight: 700;
@@ -2473,6 +2483,27 @@ body:has(.note-standalone) .site-footer { display: none; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+/* teklif kartındaki gibi: altta koyulaşan overlay + beyaz SAN logosu */
+.about-portrait::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(23, 18, 15, 0) 55%,
+    rgba(23, 18, 15, 0.08) 70%,
+    rgba(23, 18, 15, 0.62) 100%
+  );
+  pointer-events: none;
+}
+.about-portrait .ap-logo {
+  position: absolute;
+  inset: auto auto 20px 24px;
+  width: auto;
+  height: 38px;
+  z-index: 1;
+  filter: brightness(0) invert(1) drop-shadow(0 2px 8px rgba(0, 0, 0, 0.45));
 }
 .about-portrait .ap-mono {
   font-family: var(--font-display); font-weight: 800; color: rgba(255,255,255,0.08);
@@ -2940,8 +2971,8 @@ body:has(.note-standalone) .site-footer { display: none; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* yatay karede Ali abi sağda — kadrajı ona göre kaydır */
-  object-position: 66% 22%;
+  /* yatay karede Ali abi sağda — dar dikey kadrajda ortalamak için kaydır */
+  object-position: 75% 22%;
 }
 .modal-photo::after {
   content: "";
@@ -3303,7 +3334,7 @@ body:has(.note-standalone) .site-footer { display: none; }
   .about-split, .contact-grid { grid-template-columns: 1fr; gap: 36px; }
   .about-portrait { aspect-ratio: 16 / 11; }
   .footer-head { flex-direction: column; gap: 28px; }
-  .footer-nav { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .footer-nav, .footer-nav.has-legal { grid-template-columns: 1fr 1fr; gap: 32px; }
 }
 @media (max-width: 720px) {
   body { font-size: 16px; }
@@ -3316,7 +3347,7 @@ body:has(.note-standalone) .site-footer { display: none; }
   .outcome-grid { grid-template-columns: 1fr; }
   .hero-stats { grid-template-columns: 1fr 1fr; }
   .cta { padding: 40px 24px; }
-  .footer-nav { grid-template-columns: 1fr; gap: 28px; }
+  .footer-nav, .footer-nav.has-legal { grid-template-columns: 1fr; gap: 28px; }
   .footer-links-grid { grid-template-columns: 1fr 1fr; }
   .footer-reach { width: 100%; }
   .footer-bottom { flex-direction: column; align-items: flex-start; }

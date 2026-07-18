@@ -101,9 +101,12 @@ export default function FarkimizNePage() {
         <div className="container about-split">
           <div className="about-portrait">
             {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/ali-ozel-form.jpg" alt="Ali Özel" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/uploads/images/3a4c1421-54f1-4101-b353-45c464296e25.webp"
-              alt="Ali Özel bir eğitim sırasında"
+              className="ap-logo"
+              src="/logo.png"
+              alt="San Eğitim Danışmanlık"
             />
           </div>
           <div>

@@ -425,6 +425,14 @@
   border-color: var(--line-strong);
   box-shadow: var(--shadow-sm);
 }
+/* sürükle-bırak sıralama */
+.adm-ref-cell[draggable="true"] { cursor: grab; }
+.adm-ref-cell.is-dragging {
+  opacity: 0.45;
+  border-style: dashed;
+  border-color: var(--line-strong);
+}
+.adm-ref-grid.is-saving { pointer-events: none; opacity: 0.7; }
 
 /* Logo bandı: her kartta aynı yükseklik, logo içinde ferah ve ortalı durur */
 .adm-ref-cell img {

@@ -232,21 +232,6 @@ export default async function BrandNotePage({
             </section>
           ) : null}
 
-          {note.feedback.length > 0 ? (
-            <section className="ns-block">
-              <span className="ns-kicker">Katılımcı Geri Bildirimi</span>
-              <h2>Ekipten yansımalar</h2>
-              <div className="ns-feedback">
-                {note.feedback.map((f) => (
-                  <div className="ns-fb" key={f.person + f.quote.slice(0, 20)}>
-                    <p>“{f.quote}”</p>
-                    <cite>{f.person}</cite>
-                  </div>
-                ))}
-              </div>
-            </section>
-          ) : null}
-
           <section className="ns-block">
             <span className="ns-kicker">Yorumlar</span>
             <h2>Katılımcı yorumları</h2>

@@ -107,7 +107,7 @@ export default async function MemberPage({
                   </div>
                 </div>
               ) : null}
-              <div className="aside-card dark teklif-card">
+              <div className="aside-card dark">
                 <h4>Ekibimizle çalışın</h4>
                 <p>
                   {member.name} ve ekibimizle kurumunuza özel bir eğitim

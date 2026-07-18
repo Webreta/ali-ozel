@@ -1,7 +1,7 @@
 "use server";
 
 import { revalidatePath, revalidateTag } from "next/cache";
-import { asc, eq, sql } from "drizzle-orm";
+import { eq, sql } from "drizzle-orm";
 import { z } from "zod";
 import { db } from "@/db";
 import { referenceLogos } from "@/db/schema";
@@ -33,13 +33,14 @@ export async function createReference(
   if (!parsed.success) {
     return { error: parsed.error.issues[0]?.message ?? "Formu kontrol edin" };
   }
-  const [{ max }] = await db
-    .select({ max: sql<number>`coalesce(max(${referenceLogos.sortOrder}), -1)` })
+  // Yeni logo listenin başına gelir
+  const [{ min }] = await db
+    .select({ min: sql<number>`coalesce(min(${referenceLogos.sortOrder}), 1)` })
     .from(referenceLogos);
   await db.insert(referenceLogos).values({
     name: parsed.data.name,
     src: parsed.data.src,
-    sortOrder: max + 1,
+    sortOrder: min - 1,
   });
   revalidateRefs();
   return { ok: true };
@@ -60,24 +61,17 @@ export async function toggleReference(id: number, published: boolean) {
   revalidateRefs();
 }
 
-export async function moveReference(id: number, direction: "up" | "down") {
+export async function reorderReferences(ids: number[]) {
   await requireUser();
-  const rows = await db
-    .select({ id: referenceLogos.id, sortOrder: referenceLogos.sortOrder })
-    .from(referenceLogos)
-    .orderBy(asc(referenceLogos.sortOrder), asc(referenceLogos.id));
-  const idx = rows.findIndex((r) => r.id === id);
-  const swap = direction === "up" ? idx - 1 : idx + 1;
-  if (idx === -1 || swap < 0 || swap >= rows.length) return;
+  const parsed = z.array(z.number().int()).safeParse(ids);
+  if (!parsed.success || parsed.data.length === 0) return;
   await db.transaction(async (tx) => {
-    await tx
-      .update(referenceLogos)
-      .set({ sortOrder: rows[swap].sortOrder })
-      .where(eq(referenceLogos.id, rows[idx].id));
-    await tx
-      .update(referenceLogos)
-      .set({ sortOrder: rows[idx].sortOrder })
-      .where(eq(referenceLogos.id, rows[swap].id));
+    for (let i = 0; i < parsed.data.length; i++) {
+      await tx
+        .update(referenceLogos)
+        .set({ sortOrder: i, updatedAt: new Date() })
+        .where(eq(referenceLogos.id, parsed.data[i]));
+    }
   });
   revalidateRefs();
 }

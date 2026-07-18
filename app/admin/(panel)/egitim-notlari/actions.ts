@@ -53,7 +53,6 @@ const jsonField = <T extends z.ZodTypeAny>(schema: T) =>
 const metaRow = z.object({ label: z.string().trim(), value: z.string().trim() });
 const segmentRow = z.object({ title: z.string().trim(), desc: z.string().trim() });
 const galleryRow = z.object({ src: z.string().trim(), caption: z.string().trim() });
-const feedbackRow = z.object({ quote: z.string().trim(), person: z.string().trim() });
 
 const noteSchema = z.object({
   company: z.string().trim().min(2, "Kurum adı gerekli").max(200),
@@ -74,9 +73,6 @@ const noteSchema = z.object({
   gallery: jsonField(z.array(galleryRow)).transform((r) =>
     r.filter((x) => x.src)
   ),
-  feedback: jsonField(z.array(feedbackRow)).transform((r) =>
-    r.filter((x) => x.quote)
-  ),
   published: z.coerce.boolean(),
 });
 
@@ -92,7 +88,6 @@ function parseNoteForm(formData: FormData) {
     meta: formData.get("meta") ?? "[]",
     segments: formData.get("segments") ?? "[]",
     gallery: formData.get("gallery") ?? "[]",
-    feedback: formData.get("feedback") ?? "[]",
     published: formData.get("published") === "on",
   });
 }
