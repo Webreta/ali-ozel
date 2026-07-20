@@ -16,6 +16,7 @@ export type NavCategory = {
 
 export default function Header({ categories }: { categories: NavCategory[] }) {
   const [open, setOpen] = useState(false);
+  const [eduOpen, setEduOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
 
@@ -26,15 +27,16 @@ export default function Header({ categories }: { categories: NavCategory[] }) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // koyu üstlü sayfalar: anasayfa + eğitim kategori/detay (bordo hero)
+  // koyu üstlü sayfalar: bordo hero'lu tüm iç sayfalar (detaylar dahil)
   const darkHero =
-    pathname.startsWith("/egitimler/") ||
-    pathname === "/ekibimiz" ||
+    pathname.startsWith("/egitimler") ||
+    pathname.startsWith("/ekibimiz") ||
     pathname === "/referanslar" ||
     pathname === "/farkimiz-ne" ||
     pathname === "/iletisim" ||
-    pathname === "/blog" ||
+    pathname.startsWith("/blog") ||
     pathname === "/galeri" ||
+    pathname.startsWith("/yasal") ||
     pathname.startsWith("/egitim-notlari");
   const transparent = darkHero && !scrolled && !open;
   // anasayfa: bordo zeminli (opak) header
@@ -112,30 +114,62 @@ export default function Header({ categories }: { categories: NavCategory[] }) {
         </div>
       </div>
 
+      {open && (
+        <button
+          className="nav-backdrop"
+          aria-label="Menüyü kapat"
+          onClick={() => setOpen(false)}
+        />
+      )}
       <div className={`mobile-nav ${open ? "open" : ""}`}>
         <div className="container">
-          {mainNav.map((item) => (
-            <div key={item.href}>
-              <Link href={item.href} onClick={() => setOpen(false)}>
-                {item.label}
-              </Link>
-              {item.href === "/egitimler" &&
-                categories.map((cat) => (
-                  <Link
-                    key={cat.slug}
-                    href={`/egitimler/${cat.slug}`}
-                    className="sub"
-                    onClick={() => setOpen(false)}
-                  >
-                    {cat.shortName}
+          {mainNav.map((item) =>
+            item.href === "/egitimler" ? (
+              <div key={item.href}>
+                <div className="mnav-row">
+                  <Link href={item.href} onClick={() => setOpen(false)}>
+                    {item.label}
                   </Link>
-                ))}
-            </div>
-          ))}
+                  <button
+                    className="mnav-toggle"
+                    aria-label="Eğitim kategorilerini aç/kapat"
+                    aria-expanded={eduOpen}
+                    onClick={() => setEduOpen((v) => !v)}
+                  >
+                    <Icon name="chevron-down" />
+                  </button>
+                </div>
+                {eduOpen &&
+                  categories.map((cat) => (
+                    <Link
+                      key={cat.slug}
+                      href={`/egitimler/${cat.slug}`}
+                      className="sub"
+                      onClick={() => setOpen(false)}
+                    >
+                      {cat.shortName}
+                    </Link>
+                  ))}
+              </div>
+            ) : (
+              <div key={item.href}>
+                <Link href={item.href} onClick={() => setOpen(false)}>
+                  {item.label}
+                </Link>
+              </div>
+            )
+          )}
           <div className="mobile-cta">
             <Link
-              href="/egitim-notlari"
+              href="/iletisim"
               className="btn btn-primary"
+              onClick={() => setOpen(false)}
+            >
+              Teklif Al
+            </Link>
+            <Link
+              href="/egitim-notlari"
+              className="btn btn-outline"
               onClick={() => setOpen(false)}
             >
               Eğitim Notları

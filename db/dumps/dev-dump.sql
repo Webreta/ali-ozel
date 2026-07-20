@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict lmdhc7Vowy8JJS2fG2DjUMnzBIHXxDPT1DVGMWeUeePuhSyVnSYoYTFEOzl9Xwv
+\restrict WcwYyuNwrYZw6y9NlghU4b442b0gYNwmT1yMGQghPbKEheXJrQVQrvEiieBQn3y
 
 -- Dumped from database version 17.10
 -- Dumped by pg_dump version 17.10
@@ -1110,6 +1110,7 @@ COPY public.note_comments (id, brand_note_id, name, initials, body, approved, cr
 
 COPY public.reference_logos (id, name, src, sort_order, published, created_at, updated_at) FROM stdin;
 40	Filli Boya	/uploads/images/665afcfc-57ab-413c-a99c-46d688afc9c9.webp	0	t	2026-07-18 13:15:51.555018+00	2026-07-18 15:05:38.499+00
+18	Base	/referanslar/base.png	19	f	2026-07-14 12:38:22.006166+00	2026-07-20 13:45:25.975179+00
 41	BETEK	/uploads/images/a17db1af-563a-4fad-a6b4-209e7b335da4.webp	1	t	2026-07-18 14:02:35.295756+00	2026-07-18 15:05:38.501+00
 2	Medtronic	/referanslar/medtronic.png	2	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.502+00
 1	Vestel	/referanslar/vestel.png	3	t	2026-07-03 09:57:36.65704+00	2026-07-18 15:05:38.502+00
@@ -1128,7 +1129,6 @@ COPY public.reference_logos (id, name, src, sort_order, published, created_at, u
 15	İGA Havalimanı İşletmesi	/referanslar/iga.png	16	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.516+00
 16	Turkcell	/referanslar/turkcell.png	17	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.517+00
 17	Çamur Gayrimenkul	/referanslar/camur-gayrimenkul.png	18	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.518+00
-18	Base	/referanslar/base.png	19	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.518+00
 19	Next Pharma	/referanslar/next-pharma.png	20	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.519+00
 20	Krone	/referanslar/krone.png	21	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.52+00
 21	JCI	/referanslar/jci.png	22	t	2026-07-14 12:38:22.006166+00	2026-07-18 15:05:38.521+00
@@ -1814,5 +1814,5 @@ ALTER TABLE ONLY public.trainings
 -- PostgreSQL database dump complete
 --
 
-\unrestrict lmdhc7Vowy8JJS2fG2DjUMnzBIHXxDPT1DVGMWeUeePuhSyVnSYoYTFEOzl9Xwv
+\unrestrict WcwYyuNwrYZw6y9NlghU4b442b0gYNwmT1yMGQghPbKEheXJrQVQrvEiieBQn3y
 

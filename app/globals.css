@@ -319,14 +319,46 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .menu-toggle svg { width: 22px; height: 22px; }
 
-/* Mobile nav */
+/* Mobile nav — sağdan açılan, kendi içinde kaydırılabilir sidebar.
+   fixed yerine header'a absolute: .site-header'ın backdrop-filter'ı fixed'in
+   referansını bozuyor; sticky header zaten hep üstte olduğundan top:100% güvenli. */
+.nav-backdrop {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: calc(100vh - var(--header-h));
+  height: calc(100dvh - var(--header-h));
+  background: rgba(23, 18, 15, 0.42);
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  animation: mnav-fade 0.2s ease;
+}
 .mobile-nav {
   display: none;
-  border-top: 1px solid var(--line);
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: min(340px, 86vw);
+  height: calc(100vh - var(--header-h));
+  height: calc(100dvh - var(--header-h));
+  overflow-y: auto;
+  overscroll-behavior: contain;
   background: #fff;
-  padding: 12px 0 24px;
+  border-left: 1px solid var(--line);
+  box-shadow: -20px 0 60px rgba(0, 0, 0, 0.25);
+  padding: 6px 0 28px;
 }
-.mobile-nav.open { display: block; }
+.mobile-nav.open { display: block; animation: mnav-in 0.22s ease; }
+@keyframes mnav-in {
+  from { transform: translateX(48px); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+@keyframes mnav-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 .mobile-nav a {
   display: block;
   font-family: var(--font-display);
@@ -336,8 +368,26 @@ ul { margin: 0; padding: 0; list-style: none; }
   color: var(--ink-soft);
 }
 .mobile-nav .sub { padding-left: 16px; font-weight: 500; font-size: 0.92rem; color: var(--muted); }
-.mobile-cta { margin-top: 18px; }
-.mobile-cta .btn { width: 100%; }
+/* Eğitimler satırı: link + kategori akordeon düğmesi */
+.mnav-row { display: flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--line); }
+.mnav-row a { flex: 1; border-bottom: none; }
+.mnav-toggle {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.mnav-toggle svg { width: 16px; height: 16px; transition: transform 0.2s ease; }
+.mnav-toggle[aria-expanded="true"] svg { transform: rotate(180deg); }
+.mobile-cta { margin-top: 18px; display: flex; flex-direction: column; gap: 10px; }
+/* .mobile-nav a kuralı btn'leri block yapıp yazıyı sola yaslıyor — ortala */
+.mobile-cta .btn { width: 100%; display: inline-flex; justify-content: center; text-align: center; }
 
 /* ---------- Hero ---------- */
 .hero {
@@ -441,7 +491,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* hero — Ali Özel fotoğrafı (full hero: sağ yarıyı kaplar, sola erir) */
 .hero { padding-top: 0; padding-bottom: 0; }
 .hero > .container { position: relative; z-index: 1; }
-.hero-grid { min-height: 600px; padding: 56px 0; }
+.hero-grid { min-height: 600px; padding: 56px 24px; } /* .container'ın yan padding'ini shorthand ezdiği için 24px korunur */
 .hero-photo {
   position: absolute;
   top: 0;
@@ -496,8 +546,14 @@ ul { margin: 0; padding: 0; list-style: none; }
 @media (max-width: 960px) {
   .hero { padding: 0; }
   .hero-grid { min-height: 0; padding: 0 0 44px; }
+  /* foto tam genişlik kalır; metin bloğu kenar boşluğunu kendisi alır */
+  .hero-content { padding: 0 24px; }
   .hero-photo {
-    position: static;
+    /* relative kalmalı: imza (.hero-photo-sign) fotoğrafa hizalanır, hero'nun dibine düşmez */
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
     width: 100%;
     height: 340px;
     margin-bottom: 28px;
@@ -510,8 +566,19 @@ ul { margin: 0; padding: 0; list-style: none; }
   .hero-spacer { display: none; }
 }
 @media (max-width: 720px) {
-  .hero-photo { height: 280px; }
-  .hero-photo-sign { right: 14px; bottom: 14px; }
+  .hero-photo { height: 320px; }
+  /* Ali Bey daha büyük ve kadraja ortalı */
+  .hero-photo img {
+    object-position: 74% 12%;
+    transform: translateX(-10%) scale(1.45);
+    transform-origin: 72% 30%;
+  }
+  /* rozet mobilde gereksiz yer kaplıyor */
+  .hero-eyebrow { display: none; }
+  /* imza fotoğrafın sağ altında */
+  .hero-photo-sign { right: 14px; bottom: 6px; gap: 6px; }
+  .hero-photo-badge { font-size: 1.9rem; }
+  .hero-photo-role { font-size: 0.68rem; padding: 6px 12px; letter-spacing: 0.1em; }
 }
 
 /* hero metin & butonlar — bordo zemine uyum (beyaz) */
@@ -769,6 +836,8 @@ ul { margin: 0; padding: 0; list-style: none; }
   .cat-section .section-title { white-space: normal; }
   .ccw-top { padding: 22px 22px 18px; gap: 16px; }
   .ccw-foot { padding: 14px 18px 14px 22px; }
+  /* dar ekranda etiket "..." ile kesilmesin, alt satıra sarsın */
+  .ccw-kicker { white-space: normal; }
 }
 
 /* ---- Yaklaşımımız (dinamik numaralı liste) ---- */
@@ -1215,11 +1284,20 @@ ul { margin: 0; padding: 0; list-style: none; }
   z-index: 0;
 }
 @media (max-width: 720px) {
-  /* mobilde başlık alt satıra kayabilir, header yüksekliği serbest */
+  /* mobilde başlık alt satıra kayabilir, header yüksekliği serbest;
+     negatif margin header'ın altına çektiği için üst padding header'ı telafi etmeli
+     (yoksa breadcrumb logonun üstüne biner) */
   .page-hero.on-brand {
     min-height: 0;
     display: block;
-    padding: 40px 0 44px;
+    padding: calc(20px + var(--header-h)) 0 44px;
+  }
+  /* mobilde açıklama "..." ile kesilmesin, tamamı okunsun */
+  .page-hero.on-brand .page-lead {
+    display: block;
+    overflow: visible;
+    -webkit-line-clamp: unset;
+    line-clamp: unset;
   }
   .page-hero.on-brand.hero-extended { padding-bottom: 330px; }
   .detail-section { margin-top: -280px; }
@@ -1254,6 +1332,8 @@ ul { margin: 0; padding: 0; list-style: none; }
   gap: 48px;
   align-items: center;
 }
+/* iki kolon da min-content'e göre şişmesin (nowrap info satırları mobilde taşırıyor) */
+.training-hero-grid > * { min-width: 0; }
 .training-hero-main { min-width: 0; }
 .page-hero.on-brand.training-hero h1 {
   white-space: normal;
@@ -1382,6 +1462,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* kartlar header'ın solan alt bölgesinin üzerine biner */
 .detail-section { position: relative; z-index: 2; margin-top: -380px; padding-top: 0; }
 .detail-grid { display: grid; grid-template-columns: 1fr 320px; gap: 56px; align-items: start; }
+/* grid çocukları min-content'e göre genişleyip sayfayı taşırmasın (uzun nowrap çipler) */
+.detail-grid > * { min-width: 0; }
 .detail-quote {
   font-family: var(--font-display);
   font-size: 1.5rem;
@@ -1715,6 +1797,32 @@ ul { margin: 0; padding: 0; list-style: none; }
   color: rgba(255, 255, 255, 0.92);
   max-width: 520px;
 }
+/* mobilde istatistikler: divider yerine ortalı kutular */
+@media (max-width: 720px) {
+  .team-hero-stats,
+  .team-hero-grid .team-hero-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 26px;
+  }
+  .team-hero-stats > div {
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 14px;
+    padding: 16px 10px;
+  }
+  .team-hero-stats > div:not(:first-child),
+  .team-hero-grid .team-hero-stats > div:not(:first-child) {
+    border-left: 1px solid rgba(255, 255, 255, 0.16);
+    padding-left: 10px;
+  }
+  .team-hero-stats strong,
+  .team-hero-grid .team-hero-stats strong { font-size: 1.9rem; }
+}
+
 .team-hero-quote cite {
   display: block;
   margin-top: 10px;
@@ -1759,7 +1867,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 .member-lead .member-bio { font-size: 0.98rem; }
 @media (max-width: 900px) {
   .team-hero-grid { grid-template-columns: 1fr; gap: 30px; }
-  .team-hero-aside { max-width: 420px; }
+  /* tek kolonda önce başlık/metin, foto kartı sonra gelsin */
+  .team-hero-aside { max-width: 420px; order: 2; }
 }
 @media (max-width: 1100px) {
   .member-grid { grid-template-columns: repeat(2, 1fr); }
@@ -2578,6 +2687,10 @@ body:has(.note-standalone) .site-footer { display: none; }
   border-color: rgba(224, 211, 198, 0.55);
   transform: translateY(-1px);
 }
+/* mobilde tek satır dayatması metni kesiyor; sarmasına izin ver */
+@media (max-width: 720px) {
+  .aud-card .aud-chip { white-space: normal; }
+}
 .aud-card .ac-dot,
 .aud-card .aud-chip:nth-child(n) .ac-dot {
   background: var(--gold);
@@ -2678,6 +2791,10 @@ body:has(.note-standalone) .site-footer { display: none; }
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+/* mobilde "..." ile kesme yerine alt satıra sar — bilgi kaybolmasın */
+@media (max-width: 720px) {
+  .info-highlight .info-txt strong { white-space: normal; }
 }
 
 /* ---------- Teklif modal ---------- */
@@ -3127,7 +3244,8 @@ body:has(.note-standalone) .site-footer { display: none; }
 .member-hero-main .team-hero-stats { margin-top: 26px; }
 @media (max-width: 900px) {
   .member-hero-grid { grid-template-columns: 1fr; gap: 28px; }
-  .member-hero-photo { max-width: 260px; }
+  /* tek kolonda önce isim/istatistik, foto sonra gelsin */
+  .member-hero-photo { max-width: 260px; order: 2; }
 }
 
 /* ---------- Kategori hero mini slider ---------- */
@@ -3332,7 +3450,11 @@ body:has(.note-standalone) .site-footer { display: none; }
   .detail-grid { grid-template-columns: 1fr; gap: 36px; }
   .detail-aside { position: static; }
   .about-split, .contact-grid { grid-template-columns: 1fr; gap: 36px; }
-  .about-portrait { aspect-ratio: 16 / 11; }
+  /* dikey kalsın: yatay kırpım kafayı kesiyordu.
+     DİKKAT: margin:auto grid stretch'i kapatır; içerik tamamen absolute olduğundan
+     genişlik açıkça verilmeli, yoksa kutu 0px'e çöker */
+  .about-portrait { aspect-ratio: 4 / 5; width: min(100%, 440px); margin: 0 auto; }
+  .about-portrait img { object-position: 30% 12%; }
   .footer-head { flex-direction: column; gap: 28px; }
   .footer-nav, .footer-nav.has-legal { grid-template-columns: 1fr 1fr; gap: 32px; }
 }
@@ -3345,7 +3467,10 @@ body:has(.note-standalone) .site-footer { display: none; }
   .diff-body h2 { font-size: 1.2rem; }
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
   .outcome-grid { grid-template-columns: 1fr; }
-  .hero-stats { grid-template-columns: 1fr 1fr; }
+  /* üç istatistik yan yana */
+  .hero-stats { grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .hero .stat .num { font-size: 1.7rem; }
+  .hero .stat .label { font-size: 0.78rem; }
   .cta { padding: 40px 24px; }
   .footer-nav, .footer-nav.has-legal { grid-template-columns: 1fr; gap: 28px; }
   .footer-links-grid { grid-template-columns: 1fr 1fr; }
