@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import TeklifModal from "@/components/TeklifModal";
 import CookieBanner from "@/components/CookieBanner";
+import FloatBar from "@/components/FloatBar";
 import ConversionTracker from "@/components/ConversionTracker";
 import { getNavCategories } from "@/lib/data/catalog";
 import { getFormConsents, getSetting } from "@/lib/settings";
@@ -11,11 +12,12 @@ export default async function SiteLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const [navCategories, teklifConsents, cookieBanner, customCode, ads] =
+  const [navCategories, teklifConsents, cookieBanner, floatBar, customCode, ads] =
     await Promise.all([
       getNavCategories(),
       getFormConsents("teklif"),
       getSetting("cookieBanner"),
+      getSetting("floatBar"),
       getSetting("customCode"),
       getSetting("adsConversions"),
     ]);
@@ -36,6 +38,7 @@ export default async function SiteLayout({
       <Footer />
       <TeklifModal consents={teklifConsents} />
       <CookieBanner config={cookieBanner} />
+      <FloatBar config={floatBar} />
       <ConversionTracker config={ads} />
 
       {/* Panelden eklenen "sayfa sonu" kodu */}

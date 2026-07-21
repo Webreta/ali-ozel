@@ -146,6 +146,12 @@ const paths: Record<string, React.ReactNode> = {
     </>
   ),
   quote: <path d="M7 7h4v4l-2 6H6l2-6H7V7Zm8 0h4v4l-2 6h-3l2-6h-1V7Z" />,
+  whatsapp: (
+    <>
+      <path d="M20.5 11.7a8.5 8.5 0 0 1-12.3 7.6L3.5 20.5l1.2-4.5a8.5 8.5 0 1 1 15.8-4.3Z" />
+      <path d="M9 8.5c-.3 0-.7.4-.7 1 0 1.2 1 2.7 2.1 3.8 1.1 1.1 2.6 2.1 3.8 2.1.6 0 1-.4 1-.7l.1-.8-1.8-.8-.8.7c-.8-.3-2.4-1.9-2.7-2.7l.7-.8-.8-1.8h-.9Z" />
+    </>
+  ),
 };
 
 type IconProps = SVGProps<SVGSVGElement> & { name: string };

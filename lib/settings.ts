@@ -38,6 +38,19 @@ export type CookieBannerSettings = {
   version: number;
 };
 
+export type FloatBarSettings = {
+  enabled: boolean;
+  item1Label: string;
+  item1Href: string;
+  item2Label: string;
+  item2Href: string; // "#teklif" → teklif penceresini açar
+  contactLabel: string;
+  popTitle: string;
+  phone: string; // görünen biçim; tel: linki rakamlara indirgenir
+  whatsapp: string; // uluslararası biçim, yalnız rakam (905xxxxxxxxx)
+  whatsappText: string; // ops. önden dolu mesaj
+};
+
 export type CustomCodeSettings = {
   headerEnabled: boolean;
   headerCode: string;
@@ -56,6 +69,7 @@ export type SettingShapes = {
   smtp: SmtpSettings;
   formLegal: FormLegalSettings;
   cookieBanner: CookieBannerSettings;
+  floatBar: FloatBarSettings;
   customCode: CustomCodeSettings;
   adsConversions: AdsConversionSettings;
 };
@@ -73,7 +87,7 @@ export const SETTING_DEFAULTS: SettingShapes = {
     fromName: "",
     forceFrom: true,
     skipTlsVerify: false,
-    notifyTo: "ali@aliozel.com.tr",
+    notifyTo: "ali.ozel@sanegitim.com",
   } satisfies SmtpSettings,
   formLegal: { contact: [], teklif: [] } satisfies FormLegalSettings,
   cookieBanner: {
@@ -86,6 +100,18 @@ export const SETTING_DEFAULTS: SettingShapes = {
     policyLabel: "Çerez Politikası",
     version: 1,
   } satisfies CookieBannerSettings,
+  floatBar: {
+    enabled: true,
+    item1Label: "Eğitimler",
+    item1Href: "/egitimler",
+    item2Label: "Teklif Al",
+    item2Href: "#teklif",
+    contactLabel: "İletişim",
+    popTitle: "Hemen Bağlan",
+    phone: "+90 533 460 79 43",
+    whatsapp: "905334607943",
+    whatsappText: "",
+  } satisfies FloatBarSettings,
   customCode: {
     headerEnabled: false,
     headerCode: "",

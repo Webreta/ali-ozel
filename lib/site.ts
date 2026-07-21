@@ -8,8 +8,8 @@ export const site = {
   contact: {
     phone: "+90 533 460 79 43",
     phoneHref: "tel:+905334607943",
-    email: "ali@aliozel.com.tr",
-    emailHref: "mailto:ali@aliozel.com.tr",
+    email: "ali.ozel@sanegitim.com",
+    emailHref: "mailto:ali.ozel@sanegitim.com",
     location: "Sarıyer / İstanbul",
   },
   social: {

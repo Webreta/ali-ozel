@@ -386,8 +386,9 @@ ul { margin: 0; padding: 0; list-style: none; }
 .mnav-toggle svg { width: 16px; height: 16px; transition: transform 0.2s ease; }
 .mnav-toggle[aria-expanded="true"] svg { transform: rotate(180deg); }
 .mobile-cta { margin-top: 18px; display: flex; flex-direction: column; gap: 10px; }
-/* .mobile-nav a kuralı btn'leri block yapıp yazıyı sola yaslıyor — ortala */
+/* .mobile-nav a kuralı btn'leri block yapıp yazıyı sola yaslıyor — ortala; rengi de eziyor, primary'yi beyaza döndür */
 .mobile-cta .btn { width: 100%; display: inline-flex; justify-content: center; text-align: center; }
+.mobile-cta .btn-primary { color: #fff; }
 
 /* ---------- Hero ---------- */
 .hero {
@@ -2929,6 +2930,114 @@ body:has(.note-standalone) .site-footer { display: none; }
   .cookie-banner { flex-direction: column; align-items: stretch; text-align: center; }
 }
 
+/* ---------- Float iletişim barı (yalnız mobil) ---------- */
+
+.float-bar-wrap {
+  position: fixed;
+  left: 14px;
+  right: 14px;
+  bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  z-index: 55; /* header (60) altında — açık mobil menü barı örter */
+  display: none;
+}
+.float-bar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 44px -18px rgba(23, 18, 15, 0.5);
+}
+.float-bar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 11px 6px 10px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.72rem;
+  line-height: 1;
+  color: var(--ink-soft);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.float-bar-item + .float-bar-item { border-left: 1px solid var(--line); }
+.float-bar-item svg { width: 21px; height: 21px; color: var(--brand); }
+.float-bar-item.is-active { background: var(--brand); color: #fff; }
+.float-bar-item.is-active svg { color: var(--gold); }
+/* İletişim sekmesi: telefon + whatsapp ikonu yan yana, whatsapp yeşil */
+.float-bar-icons { display: flex; align-items: center; gap: 5px; }
+.float-bar-item .icon-wa { color: #1faa53; }
+.float-bar-item.is-active .icon-wa { color: #43d97a; }
+.float-pop {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(100% + 10px);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 14px 16px 16px;
+  box-shadow: 0 20px 44px -18px rgba(23, 18, 15, 0.5);
+  animation: float-pop-in 0.18s ease;
+}
+@keyframes float-pop-in {
+  from { transform: translateY(8px); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+.float-pop-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.float-pop-close {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background: var(--bg-soft);
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.float-pop-close svg { width: 14px; height: 14px; }
+.float-pop-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 12px;
+}
+.float-pop-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 10px;
+  border-radius: 999px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+.float-pop-actions a svg { width: 18px; height: 18px; }
+.float-pop-tel { background: var(--brand); color: #fff; }
+.float-pop-wa { background: #1faa53; color: #fff; }
+@media (max-width: 720px) {
+  .float-bar-wrap { display: block; }
+  /* bar son içeriği örtmesin */
+  .site-footer { padding-bottom: 96px; }
+}
+
 /* ---------- Blog ---------- */
 
 .blog-grid {
@@ -3467,8 +3576,9 @@ body:has(.note-standalone) .site-footer { display: none; }
   .diff-body h2 { font-size: 1.2rem; }
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
   .outcome-grid { grid-template-columns: 1fr; }
-  /* üç istatistik yan yana */
+  /* üç istatistik yan yana, ortalı (ss23) */
   .hero-stats { grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .hero-stats .stat { text-align: center; }
   .hero .stat .num { font-size: 1.7rem; }
   .hero .stat .label { font-size: 0.78rem; }
   .cta { padding: 40px 24px; }

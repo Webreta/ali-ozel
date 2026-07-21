@@ -18,6 +18,7 @@ const NAV: NavEntry[] = [
   { href: "/admin/yasal", label: "Yasal Sayfalar", icon: "check-circle" },
   { href: "/admin/smtp-formlar", label: "SMTP & Formlar", icon: "wrench", adminOnly: true },
   { href: "/admin/cerez", label: "Çerez Yönetimi", icon: "target", adminOnly: true },
+  { href: "/admin/iletisim-bari", label: "İletişim Barı", icon: "phone", adminOnly: true },
   { href: "/admin/kod-ekleme", label: "Kod Ekleme", icon: "cpu", adminOnly: true },
   { href: "/admin/kullanicilar", label: "Kullanıcılar", icon: "cog", adminOnly: true },
 ];
