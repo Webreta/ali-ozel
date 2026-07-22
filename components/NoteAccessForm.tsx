@@ -21,7 +21,12 @@ export default function NoteAccessForm() {
           className={state.error ? "is-error" : ""}
           required
         />
-        <button type="submit" disabled={pending}>
+        <button
+          type="submit"
+          disabled={pending}
+          data-ev="note:code-try"
+          data-ev-label="Erişim kodu denemesi"
+        >
           {pending ? "Kontrol ediliyor…" : "Görüntüle"}
           <Icon name="arrow-right" />
         </button>

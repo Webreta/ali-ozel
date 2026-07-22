@@ -44,6 +44,8 @@ export default function FloatBar({ config }: { config: FloatBarSettings }) {
         <button
           type="button"
           className="float-bar-item"
+          data-ev="floatbar:teklif"
+          data-ev-label={`Float bar — ${label}`}
           onClick={() => {
             setOpen(false);
             window.dispatchEvent(new Event("open-teklif"));
@@ -55,7 +57,13 @@ export default function FloatBar({ config }: { config: FloatBarSettings }) {
       );
     }
     return (
-      <Link href={href} className="float-bar-item" onClick={() => setOpen(false)}>
+      <Link
+        href={href}
+        className="float-bar-item"
+        data-ev={`floatbar:${href}`}
+        data-ev-label={`Float bar — ${label}`}
+        onClick={() => setOpen(false)}
+      >
         <Icon name={icon} />
         {label}
       </Link>
@@ -78,11 +86,23 @@ export default function FloatBar({ config }: { config: FloatBarSettings }) {
             </button>
           </div>
           <div className="float-pop-actions">
-            <a href={telHref} className="float-pop-tel">
+            <a
+              href={telHref}
+              className="float-pop-tel"
+              data-ev="floatbar:tel"
+              data-ev-label="Float bar — Telefon"
+            >
               <Icon name="phone" />
               Telefon
             </a>
-            <a href={waHref} target="_blank" rel="noopener" className="float-pop-wa">
+            <a
+              href={waHref}
+              target="_blank"
+              rel="noopener"
+              className="float-pop-wa"
+              data-ev="floatbar:whatsapp"
+              data-ev-label="Float bar — WhatsApp"
+            >
               <Icon name="whatsapp" />
               WhatsApp
             </a>
@@ -96,6 +116,8 @@ export default function FloatBar({ config }: { config: FloatBarSettings }) {
           type="button"
           className={"float-bar-item" + (open ? " is-active" : "")}
           aria-expanded={open}
+          data-ev="floatbar:contact-toggle"
+          data-ev-label="Float bar — İletişim paneli"
           onClick={() => setOpen((v) => !v)}
         >
           <span className="float-bar-icons">

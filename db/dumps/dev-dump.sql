@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict XaWbMedCRDSAfPbRtkfONA00RbyYn8KG4d9gILVa8KboFW4zbfAnxfCeNn9iWVO
+\restrict Cr8g2fb8aezPrmSOEYc6YMw1a0Vyf7fhKaScU2E4W85lZZKsAXXReAfXu1u53iu
 
 -- Dumped from database version 17.10
 -- Dumped by pg_dump version 17.10
@@ -28,6 +28,7 @@ ALTER TABLE ONLY public.note_comments DROP CONSTRAINT note_comments_brand_note_i
 ALTER TABLE ONLY public.gallery_images DROP CONSTRAINT gallery_images_section_id_gallery_sections_id_fk;
 ALTER TABLE ONLY public.brand_note_materials DROP CONSTRAINT brand_note_materials_brand_note_id_brand_notes_id_fk;
 ALTER TABLE ONLY public.blog_posts DROP CONSTRAINT blog_posts_author_id_users_id_fk;
+ALTER TABLE ONLY public.analytics_events DROP CONSTRAINT analytics_events_visitor_id_analytics_visitors_id_fk;
 ALTER TABLE ONLY public.access_codes DROP CONSTRAINT access_codes_brand_note_id_brand_notes_id_fk;
 DROP INDEX public.trainings_category_slug_unique;
 DROP INDEX public.trainings_category_idx;
@@ -35,6 +36,9 @@ DROP INDEX public.submissions_created_idx;
 DROP INDEX public.note_comments_note_idx;
 DROP INDEX public.materials_note_idx;
 DROP INDEX public.gallery_images_section_idx;
+DROP INDEX public.analytics_events_visitor_idx;
+DROP INDEX public.analytics_events_type_idx;
+DROP INDEX public.analytics_events_path_idx;
 DROP INDEX public.access_codes_note_idx;
 ALTER TABLE ONLY public.users DROP CONSTRAINT users_pkey;
 ALTER TABLE ONLY public.users DROP CONSTRAINT users_email_unique;
@@ -58,6 +62,9 @@ ALTER TABLE ONLY public.brand_notes DROP CONSTRAINT brand_notes_pkey;
 ALTER TABLE ONLY public.brand_note_materials DROP CONSTRAINT brand_note_materials_pkey;
 ALTER TABLE ONLY public.blog_posts DROP CONSTRAINT blog_posts_slug_unique;
 ALTER TABLE ONLY public.blog_posts DROP CONSTRAINT blog_posts_pkey;
+ALTER TABLE ONLY public.analytics_visitors DROP CONSTRAINT analytics_visitors_pkey;
+ALTER TABLE ONLY public.analytics_visitors DROP CONSTRAINT analytics_visitors_hash_unique;
+ALTER TABLE ONLY public.analytics_events DROP CONSTRAINT analytics_events_pkey;
 ALTER TABLE ONLY public.access_codes DROP CONSTRAINT access_codes_pkey;
 ALTER TABLE ONLY public.access_codes DROP CONSTRAINT access_codes_code_unique;
 ALTER TABLE ONLY drizzle.__drizzle_migrations DROP CONSTRAINT __drizzle_migrations_pkey;
@@ -73,6 +80,8 @@ ALTER TABLE public.categories ALTER COLUMN id DROP DEFAULT;
 ALTER TABLE public.brand_notes ALTER COLUMN id DROP DEFAULT;
 ALTER TABLE public.brand_note_materials ALTER COLUMN id DROP DEFAULT;
 ALTER TABLE public.blog_posts ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.analytics_visitors ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.analytics_events ALTER COLUMN id DROP DEFAULT;
 ALTER TABLE public.access_codes ALTER COLUMN id DROP DEFAULT;
 ALTER TABLE drizzle.__drizzle_migrations ALTER COLUMN id DROP DEFAULT;
 DROP TABLE public.users;
@@ -103,6 +112,10 @@ DROP SEQUENCE public.brand_note_materials_id_seq;
 DROP TABLE public.brand_note_materials;
 DROP SEQUENCE public.blog_posts_id_seq;
 DROP TABLE public.blog_posts;
+DROP SEQUENCE public.analytics_visitors_id_seq;
+DROP TABLE public.analytics_visitors;
+DROP SEQUENCE public.analytics_events_id_seq;
+DROP TABLE public.analytics_events;
 DROP SEQUENCE public.access_codes_id_seq;
 DROP TABLE public.access_codes;
 DROP SEQUENCE drizzle.__drizzle_migrations_id_seq;
@@ -244,6 +257,89 @@ ALTER SEQUENCE public.access_codes_id_seq OWNER TO aliozel;
 --
 
 ALTER SEQUENCE public.access_codes_id_seq OWNED BY public.access_codes.id;
+
+
+--
+-- Name: analytics_events; Type: TABLE; Schema: public; Owner: aliozel
+--
+
+CREATE TABLE public.analytics_events (
+    id integer NOT NULL,
+    visitor_id integer NOT NULL,
+    type text NOT NULL,
+    path text NOT NULL,
+    key text,
+    label text,
+    value integer,
+    referrer text,
+    created_at timestamp with time zone DEFAULT now() NOT NULL
+);
+
+
+ALTER TABLE public.analytics_events OWNER TO aliozel;
+
+--
+-- Name: analytics_events_id_seq; Type: SEQUENCE; Schema: public; Owner: aliozel
+--
+
+CREATE SEQUENCE public.analytics_events_id_seq
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER SEQUENCE public.analytics_events_id_seq OWNER TO aliozel;
+
+--
+-- Name: analytics_events_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: aliozel
+--
+
+ALTER SEQUENCE public.analytics_events_id_seq OWNED BY public.analytics_events.id;
+
+
+--
+-- Name: analytics_visitors; Type: TABLE; Schema: public; Owner: aliozel
+--
+
+CREATE TABLE public.analytics_visitors (
+    id integer NOT NULL,
+    hash text NOT NULL,
+    ip_masked text NOT NULL,
+    device text DEFAULT 'desktop'::text NOT NULL,
+    browser text,
+    os text,
+    is_admin boolean DEFAULT false NOT NULL,
+    event_count integer DEFAULT 0 NOT NULL,
+    first_seen_at timestamp with time zone DEFAULT now() NOT NULL,
+    last_seen_at timestamp with time zone DEFAULT now() NOT NULL
+);
+
+
+ALTER TABLE public.analytics_visitors OWNER TO aliozel;
+
+--
+-- Name: analytics_visitors_id_seq; Type: SEQUENCE; Schema: public; Owner: aliozel
+--
+
+CREATE SEQUENCE public.analytics_visitors_id_seq
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER SEQUENCE public.analytics_visitors_id_seq OWNER TO aliozel;
+
+--
+-- Name: analytics_visitors_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: aliozel
+--
+
+ALTER SEQUENCE public.analytics_visitors_id_seq OWNED BY public.analytics_visitors.id;
 
 
 --
@@ -828,6 +924,20 @@ ALTER TABLE ONLY public.access_codes ALTER COLUMN id SET DEFAULT nextval('public
 
 
 --
+-- Name: analytics_events id; Type: DEFAULT; Schema: public; Owner: aliozel
+--
+
+ALTER TABLE ONLY public.analytics_events ALTER COLUMN id SET DEFAULT nextval('public.analytics_events_id_seq'::regclass);
+
+
+--
+-- Name: analytics_visitors id; Type: DEFAULT; Schema: public; Owner: aliozel
+--
+
+ALTER TABLE ONLY public.analytics_visitors ALTER COLUMN id SET DEFAULT nextval('public.analytics_visitors_id_seq'::regclass);
+
+
+--
 -- Name: blog_posts id; Type: DEFAULT; Schema: public; Owner: aliozel
 --
 
@@ -920,6 +1030,7 @@ COPY drizzle.__drizzle_migrations (id, hash, created_at) FROM stdin;
 2	e07efb277f3a7fd5639ee02495cf38172b5f4633f8e73222638b580f442f42cb	1783083402900
 3	305e154535dbb1dff8d623d1c76a2d6ccf21355c436bd29672a8a06bc242a648	1784109775837
 4	728fa2d7c785a490b5fba7c94fa3e841a96fbabb61d4c535b7c5f3feec525571	1784115677299
+5	5988e72066c483c6e41c427e5e633a60424b9c41bd8af8fe31fedfdafe86a337	1784708364503
 \.
 
 
@@ -929,6 +1040,26 @@ COPY drizzle.__drizzle_migrations (id, hash, created_at) FROM stdin;
 
 COPY public.access_codes (id, code, brand_note_id, active, expires_at, created_at) FROM stdin;
 1	VESTEL-2025	1	t	\N	2026-07-03 09:57:36.675216+00
+\.
+
+
+--
+-- Data for Name: analytics_events; Type: TABLE DATA; Schema: public; Owner: aliozel
+--
+
+COPY public.analytics_events (id, visitor_id, type, path, key, label, value, referrer, created_at) FROM stdin;
+1	1	page_dwell	/	\N	\N	256	\N	2026-07-22 09:32:21.888018+00
+2	1	pageview	/	\N	\N	\N	direct	2026-07-22 14:27:45.454708+00
+3	1	section_view	/	referanslar	Referanslar	\N	\N	2026-07-22 14:27:45.454708+00
+\.
+
+
+--
+-- Data for Name: analytics_visitors; Type: TABLE DATA; Schema: public; Owner: aliozel
+--
+
+COPY public.analytics_visitors (id, hash, ip_masked, device, browser, os, is_admin, event_count, first_seen_at, last_seen_at) FROM stdin;
+1	1385611c14fec986bf6c2f89389e18fe4598f99bf65cef565e20b1f0e50ff24c	localhost	desktop	Firefox	Windows	t	3	2026-07-22 09:32:21.880266+00	2026-07-22 14:27:45.421+00
 \.
 
 
@@ -1165,6 +1296,9 @@ a6536f24c0c9eae47fe5aa0762b1a2c945beb39e3f5eff73570e07aaff0085f1	bcde7cf9-61b9-4
 369a792ae1ee554ce987259d602c132a82b758a064f676ed591f57dcb0316f25	bcde7cf9-61b9-4e49-8bd3-feed2e7c6857	2026-08-17 15:05:36.761+00	2026-07-18 15:05:36.763635+00
 3176d1839d7c2f9df14a3a9ea9aaf959333ecacba85f81f25e72f5a9542e42d6	bcde7cf9-61b9-4e49-8bd3-feed2e7c6857	2026-08-20 12:29:49.012+00	2026-07-21 12:29:49.016707+00
 0328d250ea8304c9596cd2541f1f85ec9346a952cd478d3ce915e4db859f5f72	bcde7cf9-61b9-4e49-8bd3-feed2e7c6857	2026-08-20 13:22:02.234+00	2026-07-06 08:44:41.676415+00
+965652152177d028ec2bb002a720174c28e8735219761aed15dbe0fdc42f22d7	bcde7cf9-61b9-4e49-8bd3-feed2e7c6857	2026-08-21 08:37:23.152+00	2026-07-22 08:37:23.155572+00
+5eaf9403fe753b808b85a45cc196d0ef7a3f0749c2495b8dcd58177cd3910391	bcde7cf9-61b9-4e49-8bd3-feed2e7c6857	2026-08-21 08:39:46.083+00	2026-07-22 08:39:46.085237+00
+651f5856188d23e24cb88baab58927156572dc58207b1be0f27e7ce6f3cf3a1a	bcde7cf9-61b9-4e49-8bd3-feed2e7c6857	2026-08-21 08:41:55.731+00	2026-07-22 08:41:55.733853+00
 \.
 
 
@@ -1196,6 +1330,7 @@ COPY public.team_members (id, name, role_title, bio, photo, initials, sort_order
 4	Timur Nihat Vreskala	İş Geliştirme & Operasyon Uzmanı	25+ yıllık kariyerinde IT proje yönetimi, çağrı merkezi, satış ve iş geliştirme alanlarında uzmanlaştı. 12.000+ katılımcıya 8.000+ saat eğitim verdi.	/team/timur-vreskala.jpg	\N	3	t	2026-07-03 09:57:36.663323+00	2026-07-15 11:46:17.199+00	timur-nihat-vreskala	1974 doğumlu Timur Nihat Vreskala, Marmara Üniversitesi Alman Dili ve Edebiyatı bölümünden mezun oldu; ardından aynı üniversitede Sosyoloji bölümünde ikinci dal eğitimine devam etti.\n\nProfesyonel iş hayatına 1997'de Turkcell'de çağrı merkezi operasyon temsilcisi olarak başladı. 1999–2010 yılları arasında Turkcell Global Bilgi'de farklı kademelerde görev alarak iş gücü yönetimi (workforce management), iş zekâsı analizi, IT talep ve proje yönetimi alanlarında deneyim kazandı. Sonrasında Vakıfbank ve ING Bank'ta Performans ve Planlama Müdürü olarak verimlilik yönetimi ve iş gücü planlamasında uzmanlaştı.\n\nPronet'te IT Proje Müdürü olarak yazılım geliştirme projeleri yönetti; bağımsız danışman olarak CRM, satış aktiviteleri, yönetim raporlaması ve koçluk hizmetleri verdi. Dünya Göz Hastaneler Grubu ve YourCCC'de Çağrı Merkezi Müdürü olarak müşteri deneyimi yönetimi, kaynak planlama ve performans ölçümleme ekiplerini yönetti. 2017–2021 arasında Zenkronn'da İş Geliştirme Direktörü olarak yapay zekâ ve RPA projeleri üzerinde çalıştı; 2021'den bu yana Teleperformance'ta IT Proje Yöneticisi olarak proje yönetim ofisi süreçlerinin kurulumu ve metodoloji geliştirme çalışmalarını sürdürüyor.\n\n25 yılı aşkın kariyerinde farklı sektörlerden kurumlarda **12.000'in üzerinde katılımcıya 8.000 saatin üzerinde eğitim** veren Timur Vreskala; Türkçe ve Almanca'yı ana dil düzeyinde, İngilizce'yi iyi derecede konuşuyor.	["IT Proje Yönetimi", "Çağrı Merkezi ve Operasyon Yönetimi", "Satış ve İş Geliştirme", "CRM ve B2B Stratejiler", "Ekip Yönetimi", "RPA ve Yapay Zekâ Uygulamaları", "İş Gücü Planlama ve Performans Ölçümleme"]	[{"label": "Katılımcı", "value": "12.000+"}, {"label": "Saat eğitim", "value": "8.000+"}, {"label": "Profesyonel deneyim", "value": "25+ yıl"}]
 5	Sevde Engin	İK & Organizasyonel Gelişim Uzmanı	İK, organizasyonel gelişim ve eğitim yönetiminde 13+ yıl deneyim. Performans yönetimi, OKR sistemleri ve liderlik gelişimi alanlarında danışmanlık veriyor.	/team/sevde-engin.jpg	\N	4	t	2026-07-03 09:57:36.663323+00	2026-07-15 11:46:17.203+00	sevde-engin	Sevde Engin, Celal Bayar Üniversitesi Matematik bölümünden mezun oldu; pedagojik formasyonunun ardından 2024 yılında İK Yönetimi programını tamamladı. Eğitime olan ilgisini "Eğitimcinin Eğitimi" programıyla profesyonel bir zemine taşıdı.\n\nKariyerine 2013'te Norm Holding'de İnsan Kaynakları Sorumlusu olarak başladı; İK ve idari işlerin tüm operasyonel süreçlerini yürüttü, grup şirketleriyle standardizasyon ve süreç iyileştirme projelerinde görev aldı. 2017–2023 arasında Mondi Tire Kutsan'da İK Uzmanı, İK İş Ortağı ve İK Yöneticisi rollerinde; yaklaşık 471 kişilik organizasyonun İK ve gelişim süreçlerini yönetti. Performans yönetimi, yetenek yönetimi, çalışan bağlılığı, liderlik gelişimi, 360 derece değerlendirme, yetkinlik bazlı mülakat sistemleri ve geri bildirim kültürü projelerinde aktif sorumluluk üstlendi; Mondi Türkiye'nin tüm işe alım ve oryantasyon süreçlerinin yeniden tasarımına liderlik etti. 2022'de Mondi Grubu'nun küresel sürdürülebilirlik projesi SEAT'in Türkiye ayağında proje liderliği yaptı.\n\n2023'te Konfrut AG Tarım'da (Döhler'in start-up şirketi) İK Müdürü olarak OKR bazlı performans yönetim sistemi dönüşümünü bizzat hayata geçirdi; organizasyonel tasarım, ücret yapıları ve ekip kurulumu konularında uzmanlaştı. 2024'te Döhler Gıda'ya geçerek Eğitim ve Performans Müdürü olarak eğitim ihtiyaç analizleri, liderlik gelişim programları, iç eğitmen sistemleri ve dijital öğrenme projelerini yönetti.\n\nİnsan kaynakları, organizasyonel gelişim ve eğitim yönetimi alanlarında **13 yılı aşkın deneyime** sahip olan Sevde Engin; British Psychological Society onaylı Assessor Skills sertifikasına sahiptir. Stratejik ve operasyonel İK deneyimini bir araya getirerek kurumların sürdürülebilir performans kültürü oluşturmalarına destek oluyor.	["Performans Yönetimi ve OKR Sistemleri", "Yetenek Yönetimi", "Çalışan Bağlılığı", "Liderlik Gelişimi", "Geri Bildirim Kültürü", "Yetkinlik Bazlı Mülakat Teknikleri", "360 Derece Değerlendirme", "Organizasyonel Gelişim ve Eğitim Sistemleri"]	[{"label": "İK & gelişim deneyimi", "value": "13+ yıl"}, {"label": "Onaylı assessor", "value": "BPS"}, {"label": "Kişilik organizasyon deneyimi", "value": "471"}]
 2	Prof. Dr. Sabah Balta Ulay	Yönetim & Strateji Profesörü	Yaşar Üniversitesi öğretim üyesi ve 14+ yıl YÜSEM müdürü. Yönetim, liderlik, motivasyon ve örgütsel gelişim alanlarında binlerce yöneticiye eğitim verdi.	/team/sabah-balta-ulay.jpg	\N	1	t	2026-07-03 09:57:36.663323+00	2026-07-16 15:26:55.355+00	sabah-balta-ulay	Nevşehir doğumlu olan Sabah Balta Ulay, iş dünyasının içinde yetişmiş bir akademisyendir. Lisans eğitimini tamamlar tamamlamaz Kapadokya'nın önde gelen otellerinde yönetici pozisyonlarında çalışmış; bu erken dönem sektör deneyimi, akademik kariyerinin temel taşlarından birini oluşturmuştur.\r\n\r\nAnadolu Üniversitesi'nde öğretim görevlisi olarak başlayan akademik yolculuğunda yüksek lisans ve doktorasını aynı üniversitede tamamlamıştır. Doktora sürecinde üniversitenin uygulama otelinde yöneticilik yaparak teori ile pratiği aynı anda yaşamış; ekip yönetimi, çalışan motivasyonu, halkla ilişkiler ve otel operasyonları konularında derin bir birikim edinmiştir.\r\n\r\nKariyerinin ilerleyen döneminde Ege Üniversitesi'nde öğretim üyeliği görevinin ardından Yaşar Üniversitesi'ne geçmiş ve buradaki uzun soluklu görevinde hem akademik hem de kurumsal liderlik alanında iz bırakmıştır. On dört yılı aşkın süre Yaşar Üniversitesi Sürekli Eğitim Merkezi (YÜSEM) Müdürlüğü'nü üstlenerek onlarca ulusal ve uluslararası kuruluşla eğitim iş birlikleri kurmuş; binlerce yetişkin katılımcıya yönetim, liderlik, motivasyon ve örgütsel gelişme gibi alanlarda eğitimler vermiştir.\r\n\r\nYönetim ve Strateji alanında doçentlik, ardından profesörlük unvanını alan Sabah Balta Ulay; Web of Science ve Google Scholar indekslerinde yer alan makaleleri, kitapları ve bildirileriyle uluslararası bilim dünyasına katkı sunmaktadır. Yaşar Üniversitesi tarafından hem araştırma başarısı hem de eğitimdeki etkinliği nedeniyle ödüllendirilen Prof. Dr. Ulay, akademi ile iş dünyası arasında köprü kurma konusundaki deneyimiyle alanının sayılı isimlerinden biridir.	["İşletme Yönetimi ve Yönetim Fonksiyonları", "Liderlik, Ekip Yönetimi ve Çalışan Motivasyonu", "Rekabet Stratejileri", "Turizm İşletmelerinde İnsan Kaynakları Yönetimi", "Turizm Politikaları ve Destinasyon Yönetimi", "Sağlık Turizmi ve Tarım Turizmi", "Örgütsel Gelişme ve Yönetim Becerileri", "Otel İşletmeciliği ve Turizm Mevzuatı", "Yetişkin Eğitimi ve Sürekli Eğitim"]	[{"label": "Yönetim ve Strateji", "value": "Prof. Dr."}, {"label": "YÜSEM Müdürlüğü", "value": "14+ yıl"}, {"label": "Yetişkin katılımcı", "value": "Binlerce"}, {"label": "Cart Curt", "value": "Test"}]
+8	Volkan Durak	Sunum & Liderlik Eğitmeni · Yazar	Sunum, liderlik ve satış alanında 15.000 saatin üzerinde eğitim tecrübesi. Hikâyeleştirmeci ve interaktif eğitmenlik tarzıyla kuruma özel, yüksek farkındalık yaratan eğitimler veriyor. Yayımlanmış üç kitabın yazarı.	/team/volkan-durak.jpg	\N	5	t	2026-07-22 14:51:37.448103+00	2026-07-22 15:02:47.049926+00	volkan-durak	Yüksek öğrenimine Turizm ve Otelcilik alanında başlayan Volkan Durak; Marmara Üniversitesi Satış Yönetimi, Anadolu Üniversitesi İşletme, İstanbul Üniversitesi İnsan Kaynakları Yönetimi ve Yıldız Teknik Üniversitesi Hayat Boyu Öğrenme ve Yetişkin Eğitimi bölümlerinden mezun oldu.\n\nProfesyonel hayatına havacılık sektöründe başladı: 2000-2011 yılları arasında Türk Hava Yolları Atatürk Havalimanı'nda İç Hatlar Supervizörü, ardından Pegasus Airlines Sabiha Gökçen Havalimanı'nda Vardiya Amiri olarak görev yaptı; THY Online Check-in/Kiosk projesi ile Pegasus'un yer işletme kuruluşunda aktif rol aldı. 2014-2015'te İstanbul Aydın Üniversitesi'nde öğretim görevlisi olarak çalıştı ve bölüm kuruluşuna katkı sağladı.\n\nEğitim yöneticiliği kariyerine Seyidoğlu'nda Eğitim Müdürü ve Özen Grup'ta (Onur Marketler) Eğitim Yöneticisi olarak devam etti; 2017-2023 yılları arasında Deva Holding'de Kıdemli Eğitim ve Geliştirme Yöneticisi / Eğitmen olarak görev yaptı. Yetkinlik bazlı gelişim takip sistemi kurulumu gibi projelere imza attı. TEGEP üyesidir ve platformun Podcast Kurulu'nda yer almaktadır.\n\n**15.000 saatin üzerinde eğitim tecrübesiyle**; uygulamalarla desteklenen, interaktif ve hikâyeleştirmeci anlatım tarzıyla yüksek farkındalık yaratan, kuruma özel eğitim yöntemlerini benimsiyor. "İmlasız Cümleler" (2013), "Baba Kalbin Kanamış" (2015) romanlarının ve "Sinemaskop" (2025) çalışmasının yazarı; eğitim başlıklarından biri olan "Ustaların Sunumu" kitabını tamamlamak üzere. Eğitim verdiği kurumlardan bazıları: Türk Hava Yolları, Pegasus Airlines, Yıldız Holding, Anadolu Grubu, DEVA Holding, Kuveyt Türk, Türk Telekom SEBİT, SÜTAŞ, FLO, Levi's, Memorial Hastaneleri ve Mapfre Sigorta.	["Etkili ve İleri Sunum Becerileri", "Eğiticinin Eğitimi", "Liderlik Gelişimi", "Hikâyeleştirme ile Satış ve İkna", "Ekip Kültürü ve Takımdaşlık", "Problem Çözme ve Etkili Karar Alma", "Zor İnsanları Yönetmek ve Çatışma İletişimi", "Kuşaklarla İletişim", "Yaratıcı Düşünce Becerileri"]	[{"label": "Saat eğitim", "value": "15.000+"}, {"label": "Kurumsal deneyim", "value": "23+ yıl"}, {"label": "Yayımlanmış kitap", "value": "3"}]
 \.
 
 
@@ -1388,7 +1523,7 @@ bcde7cf9-61b9-4e49-8bd3-feed2e7c6857	admin@aliozel.com.tr	Admin	$2b$12$79E7ELdBk
 -- Name: __drizzle_migrations_id_seq; Type: SEQUENCE SET; Schema: drizzle; Owner: aliozel
 --
 
-SELECT pg_catalog.setval('drizzle.__drizzle_migrations_id_seq', 4, true);
+SELECT pg_catalog.setval('drizzle.__drizzle_migrations_id_seq', 5, true);
 
 
 --
@@ -1396,6 +1531,20 @@ SELECT pg_catalog.setval('drizzle.__drizzle_migrations_id_seq', 4, true);
 --
 
 SELECT pg_catalog.setval('public.access_codes_id_seq', 1, true);
+
+
+--
+-- Name: analytics_events_id_seq; Type: SEQUENCE SET; Schema: public; Owner: aliozel
+--
+
+SELECT pg_catalog.setval('public.analytics_events_id_seq', 3, true);
+
+
+--
+-- Name: analytics_visitors_id_seq; Type: SEQUENCE SET; Schema: public; Owner: aliozel
+--
+
+SELECT pg_catalog.setval('public.analytics_visitors_id_seq', 2, true);
 
 
 --
@@ -1472,7 +1621,7 @@ SELECT pg_catalog.setval('public.submissions_id_seq', 1, true);
 -- Name: team_members_id_seq; Type: SEQUENCE SET; Schema: public; Owner: aliozel
 --
 
-SELECT pg_catalog.setval('public.team_members_id_seq', 7, true);
+SELECT pg_catalog.setval('public.team_members_id_seq', 8, true);
 
 
 --
@@ -1504,6 +1653,30 @@ ALTER TABLE ONLY public.access_codes
 
 ALTER TABLE ONLY public.access_codes
     ADD CONSTRAINT access_codes_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: analytics_events analytics_events_pkey; Type: CONSTRAINT; Schema: public; Owner: aliozel
+--
+
+ALTER TABLE ONLY public.analytics_events
+    ADD CONSTRAINT analytics_events_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: analytics_visitors analytics_visitors_hash_unique; Type: CONSTRAINT; Schema: public; Owner: aliozel
+--
+
+ALTER TABLE ONLY public.analytics_visitors
+    ADD CONSTRAINT analytics_visitors_hash_unique UNIQUE (hash);
+
+
+--
+-- Name: analytics_visitors analytics_visitors_pkey; Type: CONSTRAINT; Schema: public; Owner: aliozel
+--
+
+ALTER TABLE ONLY public.analytics_visitors
+    ADD CONSTRAINT analytics_visitors_pkey PRIMARY KEY (id);
 
 
 --
@@ -1690,6 +1863,27 @@ CREATE INDEX access_codes_note_idx ON public.access_codes USING btree (brand_not
 
 
 --
+-- Name: analytics_events_path_idx; Type: INDEX; Schema: public; Owner: aliozel
+--
+
+CREATE INDEX analytics_events_path_idx ON public.analytics_events USING btree (path);
+
+
+--
+-- Name: analytics_events_type_idx; Type: INDEX; Schema: public; Owner: aliozel
+--
+
+CREATE INDEX analytics_events_type_idx ON public.analytics_events USING btree (type, created_at);
+
+
+--
+-- Name: analytics_events_visitor_idx; Type: INDEX; Schema: public; Owner: aliozel
+--
+
+CREATE INDEX analytics_events_visitor_idx ON public.analytics_events USING btree (visitor_id, created_at);
+
+
+--
 -- Name: gallery_images_section_idx; Type: INDEX; Schema: public; Owner: aliozel
 --
 
@@ -1737,6 +1931,14 @@ CREATE UNIQUE INDEX trainings_category_slug_unique ON public.trainings USING btr
 
 ALTER TABLE ONLY public.access_codes
     ADD CONSTRAINT access_codes_brand_note_id_brand_notes_id_fk FOREIGN KEY (brand_note_id) REFERENCES public.brand_notes(id) ON DELETE CASCADE;
+
+
+--
+-- Name: analytics_events analytics_events_visitor_id_analytics_visitors_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: aliozel
+--
+
+ALTER TABLE ONLY public.analytics_events
+    ADD CONSTRAINT analytics_events_visitor_id_analytics_visitors_id_fk FOREIGN KEY (visitor_id) REFERENCES public.analytics_visitors(id) ON DELETE CASCADE;
 
 
 --
@@ -1815,5 +2017,5 @@ ALTER TABLE ONLY public.trainings
 -- PostgreSQL database dump complete
 --
 
-\unrestrict XaWbMedCRDSAfPbRtkfONA00RbyYn8KG4d9gILVa8KboFW4zbfAnxfCeNn9iWVO
+\unrestrict Cr8g2fb8aezPrmSOEYc6YMw1a0Vyf7fhKaScU2E4W85lZZKsAXXReAfXu1u53iu
 

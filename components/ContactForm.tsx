@@ -21,10 +21,12 @@ export default function ContactForm({
     {}
   );
 
-  // Google Ads lead dönüşümü — ConversionTracker dinler
+  // Google Ads lead dönüşümü — ConversionTracker dinler; AnalyticsTracker
+  // detail.kind ile teklif/iletişim ayrımı yapar
   useEffect(() => {
-    if (state.ok) window.dispatchEvent(new Event("lead-conversion"));
-  }, [state.ok]);
+    if (state.ok)
+      window.dispatchEvent(new CustomEvent("lead-conversion", { detail: { kind } }));
+  }, [state.ok, kind]);
 
   if (state.ok) {
     return (

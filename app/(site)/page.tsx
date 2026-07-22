@@ -80,7 +80,12 @@ export default async function HomePage() {
               yolculukları.
             </p>
             <div className="hero-actions">
-              <Link href="/egitimler" className="btn btn-primary btn-lg">
+              <Link
+                href="/egitimler"
+                className="btn btn-primary btn-lg"
+                data-ev="home:egitimleri-kesfet"
+                data-ev-label="Hero — Eğitimleri Keşfet"
+              >
                 Eğitimleri Keşfet
                 <Icon name="arrow-right" />
               </Link>
@@ -116,7 +121,7 @@ export default async function HomePage() {
       </section>
 
       {/* Referans şeridi */}
-      <section className="ref-strip">
+      <section className="ref-strip" data-sec="referanslar" data-sec-label="Referanslar">
         <div className="container">
           <p className="ref-strip-label">Bize güvenen kurumlar</p>
         </div>
@@ -124,7 +129,11 @@ export default async function HomePage() {
       </section>
 
       {/* Categories */}
-      <section className="section cat-section">
+      <section
+        className="section cat-section"
+        data-sec="kategoriler"
+        data-sec-label="Eğitim Alanları"
+      >
         <div className="container">
           <div className="section-head center">
             <span className="eyebrow">Eğitim Alanlarımız</span>
@@ -145,7 +154,11 @@ export default async function HomePage() {
       </section>
 
       {/* Yaklaşım — dinamik numaralı liste (bordo) */}
-      <section className="section approach-section">
+      <section
+        className="section approach-section"
+        data-sec="yaklasim"
+        data-sec-label="Neden Farklı Çalışıyoruz"
+      >
         <ApproachWheel />
         <div className="container approach-grid">
           <div className="approach-intro">
@@ -165,7 +178,7 @@ export default async function HomePage() {
       </section>
 
       {/* Eğitim felsefemiz */}
-      <section className="section">
+      <section className="section" data-sec="felsefe" data-sec-label="Eğitim Felsefemiz">
         <div className="container about-split">
           <div className="about-portrait">
             {/* eslint-disable-next-line @next/next/no-img-element */}

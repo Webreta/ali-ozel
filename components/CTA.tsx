@@ -9,7 +9,7 @@ export default function CTA({
   text?: string;
 }) {
   return (
-    <section className="section cta-section">
+    <section className="section cta-section" data-sec="cta" data-sec-label="Alt CTA">
       <div className="container">
         <div className="cta">
           <h2>{title}</h2>

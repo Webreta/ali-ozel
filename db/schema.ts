@@ -288,6 +288,49 @@ export const legalPages = pgTable("legal_pages", {
   updatedAt: timestamp("updated_at", { withTimezone: true }),
 });
 
+// ---------- Analitik ----------
+
+// Ziyaretçi kimliği: sha256(ip + ua + AUTH_SECRET) — ham IP saklanmaz (KVKK).
+// isAdmin: olay kaydı sırasında admin oturumu görüldüyse kalıcı işaretlenir
+// (panelde "SEN" rozeti).
+export const analyticsVisitors = pgTable("analytics_visitors", {
+  id: serial("id").primaryKey(),
+  hash: text("hash").notNull().unique(),
+  ipMasked: text("ip_masked").notNull(),
+  device: text("device").notNull().default("desktop"), // desktop | mobile | tablet
+  browser: text("browser"),
+  os: text("os"),
+  isAdmin: boolean("is_admin").notNull().default(false),
+  eventCount: integer("event_count").notNull().default(0),
+  firstSeenAt: timestamp("first_seen_at", { withTimezone: true }).notNull().defaultNow(),
+  lastSeenAt: timestamp("last_seen_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
+// type: pageview | page_dwell | section_view | section_dwell | click | form
+// value: saniye (dwell türlerinde); referrer yalnız pageview'de
+// ("direct" | "internal" | dış URL)
+export const analyticsEvents = pgTable(
+  "analytics_events",
+  {
+    id: serial("id").primaryKey(),
+    visitorId: integer("visitor_id")
+      .notNull()
+      .references(() => analyticsVisitors.id, { onDelete: "cascade" }),
+    type: text("type").notNull(),
+    path: text("path").notNull(),
+    key: text("key"),
+    label: text("label"),
+    value: integer("value"),
+    referrer: text("referrer"),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [
+    index("analytics_events_visitor_idx").on(t.visitorId, t.createdAt),
+    index("analytics_events_type_idx").on(t.type, t.createdAt),
+    index("analytics_events_path_idx").on(t.path),
+  ]
+);
+
 // ---------- Teklif / iletişim başvuruları ----------
 
 export const submissions = pgTable(

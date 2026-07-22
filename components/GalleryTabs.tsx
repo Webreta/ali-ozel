@@ -82,6 +82,8 @@ export default function GalleryTabs({
             key={img.src + i}
             type="button"
             className="gal-item"
+            data-ev="galeri:foto"
+            data-ev-label={img.alt ?? `${section.title} — fotoğraf ${i + 1}`}
             onClick={() => setLightbox(i)}
             aria-label={img.alt ?? `${section.title} — fotoğraf ${i + 1}`}
           >

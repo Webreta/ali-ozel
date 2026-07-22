@@ -94,13 +94,6 @@
   padding: 2px;
 }
 
-.adm-sidebar-brand span {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 0.82rem;
-  letter-spacing: 0.02em;
-}
-
 .adm-nav {
   display: grid;
   gap: 2px;
@@ -743,4 +736,132 @@
   .adm-form-row { grid-template-columns: 1fr; }
   .adm-md-body.has-preview { grid-template-columns: 1fr; }
   .adm-md-preview { border-left: none; border-top: 1px solid var(--line); }
+}
+
+/* ---------- Analitik ---------- */
+
+.ana-head-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+.ana-toggle { display: flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+.ana-toggle form { display: contents; }
+.ana-toggle-btn {
+  border: 0; background: transparent; padding: 6px 16px; font-size: 0.8rem;
+  font-weight: 600; cursor: pointer; color: var(--muted);
+}
+.ana-toggle-btn.is-on { background: #16a34a; color: #fff; }
+.ana-toggle-btn.is-off { background: #b91c1c; color: #fff; }
+
+.ana-record-state { color: #2563eb; font-size: 0.78rem; text-align: right; margin: -8px 0 14px; }
+
+.ana-filter { padding: 12px 16px; margin-bottom: 22px; }
+.ana-filter-form { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.ana-filter-label {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--muted);
+}
+.ana-filter-form label {
+  display: flex; align-items: center; gap: 7px;
+  font-size: 0.8rem; color: var(--muted); font-weight: 600;
+}
+.ana-filter-form select,
+.ana-filter-form input[type="date"] {
+  border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px;
+  font-size: 0.82rem; background: var(--bg); color: inherit; font-family: inherit;
+}
+.ana-filter-state { margin-left: auto; font-size: 0.8rem; color: var(--muted); }
+.ana-filter-state strong { color: inherit; }
+.ana-filter-clear { margin-left: 10px; color: var(--brand); font-weight: 600; }
+
+.ana-section-title { font-size: 1.02rem; margin: 26px 0 2px; }
+.ana-section-desc { color: var(--muted); font-size: 0.8rem; margin-bottom: 14px; }
+
+.ana-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 14px; margin-bottom: 18px; align-items: start;
+}
+.ana-grid-2 { grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); }
+.ana-grid-3 { grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); }
+.ana-grid-col { display: grid; gap: 14px; align-content: start; }
+
+.ana-card { padding: 16px 18px; }
+.ana-card-title { font-size: 0.86rem; font-weight: 700; margin-bottom: 3px; }
+.ana-card-desc { color: var(--muted); font-size: 0.75rem; margin-bottom: 12px; line-height: 1.45; }
+
+.ana-stat { display: flex; align-items: baseline; gap: 7px; margin-bottom: 10px; }
+.ana-stat strong { font-size: 1.7rem; line-height: 1; letter-spacing: -0.02em; }
+.ana-stat span { color: var(--muted); font-size: 0.78rem; }
+.ana-stat-lg strong { font-size: 2.1rem; }
+
+.ana-bar-row { display: flex; align-items: center; gap: 10px; }
+.ana-bar {
+  flex: 1; height: 5px; border-radius: 999px; background: var(--bg-soft);
+  border: 1px solid var(--line); overflow: hidden;
+}
+.ana-bar span { display: block; height: 100%; background: #2f5cc4; border-radius: 999px; }
+.ana-bar-green span { background: #16a34a; }
+.ana-bar-orange span { background: #ea8a1a; }
+.ana-pct { font-size: 0.72rem; color: var(--muted); }
+
+.ana-list { display: grid; gap: 7px; }
+.ana-list-row {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 12px; font-size: 0.82rem;
+}
+.ana-list-label { color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ana-list-row strong { color: #2f5cc4; white-space: nowrap; font-size: 0.82rem; }
+.ana-device-row { display: grid; gap: 5px; }
+
+.ana-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.ana-tab {
+  padding: 7px 15px; border: 1px solid var(--line); border-radius: 999px;
+  background: var(--bg); font-size: 0.8rem; font-weight: 600; color: var(--muted);
+}
+.ana-tab:hover { color: var(--ink); }
+.ana-tab.is-active { background: var(--brand); border-color: var(--brand); color: #fff; }
+
+/* Ziyaretçi günlüğü */
+.ana-visitors-card { margin-top: 8px; }
+.ana-visitors { display: grid; gap: 10px; }
+.ana-visitor { border: 1px solid var(--line); border-radius: 12px; background: var(--bg); }
+.ana-visitor.is-open { border-color: #2f5cc4; }
+.ana-visitor-row {
+  display: flex; align-items: center; gap: 12px; width: 100%;
+  padding: 11px 14px; border: 0; background: transparent; cursor: pointer;
+  text-align: left; font: inherit; color: inherit;
+}
+.ana-avatar {
+  width: 38px; height: 38px; border-radius: 50%; flex: none;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--bg-soft); border: 1px solid var(--line);
+  font-size: 0.68rem; font-weight: 700; color: var(--muted);
+}
+.ana-avatar.is-admin { background: #1e3a8a; border-color: #1e3a8a; color: #fff; }
+.ana-visitor-main { display: grid; gap: 2px; min-width: 0; }
+.ana-visitor-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.ana-visitor-top strong { font-size: 0.85rem; }
+.ana-badge {
+  padding: 2px 8px; border-radius: 999px; background: #e8f6ee; color: #157347;
+  font-size: 0.66rem; font-weight: 700;
+}
+.ana-badge.sen { background: #1e3a8a; color: #fff; }
+.ana-visitor-sub { color: var(--muted); font-size: 0.75rem; }
+.ana-visitor-open { margin-left: auto; color: #2f5cc4; font-size: 0.75rem; font-weight: 600; white-space: nowrap; }
+
+.ana-timeline {
+  border-top: 1px solid var(--line); padding: 12px 16px 14px; display: grid; gap: 11px;
+  max-height: 460px; overflow-y: auto;
+}
+.ana-event { display: flex; gap: 10px; }
+.ana-event-dot {
+  width: 7px; height: 7px; border-radius: 50%; background: var(--line);
+  margin-top: 6px; flex: none;
+}
+.ana-event-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; font-size: 0.8rem; }
+.ana-event-detail { color: #2f5cc4; word-break: break-all; }
+.ana-event-extra { color: var(--muted); }
+.ana-event-time { color: var(--muted); font-size: 0.7rem; margin-top: 2px; }
+
+@media (max-width: 720px) {
+  .ana-filter-state { margin-left: 0; width: 100%; }
+  .ana-record-state { text-align: left; }
 }

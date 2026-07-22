@@ -8,6 +8,7 @@ type NavEntry = { href: string; label: string; icon: string; adminOnly?: boolean
 
 const NAV: NavEntry[] = [
   { href: "/admin", label: "Genel Bakış", icon: "chart" },
+  { href: "/admin/analitik", label: "Analitik", icon: "trending", adminOnly: true },
   { href: "/admin/talepler", label: "Talepler", icon: "mail", adminOnly: true },
   { href: "/admin/egitimler", label: "Eğitimler", icon: "book" },
   { href: "/admin/blog", label: "Blog", icon: "megaphone" },
@@ -31,7 +32,6 @@ export default function Sidebar({ user }: { user: SessionUser }) {
       <div className="adm-sidebar-brand">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src="/logo.png" alt="Ali Özel" />
-        <span>Yönetim Paneli</span>
       </div>
       <nav className="adm-nav">
         {items.map((n) => (

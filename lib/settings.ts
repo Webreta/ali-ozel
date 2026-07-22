@@ -65,6 +65,10 @@ export type AdsConversionSettings = {
   phone: string;
 };
 
+export type AnalyticsSettings = {
+  enabled: boolean;
+};
+
 export type SettingShapes = {
   smtp: SmtpSettings;
   formLegal: FormLegalSettings;
@@ -72,6 +76,7 @@ export type SettingShapes = {
   floatBar: FloatBarSettings;
   customCode: CustomCodeSettings;
   adsConversions: AdsConversionSettings;
+  analytics: AnalyticsSettings;
 };
 
 export const SETTING_DEFAULTS: SettingShapes = {
@@ -124,6 +129,7 @@ export const SETTING_DEFAULTS: SettingShapes = {
     whatsapp: "",
     phone: "",
   } satisfies AdsConversionSettings,
+  analytics: { enabled: true } satisfies AnalyticsSettings,
 };
 
 export type SettingKey = keyof SettingShapes;

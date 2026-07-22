@@ -4,6 +4,7 @@ import TeklifModal from "@/components/TeklifModal";
 import CookieBanner from "@/components/CookieBanner";
 import FloatBar from "@/components/FloatBar";
 import ConversionTracker from "@/components/ConversionTracker";
+import AnalyticsTracker from "@/components/AnalyticsTracker";
 import { getNavCategories } from "@/lib/data/catalog";
 import { getFormConsents, getSetting } from "@/lib/settings";
 
@@ -12,15 +13,23 @@ export default async function SiteLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const [navCategories, teklifConsents, cookieBanner, floatBar, customCode, ads] =
-    await Promise.all([
-      getNavCategories(),
-      getFormConsents("teklif"),
-      getSetting("cookieBanner"),
-      getSetting("floatBar"),
-      getSetting("customCode"),
-      getSetting("adsConversions"),
-    ]);
+  const [
+    navCategories,
+    teklifConsents,
+    cookieBanner,
+    floatBar,
+    customCode,
+    ads,
+    analytics,
+  ] = await Promise.all([
+    getNavCategories(),
+    getFormConsents("teklif"),
+    getSetting("cookieBanner"),
+    getSetting("floatBar"),
+    getSetting("customCode"),
+    getSetting("adsConversions"),
+    getSetting("analytics"),
+  ]);
 
   return (
     <>
@@ -40,6 +49,7 @@ export default async function SiteLayout({
       <CookieBanner config={cookieBanner} />
       <FloatBar config={floatBar} />
       <ConversionTracker config={ads} />
+      <AnalyticsTracker enabled={analytics.enabled} />
 
       {/* Panelden eklenen "sayfa sonu" kodu */}
       {customCode.bodyEnabled && customCode.bodyCode ? (
