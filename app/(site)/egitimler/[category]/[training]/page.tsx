@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import Icon from "@/components/Icon";
 import CTA from "@/components/CTA";
 import TeklifButton from "@/components/TeklifButton";
-import { getCatalog, getTraining } from "@/lib/data/catalog";
+import { getTraining } from "@/lib/data/catalog";
 
 const FORMAT_ICONS: Record<string, string> = {
   Süre: "clock",
@@ -17,15 +17,8 @@ const formatIcon = (label: string) => FORMAT_ICONS[label] ?? "check-circle";
 
 type Params = { category: string; training: string };
 
-// Panelden eklenen yeni eğitimler rebuild beklemeden açılabilsin
-export const dynamicParams = true;
-
-export async function generateStaticParams() {
-  const categories = await getCatalog();
-  return categories.flatMap((c) =>
-    c.trainings.map((t) => ({ category: c.slug, training: t.slug }))
-  );
-}
+// Eğitimler runtime'da DB'den okunur; build DB'ye gitmesin diye dinamik.
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,

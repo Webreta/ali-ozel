@@ -6,17 +6,12 @@ import CategoryHeroSlider from "@/components/CategoryHeroSlider";
 import Icon from "@/components/Icon";
 import CTA from "@/components/CTA";
 import TeklifButton from "@/components/TeklifButton";
-import { getCatalog, getCategory } from "@/lib/data/catalog";
+import { getCategory } from "@/lib/data/catalog";
 
 type Params = { category: string };
 
-// Panelden eklenen yeni kategoriler rebuild beklemeden açılabilsin
-export const dynamicParams = true;
-
-export async function generateStaticParams() {
-  const categories = await getCatalog();
-  return categories.map((c) => ({ category: c.slug }));
-}
+// Kategoriler runtime'da DB'den okunur; build DB'ye gitmesin diye dinamik.
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,

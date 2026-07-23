@@ -5,14 +5,14 @@ COPY package.json package-lock.json ./
 RUN npm ci
 
 # --- Build ---
-# NOT: generateStaticParams DB'den okur — build sırasında DATABASE_URL
-# erişilebilir olmalı (compose'ta db servisi ayakta ve migrate edilmiş).
+# NOT: Tüm sayfalar `force-dynamic` — build sırasında DB'ye HİÇ gidilmez.
+# DATABASE_URL burada gerekmez; sadece bağlantı string'i undefined olmasın diye
+# zararsız bir placeholder veriyoruz. Gerçek DB runtime'da okunur.
 FROM node:22-alpine AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-ARG DATABASE_URL
-ENV DATABASE_URL=$DATABASE_URL
+ENV DATABASE_URL="postgres://build:build@localhost:5432/build?sslmode=disable"
 ENV NEXT_TELEMETRY_DISABLED=1
 RUN npm run build
 

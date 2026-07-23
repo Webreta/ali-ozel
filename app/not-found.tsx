@@ -4,10 +4,19 @@ import Footer from "@/components/Footer";
 import Icon from "@/components/Icon";
 import { getNavCategories } from "@/lib/data/catalog";
 
+// Build sırasında (DB yokken) statik prerender denenmesin diye dinamik.
+export const dynamic = "force-dynamic";
+
 // Kök seviyedeki not-found tüm eşleşmeyen URL'leri yakalar; (site) layout'unun
-// dışında kaldığı için site iskeletini kendisi kurar.
+// dışında kaldığı için site iskeletini kendisi kurar. Next bu sayfayı build'de
+// statik üretmeye çalışır; DB erişilemezse nav'ı boş bırakıp build'i geçir.
 export default async function NotFound() {
-  const navCategories = await getNavCategories();
+  let navCategories: Awaited<ReturnType<typeof getNavCategories>> = [];
+  try {
+    navCategories = await getNavCategories();
+  } catch {
+    navCategories = [];
+  }
   return (
     <>
       <Header categories={navCategories} />

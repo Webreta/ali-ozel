@@ -8,6 +8,11 @@ import AnalyticsTracker from "@/components/AnalyticsTracker";
 import { getNavCategories } from "@/lib/data/catalog";
 import { getFormConsents, getSetting } from "@/lib/settings";
 
+// Tüm kurumsal site DB'den runtime'da okur; build sırasında (DATABASE_URL
+// erişilemezken) prerender denenmesin diye segment dinamik. Bu ayar layout'un
+// altındaki tüm sayfalara uygulanır.
+export const dynamic = "force-dynamic";
+
 export default async function SiteLayout({
   children,
 }: {

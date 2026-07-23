@@ -6,7 +6,8 @@ import Breadcrumb from "@/components/Breadcrumb";
 import { db } from "@/db";
 import { legalPages } from "@/db/schema";
 
-export const dynamicParams = true;
+// Yasal metinler runtime'da DB'den okunur; build DB'ye gitmesin diye dinamik.
+export const dynamic = "force-dynamic";
 
 const getLegalPage = (slug: string) =>
   unstable_cache(
@@ -20,11 +21,6 @@ const getLegalPage = (slug: string) =>
     ["legal-page", slug],
     { tags: ["legal"] }
   )();
-
-export async function generateStaticParams() {
-  const rows = await db.select({ slug: legalPages.slug }).from(legalPages);
-  return rows.map((r) => ({ slug: r.slug }));
-}
 
 export async function generateMetadata({
   params,

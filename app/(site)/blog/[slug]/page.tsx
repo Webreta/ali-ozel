@@ -3,14 +3,10 @@ import { notFound } from "next/navigation";
 import { marked } from "marked";
 import Breadcrumb from "@/components/Breadcrumb";
 import CTA from "@/components/CTA";
-import { getPublishedPost, getPublishedPosts } from "@/lib/data/blog";
+import { getPublishedPost } from "@/lib/data/blog";
 
-export const dynamicParams = true;
-
-export async function generateStaticParams() {
-  const posts = await getPublishedPosts();
-  return posts.map((p) => ({ slug: p.slug }));
-}
+// Blog yazıları runtime'da DB'den okunur; build DB'ye gitmesin diye dinamik.
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,

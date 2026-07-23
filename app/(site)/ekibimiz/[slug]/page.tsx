@@ -6,19 +6,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import Icon from "@/components/Icon";
 import CTA from "@/components/CTA";
 import TeklifButton from "@/components/TeklifButton";
-import { getMember, getTeam } from "@/lib/data/team";
+import { getMember } from "@/lib/data/team";
 
 type Params = { slug: string };
 
-// Panelden eklenen yeni üyeler rebuild beklemeden açılabilsin
-export const dynamicParams = true;
-
-export async function generateStaticParams() {
-  const team = await getTeam();
-  return team
-    .filter((m) => m.slug && m.detailBio)
-    .map((m) => ({ slug: m.slug as string }));
-}
+// Ekip üyeleri runtime'da DB'den okunur; build DB'ye gitmesin diye dinamik.
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
