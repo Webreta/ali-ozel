@@ -2,18 +2,28 @@
 set -e
 
 # Yüklenen görsellerin kalıcı dizini. Easypanel'de buraya bir volume mount
-# edilirse panelden yüklenenler redeploy'larda korunur. Volume mount edilmese
-# bile aşağıdaki seed sayesinde mevcut görseller her açılışta yerine gelir.
+# edilir (örn. UPLOAD_DIR=/data/uploads). Volume mount edilmese bile aşağıdaki
+# seed sayesinde image'a gömülü mevcut görseller yerine gelir.
 UPLOAD_DIR="${UPLOAD_DIR:-/app/.uploads}"
 
 mkdir -p "$UPLOAD_DIR/images"
 
-# Volume ilk kez mount edildiğinde (images boşsa) image'a gömülü tohum
-# dosyalarıyla doldur. Doluysa dokunma — kullanıcının yüklediklerini ezme.
-if [ -d /app/.uploads-seed/images ] && [ -z "$(ls -A "$UPLOAD_DIR/images" 2>/dev/null)" ]; then
-  echo "[entrypoint] .uploads boş, tohum görseller kopyalanıyor..."
-  cp -R /app/.uploads-seed/. "$UPLOAD_DIR/"
-  echo "[entrypoint] tohum kopyalandı: $(ls -1 "$UPLOAD_DIR/images" | wc -l) dosya"
+# Image'a gömülü tohum görselleri kalıcı dizine kopyala.
+# Yalnızca EKSİK olan dosyaları ekler; var olanı (kullanıcının panelden
+# yüklediğini) asla ezmez. Böylece boş volume tamamen dolar, kısmen dolu
+# volume'da sadece eksikler tamamlanır.
+if [ -d /app/.uploads-seed ]; then
+  seeded=0
+  find /app/.uploads-seed -type f | while IFS= read -r src; do
+    rel="${src#/app/.uploads-seed/}"
+    dest="$UPLOAD_DIR/$rel"
+    if [ ! -e "$dest" ]; then
+      mkdir -p "$(dirname "$dest")"
+      cp "$src" "$dest"
+      seeded=$((seeded + 1))
+    fi
+  done
+  echo "[entrypoint] tohum kontrolü tamam -> $UPLOAD_DIR"
 fi
 
 # Mount edilen volume genelde root'a ait olur; çalışma kullanıcısına devret.
