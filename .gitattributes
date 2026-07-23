@@ -1,0 +1,3 @@
+# Shell scriptleri her platformda LF kalsın (CRLF container'da shebang'ı bozar)
+*.sh text eol=lf
+docker-entrypoint.sh text eol=lf
