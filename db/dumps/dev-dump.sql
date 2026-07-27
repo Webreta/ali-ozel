@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict Cr8g2fb8aezPrmSOEYc6YMw1a0Vyf7fhKaScU2E4W85lZZKsAXXReAfXu1u53iu
+\restrict FtQPJpiI4WS9fLwwVdgNybGZgy7GNzRGTtlLmlwSOr6d7nFs7du2rb6EGchCbry
 
 -- Dumped from database version 17.10
 -- Dumped by pg_dump version 17.10
@@ -2017,5 +2017,5 @@ ALTER TABLE ONLY public.trainings
 -- PostgreSQL database dump complete
 --
 
-\unrestrict Cr8g2fb8aezPrmSOEYc6YMw1a0Vyf7fhKaScU2E4W85lZZKsAXXReAfXu1u53iu
+\unrestrict FtQPJpiI4WS9fLwwVdgNybGZgy7GNzRGTtlLmlwSOr6d7nFs7du2rb6EGchCbry
 
