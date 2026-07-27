@@ -102,7 +102,16 @@ export default async function Footer() {
           <span>
             © {year} {site.name} — San Eğitim &amp; Danışmanlık
           </span>
-          <span className="footer-quote">“{site.tagline}”</span>
+          <a
+            className="footer-credit"
+            href="https://www.webreta.com.tr/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>Designed by</span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/webreta.png" alt="Webreta" />
+          </a>
         </div>
       </div>
     </footer>
