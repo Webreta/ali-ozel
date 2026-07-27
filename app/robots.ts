@@ -1,5 +1,9 @@
 import type { MetadataRoute } from "next";
 
+const BASE = (
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://sanegitim.com"
+).replace(/\/+$/, "");
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
@@ -7,6 +11,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/admin", "/egitim-notlari/"],
     },
-    sitemap: "https://aliozel.com.tr/sitemap.xml",
+    sitemap: `${BASE}/sitemap.xml`,
   };
 }

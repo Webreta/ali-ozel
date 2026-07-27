@@ -7,6 +7,7 @@ import ConversionTracker from "@/components/ConversionTracker";
 import AnalyticsTracker from "@/components/AnalyticsTracker";
 import { getNavCategories } from "@/lib/data/catalog";
 import { getFormConsents, getSetting } from "@/lib/settings";
+import { stripMetaTags } from "@/lib/customCode";
 
 // Tüm kurumsal site DB'den runtime'da okur; build sırasında (DATABASE_URL
 // erişilemezken) prerender denenmesin diye segment dinamik. Bu ayar layout'un
@@ -36,14 +37,21 @@ export default async function SiteLayout({
     getSetting("analytics"),
   ]);
 
+  // Sayfa başı kodundaki <meta>'lar root layout'ta gerçek <head>'e basılıyor;
+  // burada yalnızca script/noscript gibi gövde kodu enjekte edilir.
+  const headerBodyCode =
+    customCode.headerEnabled && customCode.headerCode
+      ? stripMetaTags(customCode.headerCode)
+      : "";
+
   return (
     <>
-      {/* Panelden eklenen "sayfa başı" kodu (GTM/Analytics/Pixel).
-          SSR HTML'inde geldiği için script'ler tarayıcıda normal çalışır. */}
-      {customCode.headerEnabled && customCode.headerCode ? (
+      {/* Panelden eklenen "sayfa başı" kodunun script kısmı (GTM/Analytics/
+          Pixel). SSR HTML'inde geldiği için script'ler ilk yüklemede çalışır. */}
+      {headerBodyCode ? (
         <div
           style={{ display: "none" }}
-          dangerouslySetInnerHTML={{ __html: customCode.headerCode }}
+          dangerouslySetInnerHTML={{ __html: headerBodyCode }}
         />
       ) : null}
 
