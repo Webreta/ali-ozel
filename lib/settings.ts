@@ -49,6 +49,7 @@ export type FloatBarSettings = {
   phone: string; // görünen biçim; tel: linki rakamlara indirgenir
   whatsapp: string; // uluslararası biçim, yalnız rakam (905xxxxxxxxx)
   whatsappText: string; // ops. önden dolu mesaj
+  desktopButtonsEnabled: boolean; // masaüstünde sağ-alt Telefon/WhatsApp butonları
 };
 
 export type CustomCodeSettings = {
@@ -116,6 +117,7 @@ export const SETTING_DEFAULTS: SettingShapes = {
     phone: "+90 533 460 79 43",
     whatsapp: "905334607943",
     whatsappText: "",
+    desktopButtonsEnabled: true,
   } satisfies FloatBarSettings,
   customCode: {
     headerEnabled: false,

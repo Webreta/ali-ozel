@@ -38,8 +38,24 @@ export default async function IletisimBariPage() {
             <div className="adm-field">
               <label style={{ display: "flex", alignItems: "center", gap: 8 }}>
                 <input type="checkbox" name="enabled" defaultChecked={cfg.enabled} style={{ width: "auto" }} />
-                İletişim barı aktif
+                İletişim barı aktif (mobil)
               </label>
+            </div>
+
+            <div className="adm-field">
+              <label style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <input
+                  type="checkbox"
+                  name="desktopButtonsEnabled"
+                  defaultChecked={cfg.desktopButtonsEnabled}
+                  style={{ width: "auto" }}
+                />
+                Masaüstünde sağ-alt Telefon/WhatsApp butonları
+              </label>
+              <span className="adm-hint">
+                Masaüstü ekranlarda (&gt;720px) sağ altta üst üste iki buton
+                gösterir. Aynı telefon/WhatsApp numaralarını kullanır.
+              </span>
             </div>
 
             <div className="adm-form-row">

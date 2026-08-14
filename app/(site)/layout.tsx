@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import TeklifModal from "@/components/TeklifModal";
 import CookieBanner from "@/components/CookieBanner";
 import FloatBar from "@/components/FloatBar";
+import DesktopContact from "@/components/DesktopContact";
 import ConversionTracker from "@/components/ConversionTracker";
 import AnalyticsTracker from "@/components/AnalyticsTracker";
 import { getNavCategories } from "@/lib/data/catalog";
@@ -61,6 +62,7 @@ export default async function SiteLayout({
       <TeklifModal consents={teklifConsents} />
       <CookieBanner config={cookieBanner} />
       <FloatBar config={floatBar} />
+      <DesktopContact config={floatBar} />
       <ConversionTracker config={ads} />
       <AnalyticsTracker enabled={analytics.enabled} />
 

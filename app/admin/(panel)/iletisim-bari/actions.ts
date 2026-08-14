@@ -21,6 +21,7 @@ const floatBarSchema = z.object({
     .transform((v) => v.replace(/\D/g, ""))
     .pipe(z.string().min(10).max(15)),
   whatsappText: z.string().trim().max(300),
+  desktopButtonsEnabled: z.boolean(),
 });
 
 export async function saveFloatBarSettings(formData: FormData) {
@@ -36,6 +37,7 @@ export async function saveFloatBarSettings(formData: FormData) {
     phone: formData.get("phone") || "",
     whatsapp: formData.get("whatsapp") || "",
     whatsappText: formData.get("whatsappText") ?? "",
+    desktopButtonsEnabled: formData.get("desktopButtonsEnabled") === "on",
   });
 
   await setSetting("floatBar", parsed);

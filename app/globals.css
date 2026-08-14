@@ -2981,6 +2981,49 @@ body:has(.note-standalone) .site-footer { display: none; }
 .float-bar-icons { display: flex; align-items: center; gap: 5px; }
 .float-bar-item .icon-wa { color: #1faa53; }
 .float-bar-item.is-active .icon-wa { color: #43d97a; }
+
+/* ---------- Masaüstü sağ-alt hızlı iletişim (yalnız >720px) ---------- */
+.desktop-contact {
+  position: fixed;
+  right: calc(18px + env(safe-area-inset-right, 0px));
+  bottom: calc(18px + env(safe-area-inset-bottom, 0px));
+  z-index: 55;
+  display: none; /* varsayılan gizli; aşağıdaki media query masaüstünde açar */
+  flex-direction: column;
+  gap: 12px;
+}
+@media (min-width: 721px) {
+  .desktop-contact { display: flex; }
+}
+.dc-btn {
+  position: relative;
+  width: 54px; height: 54px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
+}
+.dc-btn svg { width: 26px; height: 26px; }
+.dc-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28); filter: brightness(1.05); }
+.dc-wa { background: #25d366; }
+.dc-tel { background: var(--brand); }
+.dc-tel svg { color: var(--gold); }
+/* Hover'da butonun soluna çıkan etiket */
+.dc-tip {
+  position: absolute;
+  right: calc(100% + 12px);
+  top: 50%;
+  transform: translateY(-50%) translateX(6px);
+  white-space: nowrap;
+  background: rgba(20, 20, 20, 0.9);
+  color: #fff;
+  font-size: 0.8rem; font-weight: 600;
+  padding: 6px 10px; border-radius: 8px;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+.dc-btn:hover .dc-tip { opacity: 1; transform: translateY(-50%) translateX(0); }
 .float-pop {
   position: absolute;
   left: 0;
