@@ -136,7 +136,9 @@ function ListCard({
         <div className="ana-list">
           {rows.map((row, i) => (
             <div key={i} className="ana-list-row">
-              <span className="ana-list-label">{row.label}</span>
+              <span className="ana-list-label" title={row.label}>
+                {row.label}
+              </span>
               <strong>{row.value}</strong>
             </div>
           ))}
@@ -668,7 +670,9 @@ export default async function AnalitikPage({
           <div className="ana-list">
             {durationRows.map((row) => (
               <div key={row.label} className="ana-list-row">
-                <span className="ana-list-label">{row.label}</span>
+                <span className="ana-list-label" title={row.label}>
+                {row.label}
+              </span>
                 <strong>
                   {row.value} · %{pct(row.value, bucketTotal)}
                 </strong>

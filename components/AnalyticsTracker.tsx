@@ -152,7 +152,13 @@ export default function AnalyticsTracker({ enabled }: { enabled: boolean }) {
       const el = target.closest?.("[data-ev], a[href]") as HTMLElement | null;
       if (!el) return;
       const path = currentPath.current || location.pathname;
-      const text = (el.textContent ?? "").trim().replace(/\s+/g, " ").slice(0, 80);
+      // Kart tipi linklerde (başlık + açıklama) sadece başlığı etiket olarak al;
+      // yoksa linkin tüm metnini kullan.
+      const heading = el.querySelector("h1, h2, h3, h4, h5, h6, [data-ev-title]");
+      const text = ((heading ?? el).textContent ?? "")
+        .trim()
+        .replace(/\s+/g, " ")
+        .slice(0, 80);
 
       if (el.dataset.ev) {
         push({ type: "click", path, key: el.dataset.ev, label: el.dataset.evLabel ?? text });

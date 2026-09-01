@@ -807,8 +807,8 @@
   display: flex; align-items: baseline; justify-content: space-between;
   gap: 12px; font-size: 0.82rem;
 }
-.ana-list-label { color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.ana-list-row strong { color: #2f5cc4; white-space: nowrap; font-size: 0.82rem; }
+.ana-list-label { color: var(--ink); flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ana-list-row strong { flex: 0 0 auto; color: #2f5cc4; white-space: nowrap; font-size: 0.82rem; }
 .ana-device-row { display: grid; gap: 5px; }
 
 .ana-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
