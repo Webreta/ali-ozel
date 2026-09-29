@@ -1,9 +1,10 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useRef } from "react";
 import ImageField from "@/components/admin/ImageField";
 import MarkdownField from "@/components/admin/MarkdownField";
 import SubmitButton from "@/components/admin/SubmitButton";
+import { PREVIEW_STORAGE_KEY } from "@/app/(site)/blog/onizleme/BlogPreview";
 import type { BlogFormState } from "./actions";
 
 type Post = {
@@ -28,9 +29,31 @@ export default function BlogForm({
     {}
   );
   const err = state.fieldErrors ?? {};
+  const formRef = useRef<HTMLFormElement>(null);
+
+  // Formdaki güncel (kaydedilmemiş olabilir) içeriği yeni sekmede sitedeki
+  // görünümüyle açar
+  function openPreview() {
+    if (!formRef.current) return;
+    const fd = new FormData(formRef.current);
+    try {
+      localStorage.setItem(
+        PREVIEW_STORAGE_KEY,
+        JSON.stringify({
+          title: String(fd.get("title") ?? ""),
+          body: String(fd.get("body") ?? ""),
+          coverImage: String(fd.get("coverImage") ?? ""),
+        })
+      );
+    } catch {
+      alert("Önizleme açılamadı: tarayıcı depolaması kullanılamıyor.");
+      return;
+    }
+    window.open("/blog/onizleme", "blog-onizleme");
+  }
 
   return (
-    <form action={formAction} className="adm-form" style={{ maxWidth: 900 }}>
+    <form ref={formRef} action={formAction} className="adm-form" style={{ maxWidth: 900 }}>
       <div className="adm-field">
         <label htmlFor="title">Başlık</label>
         <input id="title" name="title" defaultValue={initialData?.title} required />
@@ -102,6 +125,9 @@ export default function BlogForm({
 
       <div className="adm-form-actions">
         <SubmitButton>Kaydet</SubmitButton>
+        <button type="button" className="btn btn-outline" onClick={openPreview}>
+          Önizle ↗
+        </button>
       </div>
     </form>
   );
