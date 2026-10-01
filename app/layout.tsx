@@ -35,6 +35,9 @@ export async function generateMetadata(): Promise<Metadata> {
       template: `%s | ${site.name}`,
     },
     description: site.description,
+    // Her sayfa kendi yolunu canonical verir (metadataBase'e göre çözülür);
+    // ?gclid gibi parametreli ve www'li kopyalar tek adrese bağlanır.
+    alternates: { canonical: "./" },
     openGraph: {
       type: "website",
       locale: "tr_TR",

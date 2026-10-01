@@ -21,8 +21,19 @@ const wpBlogSlugs = [
 const nextConfig = {
   reactStrictMode: true,
   output: "standalone",
+  // Next, bot user-agent'larına (AdsBot dahil) metadata'yı bloklayarak,
+  // tarayıcılara ise stream ederek farklı HTML döner. Google Ads incelemesi
+  // bot/kullanıcı farkını "cloaking" sayabildiği için herkese aynı HTML gitsin.
+  htmlLimitedBots: /.*/,
   async redirects() {
     return [
+      // www ve çıplak alan adı ayrı ayrı 200 dönmesin — tek adres kalsın.
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www\\.(?<host>.+)" }],
+        destination: "https://:host/:path*",
+        permanent: true,
+      },
       { source: "/hakkimda", destination: "/farkimiz-ne", permanent: true },
       { source: "/blog-yazilarim", destination: "/blog", permanent: true },
       ...wpBlogSlugs.map((slug) => ({
