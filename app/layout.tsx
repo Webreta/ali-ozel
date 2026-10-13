@@ -6,7 +6,7 @@ import { getSetting } from "@/lib/settings";
 import { parseMetaTags } from "@/lib/customCode";
 
 const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://sanegitim.com"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://sanegitim.com.tr"
 ).replace(/\/+$/, "");
 
 const inter = Inter({

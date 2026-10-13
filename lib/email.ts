@@ -31,7 +31,7 @@ function buildHtml(s: SubmissionEmail, kindLabel: string) {
       <tr><td><b>Sayfa</b></td><td>${esc(s.pagePath ?? "—")}</td></tr>
     </table>
     <p style="white-space:pre-wrap;border-left:3px solid #8c1d2c;padding-left:12px">${esc(s.message ?? "(Mesaj bırakılmamış)")}</p>
-    <p><a href="${process.env.NEXT_PUBLIC_SITE_URL ?? "https://aliozel.com.tr"}/admin/talepler">Panelde görüntüle →</a></p>`;
+    <p><a href="${process.env.NEXT_PUBLIC_SITE_URL ?? "https://sanegitim.com.tr"}/admin/talepler">Panelde görüntüle →</a></p>`;
 }
 
 async function sendViaSmtp(s: SubmissionEmail, kindLabel: string) {

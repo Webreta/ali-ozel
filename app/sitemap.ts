@@ -8,7 +8,7 @@ import { getTeam } from "@/lib/data/team";
 export const dynamic = "force-dynamic";
 
 const BASE = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://sanegitim.com"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://sanegitim.com.tr"
 ).replace(/\/+$/, "");
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
